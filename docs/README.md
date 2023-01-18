@@ -1,5 +1,10 @@
-# Please start here
+# Petrarch's ITINERA
 
-Welcome, and thanks for choosing our product.
+Linee guida per i compilatori della banca dati di Itinera
 
-If you want to dive right in, try our [quick start tutorial](./). 
+[Item Person](item-person-index.md)  
+[Item Text](item-text-index.md)  
+[Item Manuscript](item-manuscript-index.md)  
+[elenco parti e componenti](bricks-parts-index.md)  
+
+[Procedure guidate](link.md)  
