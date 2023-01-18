@@ -1,7 +1,7 @@
-# Item Text: indice delle parti
+# Item Work: indice delle parti
 # 🚧
 
-* [Creazione dell'item](Item_Text_Metadata.md)
+* [Creazione dell'item](Item_Work_Metadata.md)
 
 * [Events Part](Historical_Events_Part.md)
 * [Bibliography Part](Historical_Events_Part.md)
