@@ -1,5 +1,5 @@
 # Item Text: indice delle parti
-# in progress
+# 🚧
 
 * [Creazione dell'item](Item_Text_Metadata.md)
 
