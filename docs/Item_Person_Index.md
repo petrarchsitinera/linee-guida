@@ -1,6 +1,6 @@
 # Item Person: indice delle parti
 
-* [Metadati](Person_Metadata.md)
+* [Creazione dell'item](Item_Person_Metadata.md)
 * [Info](Person_Info_Part.md)
 * [Names](Names_Part.md)
 * [IDs](IDs_External_IDs_Part.md)
