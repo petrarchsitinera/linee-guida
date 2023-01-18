@@ -17,7 +17,7 @@ Per aggiungere un _item Person_:
 >   * **Flags**: indicano se l'item è stato completato (_completed_) o revisionato (_revised_). 
 
 ### Title
-Inserire il nome della persona nella forma riportata nel **repository dei nomi di persona Itinera** (in allestimento).
+Inserire il nome della persona nella forma riportata nel **repository dei nomi di persona Itinera** (🚧 in allestimento).
 
 Per gli **anonimi**, ricorrere alle formule:  
 * **anonimo (autore di [testo])**: per gli anonimi autori di opere o testi individuati;
