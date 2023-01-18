@@ -1,10 +1,10 @@
 # Item Person: indice delle parti
 
 * [Creazione dell'item](Item_Person_Metadata.md)
-* [Info](Person_Info_Part.md)
-* [Names](Names_Part.md)
-* [IDs](IDs_External_IDs_Part.md)
-* [Events](Historical_Events_Part.md)
-* [Works](Person_Works_Part.md)
-* [Bibliography](Historical_Events_Part.md)
-* [Note](Note_Part.md)
+* [Info Part](Person_Info_Part.md)
+* [Names Part](Names_Part.md)
+* [IDs Part](IDs_External_IDs_Part.md)
+* [Events Part](Historical_Events_Part.md)
+* [Works Part](Person_Works_Part.md)
+* [Bibliography Part](Historical_Events_Part.md)
+* [Note Part](Note_Part.md)
