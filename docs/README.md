@@ -2,9 +2,10 @@
 
 Linee guida per i compilatori della banca dati di Itinera
 
-[Item Person](item-person-index.md)  
-[Item Text](item-text-index.md)  
-[Item Manuscript](item-manuscript-index.md)  
-[elenco parti e componenti](bricks-parts-index.md)  
+[Item Person](Item_Person_Index.md)  
+[Item Text](Item_Text_Index.md)  
+[Item Manuscript](Item_Manuscript_Index.md) 
 
-[Procedure guidate](link.md)  
+[Elenco completo di parti e componenti](Bricks_and_Parts_Index.md)  
+
+[Esempi di compilazione](Esempi_di_compilazione.md)  
