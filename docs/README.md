@@ -2,6 +2,8 @@
 
 Linee guida per i compilatori della banca dati di Itinera
 
+[Prima di cominciare...](Basic_Rules_and_Components) 
+
 [Item Person](Item_Person_Index.md)  
 [Item Work](Item_Work_Index.md)  
 [Item Manuscript](Item_Manuscript_Index.md) 
