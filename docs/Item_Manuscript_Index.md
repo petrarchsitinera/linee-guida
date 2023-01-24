@@ -2,7 +2,7 @@
 # 🚧
 
 * [Creazione dell'item](Item_Manuscript_Metadata.md)
-* [Shelfmarks Part]()
+* [Shelfmarks Part](Shelfmarks_Part.md)
 * [IDs Part](IDs_External_IDs_Part.md)
 * [Metadata Part](Shelfmarks_Part.md)
 * [Sheet Labels Part]()
