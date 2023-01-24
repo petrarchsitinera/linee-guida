@@ -16,7 +16,7 @@
 * [Contents Part]()
 * [Loci Part]()
 * [Poem Ranges Part]()
-* [Events Part](Historical_Events_Part.md)
+* [Events Part](Events_Part.md)
 * [History Part](History_Part.md)
 * [Bibliography Part](Historical_Events_Part.md)
 * [Note Part](Note_Part.md)
