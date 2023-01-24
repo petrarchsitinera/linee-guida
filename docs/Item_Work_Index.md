@@ -5,7 +5,7 @@
 * [Literary Work Part]()  
 * [Chronotopes Part]()  
 * [Metadata Part]()  
-* [IDs Part]()  
+* [IDs Part](Asserted_Ids_Part)  
 * [Letter Info Part]()
 * [Referenced Text Part]()
 * [Related Person Part]()
