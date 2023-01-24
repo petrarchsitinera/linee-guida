@@ -2,8 +2,8 @@
 
 * [Creazione dell'item](Item_Person_Metadata.md)
 * [Info Part](Person_Info_Part.md)
-* [Metadata Part]()
 * [Names Part](Names_Part.md)
+* [Metadata Part](Metadata_Part.md)
 * [IDs Part](Asserted_Ids_Part.md)
 * [Events Part](Historical_Events_Part.md)
 * [Works Part](Person_Works_Part.md)
