@@ -1,6 +1,6 @@
 # Metadata Part
 
-**_Metadata Part_** permette di inserire alcune informazioni generali sull' _item_.  
+**Metadata Part** permette di inserire alcune informazioni generali sull' _item_.  
 
 La descrizione del modello è disponibile su [Github](https://github.com/vedph/cadmus-general#metadatapart).
 
@@ -72,3 +72,9 @@ La compilazione del campo è obbligatoria.
 * _value_: compilare il campo con una delle seguenti opzioni: _unitario_; _composito_; _fattizio_ (quando l'assemblaggio delle unità codicologiche non risale al progetto originario del manoscritto).
 
 La compilazione del campo è obbligatoria.
+
+## Save ⚠️ 
+
+Cliccare sul tasto **_save_** per salvare la parte.  
+La parte è correttamente salvata quando in fondo allo schermo compare la notifica **_Part saved_**.  
+Completato il salvataggio, cliccare sul tasto **_Close_** per tornare alla schermata di riepilogo dell'item.
