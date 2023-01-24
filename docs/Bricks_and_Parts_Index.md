@@ -3,6 +3,7 @@
 
 ## Componenti essenziali (bricks e editor)
 
--[Editor elemento](Editor_Brick.md)
+* [Editor elemento](Editor_Brick.md)
+* [Editor Asserted Id](Asserted_Ids_Part.md)
 
 ## Tutte le parti
