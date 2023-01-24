@@ -4,7 +4,7 @@
 * [Creazione dell'item](Item_Work_Metadata.md)  
 * [Literary Work Part]()  
 * [Chronotopes Part]()  
-* [Metadata Part]()  
+* [Metadata Part](Metadata_Part.md) 
 * [IDs Part](Asserted_Ids_Part.md)  
 * [Letter Info Part]()
 * [Referenced Text Part]()
