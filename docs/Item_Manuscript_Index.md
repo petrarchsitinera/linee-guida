@@ -10,7 +10,7 @@
 * [Watermarks Part]()
 * [Layouts Part]()
 * [Hands Part]()
-* [Edits Part]()
+* [Edits Part](Edits_Part.md)
 * [Decorations Part]()
 * [Bindings Part]()
 * [Contents Part]()
