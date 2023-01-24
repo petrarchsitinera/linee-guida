@@ -3,7 +3,7 @@
 
 * [Creazione dell'item](Item_Manuscript_Metadata.md)
 * [Shelfmarks Part](Shelfmarks_Part.md)
-* [IDs Part](IDs_External_IDs_Part.md)
+* [IDs Part](Asserted_Ids_Part.md)
 * [Metadata Part](Shelfmarks_Part.md)
 * [Sheet Labels Part]()
 * [Material Description Part]()
@@ -20,6 +20,8 @@
 * [History Part](History_Part.md)
 * [Bibliography Part](Historical_Events_Part.md)
 * [Note Part](Note_Part.md)
+* [Locations Part]()
+* [Toponyms Part]()
 
 
 
