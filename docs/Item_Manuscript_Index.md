@@ -4,7 +4,7 @@
 * [Creazione dell'item](Item_Manuscript_Metadata.md)
 * [Shelfmarks Part](Shelfmarks_Part.md)
 * [IDs Part](Asserted_Ids_Part.md)
-* [Metadata Part](Shelfmarks_Part.md)
+* [Metadata Part](Metadata_Part.md)
 * [Sheet Labels Part]()
 * [Material Description Part]()
 * [Watermarks Part]()
