@@ -5,7 +5,7 @@
 * [Names Part](Names_Part.md)
 * [Metadata Part](Metadata_Part.md)
 * [IDs Part](Asserted_Ids_Part.md)
-* [Events Part](Historical_Events_Part.md)
+* [Events Part](Events_Part.md)
 * [Works Part](Person_Works_Part.md)
 * [Bibliography Part](Historical_Events_Part.md)
 * [Note Part](Note_Part.md)
