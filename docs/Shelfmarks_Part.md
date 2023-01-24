@@ -2,16 +2,16 @@
 
 **Shelfmarks Part** permette di inserire la segnatura del manoscritto.
 
-La descrizione del modello è disponibile su [[Github|https://github.com/vedph/cadmus-codicology#codshelfmarkspart]].
+La descrizione del modello è disponibile su [Github](https://github.com/vedph/cadmus-codicology#codshelfmarkspart).
 
 Deve essere sempre inserita la segnatura attuale.  
 Sono registrate inoltre in questa parte, opportunamente etichettate, anche le segnature dei manoscritti che hanno avuto un cambio di segnatura relativamente recente all'interno della stessa biblioteca, e che in letteratura vengono ancora citati con la segnatura precedente (es. mss. Corsiniana e Marciana).  
-Le eventuali segnature non più in uso dovranno essere menzionate nella sezione [[History|Cod_History_Part]].  
+Le eventuali segnature non più in uso dovranno essere menzionate nella sezione [History](History_Part.md).  
 
 Per aggiungere la parte, selezionare **_shelfmarks_** dal menu a tendina, quindi cliccare su **_add part_**.
 
 ## Shelfmark
-Per ogni segnatura è creato un elemento _shelfmark_ mediante un [[editor|Editor_Brick]].
+Per ogni segnatura è creato un elemento _shelfmark_ mediante un [editor](Editor_Brick.md).
 
 ### Tag
 Permette di specificare il tipo di segnatura.  
