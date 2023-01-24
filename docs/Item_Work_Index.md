@@ -10,6 +10,6 @@
 * [Referenced Text Part]()
 * [Related Person Part]()
 * [Witnesses Part]()
-* [Events Part](Historical_Events_Part.md)
+* [Events Part](Events_Part.md)
 * [Bibliography Part](Historical_Events_Part.md)
 * [Note Part](Note_Part.md)
