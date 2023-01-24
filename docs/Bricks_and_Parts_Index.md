@@ -3,6 +3,6 @@
 
 ## Componenti essenziali (bricks e editor)
 
--[Editor elemento](Editor_Brick)
+-[Editor elemento](Editor_Brick.md)
 
 ## Tutte le parti
