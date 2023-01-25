@@ -4,8 +4,9 @@
 
 La descrizione del modello è disponibile su [Github](https://github.com/vedph/cadmus-general#chronotopespart).  
 
+Per aggiungere un cronotopo cliccare su **add chronotope**.  
 La parte è ripetibile per ogni tipologia di data e luogo da inserire e per ogni ipotesi, qualora ve ne siano più di una.  
-Per aggiungere un cronotopo cliccare su **add chronotope**. 
+È possibile modificare, spostare, eliminare i singoli _chronotopes_ attraverso un [editor](Editor_Brick.md).  
 
 ## Place
 Permette di inserire le informazioni relative al luogo.
