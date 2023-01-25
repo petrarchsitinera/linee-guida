@@ -1,5 +1,5 @@
-# Cod Sheet Labels Part
-**Sheet Labels Part_ permette di descrivere la consistenza del codice, le carte di guardia, la numerazione, la struttura fascicolare, i richiami e i sistemi di segnatura (fascicolare e a registro).  
+Sheet Labels Part
+**Sheet Labels Part** permette di descrivere la consistenza del codice, le carte di guardia, la numerazione, la struttura fascicolare, i richiami e i sistemi di segnatura (fascicolare e a registro).  
 
 La descrizione del modello è disponibile su [[Github|https://github.com/vedph/cadmus-codicology#codsheetlabelspart]].
 
