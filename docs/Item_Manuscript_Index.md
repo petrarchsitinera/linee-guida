@@ -1,5 +1,4 @@
 # Item Manuscript: indice delle parti
-# 🚧
 
 * [Creazione dell'item](Item_Manuscript_Metadata.md)
 * [Shelfmarks Part](Shelfmarks_Part.md)
