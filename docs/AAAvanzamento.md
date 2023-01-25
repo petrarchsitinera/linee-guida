@@ -17,13 +17,14 @@
 |[IDs Part](Asserted_Ids_Brick.md)|**no**|ristrutturare parte, forse dividere tra Brick; Part; lookup; authority file; [eid](identifiers.md)|n.n.|
 |[Events Part](Events_Part.md)|**mod**|ex novo|📷|
 |[Events Thesaurus](Events_Thesaurus.md)|**no**|ex novo: oppure, senza casi, spiegati ad un seminario dopo aver compilato qualche item con events|📷|
-|[Bibliography Part](External_Bibliography_Part.md)|**no**|ex novo|📷|
+|[Bibliography Part](External_Bibliography_Part.md)|**no**|ex novo; spiegare anche DocReference e key qui|📷|
 |[Note Part](Note_Part.md)|ok|-|n.n.|
 |[Editor elemento](Editor_Brick.md)|no|ex novo|📷|
 |[Editor asserzione](Assertion_Brick.md)|**mod**|rank, key|📷|
 |[Editor cronotopo](Asserted_Chronotope_Brick.md)|**mod**|Cursi "moderna", etc.; norme place|📷|
 |[Codicological Location](Cod_Location_Brick.md)|**no**|ex novo|📷|
 |[Physical Size](Physical_Size_Brick.md)|ok|-|📷|
+|[Cod Image](Cod_Image_Brick.md)|no|-|📷|
 |[Salvataggio](part_save.md)|ok|-|📷|
 |ALTRO?|-|-|n.n.| |
 
@@ -55,19 +56,19 @@
 |-------------|----------|-----------|-----------|    
 |[indice](Item_Manuscript_Index.md)|ok|-|n.n.   |
 |[Creazione dell'item](Item_Manuscript_Metadata.md)|ok|-|n.n.|
-|[Shelfmarks Part](Shelfmarks_Part.md)|no|-|n.n.   |
-|[Sheet Labels Part](Sheet_Labels_Part.md)|no|-|n.n.   |
-|[Material Description Part](Material_Description_Part.md)|no|-|n.n.   |
-|[Watermarks Part](Watermarks_Part.md)|no|-|n.n.   |
-|[Layouts Part](Layouts_Part.md)|no|-|n.n.   |
-|[Hands Part](Hands_Part.md)|no|-|n.n.   |
-|[Edits Part](Edits_Part.md)|no|-|n.n.   |
-|[Decorations Part](Decorations_Part.md)|no|-|n.n.   |
-|[Bindings Part](Bindings_Part.md)|no|-|n.n.   |
-|[Contents Part](Contents_Part.md)|no|-|n.n.   |
-|[Loci Part](Loci_Part.md)|no|-|n.n.   |
-|[Poem Ranges Part](Poem_Ranges_Part.md)|no|-|n.n.   |
-|[History Part](History_Part.md)|no|-|n.n.   |
-|[Locations Part](Locations_Part.md)|no|-|n.n.   |
-|[Toponyms Part](Toponyms_Part.md)|no|-|n.n.   |
+|[Shelfmarks Part](Shelfmarks_Part.md)|ok|-|n.n.|
+|[Sheet Labels Part](Sheet_Labels_Part.md)|**mod**|aggiungere front e back cover|📷|
+|[Material Description Part](Material_Description_Part.md)|ok||n.n.|
+|[Watermarks Part](Watermarks_Part.md)|ok|-|n.n.|
+|[Layouts Part](Layouts_Part.md)|ok|-|📷|
+|[Hands Part](Hands_Part.md)|**mod**|cambiare regole eid|n.n.   |
+|[Edits Part](Edits_Part.md)|**mod**|cambiare regole eid|n.n.   |
+|[Decorations Part](Decorations_Part.md)|**mod**|cambiare regole eid|n.n.   |
+|[Bindings Part](Bindings_Part.md)|ok|-|n.n.|
+|[Contents Part](Contents_Part.md)|ok|-|n.n.   |
+|[Loci Part](Loci_Part.md)|**mod**|definire regole trascrizione|n.n.|
+|[Poem Ranges Part](Poem_Ranges_Part.md)|ok|-|📷|
+|[History Part](History_Part.md)|ok|-|n.n.   |
+|[Locations Part](Locations_Part.md)|**no**|ex novo|n.n.   |
+|[Toponyms Part](Toponyms_Part.md)|**no**|ex novo|n.n.   |
 |Meta, IDs, Events, Biblio, Note|vedi sopra|-|n.n.| |
