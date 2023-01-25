@@ -70,14 +70,14 @@ Permette di inserire le carte di guardia anteriori.
 Nel campo _type_ selezionare _front endleaf_; nel campo _count_ inserire il numero complessivo delle carte di guardia anteriori.  
 Cliccando il comando _+ add_, viene creato un numero di righe pari al numero delle facciate (recto o verso) delle carte di guardia anteriori.  
 Ad ogni riga è attribuita automaticamente un'etichetta costituita da un numero arabo progressivo seguito dall'indicazione r/v, tra parentesi tonde: (1r), (1v), (2r), (2v), etc.  
-Ulteriori informazioni relative alle carte di guardia potranno essere inserite nella sezione [Endleaves](SheetLabels_Part.md##Endleaves).
+Ulteriori informazioni relative alle carte di guardia potranno essere inserite nella sezione Endleaves (vedi oltre).
 
 ##### Back endleaf
 Permette di inserire le carte di guardia posteriori.  
 Nel campo _type_ selezionare _back endleaf_; nel campo _count_ inserire il numero complessivo delle carte di guardia posteriori.  
 Cliccando il comando _+ add_, viene creato un numero di righe pari al numero delle facciate (recto o verso) delle carte di guardia posteriori.  
 Ad ogni riga è attribuita automaticamente un'etichetta costituita da un numero arabo progressivo preceduto da /, seguito dall'indicazione r/v, tra parentesi tonde: (/1r), (/1v), (/2r), (/2v), etc.  
-Ulteriori informazioni relative alle carte di guardia potranno essere inserite nella sezione [Endleaves](SheetLabels_Part.md##Endleaves).
+Ulteriori informazioni relative alle carte di guardia potranno essere inserite nella sezione Endleaves (vedi oltre).
 
 #### Columns
 Per aggiungere colonne alla tabella, utilizzare il riquadro _adder_.  
