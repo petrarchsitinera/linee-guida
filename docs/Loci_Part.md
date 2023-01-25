@@ -8,12 +8,8 @@ Per ogni luogo critico sono registrati:
 
 La descrizione del modello è disponibile su [Github](https://github.com/vedph/cadmus-itinera#codlocipart).
 
-***   
-Per aggiungere la **Loci Part**, selezionare **loci** dal menu a tendina della scheda di riepilogo dell'item, quindi cliccare sul tasto **add part**.
+Per aggiungere la parte, selezionare **loci** dal menu a tendina della scheda di riepilogo dell'item, quindi cliccare sul tasto **add part**.
 
-Per aggiungere un **locus**, una volta creata la parte, cliccare su **add Locus**.  
-Per ogni **locus** inserito è necessario **salvare** cliccando sul tasto di spunta blu.
-***  
 
 ## Locus
 
@@ -99,3 +95,12 @@ La compilazione del campo è obbligatoria.
 Per inserire un'immagine della carta del codice che trasmette il _locus_, cliccare su **add image**. Per la compilazione vedi [Cod_Image](Cod_Image_Brick.md).
 
 La compilazione del campo è facoltativa.
+
+## Save ⚠️ 
+
+Per ogni elemento _locus_ inserito è necessario salvare cliccando sul tasto di spunta blu.
+
+Cliccare sul tasto **_save_** per salvare la parte.  
+La parte è correttamente salvata quando in fondo allo schermo compare la notifica **_Part saved_**.  
+Completato il salvataggio, cliccare sul tasto **_Close_** per tornare alla schermata di riepilogo dell'item.
+
