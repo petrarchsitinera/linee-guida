@@ -42,7 +42,7 @@ Il luogo del testo schedato in cui si verifica la citazione, espresso secondo le
 La compilazione del campo è facoltativa.
 
 ### Assertion
-Permette, mediante il modello [Assertion](Assertion_Brick) di indicare l'attendibilità del collegamento intertestuale e le eventuali fonti a sostegno.
+Permette, mediante il modello [Assertion](Assertion_Brick.md) di indicare l'attendibilità del collegamento intertestuale e le eventuali fonti a sostegno.
 
 ## Save ⚠️ 
 Per ogni elemento _text_ inserito è necessario salvare cliccando sul tasto di spunta blu.
