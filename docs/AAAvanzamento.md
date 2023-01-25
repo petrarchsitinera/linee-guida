@@ -1,4 +1,5 @@
 # 🚧 ELIMINARE QUESTA PAGINA UNA VOLTA FINITO IL SITO
+(anzi pulirla e tenerla per fare indice di tutte le parti)
 
 > Legenda  
 > Fatta: ok; mod(ifiche); no   
