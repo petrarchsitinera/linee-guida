@@ -3,10 +3,10 @@
 * A queste andranno aggiunte le istruzioni per gli identificativi interni a Itinera (scope) e su relative regole di lookup
 * Quindi una struttura del genere
   * modello generale -con link ad [Assertion](Assertion_Brick.md)
-  * identificativi itinera  
-    * lookup
+  * identificativi itinera -con link a [regole per identificativi e authority file](identifiers.md)  
+    * lookup (magari pagina autonoma linkata)
   * external ids
-    * tool viaf 
+    * tool viaf (magari pagina autonoma linkata)
     * utilizzo di external id come part autonoma negli item
 
 
