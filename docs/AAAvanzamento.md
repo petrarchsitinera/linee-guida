@@ -6,6 +6,9 @@
 > manca: elenco cose che mancano  
 > immagini: sì, 📷 (=necessarie -di norma in tutti i brick), n.n. (non necessarie -al momento)  
 
+> Le modifiche necessarie nelle pagine sono sempre segnalate con 🚧 
+> Oltre a quanto segnalato qui e nelle pagine controllare Assunti-LG
+
 ## Parti Generali (parts comuni, bricks, istruzioni)
 |Parte|Stato|manca|immagini|  
 |-------------|----------|-----------|-----------|    
@@ -52,8 +55,19 @@
 |-------------|----------|-----------|-----------|    
 |[indice](Item_Manuscript_Index.md)|ok|-|n.n.   |
 |[Creazione dell'item](Item_Manuscript_Metadata.md)|ok|-|n.n.|
-|Part|no|-|n.n.   |
-|Part|no|-|n.n.   |
-|Part|no|-|n.n.   |
-|Part|no|-|n.n.   |
+|[Shelfmarks Part](Shelfmarks_Part.md)|no|-|n.n.   |
+|[Sheet Labels Part](Sheet_Labels_Part.md)|no|-|n.n.   |
+|[Material Description Part](Material_Description_Part.md)|no|-|n.n.   |
+|[Watermarks Part](Watermarks_Part.md)|no|-|n.n.   |
+|[Layouts Part](Layouts_Part.md)|no|-|n.n.   |
+|[Hands Part](Hands_Part.md)|no|-|n.n.   |
+|[Edits Part](Edits_Part.md)|no|-|n.n.   |
+|[Decorations Part](Decorations_Part.md)|no|-|n.n.   |
+|[Bindings Part](Bindings_Part.md)|no|-|n.n.   |
+|[Contents Part](Contents_Part.md)|no|-|n.n.   |
+|[Loci Part](Loci_Part.md)|no|-|n.n.   |
+|[Poem Ranges Part](Poem_Ranges_Part.md)|no|-|n.n.   |
+|[History Part](History_Part.md)|no|-|n.n.   |
+|[Locations Part](Locations_Part.md)|no|-|n.n.   |
+|[Toponyms Part](Toponyms_Part.md)|no|-|n.n.   |
 |Meta, IDs, Events, Biblio, Note|vedi sopra|-|n.n.| |
