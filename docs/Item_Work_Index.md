@@ -1,5 +1,4 @@
 # Item Work: indice delle parti
-# 🚧
 
 * [Creazione dell'item](Item_Work_Metadata.md)  
 * [Literary Work Part](Literary_Work_Part.md)  
