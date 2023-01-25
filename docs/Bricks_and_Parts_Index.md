@@ -8,5 +8,6 @@
 * [Editor identificativo](Asserted_Ids_Brick.md)
 * [Editor cronotopo](Asserted_Chronotope_Brick.md)
 * [Codicological Location](Cod_Location_Brick.md)
+* [Physical Size](Physical_Size_Brick.md)
 
 ## Tutte le parti
