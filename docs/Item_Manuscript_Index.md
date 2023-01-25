@@ -21,16 +21,3 @@
 * [Note Part](Note_Part.md)
 * [Locations Part](Locations_Part.md)
 * [Toponyms Part](Toponyms_Part.md)
-
-
-
-
-
-
-
-
-
-
-
-
-
