@@ -11,7 +11,7 @@ Per ogni opera è creato un elemento _work_ mediante un [editor](Editor_Brick.md
 
 ###  Title
 Inserire il titolo completo dell'opera **nella forma d'autore**. In caso di dubbio si preferisce il **titolo usato più frequentemente** nelle edizioni moderne.
-> [Francesco Petrarca] _Rerum vulgarium fragmenta 📷 se no uno pensa di dover mettere anche nome d'autore e corsivo 📷 
+> [Francesco Petrarca] _Rerum vulgarium fragmenta_ 📷 se no uno pensa di dover mettere anche nome d'autore e corsivo 📷   
 > [Francesco Petrarca] _Res Seniles_   
 > [Giovanni Boccaccio] _Decamerone_      
 
