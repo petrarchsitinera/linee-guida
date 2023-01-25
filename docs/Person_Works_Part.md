@@ -33,8 +33,9 @@ La compilazione del campo è obbligatoria.
 ### Eid
 L'_Eid_ è l'identificativo dell'opera quando questa si trovi descritta all'interno della banca dati Itinera. L'_Eid_ permette di collegare il testo inserito nella **Person Work Part** con l'item autonomo eventualmente già esistente che descrive quel testo.
 
-Se il testo o l'opera figura nel **repository dei corpora**, riportare l'ID indicato nel **repository dei corpora**.
-🚧 ora il lookup ci risparmia il repository 🚧 
+Se il testo o l'opera figura nel **repository dei corpora**, riportare l'ID indicato nel **repository dei corpora**.  
+🚧🚧 ora il lookup ci risparmia il repository 🚧 
+🚧🚧 ANZI NO, non c'è lookup perché qui assegniamo ID, non lo cerchiamo: quindi mettiamo solo opere non registrate sotto quell'autore in ITINERA
 
 🚧 NICOLA DOMANDA PER NOI: SE INVECE IL TESTO O L'OPERA NON E' DESCRITTO IN ITINERA NON COMPILIAMO L'EID? O NE METTIAMO COMUNQUE UNO D'UFFICIO? IN QUESTO SECONDO CASO FORSE POTREMMO PENSARE AD UN REPOSITORY DI TITOLI, PER TENERE TRACCIA DI TUTTI 'GLI OGGETTI' INSERITI, COSI' DA POTERLI COLLEGARE ANCHE IN FUTURO QUALORA I CORPORA DESCRITTI DOVESSERO ALLARGARSI.
 
