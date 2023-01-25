@@ -5,4 +5,5 @@ Descrivere funzioni di base (forse metterlo -anche o solo- nell'indice di ogni i
 * [salvataggio parte](part_save.md) (solo qui, con link interno ad loca?)  
 * salvataggio sottoparte (solo qui, con link interno ad loca)  
 * [eliminare/modificare parti ed elementi](edit_and_delete.md)
+* [regole per identificativi e authority file](identifiers.md)
 * altre raccomandazioni
