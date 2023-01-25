@@ -2,7 +2,7 @@
 
 **Sheet Labels Part** permette di descrivere la consistenza del codice, le carte di guardia, la numerazione, la struttura fascicolare, i richiami e i sistemi di segnatura (fascicolare e a registro).  
 
-La descrizione del modello è disponibile su [[Github|https://github.com/vedph/cadmus-codicology#codsheetlabelspart]].
+La descrizione del modello è disponibile su [Github](https://github.com/vedph/cadmus-codicology#codsheetlabelspart).
 
 Per aggiungere la parte, selezionare **_sheet labels_** dal menu a tendina, quindi cliccare su **_add part_**.  
 
@@ -70,14 +70,14 @@ Permette di inserire le carte di guardia anteriori.
 Nel campo _type_ selezionare _front endleaf_; nel campo _count_ inserire il numero complessivo delle carte di guardia anteriori.  
 Cliccando il comando _+ add_, viene creato un numero di righe pari al numero delle facciate (recto o verso) delle carte di guardia anteriori.  
 Ad ogni riga è attribuita automaticamente un'etichetta costituita da un numero arabo progressivo seguito dall'indicazione r/v, tra parentesi tonde: (1r), (1v), (2r), (2v), etc.  
-Ulteriori informazioni relative alle carte di guardia potranno essere inserite nella sezione [[Endleaves|Cod_SheetLabels_Part##Endleaves]] .
+Ulteriori informazioni relative alle carte di guardia potranno essere inserite nella sezione [Endleaves](SheetLabels_Part.md##Endleaves).
 
 ##### Back endleaf
 Permette di inserire le carte di guardia posteriori.  
 Nel campo _type_ selezionare _back endleaf_; nel campo _count_ inserire il numero complessivo delle carte di guardia posteriori.  
 Cliccando il comando _+ add_, viene creato un numero di righe pari al numero delle facciate (recto o verso) delle carte di guardia posteriori.  
 Ad ogni riga è attribuita automaticamente un'etichetta costituita da un numero arabo progressivo preceduto da /, seguito dall'indicazione r/v, tra parentesi tonde: (/1r), (/1v), (/2r), (/2v), etc.  
-Ulteriori informazioni relative alle carte di guardia potranno essere inserite nella sezione [[Endleaves|Cod_SheetLabels_Part##Endleaves]] .
+Ulteriori informazioni relative alle carte di guardia potranno essere inserite nella sezione [Endleaves](SheetLabels_Part.md##Endleaves).
 
 #### Columns
 Per aggiungere colonne alla tabella, utilizzare il riquadro _adder_.  
@@ -157,7 +157,7 @@ Per creare la colonna utilizzare i comandi del riquadro **_adder_**.
 Nel campo _type_ selezionare _numbering_.  
 Il campo _name_ non deve essere compilato per la numerazione di riferimento.  
 Cliccando il comando _+ add_, viene creata una colonna identificata dal titolo "n", deputata alla descrizione della numerazione di riferimento.  
-⚠️ Tale numerazione sarà utilizzata ogni volta che nell' _item_ sarà compilato il campo [[Cod Location|Cod_LocationRange_Brick]]).  
+⚠️ Tale numerazione sarà utilizzata ogni volta che nell' _item_ sarà compilato il campo [Cod Location](Cod_Location_Brick.md).  
 
 Per tutte le altre numerazioni compilare il campo _name_ con un'etichetta convenzionale (es. "num2", "num.moderna").  
 Cliccando il comando _+ add_, viene creata una colonna identificata dal titolo "n." seguito dall'etichetta scelta.  
@@ -172,7 +172,7 @@ Il campo _edit the selected column definition_ apre un **editor** che permette d
 * _technique_: selezionare un valore tra: inchiostro; lapis; n. meccanico; altro;
 * _position_: selezionare un valore tra: marg. sup. est.; marg. sup. cen.; marg. sup. int.; marg. inf. est.; marg. inf. cen.; marg. inf. int.; intercol. sup.; intercol. inf.; altro;
 * _colors_: selezionare un valore tra: bruno scuro, bruno chiaro, rosso, altro;
-* _date_: permette di esprimere la datazione, secondo il modello [[Asserted Date|Asserted_Chronotope_Brick]];
+* _date_: permette di esprimere la datazione, secondo il modello [Asserted Date](Asserted_Chronotope_Brick.md);
 * _note_: si raccolgono qui dati e informazioni che non è possibile inserire altrove, segnalando in particolare eventuali salti o errori nella numerazione.
 
 ⚠️ Dopo aver compilato la sottoparte, salvarla cliccando sul tasto di spunta blu.  
@@ -361,13 +361,13 @@ Si ricorre a questa modalità di compilazione nel caso in cui si vogliano regist
 
 ## Endleaves
 La sezione permette di elencare e descrivere le carte di guardia.  
-Per descrivere le carte di guardia aggiungere un elemento _endleaf_ mediante [[editor|Editor_Brick]].  
+Per descrivere le carte di guardia aggiungere un elemento _endleaf_ mediante [[editor|Editor_Brick.md]].  
 
 Per ogni elemento _endleaf_ è possibile compilare i seguenti campi:  
 * _location_: permette di indicare la carta di guardia da descrivere, selezionandola tra quelle precedentemente create (da menu a tendina);  
 * _material_: selezionare un valore tra: membr.; cart.
 * _tag_: permette di inserire un'etichetta utile ai fine della ricerca;
-* _chronotope_: indicare data e luogo della carta di guardia secondo il modello [[Asserted Chronotope|Asserted_Chronotopes_Brick]].
+* _chronotope_: indicare data e luogo della carta di guardia secondo il modello [Asserted Date](Asserted_Chronotope_Brick.md).
 
 ⚠️ Dopo aver compilato la sottoparte, salvarla cliccando sul tasto di spunta blu.
 
