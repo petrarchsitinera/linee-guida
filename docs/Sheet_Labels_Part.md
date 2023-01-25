@@ -1,4 +1,4 @@
-#Sheet Labels Part
+# Sheet Labels Part
 
 **Sheet Labels Part** permette di descrivere la consistenza del codice, le carte di guardia, la numerazione, la struttura fascicolare, i richiami e i sistemi di segnatura (fascicolare e a registro).  
 
