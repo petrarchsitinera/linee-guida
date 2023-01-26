@@ -1,6 +1,3 @@
 # Site settings
 title: Petrarch's Itinera
-description: Linee guida per i compilatori
-
-# Build settings
-remote_theme: jekyll/minima
+subtitle: Linee guida per i compilatori
