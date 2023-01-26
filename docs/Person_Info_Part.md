@@ -1,3 +1,6 @@
+---
+---
+
 # Person Info Part
 La _Person Info Part_ permette di inserire alcune informazioni sommarie sulla persona schedata: il genere e una breve biografia discorsiva.  
 
