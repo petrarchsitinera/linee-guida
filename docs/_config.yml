@@ -1,4 +1,7 @@
 # Site settings
 title: Petrarch's Itinera
 subtitle: Linee guida per i compilatori
-cover-img: "docs/assets/images/itinera_logo.jpg"
+cover-img: "/assets/images/itinera_logo.jpg"
+plugins:
+  - jekyll-paginate
+  - jekyll-sitemap
