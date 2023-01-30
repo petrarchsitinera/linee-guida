@@ -24,7 +24,7 @@
 |-------------|----------|-----------|-----------|    
 |Homepage|**mod**|definire struttura e sottopagine di supporto; altre cose generali: template complessivo; banda di riepilogo su ogni pagina; etc.|n.n.   |
 |[Metadata Part](Metadata_Part.md)|ok|-|n.n.|
-|[IDs Part](Asserted_Ids_Brick.md)|**no**|ristrutturare parte, forse dividere tra Brick; Part; lookup; authority file; [eid](identifiers.md)|n.n.|
+|[IDs Part](Asserted_Ids_Brick.md)|**no**|[Asserted Ids](Asserted_Ids_Brick.md)+[eid](identifiers.md)+[lookup](lookup.md)+[repositories](repository.md)|n.n.|
 |[Events Part](Events_Part.md)|**mod**|ex novo|📷|
 |[Events Thesaurus](Events_Thesaurus.md)|**no**|ex novo: oppure, senza casi, spiegati ad un seminario dopo aver compilato qualche item con events|📷|
 |[Bibliography Part](External_Bibliography_Part.md)|**no**|ex novo; spiegare anche DocReference e key qui|📷|
