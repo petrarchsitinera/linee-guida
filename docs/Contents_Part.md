@@ -22,13 +22,13 @@ Permette di indicare l'intervallo o gli intervalli di carte su cui è trascritto
 La compilazione del campo è obbligatoria.
 
 ### Tag
-🚧 Permette di inserire un'etichetta utile ai fini della ricerca.  
+Permette di inserire un'etichetta utile ai fini della ricerca.  
 La compilazione del campo è facoltativa.
 
 ### Author Id 
 Permette di indicare il nome dell'autore dell'opera.  
 
-⚠️ Per determinare la forma del nome dell'autore consultare l'authority file all'indirizzo: 🚧  
+⚠️ Per determinare la forma del nome dell'autore, consultare [il repository dei nomi d'autore](repository.md).  
 
 Se l'autore non è presente nell'authority file, seguire queste convenzioni:  
 
@@ -43,10 +43,9 @@ La compilazione del campo è facoltativa.
 ### Title
 Permette di indicare il titolo dell'opera.
 
-⚠️ Per determinare la forma del titolo consultare l'authority file all'indirizzo: 🚧  
+⚠️ Per determinare la forma del titolo consultare consultare [il repository dei titoli](repository.md).    
 
 Se l'opera non è presente nell'authority file, seguire queste convenzioni:  
-
 
 > I titoli sono dati nella lingua del testo: 🏃 dunque, in latino se il testo è in latino (anche in caso di traduzioni), in italiano o altro volgare se il testo è in italiano o altro volgare (anche in caso di traduzioni). I titoli in volgare si danno sempre senza articolo. Nel caso di opere non identificate, trascrivere il titolo presente nel ms. o, se assente, elaborare un titolo e segnalarlo tra parentesi quadre, es. “[Raccolta di testi astrologici]” 🏃 .
 
@@ -57,7 +56,7 @@ Permette di indicare il titolo così come è fornito dal testimone, nel caso div
 La compilazione del campo è facoltativa.
 
 ### Location
-Permette di precisare la porzione dell'opera trasmessa dal testimone, qualora essa sia suddivisa in partizioni note (capitolo, libro, numero di componimento, etc.; 🚧 aggiungere foto di esempio). 
+Permette di precisare la porzione dell'opera trasmessa dal testimone, qualora essa sia suddivisa in partizioni note (capitolo, libro, numero di componimento, etc.).  
 La compilazione del campo è facoltativa.
 
 ### Note
