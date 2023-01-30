@@ -1,16 +1,20 @@
-# 🚧 Parte da rifare
-* Sotto sono state copiate le istruzioni del vecchio External Id, che si possono tenere con qualche modifica (ad es. le immagini andranno copiate in una cartella interna a queste linee guida)
-* A queste andranno aggiunte le istruzioni per gli identificativi interni a Itinera (scope) e su relative regole di lookup
-* Quindi una struttura del genere
-  * modello generale -con link ad [Assertion](Assertion_Brick.md)
-  * identificativi itinera -con link a [regole per identificativi e authority file](identifiers.md)  
-    * lookup (magari pagina autonoma linkata)
-  * external ids
-    * tool viaf (magari pagina autonoma linkata)
-    * utilizzo di external id come part autonoma negli item  
+# Asserted Ids
+-a cosa serve: 
+  -a richiamare, qualificando però il dato con assertion e fonti, id interni, definiti [qui](identifiers.md);
+  -a collegare con db esterni
+-modello generale -con link ad [Assertion](Assertion_Brick.md) 
 
+## per id interni (scope:itn?)
+-come compilare
+-come compilare value: 
+  -Regole per id definite [qui](identifiers.md);
+  -eid ricercabili tramite [lookup integrato](lookup.md) e [repository](repository.md)
 
-⚠️ L'identificativo deve essere composto esclusivamente con i caratteri A-Z, 0-9; utilizzare sempre underscore (_) e mai trattino semplice (-); evitare l'uso di un numero come primo carattere dell'identificativo.
+## per id esterni (vedi sotto)
+-utilizzo di external id come part autonoma negli item  
+-come compilare
+-come compilare value: 
+  -tool viaf (magari pagina autonoma linkata)
 
 ## IDs - External IDs Part
 **External IDs Part** raccoglie gli **identificativi** dell'item in risorse esterne, permettendo così di incrociare, in fase di pubblicazione, i dati inseriti nel database di Itinera con quelli presenti altrove.   
