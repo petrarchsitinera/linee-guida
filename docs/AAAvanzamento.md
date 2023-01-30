@@ -1,6 +1,16 @@
 # 🚧 ELIMINARE QUESTA PAGINA UNA VOLTA FINITO IL SITO
 (anzi pulirla e tenerla per fare indice di tutte le parti)
 
+# OGGI, SANDRA+NICOLA:
+-finire eid, Asserted id, assertion
+-finire ms (Hands, Edit, SheetLabels, Loci, CodLocationBrick, CodImageBrick)
+-aggiungere foto
+
+# VENERDI, NAS:
+-dettagli Text e Person
+-altre parti generali
+-foto parti generali
+
 > Legenda  
 > Fatta: ok; mod(ifiche); no   
 > manca: elenco cose che mancano  
@@ -61,14 +71,14 @@
 |[Material Description Part](Material_Description_Part.md)|ok||n.n.|
 |[Watermarks Part](Watermarks_Part.md)|ok|-|n.n.|
 |[Layouts Part](Layouts_Part.md)|ok|-|📷|
-|[Hands Part](Hands_Part.md)|**mod**|appartenenza di Hand a copista|n.n.   |
-|[Edits Part](Edits_Part.md)|**mod**|cambiare regole eid|n.n.   |
-|[Decorations Part](Decorations_Part.md)|**mod**|cambiare regole eid|n.n.   |
+|[Hands Part](Hands_Part.md)|**mod**|definire tripla per appartenenza di Hand a copista; inserire repository signs|n.n.   |
+|[Edits Part](Edits_Part.md)|**mod**|rivedere eid|n.n.   |
+|[Decorations Part](Decorations_Part.md)|ok|-|n.n.   |
 |[Bindings Part](Bindings_Part.md)|ok|-|n.n.|
 |[Contents Part](Contents_Part.md)|ok|-|n.n.   |
 |[Loci Part](Loci_Part.md)|**mod**|definire regole trascrizione|n.n.|
 |[Poem Ranges Part](Poem_Ranges_Part.md)|ok|-|📷|
 |[History Part](History_Part.md)|ok|-|n.n.   |
-|[Locations Part](Locations_Part.md)|**no**|ex novo|n.n.   |
-|[Toponyms Part](Toponyms_Part.md)|**no**|ex novo|n.n.   |
+|[Locations Part](Locations_Part.md)|ok|-|n.n.   |
+|[Toponyms Part](Toponyms_Part.md)|ok|-|n.n.   |
 |Meta, IDs, Events, Biblio, Note|vedi sopra|-|n.n.| |
