@@ -186,7 +186,7 @@ Permette di indicare la tipologia di segno descritto. Selezionare un valore tra:
 La compilazione del campo è obbligatoria.
 
 ##### EID
-Permette di attribuire al segno un identificativo convenzionale (es. per le lettere: "d onciale", "g ad alambicco", "s scivolata"; per abbreviazioni: "nota tironiana", "titulus per nasale"; per i nessi: "ct"; etc.). Consultare il repository relativo 🏃  
+Permette di attribuire al segno un identificativo convenzionale (es. per le lettere: "d onciale", "g ad alambicco", "s scivolata"; per abbreviazioni: "nota tironiana", "titulus per nasale"; per i nessi: "ct"; etc.). Consultare il [repository relativo](repository.md) 🏃  
 La compilazione del campo è facoltativa.  
 
 ##### Location
