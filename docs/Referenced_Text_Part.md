@@ -10,7 +10,7 @@ Per aggiungere la parte, selezionare **_ref-texts_** dal menu a tendina, quindi 
 
 
 ## Text
-Per ogni testo collegato è creato un elemento _text_ mediante un [[editor|Editor_Brick]].
+Per ogni testo collegato è creato un elemento _text_ mediante un [editor](Editor_Brick.md).
 
 ⚠️ Per quanto riguarda i testi di corrispondenza, si registrano in questa parte i soli testi collegati come antecedenti nella catena di corrispondenza rispetto al testo schedato. Non si registrano dunque eventuali risposte al testo schedato. L'intera catena di corrispondenza è ricostruita a posteriori sul grafo semantico grazie all'incrocio dei dati.
 
@@ -22,23 +22,23 @@ Permette di specificare il tipo di relazione che l'item schedato intrattiene con
 La compilazione del campo è obbligatoria.
 
 ### Target ID
-🚧 ora con lookup??
-Il testo interessato collegato all'item schedato.
+Il testo interessato collegato all'item schedato.  
+Se il testo è schedato all'interno di Itinera, cercare l'item relativo e copiarne [l'_eid_](identifiers.md), servendosi eventualmente dei [repository](repository.md) e della funzione di [lookup](lookup.md). 
+Se il testo non è schedato all'interno di Itinera, attribuire un _eid_ secondo le regole indicate [per i titoli degli item testuali](Item_Work_Metadata.md).  
 
 La compilazione del campo è obbligatoria.
 
 ### Target citation
-Il luogo del testo citato da cui è tratta la citazione, espresso secondo le convenzioni appropriate.
-
-> es. 🚧
+Il luogo del testo citato da cui è tratta la citazione, espresso indicando il libro e/o il paragrafo e/o il verso, non separate da virgole. Se si tratta di un intervallo, separare i nn. di paragrafo o di versi con un trattino.
+ > Es.:  
+ > XII 4 3  
+ > I 1 65-68  
 
 La compilazione del campo è facoltativa.
 
+
 ### Source
-Il luogo del testo schedato in cui si verifica la citazione, espresso secondo le convenzioni appropriate.
-
-> es. 🚧
-
+Il luogo del testo schedato in cui si verifica la citazione, espresso indicando il libro e/o il paragrafo e/o il verso, non separate da virgole. Se si tratta di un intervallo, separare i nn. di paragrafo o di versi con un trattino.   
 La compilazione del campo è facoltativa.
 
 ### Assertion
