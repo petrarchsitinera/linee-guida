@@ -24,14 +24,14 @@ Creando un elemento _decoration_ si accede a una schermata da cui è possibile c
 
 
 ### ID
-Permette di attribuire un identificativo convenzionale all'apparato decorativo (_decoration_), che può essere richiamato in altre sezioni descrittive (_parts_) dell' _item_.
+Permette di attribuire un identificativo convenzionale all'apparato decorativo (_decoration_), che può essere richiamato in altre sezioni (_parts_) dell'_item_.
 Per ogni apparato decorativo utilizzare l'etichetta convenzionale "dec" seguita senza spazi da un numero progressivo (es. "dec1", "dec2", etc.).  
 
 La compilazione del campo è obbligatoria.
 
 
 ### Name
-Permette di attribuire un nome all'apparato decorativo. Compilare il campo ripetendo l'ID, a meno che non sia possibile indicare una denominazione convenzionalmente utilizzata negli studi (es. 🚧 )
+Permette di attribuire un nome all'apparato decorativo. Compilare il campo ripetendo l'ID, a meno che non sia possibile indicare una denominazione convenzionalmente utilizzata negli studi.
 
 
 ### Features
@@ -74,8 +74,10 @@ Permette di indicare, attraverso un _thesaurus_, se la decorazione è stata real
 La compilazione del campo è obbligatoria.
 
 #### EID
-Permette di attribuire un identificativo univoco all'artista [🌵 DEFINIRE CONVENZIONI EID 🌵 ], che può essere utilizzato per il collegamento con l'eventuale Item Person ad esso dedicato.
-Dal momento che i decoratori non sono oggetto di studio specifico da parte di Itinera, solo in numerati casi sarà loro dedicato un Item Person apposito; negli altri casi, se una risorsa esterna a Itinera contiene informazione specifiche sul realizzatore della decorazione, si rimanda ad esse tramite il campo Ids (vedi sotto).
+Permette di attribuire un identificativo univoco all'artista, che può essere utilizzato per il collegamento con l'eventuale Item Person ad esso dedicato.  
+Se il copista coincide con una persona già schedata nel database di Itinera, si utilizza l'_eid_ dell'Item Person già esistente. Cercare l'item e copiarne [l'_eid_](identifiers.md), servendosi eventualmente dei [repository](repository.md) e della funzione di [lookup](lookup.md).   
+
+Dal momento che i decoratori non sono oggetto di studio specifico da parte di Itinera, solo in numerati casi sarà loro dedicato un Item Person apposito; negli altri casi, se una risorsa esterna a Itinera contiene informazioni specifiche sul realizzatore della decorazione, si rimanda ad esse tramite il campo Ids (vedi sotto).
 
 La compilazione del campo è facoltativa.
 
