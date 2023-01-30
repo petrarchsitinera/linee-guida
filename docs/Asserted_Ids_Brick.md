@@ -7,8 +7,10 @@
     * lookup (magari pagina autonoma linkata)
   * external ids
     * tool viaf (magari pagina autonoma linkata)
-    * utilizzo di external id come part autonoma negli item
+    * utilizzo di external id come part autonoma negli item  
 
+
+⚠️ L'identificativo deve essere composto esclusivamente con i caratteri A-Z, 0-9; utilizzare sempre underscore (_) e mai trattino semplice (-); evitare l'uso di un numero come primo carattere dell'identificativo.
 
 ## IDs - External IDs Part
 **External IDs Part** raccoglie gli **identificativi** dell'item in risorse esterne, permettendo così di incrociare, in fase di pubblicazione, i dati inseriti nel database di Itinera con quelli presenti altrove.   
