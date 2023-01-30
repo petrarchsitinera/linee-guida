@@ -12,9 +12,10 @@ Se il manoscritto è unitario, è creato un unico elemento _unit_.
 
 
 ### Eid
-Rappresenta l'identificativo dell'unità codicologica, che può essere richiamato in altre sezioni descrittive (_parts_) dell' _item_.  
+Rappresenta l'identificativo dell'unità codicologica, che può essere richiamato in altre sezioni descrittive (_parts_) dell'_item_.  
 
 Per ogni unità codicologica utilizzare la formula convenzionale "u" seguita senza spazi dal numero progressivo dell'unità (es. "u1", "u2", etc.).  
+Per ulteriori informazioni sull'utilizzo degli _eid_ vedi [qui](identifiers.md).   
 Se il manoscritto è unitario, lasciare il campo vuoto.
 
 ### Tag
