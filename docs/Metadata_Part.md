@@ -1,6 +1,6 @@
 # Metadata Part
 
-**Metadata Part** permette di inserire alcune informazioni generali sull' _item_.  
+**Metadata Part** permette di inserire alcune informazioni generali sull'_item_.  
 
 La descrizione del modello è disponibile su [Github](https://github.com/vedph/cadmus-general#metadatapart).
 
@@ -13,7 +13,7 @@ Per ogni metadato è creato un elemento _metadatum_ mediante un [editor](Editor_
 
 Ogni _metadatum_ è strutturato in tre campi: 
 * _type_: permette di indicare, da thesaurus, la tipologia del metadato;  
-* _name_: permette di indicare l'eventuale nome del metadato (se la sua compilazione non è pertinente, compilare con un trattino (**-**);  
+* _name_: permette di indicare l'eventuale nome del metadato (se la sua compilazione non è pertinente, compilare con un trattino: **-**);  
 * _value_: permette di inserire il valore del metadato.
 
 La compilazione dei campi _name_ e _value_ dipende dalla tipologia di _metadatum_ che si intende creare, determinata attraverso il campo _type_.  
@@ -62,7 +62,10 @@ Permette di indicare, relativamente ad un _Manuscript Item_, la modalità di esa
 * _name:_ compilare sempre con un trattino semplice (**-**);
 * _value_: compilare il campo con una delle seguenti opzioni: _autoptica_; _da riproduzione_; _da catalogo_; _da banca dati_.
 
-⚠️ Nel caso in cui la scheda sia _da catalogo_ o _da banca dati_, compilare il campo _name_ con la _key_ bibliografica relativa alla fonte. [🚧 ma forse è più sensato invertire qui e per gli altri item name/value: valutare se ci sono controindicazioni 🚧]  
+⚠️ Nel caso in cui la scheda sia _da catalogo_ o _da banca dati_, creare un ulteriore _metadatum_ con:  
+* _type_: selezionare il valore _altro_;
+* _name:_ compilare con la voce **fonte**;
+* _value_: se la scheda è tratta _da catalogo_, compilare con la _key_ bibliografica relativa alla fonte (cfr. [Bibliography Part](External_Bibliography_Part.md)); se la scheda è tratta _da banca dati_, compilare il campo con il nome o la sigla della banca dati (ad es. "Mirabile", "RDP", "Manus", etc.)
 
 La compilazione del campo è obbligatoria.
 
