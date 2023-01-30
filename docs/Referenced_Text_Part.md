@@ -23,7 +23,7 @@ La compilazione del campo è obbligatoria.
 
 ### Target ID
 Il testo interessato collegato all'item schedato.  
-Se il testo è schedato all'interno di Itinera, cercare l'item relativo e copiarne [l'_eid_](identifiers.md), servendosi eventualmente dei [repository](repository.md) e della funzione di [lookup](lookup.md). 
+Se il testo è schedato all'interno di Itinera, cercare l'item relativo e copiarne [l'_eid_](identifiers.md), servendosi eventualmente dei [repository](repository.md) e della funzione di [lookup](lookup.md).   
 Se il testo non è schedato all'interno di Itinera, attribuire un _eid_ secondo le regole indicate [per i titoli degli item testuali](Item_Work_Metadata.md).  
 
 La compilazione del campo è obbligatoria.
