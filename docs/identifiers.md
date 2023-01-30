@@ -1,66 +1,40 @@
 # Regole per identificativi e authority file
+Per ogni _item_ e per alcune delle sue parti, Itinera si serve di:
+* un identificativo interno _human readable_ (**EID**), che permette di identificare e, ove necessario, richiamare le entità di interesse all'interno del database;  
+* eventuali identificativi esterni (**External Ids**), che permettono di collegarli a risorse esterne al database Itinera.  
 
-## Creare e attribuire un identificativo univoco interno a Itinera (EID)   
+⚠️ La compilazione dell'_eid_ degli _item_ è obbligatoria [cfr. Metadata Part](Metadata_Part.md): senza di esso risulta impossibile stabilire un collegamento tra gli _item_.  
 
-Nei casi in cui sia necessario creare ed attribuire un _eid_, è necessario attenersi alle seguenti regole generali:  
-* l'_eid_ deve essere composto esclusivamente con i caratteri A-Z, 0-9; 
+## EID
+Nei casi in cui sia necessario **creare ed attribuire** un _eid_, è necessario attenersi alle seguenti regole generali:  
+* l'_eid_ deve essere composto esclusivamente con i caratteri a-z, 0-9; 
+* non utilizzare lettere maiuscole;  
 * utilizzare sempre underscore (\_) e mai trattino semplice (-); 
-* il primo carattere dell'_eid_ non può mai essere un numero.
-* 🚧🚧🚧 ALTRE REGOLE? Spazi, virgole, etc. 🚧🚧🚧  
+* il primo carattere dell'_eid_ non può mai essere un numero;
+* non utilizzare spazi. 
 
-In alcuni casi è necessario osservare particolari regole di composizione: consultare le linee guida delle relative _parts_.  
+> Per l'_eid_ degli _item_ utilizzare:   
+> 
+> 🚧 Item Person: nome della persona in minuscolo, senza spazi né segni di interpunzione:  
+> es. Per l'_item_ di Giovanni dell’Incisa, l'_eid_ sarà "giovannidellincisa"  
+> 
+> 🚧 Item Text: ripetere il _title_ dell'_item_ sostituendo gli spazi con punto:
+>  es. Fam. I 1 diventa "Fam.I_1" "Fam_I_1" "Fam.I1" "Fam.I.1"
+>  
+> 🚧 Item Manuscript:
+> es. "Firenze_BML_Plut.XL.1"?
 
-🚧 SPECIFICARE AD LOCA REGOLE PER: Referenced Text Part. target id  (se non in DB, incipit testo), Witness (se non in DB, segnatura), PersonWorksPart (se non in DB titolo invalso, facoltativo); MatDescr (u1, etc.); HandsPart (mano a etc); HandsPart.signs (rimando a repository o libero); DecorationPart (dec1 etc.); DecorationPart.Artist(se non in db, facoltativo e libero); ContentsPart (se non in DB titolo invalso, facoltativo); EditsPart (edit 1 etc.); EventsPart (boh?)
+> Per gli _eid_ di singole parti (ad es. Events, Hands, Edits, etc.), consultare le linee guida delle relative _parts_.  
 
-## Creare e attribuire un identificativo esterno 
+⚠️ È fondamentale che l'_eid_ sia univoco e non abbia doppioni.  
+Il compilatore deve perciò in primo luogo verificare nel [repository](repository.md) se all'_item_ da descrivere è già stato attribuito un _eid_, e ricorrere a quello in caso positivo.  
+Diversamente, deve procedere ad attribuire un _eid_ all'_item_ facendo attenzione a che non corrisponda ad _eid_ già presenti, ricorrendo sia ai [repository](repository.md) sia alla funzione di [lookup](lookup.md).   
 
-Asserted Id
+Per **richiamare un _item_** è necessario richiamarne l'_eid_: anche in questo caso è possibile ricorrere alla funzione di [lookup](lookup.md).  
+Per **richiamare una _part_** è necessario richiamarne l'_eid_, cui deve essere premesso, separato da "/", l'identificativo dell'_item_ (la voce _item ID_ nella finestra di [lookup](lookup.md).  
 
-
-## Cercare e richiamare un identificativo univoco (EID) all'interno del database
-
-un Asserted ID punta sempre a eid già esistente e ha sempre lookup quindi da Asserted id link a questa pagina 
-
-
-
-### RIASSUNTO
-
-Eid: regole di composizione degli eid
-Come cercare gli eid: lookup
- sia con eid semplice + lookup
- sia con Asserted Id
-Come puntare fuori: 
- con Asserted Id
+In alcuni casi, all'_eid_ può essere associata una [Assertion](Asserted_Ids_Brick.md).   
 
 
-
-Item Text  
--Literary Work Part. author > Asserted id
-(-External Id > non lo usiamo)
--Referenced Text Part. target id > id + lookup interno + assertion esterna
--Related Persons Part > Asserted id
--Witness > id + lookup esterno
-
-Item Person
--External Id > Asserted id (sia per db esterni; nome di piuma)
--PersonWorksPart > id + lookup esterno
-
-Item Ms
--MatDescr > eid: regole
--Watermarks > Asserted id (Briquet)
--HandsPart > eid: regole
--HandsPart > signs > eid: regole
--DecorationPart > eid: regole
--DecorationPart > Artist > sia eid sia Asserted id
--ContentsPart > id + lookup esterno
--EditsPart > eid: regole
-
-EventsPart > eid regole
-EventsPart > related > id + lookup interno
-
-
-
-
-Potranno essere cercati in lookup: metti link a spiegazione, che sia in IDS o forse meglio in pagina autonoma
-
-Descrivi funzionamento EID builder
+## External Ids
+Per attribuire un identificativo esterno, consultare la sezione relativa in [AssertedId](Asserted_Ids_Brick.md).
