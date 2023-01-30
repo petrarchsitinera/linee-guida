@@ -26,12 +26,17 @@ Permette di attribuire un identificativo convenzionale alla mano.
 
 ⚠️  La scelta dell'identificativo deve tenere conto delle regole generali di composizione degli [identificativi](identifiers.md).  
 
-⚠️ Se la mano è riconducibile ad un copista noto, questo dato è espresso in un Item Person relativo al copista. 
-Se il copista coincide con una persona già schedata come corrispondente nel database di Itinera (es. Giovanni Boccaccio), si utilizza l'item già esistente.  
-Se il copista non ha un item Person occorre crearlo ex novo. Questa procedura deve essere seguita anche nel caso di copista anonimo noto agli studi per la sua produzione (es. "copista principale del Dante dei Cento").  
-Ugualmente, deve essere creato un Item Person per qualsiasi copista la cui mano sia riconosciuta su almeno due manoscritti, e anche in tutti i casi ove sia possibile fornire qualche informazione biografica relativa al copista (es. notaio, copista di professione, etc.).  
+⚠️ Se la mano è riconducibile ad un copista noto, questo dato è espresso in un Item Person relativo al copista.  
 
+Se il copista coincide con una persona già schedata come corrispondente nel database di Itinera (es. Giovanni Boccaccio), si utilizza l'_eid_ dell'Item Person già esistente. Cercare l'item e copiarne [l'_eid_](identifiers.md), servendosi eventualmente dei [repository](repository.md) e della funzione di [lookup](lookup.md).  
+
+Se il copista non ha un Item Person occorre crearlo ex novo. Questa procedura deve essere seguita anche nel caso di copista anonimo noto agli studi per la sua produzione (es. "copista principale del Dante dei Cento").  
+Ugualmente, deve essere creato un Item Person per qualsiasi copista la cui mano sia riconosciuta su almeno due manoscritti, e anche in tutti i casi ove sia possibile fornire qualche informazione biografica relativa al copista (es. notaio, copista di professione, etc.).  
+Una volta creato l'item, copiarne [l'_eid_](identifiers.md), servendosi eventualmente dei [repository](repository.md) e della funzione di [lookup](lookup.md).  
+
+⚠️🚧⚠️🚧⚠️🚧
 [🚧] Dall'Item Person, aprire [EventsPart](Events_Part.md) e creare un evento con _type_ "attività scrittoria" [🚧 da creare] e inserire nella sezione _related_ con _type_ "mano" [🚧 da creare] l'EID della mano.  
+⚠️🚧⚠️🚧⚠️🚧  
 
 La compilazione del campo è facoltativa.
 
@@ -181,7 +186,7 @@ Permette di indicare la tipologia di segno descritto. Selezionare un valore tra:
 La compilazione del campo è obbligatoria.
 
 ##### EID
-Permette di attribuire al segno un identificativo convenzionale (es. per le lettere: "d onciale", "g ad alambicco", "s scivolata"; per abbreviazioni: "nota tironiana", "titulus per nasale"; per i nessi: "ct"; etc.). 🏃  
+Permette di attribuire al segno un identificativo convenzionale (es. per le lettere: "d onciale", "g ad alambicco", "s scivolata"; per abbreviazioni: "nota tironiana", "titulus per nasale"; per i nessi: "ct"; etc.). Consultare il repository relativo 🏃  
 La compilazione del campo è facoltativa.  
 
 ##### Location
