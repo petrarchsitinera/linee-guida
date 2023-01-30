@@ -12,13 +12,14 @@ Per ogni intervento scrittorio è creato un elemento _edit_ mediante [editor](Ed
 
 ### EID
 Permette di attribuire un identificativo arbitrario all'intervento scrittorio.  
-Per ogni edit utilizzare l'etichetta convenzionale...  [norme EID parti non univoche 🔢]  
-Questo identificativo potrà essere utilizzato per collegare l'intervento a un evento relativo alla storia del manoscritto. È opportuno creare un collegamento qualora l'edit testimoni un evento rilevante rispetto alla storia del codice.
+Per ogni edit utilizzare l'etichetta convenzionale 🚧 "edit" seguita senza spazi da un numero progressivo (es. "edit1", "edit2", etc.). 🚧  
+Questo identificativo potrà essere utilizzato, in combinazione con l'identificativo dell'_item_ (cfr. [Regole per identificativi e authority file](identifiers.md), per collegare l'intervento a un evento relativo alla storia del manoscritto. È opportuno creare un collegamento qualora l'_edit_ testimoni un evento rilevante rispetto alla storia del codice.
 
-> Per esplicitare il collegamento tra edit e storia del manoscritto occorre registrare e descrivere nella parte Edits l'intervento, cui sarà attribuito un EID. In [EventsPart](Events_Part.md) dovrà essere creato un evento con type "editing" che abbia due _related entities_: 1. il nome dell'autore dell'intervento (type: "eseguito da"); 2. l'EID dell'Edit in questione (type: "eid edit"). [ 🚧  link a authority file identificativi persona]
+> Per esplicitare il collegamento tra un _edit_ e la storia del manoscritto occorre registrare e descrivere nella parte Edits l'intervento, cui sarà attribuito un _eid_. In [EventsPart](Events_Part.md) dovrà essere creato un evento con type "editing" che abbia due _related entities_: 1. il nome dell'autore dell'intervento (type: "eseguito da"); 2. l'_eid_ dell'Edit in questione (type: "eid edit"). L'_eid_ dell'_edit_ deve essere cercato attraverso la funzione di [lookup](lookup.md) e ad esso deve essere premesso, separato da "/", l'identificativo dell'_item_ (la voce _item ID_ nella finestra di _lookup_).
    
 > Se sul codice è presente una nota di possesso che permette di stabilire che il codice è stato posseduto da un personaggio noto, è necessario procedere nel seguente modo.
-> Nella parte Edits registrare, trascrivere e descrivere la nota di possesso. A questa sarà attribuito un EID. In [EventsPart](Events_Part.md) dovrà essere creato un evento con type "possesso" che abbia due _related entities_: 1. il possessore del codice (type: "posseduto da"); 2. l'EID dell'Edit in questione (type: "testimoniato da" [🚧 voce da aggiungere al thesaurus di Events]). [ 🚧  link a authority file identificativi persona]
+> Nella parte Edits registrare, trascrivere e descrivere la nota di possesso. A questa sarà attribuito un _eid_. In [EventsPart](Events_Part.md) dovrà essere creato un evento con type "possesso" che abbia due _related entities_: 1. il possessore del codice (type: "posseduto da"); 2. l'_eid_ dell'Edit in questione (type: "attestato da". L'_eid_ dell'_edit_ deve essere cercato attraverso la funzione di [lookup](lookup.md) e ad esso deve essere premesso, separato da "/", l'identificativo dell'_item_ (la voce _item ID_ nella finestra di _lo
+
 
 ### Type
 Permette di indicare la tipologia dell'intervento scrittorio. Selezionare uno o più valori tra:
