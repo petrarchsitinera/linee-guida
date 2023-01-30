@@ -46,9 +46,9 @@
 |[Literary Work Part](Literary_Work_Part.md)|**mod**|author|n.n.|
 |[Chronotopes Part](Asserted_Chronotope_Part.md)|**mod**|tag|n.n.|
 |[Letter Info Part](Letter_Info_Part.md)|**mod**|esempi|n.n.|
-|[Referenced Text Part](Referenced_Text_Part.md)|**mod**|target id; esempi per location e source|n.n.|
+|[Referenced Text Part](Referenced_Text_Part.md)|ok|-|n.n.|
 |[Related Person Part](Related_Person_Part.md)|**mod**|id > asserted id|n.n.|
-|[Witnesses Part](Witnesses_Part.md)|**mod**|lookup|n.n.|
+|[Witnesses Part](Witnesses_Part.md)|ok|-|n.n.|
 |Meta, IDs, Events, Biblio, Note|vedi sopra|-|n.n.| |
 
 ## Item Manuscript
@@ -61,7 +61,7 @@
 |[Material Description Part](Material_Description_Part.md)|ok||n.n.|
 |[Watermarks Part](Watermarks_Part.md)|ok|-|n.n.|
 |[Layouts Part](Layouts_Part.md)|ok|-|📷|
-|[Hands Part](Hands_Part.md)|**mod**|cambiare regole eid|n.n.   |
+|[Hands Part](Hands_Part.md)|**mod**|appartenenza di Hand a copista|n.n.   |
 |[Edits Part](Edits_Part.md)|**mod**|cambiare regole eid|n.n.   |
 |[Decorations Part](Decorations_Part.md)|**mod**|cambiare regole eid|n.n.   |
 |[Bindings Part](Bindings_Part.md)|ok|-|n.n.|
