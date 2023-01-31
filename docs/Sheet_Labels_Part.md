@@ -69,26 +69,26 @@ Ad ogni riga è attribuita automaticamente un'etichetta costituita da un numero 
 Permette di inserire le carte di guardia anteriori.  
 Nel campo _type_ selezionare _front endleaf_; nel campo _count_ inserire il numero complessivo delle carte di guardia anteriori.  
 Cliccando il comando _+ add_, viene creato un numero di righe pari al numero delle facciate (recto o verso) delle carte di guardia anteriori.  
-Ad ogni riga è attribuita automaticamente un'etichetta costituita da un numero arabo progressivo seguito dall'indicazione r/v, tra parentesi tonde: (1r), (1v), (2r), (2v), etc. La numerazione standard in numeri romani andrà registrata sulla colonna _n_ (cfr. **Numberings**).   
-Ulteriori informazioni relative alle carte di guardia potranno essere inserite nella sezione Endleaves (vedi oltre).
+Ad ogni riga è attribuita automaticamente un'etichetta costituita da un numero arabo progressivo seguito dall'indicazione r/v, tra parentesi tonde: (1r), (1v), (2r), (2v), etc. La numerazione standard in numeri romani andrà registrata sulla colonna _n_ (cfr. [Numbering](Sheet_Labels_Part.md#numbering)).   
+Ulteriori informazioni relative alle carte di guardia potranno essere inserite nella sezione [Endleaves](Sheet_Labels_Part.md#endleaves).  
 
 ##### Back endleaf
 Permette di inserire le carte di guardia posteriori.  
 Nel campo _type_ selezionare _back endleaf_; nel campo _count_ inserire il numero complessivo delle carte di guardia posteriori.  
 Cliccando il comando _+ add_, viene creato un numero di righe pari al numero delle facciate (recto o verso) delle carte di guardia posteriori.  
-Ad ogni riga è attribuita automaticamente un'etichetta costituita da un numero arabo progressivo preceduto da /, seguito dall'indicazione r/v, tra parentesi tonde: (/1r), (/1v), (/2r), (/2v), etc. La numerazione standard in numeri romani andrà registrata sulla colonna _n_ (cfr. **Numberings**).    
-Ulteriori informazioni relative alle carte di guardia potranno essere inserite nella sezione Endleaves (vedi oltre).
+Ad ogni riga è attribuita automaticamente un'etichetta costituita da un numero arabo progressivo preceduto da /, seguito dall'indicazione r/v, tra parentesi tonde: (/1r), (/1v), (/2r), (/2v), etc. La numerazione standard in numeri romani andrà registrata sulla colonna _n_ (cfr. [Numbering](Sheet_Labels_Part.md#numbering)).    
+Ulteriori informazioni relative alle carte di guardia potranno essere inserite nella sezione [Endleaves](Sheet_Labels_Part.md#endleaves).  
 
 ##### Front cover
 Permette di inserire il piatto e il contropiatto anteriori.  
 Nel campo _type_ selezionare _front cover_.  
-Cliccando il comando _+ add_, vengono create due righe, una relativa al piatto anteriore ed una relativa al contropiatto anteriore, a cui sono attribuite rispettivamente le etichette [r] e [v]. Gli stessi valori andranno poi riportati sulla colonna _n_ (cfr. **Numberings**).      
+Cliccando il comando _+ add_, vengono create due righe, una relativa al piatto anteriore ed una relativa al contropiatto anteriore, a cui sono attribuite rispettivamente le etichette [r] e [v]. Gli stessi valori andranno poi riportati sulla colonna _n_ (cfr. [Numbering](Sheet_Labels_Part.md#numbering)).      
 La creazione di _front cover_ è necessaria qualora, in altre _parts_, si debbano descrivere elementi presenti sul piatto o sul contropiatto anteriori (es. note di possesso), richiamando la rispettiva [CodLocation](Cod_Location_Brick.md).   
 
 ##### Back cover
 Permette di inserire il piatto e il contropiatto posteriori.  
 Nel campo _type_ selezionare _back cover_.  
-Cliccando il comando _+ add_, vengono create due righe, una relativa al piatto posteriore ed una relativa al contropiatto posteriore, a cui sono attribuite rispettivamente le etichette [/r] e [/v]. Gli stessi valori andranno poi riportati sulla colonna _n_ (cfr. **Numberings**).      
+Cliccando il comando _+ add_, vengono create due righe, una relativa al piatto posteriore ed una relativa al contropiatto posteriore, a cui sono attribuite rispettivamente le etichette [/r] e [/v]. Gli stessi valori andranno poi riportati sulla colonna _n_ (cfr. [Numbering](Sheet_Labels_Part.md#numbering)).      
 La creazione di _back cover_ è necessaria qualora, in altre _parts_, si debbano descrivere elementi presenti sul piatto o sul contropiatto posteriori (es. note di possesso), richiamando la rispettiva [CodLocation](Cod_Location_Brick.md).
 
 #### Columns
