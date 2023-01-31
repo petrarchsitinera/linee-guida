@@ -11,6 +11,10 @@ La sezione permette di descrivere e rappresentare su una tabella le carte del co
 
 L'interfaccia presenta due riquadri: _action_ e _adder_. In essi sono contenuti gli operatori che permettono di creare e modificare una tabella. Nella tabella le righe rappresentano le carte reali del manoscritto; le colonne rappresentano la fascicolazione e i sistemi di numerazione e segnatura.  
 
+![Schermata iniziale](docs/assets/images/sheelabels_main.png)
+
+docs/assets/images/sheelabels_main.png
+
 Nel capitolo 'Comandi principali' sono descritte le modalità di funzionamento degli operatori contenuti nei riquadri _adder_ e _action_, e dei comandi interni alle celle della tabella.  
 Nel capitolo 'Compilazione' sono illustrati i passaggi da seguire per la compilazione della tabella e per la descrizione di numerazione, fascicolazione, richiami, segnature.  
 
