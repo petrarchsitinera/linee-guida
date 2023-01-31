@@ -1,23 +1,6 @@
 # 🚧 ELIMINARE QUESTA PAGINA UNA VOLTA FINITO IL SITO
 (anzi pulirla e tenerla per fare indice di tutte le parti)
 
-MANOSCRITTO:
--SheetLabels e CodLocation (Daniele)  
--Hands  
--Edit  
--Loci  
-
-GENERALI:
--finire eid, Asserted id, assertion  
--Events+thesaurus   
--bricks: editor, save, etc.
--foto parti generali
--rev
-
-TEXT-PERSON:
--rev;
-
-CONTROLLARE ASSUNTI
 
 ## Parti Generali (parts comuni, bricks, istruzioni)
 |Parte|Stato|manca|immagini|  
@@ -25,7 +8,7 @@ CONTROLLARE ASSUNTI
 |Homepage|**mod**|definire struttura e sottopagine di supporto; altre cose generali: template complessivo; banda di riepilogo su ogni pagina; etc.|-|
 |[Metadata Part](Metadata_Part.md)|ok|-|-|
 |[Events Part](Events_Part.md)|**rev**|-|-|
-|[Events Thesaurus](Events_Thesaurus.md)|**no**|ex novo: oppure, senza casi, spiegati ad un seminario dopo aver compilato qualche item con events|📷|
+|[Events Thesaurus](Events_Thesaurus.md)|**no**|ex novo: oppure, senza casi, spiegati ad un seminario dopo aver compilato qualche item con events|-|
 |[grafo](semantic_graph.md)|**no**|ex novo, dopo|-|
 |[Bibliography Part](External_Bibliography_Part.md)|**rev**|-|📷|
 |[Note Part](Note_Part.md)|ok|-|-|
@@ -33,13 +16,13 @@ CONTROLLARE ASSUNTI
 |[eid](identifiers.md)|ok|-|-|
 |[lookup](lookup.md)|**no**|ex novo|-|
 |[repositories](repository.md)|**no**|ex novo e link ulteriori|-|
-|[Editor elemento](Editor_Brick.md)|**no**|ex novo|📷|
+|[Editor elemento](Editor_Brick.md)|ok|-|ok|
 |[Editor asserzione](Assertion_Brick.md)|**rev**|rank, key|📷|
 |[Editor cronotopo](Asserted_Chronotope_Brick.md)|**mod**|Cursi "moderna", etc.; norme place|📷|
 |[Codicological Location](Cod_Location_Brick.md)|**rev**|Daniele|-|
 |[Physical Size](Physical_Size_Brick.md)|ok|-|-|
 |[Cod Image](Cod_Image_Brick.md)|ok|-|-|
-|[Salvataggio](part_save.md)|ok|-|📷|
+|[Salvataggio](part_save.md)|ok|-|ok|
 |ALTRO?|-|-|-| |
 
 ## Item Person
@@ -86,3 +69,23 @@ CONTROLLARE ASSUNTI
 |[Locations Part](Locations_Part.md)|ok|-|-|
 |[Toponyms Part](Toponyms_Part.md)|ok|-|-|
 |Meta, IDs, Events, Biblio, Note|vedi sopra|-|-| |
+
+**************************************************************************
+DA FARE
+MANOSCRITTO:
+-SheetLabels e CodLocation (Daniele)  
+-Hands  
+-Edit  
+-Loci  
+
+GENERALI:
+-finire eid, Asserted id, assertion  
+-Events+thesaurus   
+-bricks: editor, save, etc.
+-foto parti generali
+-rev
+
+TEXT-PERSON:
+-rev;
+
+CONTROLLARE ASSUNTI
