@@ -93,7 +93,11 @@ Si dà la seguente formula esemplificativa, dove sono espressi tutti valori poss
 >              - “/5]” e “5/”, non obbligatori e alternativi, indicano il colonnino destro della seconda colonna, con scrittura o vuoto;   
 >              - “15” indica il margine destro, obbligatorio.
 
-Una volta inserita la formula è necessario cliccare sul tasto di spunta blu _apply formula_: tutti i valori inseriti compariranno in _dimensions_ sotto i rispettivi ID.
+
+Una volta inserita la formula è necessario cliccare sul tasto di spunta blu _apply formula_. 
+> ![](/docs/assets/images/layout_applyfor.png)   
+
+Tutti i valori inseriti compariranno in _dimensions_ sotto i rispettivi ID.
 
 La compilazione del campo è obbligatoria. Ove la sintassi non sia rispettata, non risulterà possibile validare la formula.
 
@@ -108,7 +112,8 @@ Ogni elemento _dimension_ è provvisto di:
 * _value_: valore misurato; 
 * _unit_: unità di misura prescelta, automaticamente impostata come “mm”. 
 
-È possibile modificare il valore dei singoli elementi ed aggiornare conseguentemente la formula cliccando, all’interno del campo _layout formula_, il tasto _update formula_. 
+È possibile modificare il valore dei singoli elementi ed aggiornare conseguentemente la formula cliccando, all’interno del campo _layout formula_, il tasto _update formula_.  
+> ![](/docs/assets/images/layout_updatefor.png)
 
 
 ### Note
