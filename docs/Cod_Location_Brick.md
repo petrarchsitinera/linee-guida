@@ -20,7 +20,7 @@ Ogni singola _location_ può contenere i seguenti elementi:
 * **facciata**: in caso di cartulazione, è possibile indicare il recto della carta con _r_, il verso con _v_;
   > es. 4**r**  
   > es. "IV"**v** 🚧  
-  > es. 3"bis"**r**🚧  
+  > es. 3"bis"**r** 🚧  
 * **colonna**: in caso di impaginazione a più colonne, è possibile indicare la colonna con lettera alfabetica minuscola (a, b, ...);
   > es. 4r**a**  
 * **linea**: è possibile, se necessario, registrare la linea di testo: inserire il numero preceduto da punto (.); 
