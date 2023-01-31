@@ -243,16 +243,17 @@ L'applicazione della formula assegna alle celle interessate delle etichette corr
 
 > La formula dell'esempio precedente assegna a partire dalla carta fisica "11v" i valori: 11v=XI, 12r=XII, 12v=XIII, 13r=XIV.  
 
-
+🚧  
 È sempre possibile editare manualmente il valore di una cella cliccando sul suo campo _edit value_.  
 Si ricorre a questa modalità di compilazione nel caso in cui:  
 * i valori della numerazione presentino errori e discontinuità;
 * la numerazione sia costituita da segni diversi da cifre arabiche, numeri romani, serie di lettere in ordine alfabetico:  
-   * se la numerazione presenta un valore completamente arbitrario, il campo  deve essere compilato con il numero 0 seguito dal valore presente sul manoscritto riportato tra virgolette (es. 0"abc", 0"prima", etc.);
-   * se la numerazione presenta un valore tipo '13bis', il campo deve essere compilato con il numero 13 seguito da "bis" riportato tra virgolette;
+   * se la numerazione presenta un valore completamente arbitrario, il campo deve essere compilato con il valore presente sul manoscritto 🚧 riportato tra virgolette (es. "abc", "prima", etc.) 🚧;
+   * se la numerazione presenta un valore tipo '13bis', il campo deve essere compilato 🚧 con il numero 13 seguito da "bis" riportato tra virgolette 🚧;
 * una o più carte non siano numerate:
    * se in una cartulazione 1-3, c. 1 è numerata '1', c. 2 non è numerata, c. 3 è numerata '3', alla c. 2 è attribuita l'etichetta '2' e nel campo _edit note_ della cella è inserita l'annotazione 'non numerata'.  
-   * se in una cartulazione 1-3, c. 1 è numerata '1', c. 2 non è numerata, c. 3 è numerata '2', alla c. 2 è attribuita l'etichetta 1"bis" e nel campo _edit note_ della cella è inserita l'annotazione 'non numerata'.  
+   * se in una cartulazione 1-3, c. 1 è numerata '1', c. 2 non è numerata, c. 3 è numerata '2', alla c. 2 è attribuita l'etichetta 🚧1"bis"🚧 e nel campo _edit note_ della cella è inserita l'annotazione 'non numerata'.  
+🚧  
 
 ⚠️ Sulla colonna relativa alla numerazione di riferimento (_n_) è necessario attribuire sempre, attraverso il campo _edit value_, valori predefiniti alle celle relative a:
 * coperta e controcoperta anteriore (_front cover_): riportare i valori [r], [v];
