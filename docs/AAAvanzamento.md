@@ -5,8 +5,10 @@
 -CodLocationBrick, Hands, Edit, Loci
 
 # GENERALI:
--finire eid, Asserted id, assertion
--altre parti generali: editor, save, etc.
+-finire eid, Asserted id, assertion  
+-Events+thesaurus  
+-biblio  
+-bricks: editor, save, etc.
 -foto parti generali
 
 # TEXT-PERSON:
