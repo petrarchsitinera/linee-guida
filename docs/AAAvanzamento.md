@@ -3,7 +3,7 @@
 
 # OGGI, SANDRA+NICOLA:
 -finire eid, Asserted id, assertion
--finire ms (Hands, Edit, SheetLabels, Loci, CodLocationBrick, CodImageBrick)
+-finire ms (SheetLabels, CodLocationBrick, Hands, Edit, Loci, CodImageBrick)
 -aggiungere foto
 
 # VENERDI, NAS:
@@ -67,17 +67,17 @@
 |[indice](Item_Manuscript_Index.md)|ok|-|n.n.   |
 |[Creazione dell'item](Item_Manuscript_Metadata.md)|ok|-|n.n.|
 |[Shelfmarks Part](Shelfmarks_Part.md)|ok|-|n.n.|
-|[Sheet Labels Part](Sheet_Labels_Part.md)|**mod**|aggiungere front e back cover|📷|
+|[Sheet Labels Part](Sheet_Labels_Part.md)|ok|-|ok|
 |[Material Description Part](Material_Description_Part.md)|ok||n.n.|
 |[Watermarks Part](Watermarks_Part.md)|ok|-|n.n.|
-|[Layouts Part](Layouts_Part.md)|ok|-|📷|
+|[Layouts Part](Layouts_Part.md)|ok|-|ok|
 |[Hands Part](Hands_Part.md)|**mod**|definire tripla per appartenenza di Hand a copista; inserire repository signs|n.n.   |
 |[Edits Part](Edits_Part.md)|**mod**|rivedere eid|n.n.   |
 |[Decorations Part](Decorations_Part.md)|ok|-|n.n.   |
 |[Bindings Part](Bindings_Part.md)|ok|-|n.n.|
 |[Contents Part](Contents_Part.md)|ok|-|n.n.   |
 |[Loci Part](Loci_Part.md)|**mod**|definire regole trascrizione|n.n.|
-|[Poem Ranges Part](Poem_Ranges_Part.md)|ok|-|📷|
+|[Poem Ranges Part](Poem_Ranges_Part.md)|ok|-|ok|
 |[History Part](History_Part.md)|ok|-|n.n.   |
 |[Locations Part](Locations_Part.md)|ok|-|n.n.   |
 |[Toponyms Part](Toponyms_Part.md)|ok|-|n.n.   |
