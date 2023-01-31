@@ -395,7 +395,7 @@ Si ricorre a questa modalità di compilazione nel caso in cui si vogliano regist
 
 ## Endleaves
 La sezione permette di elencare e descrivere le carte di guardia.  
-Per descrivere le carte di guardia aggiungere un elemento _endleaf_ mediante [[editor|Editor_Brick.md]].  
+Per descrivere le carte di guardia aggiungere un elemento _endleaf_ mediante [editor](Editor_Brick.md).  
 
 Per ogni elemento _endleaf_ è possibile compilare i seguenti campi:  
 * _location_: permette di indicare la carta di guardia da descrivere, selezionandola tra quelle precedentemente create (da menu a tendina);  
