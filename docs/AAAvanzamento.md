@@ -1,15 +1,16 @@
 # 🚧 ELIMINARE QUESTA PAGINA UNA VOLTA FINITO IL SITO
 (anzi pulirla e tenerla per fare indice di tutte le parti)
 
-# OGGI, SANDRA+NICOLA:
--finire eid, Asserted id, assertion
--finire ms (SheetLabels, CodLocationBrick, Hands, Edit, Loci, CodImageBrick)
--aggiungere foto
+# MANOSCRITTO:
+-CodLocationBrick, Hands, Edit, Loci, CodImageBrick
 
-# VENERDI, NAS:
--dettagli Text e Person
--altre parti generali
+# GENERALI:
+-finire eid, Asserted id, assertion
+-altre parti generali: editor, save, etc.
 -foto parti generali
+
+# TEXT-PERSON:
+-revisione finale;
 
 > Legenda  
 > Fatta: ok; mod(ifiche); no   
