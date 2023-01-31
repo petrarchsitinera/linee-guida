@@ -11,9 +11,7 @@ La sezione permette di descrivere e rappresentare su una tabella le carte del co
 
 L'interfaccia presenta due riquadri: _action_ e _adder_. In essi sono contenuti gli operatori che permettono di creare e modificare una tabella. Nella tabella le righe rappresentano le carte reali del manoscritto; le colonne rappresentano la fascicolazione e i sistemi di numerazione e segnatura.  
 
-![Schermata iniziale](docs/assets/images/sheelabels_main.png)
-
-docs/assets/images/sheelabels_main.png
+![Schermata iniziale](/docs/assets/images/sheelabels_main.png)   
 
 Nel capitolo 'Comandi principali' sono descritte le modalità di funzionamento degli operatori contenuti nei riquadri _adder_ e _action_, e dei comandi interni alle celle della tabella.  
 Nel capitolo 'Compilazione' sono illustrati i passaggi da seguire per la compilazione della tabella e per la descrizione di numerazione, fascicolazione, richiami, segnature.  
@@ -26,31 +24,45 @@ Permette di aggiungere righe e colonne alla tabella.
 Il campo _type_ permette di selezionare il tipo di elemento da aggiungere.   
 Gli elementi si suddividono in _rows_ (righe) e _columns_ (colonne).  
 
-Gli elementi di tipo _rows_ sono: _front cover, _front endleaf_, _body_, _back endleaf_, _back cover_.  
-Per ogni elemento è possibile, attraverso il campo _count_, indicare il numero di righe da aggiungere.
+Gli elementi di tipo _rows_ sono: _front cover_, _front endleaf_, _body_, _back endleaf_, _back cover_.  
+Per ogni elemento è possibile, attraverso il campo _count_, indicare il numero di righe da aggiungere.  
 
 Gli elementi di tipo _columns_ sono: _quire_, _numbering_, _catchword_, _signature_, _register_.   
 Per ogni elemento è possibile, attraverso il campo _name_, attribuire un titolo alla rispetttiva colonna.
 
-⚠️ Il comando _Trim table rows_ cancella le righe non compilate.  
-⚠️ Il comando _Trim table rows and columns cancella righe e colonne non compilate.  
+Il comando _add_ aggiunge la riga del tipo selezionato.  
+> ![](/docs/assets/images/sheelabels_add.png)
+
+Il comando _Trim table rows_ cancella le righe non compilate.  
+> ![](/docs/assets/images/sheelabels_trimtablerows.png)  
+
+Il comando _Trim table rows and columns_ cancella righe e colonne non compilate.  
+> ![](/docs/assets/images/sheelabels_trimtablerowscolumns.png)  
 
 #### Action
 Permette di selezionare una delle colonne create e di attribuire dei valori alle celle che la costituiscono; inoltre, permette di fornire una descrizione dell'elemento rappresentato dalla colonna.
 
-È costituito da tre campi:
-
+È costituito da due campi:  
 * _column_: permette di selezionare la colonna su cui si vuole intervenire; 
-* _edit the selected column definition_: apre un editor che permette di fornire una descrizione dell'elemento prescelto;
 * _action_: permette, attraverso una specifica formula, di attribuire dei valori alle celle della colonna.  
 
-⚠️ Il comando _delete the selected column_ permette di eliminare l'intera colonna selezionata.
+Il comando _execute_ compila la colonna selezionata secondo la formula inserita nel campo _action_.
+> ![](/docs/assets/images/sheelabels_execute.png)
+
+Il comando _edit the selected column definition_ apre un editor che permette di fornire una descrizione dell'elemento relativo alla colonna selezionata (numerazione, richiami, segnatura fascicolare e a registro).  
+> ![](/docs/assets/images/sheelabels_editselectedcoldef.png)
+ 
+Il comando _delete the selected column_ permette di eliminare l'intera colonna selezionata.
+> ![](/docs/assets/images/sheelabels_delselectedcol.png)
+
 
 #### Celle
 In ogni cella sono presenti due campi:
 
-* _edit value_: permette di attribuire alla cella un valore;
+* _edit value_: permette di attribuire alla cella un valore;  
+> ![](/docs/assets/images/sheelabels_editlabel.png)
 * _edit note_: permette di aggiungere una nota relativa alla cella.
+> ![](/docs/assets/images/sheelabels_editnote.png)
 
 
 ### Compilazione
@@ -127,7 +139,7 @@ n1 x n2 = q n3 / n4
 * n3 = il numero di fascicolo iniziale della serie che si intende inserire;
 * n4 = il numero delle carte che compongono ogni fascicolo della serie che si intende inserire.  
 
-> es. 1x2=q1/4 permette la creazione di due fascicoli di 4 carte a partire dalla prima carta fisica del corpo del codice:
+> es. 1x2=q1/4 permette la creazione di due fascicoli di 4 carte a partire dalla prima carta fisica del corpo del codice:  
 >           -1: la fascicolazione parte dalla carta contrassegnata "1r" nella colonna relativa alla carte fisiche (colonna grigia a sinistra);  
 >           -2: sono creati due fascicoli dello stesso tipo;  
 >           -q1: il primo fascicolo della serie inserita è il fascicolo n. 1;  
