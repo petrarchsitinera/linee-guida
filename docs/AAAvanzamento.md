@@ -33,12 +33,12 @@
 |[Note Part](Note_Part.md)|ok|-|-|
 |[Asserted Ids](Asserted_Ids_Brick.md)|**no**|ex novo|-|
 |[eid](identifiers.md)|ok|-|n.n.|
-|[lookup](lookup.md)](Asserted_Ids_Brick.md)|**no**|ex novo|-|
-|[repositories](repository.md)(Asserted_Ids_Brick.md)|**no**|ex novo e link ulteriori|-|
+|[lookup](lookup.md)]|**no**|ex novo|-|
+|[repositories](repository.md)|**no**|ex novo e link ulteriori|-|
 |[Editor elemento](Editor_Brick.md)|no|ex novo|📷|
 |[Editor asserzione](Assertion_Brick.md)|**mod**|rank, key|📷|
 |[Editor cronotopo](Asserted_Chronotope_Brick.md)|**mod**|Cursi "moderna", etc.; norme place|📷|
-|[Codicological Location](Cod_Location_Brick.md)|**no**|ex novo|📷|
+|[Codicological Location](Cod_Location_Brick.md)|**mod**|Daniele|-|
 |[Physical Size](Physical_Size_Brick.md)|ok|-|-|
 |[Cod Image](Cod_Image_Brick.md)|ok|-|-|
 |[Salvataggio](part_save.md)|ok|-|📷|
@@ -73,7 +73,7 @@
 |[indice](Item_Manuscript_Index.md)|ok|-|-|
 |[Creazione dell'item](Item_Manuscript_Metadata.md)|ok|-|-|
 |[Shelfmarks Part](Shelfmarks_Part.md)|ok|-|-|
-|[Sheet Labels Part](Sheet_Labels_Part.md)|ok|-|ok|
+|[Sheet Labels Part](Sheet_Labels_Part.md)|**mod**|Daniele|ok|
 |[Material Description Part](Material_Description_Part.md)|ok|-|
 |[Watermarks Part](Watermarks_Part.md)|ok|-|-|
 |[Layouts Part](Layouts_Part.md)|ok|-|ok|
