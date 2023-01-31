@@ -2,7 +2,7 @@
 (anzi pulirla e tenerla per fare indice di tutte le parti)
 
 # MANOSCRITTO:
--CodLocationBrick, Hands, Edit, Loci, CodImageBrick
+-CodLocationBrick, Hands, Edit, Loci
 
 # GENERALI:
 -finire eid, Asserted id, assertion
@@ -35,7 +35,7 @@
 |[Editor cronotopo](Asserted_Chronotope_Brick.md)|**mod**|Cursi "moderna", etc.; norme place|📷|
 |[Codicological Location](Cod_Location_Brick.md)|**no**|ex novo|📷|
 |[Physical Size](Physical_Size_Brick.md)|ok|-|📷|
-|[Cod Image](Cod_Image_Brick.md)|no|-|📷|
+|[Cod Image](Cod_Image_Brick.md)|ok|-|n.n.|
 |[Salvataggio](part_save.md)|ok|-|📷|
 |ALTRO?|-|-|n.n.| |
 
