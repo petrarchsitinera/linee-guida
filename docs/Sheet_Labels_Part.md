@@ -22,7 +22,7 @@ Permette di aggiungere righe e colonne alla tabella.
 Il campo _type_ permette di selezionare il tipo di elemento da aggiungere.   
 Gli elementi si suddividono in _rows_ (righe) e _columns_ (colonne).  
 
-Gli elementi di tipo _rows_ sono: _front endleaf_, _body_, _back endleaf_.  
+Gli elementi di tipo _rows_ sono: _front cover, _front endleaf_, _body_, _back endleaf_, _back cover_.  
 Per ogni elemento è possibile, attraverso il campo _count_, indicare il numero di righe da aggiungere.
 
 Gli elementi di tipo _columns_ sono: _quire_, _numbering_, _catchword_, _signature_, _register_.   
@@ -51,8 +51,8 @@ In ogni cella sono presenti due campi:
 
 ### Compilazione
 Per la creazione e la compilazione della tabella si consiglia di procedere secondo l'ordine presentato di seguito, verificando ad ogni passaggio la correttezza delle informazioni inserite.  
-In primo luogo è necessario creare le righe della tabella (_rows_): _body_ (obbligatorio); _front endleaves_ e _back endleaves_ (opzionale).  
-In seguito, è possibile creare le colonne (_columns_), a partire preferibilmente da _quires_ e _numberings_.
+In primo luogo è necessario creare le righe della tabella (_rows_): _body_ (obbligatorio); _front endleaves_ e _back endleaves_ (opzionale); _front cover_ e _back cover_ (opzionale).  
+In seguito, è possibile creare le colonne (_columns_), a partire preferibilmente da _quires_ o _numberings_.
 
 #### Rows
 Per aggiungere righe alla tabella, utilizzare il riquadro _adder_.  
@@ -69,15 +69,27 @@ Ad ogni riga è attribuita automaticamente un'etichetta costituita da un numero 
 Permette di inserire le carte di guardia anteriori.  
 Nel campo _type_ selezionare _front endleaf_; nel campo _count_ inserire il numero complessivo delle carte di guardia anteriori.  
 Cliccando il comando _+ add_, viene creato un numero di righe pari al numero delle facciate (recto o verso) delle carte di guardia anteriori.  
-Ad ogni riga è attribuita automaticamente un'etichetta costituita da un numero arabo progressivo seguito dall'indicazione r/v, tra parentesi tonde: (1r), (1v), (2r), (2v), etc.  
+Ad ogni riga è attribuita automaticamente un'etichetta costituita da un numero arabo progressivo seguito dall'indicazione r/v, tra parentesi tonde: (1r), (1v), (2r), (2v), etc. La numerazione standard in numeri romani andrà registrata sulla colonna _n_ (cfr. **Numberings**).   
 Ulteriori informazioni relative alle carte di guardia potranno essere inserite nella sezione Endleaves (vedi oltre).
 
 ##### Back endleaf
 Permette di inserire le carte di guardia posteriori.  
 Nel campo _type_ selezionare _back endleaf_; nel campo _count_ inserire il numero complessivo delle carte di guardia posteriori.  
 Cliccando il comando _+ add_, viene creato un numero di righe pari al numero delle facciate (recto o verso) delle carte di guardia posteriori.  
-Ad ogni riga è attribuita automaticamente un'etichetta costituita da un numero arabo progressivo preceduto da /, seguito dall'indicazione r/v, tra parentesi tonde: (/1r), (/1v), (/2r), (/2v), etc.  
+Ad ogni riga è attribuita automaticamente un'etichetta costituita da un numero arabo progressivo preceduto da /, seguito dall'indicazione r/v, tra parentesi tonde: (/1r), (/1v), (/2r), (/2v), etc. La numerazione standard in numeri romani andrà registrata sulla colonna _n_ (cfr. **Numberings**).    
 Ulteriori informazioni relative alle carte di guardia potranno essere inserite nella sezione Endleaves (vedi oltre).
+
+##### Front cover
+Permette di inserire il piatto e il contropiatto anteriori.  
+Nel campo _type_ selezionare _front cover_.  
+Cliccando il comando _+ add_, vengono create due righe, una relativa al piatto anteriore ed una relativa al contropiatto anteriore, a cui sono attribuite rispettivamente le etichette [r] e [v]. Gli stessi valori andranno poi riportati sulla colonna _n_ (cfr. **Numberings**).      
+La creazione di _front cover_ è necessaria qualora, in altre _parts_, si debbano descrivere elementi presenti sul piatto o sul contropiatto anteriori (es. note di possesso), richiamando la rispettiva [CodLocation](Cod_Location_Brick.md).   
+
+##### Back cover
+Permette di inserire il piatto e il contropiatto posteriori.  
+Nel campo _type_ selezionare _back cover_.  
+Cliccando il comando _+ add_, vengono create due righe, una relativa al piatto posteriore ed una relativa al contropiatto posteriore, a cui sono attribuite rispettivamente le etichette [/r] e [/v]. Gli stessi valori andranno poi riportati sulla colonna _n_ (cfr. **Numberings**).      
+La creazione di _back cover_ è necessaria qualora, in altre _parts_, si debbano descrivere elementi presenti sul piatto o sul contropiatto posteriori (es. note di possesso), richiamando la rispettiva [CodLocation](Cod_Location_Brick.md).
 
 #### Columns
 Per aggiungere colonne alla tabella, utilizzare il riquadro _adder_.  
@@ -188,7 +200,7 @@ n1 * n2 = n3
 * n2 = la quantità di carte consecutive interessate dalla cartulazione che si intende inserire.  
 * n3 = il valore iniziale della serie che si intende inserire (arabo, romano o alfabetico).  
 
-> es. 1*10=1 permette la creazione di una cartulazione 1-10 a partire dalla prima carta fisica del corpo del codice:
+> es. 1\*10=1 permette la creazione di una cartulazione 1-10 a partire dalla prima carta fisica del corpo del codice:
 >           -1: la cartulazione parte dalla carta contrassegnata "1r" nella colonna relativa alla carte fisiche (colonna grigia a sinistra);
 >           -10: la cartulazione interessa 10 carte (20 caselle);  
 >           -1: la cartulazione inizia con il valore "1", e prosegue automaticamente con le cifre arabiche successive.  
@@ -226,10 +238,16 @@ Si ricorre a questa modalità di compilazione nel caso in cui:
    * se in una cartulazione 1-3, c. 1 è numerata '1', c. 2 non è numerata, c. 3 è numerata '3', alla c. 2 è attribuita l'etichetta '2' e nel campo _edit note_ della cella è inserita l'annotazione 'non numerata'.  
    * se in una cartulazione 1-3, c. 1 è numerata '1', c. 2 non è numerata, c. 3 è numerata '2', alla c. 2 è attribuita l'etichetta 1"bis" e nel campo _edit note_ della cella è inserita l'annotazione 'non numerata'.  
 
+⚠️ Sulla colonna relativa alla numerazione di riferimento (_n_) è necessario attribuire sempre, attraverso il campo _edit value_, valori predefiniti alle celle relative a:
+* coperta e controcoperta anteriore (_front cover_): riportare i valori [r], [v];
+* guardia anteriore (_front endleaf_): inserire numeri romani progressivi, seguiti da indicazione di recto o verso (es. Ir, Iv, IIr, IIv, ...);
+* guardia posteriore (_back endleaf_): inserire numeri romani progressivi con apice, seguiti da indicazione di recto o verso (es. I'r, I'v, II'r, II'v, ...);
+* coperta e controcoperta posteriore (_back cover_): riportare i valori [/r], [/v].  
+
 ⚠️ In presenza di due numerazioni complementari, e dunque nell'impossibilità di individuare una numerazione che possa fungere da riferimento per l'intera estensione del codice, è opportuno creare tre numerazioni:
 * una numerazione 'n.etichetta1' per la prima numerazione, fornendone la descrizione nell'editor;
 * una numerazione 'n.etichetta2' per la seconda numerazione, fornendone la descrizione nell'editor;
-* una numerazione 'n' risultante dalla somma dei valori delle due numerazioni complementari, compilando i campi _system_, _technique_ e _position_ con il valore '\---' [ 🚧 AGGIORNARE THESAURUS 🚧 ]
+* una numerazione 'n' risultante dalla somma dei valori delle due numerazioni complementari, compilando i campi _system_, _technique_ e _position_ con il valore '\---'.  
 
 > Questa soluzione può essere adottata in diversi casi, ad esempio:
 > * una numerazione antica copre le cc. 1-50 e una numerazione moderna copre le cc. 51-100;  
