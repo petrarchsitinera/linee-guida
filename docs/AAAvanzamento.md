@@ -1,48 +1,42 @@
 # 🚧 ELIMINARE QUESTA PAGINA UNA VOLTA FINITO IL SITO
 (anzi pulirla e tenerla per fare indice di tutte le parti)
 
-## MANCA
-### MANOSCRITTO:
+MANOSCRITTO:
 -SheetLabels e CodLocation (Daniele)  
 -Hands  
 -Edit  
 -Loci  
 
-### GENERALI:
+GENERALI:
 -finire eid, Asserted id, assertion  
--Events+thesaurus  
--biblio  
+-Events+thesaurus   
 -bricks: editor, save, etc.
 -foto parti generali
+-rev
 
-## TEXT-PERSON:
--revisione finale;
+TEXT-PERSON:
+-rev;
 
-## Legenda  
-> Fatta: ok; mod(ifiche); no   
-> manca: elenco cose che mancano  
-> immagini: sì, 📷 (=necessarie -di norma in tutti i brick), - (non necessarie)  
-
-> Le modifiche necessarie nelle pagine sono sempre segnalate con 🚧 
-> Oltre a quanto segnalato qui e nelle pagine controllare Assunti-LG
+CONTROLLARE ASSUNTI
 
 ## Parti Generali (parts comuni, bricks, istruzioni)
 |Parte|Stato|manca|immagini|  
 |-------------|----------|-----------|-----------|    
 |Homepage|**mod**|definire struttura e sottopagine di supporto; altre cose generali: template complessivo; banda di riepilogo su ogni pagina; etc.|-|
 |[Metadata Part](Metadata_Part.md)|ok|-|-|
-|[Events Part](Events_Part.md)|**mod**|ex novo|📷|
+|[Events Part](Events_Part.md)|**rev**|-|-|
 |[Events Thesaurus](Events_Thesaurus.md)|**no**|ex novo: oppure, senza casi, spiegati ad un seminario dopo aver compilato qualche item con events|📷|
-|[Bibliography Part](External_Bibliography_Part.md)|**no**|ex novo; spiegare anche DocReference e key qui|📷|
+|[grafo](semantic_graph.md)|**no**|ex novo, dopo|-|
+|[Bibliography Part](External_Bibliography_Part.md)|**rev**|-|📷|
 |[Note Part](Note_Part.md)|ok|-|-|
 |[Asserted Ids](Asserted_Ids_Brick.md)|**no**|ex novo|-|
-|[eid](identifiers.md)|ok|-|n.n.|
-|[lookup](lookup.md)]|**no**|ex novo|-|
+|[eid](identifiers.md)|ok|-|-|
+|[lookup](lookup.md)|**no**|ex novo|-|
 |[repositories](repository.md)|**no**|ex novo e link ulteriori|-|
-|[Editor elemento](Editor_Brick.md)|no|ex novo|📷|
-|[Editor asserzione](Assertion_Brick.md)|**mod**|rank, key|📷|
+|[Editor elemento](Editor_Brick.md)|**no**|ex novo|📷|
+|[Editor asserzione](Assertion_Brick.md)|**rev**|rank, key|📷|
 |[Editor cronotopo](Asserted_Chronotope_Brick.md)|**mod**|Cursi "moderna", etc.; norme place|📷|
-|[Codicological Location](Cod_Location_Brick.md)|**mod**|Daniele|-|
+|[Codicological Location](Cod_Location_Brick.md)|**rev**|Daniele|-|
 |[Physical Size](Physical_Size_Brick.md)|ok|-|-|
 |[Cod Image](Cod_Image_Brick.md)|ok|-|-|
 |[Salvataggio](part_save.md)|ok|-|📷|
