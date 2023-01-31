@@ -1,20 +1,24 @@
 # 🚧 ELIMINARE QUESTA PAGINA UNA VOLTA FINITO IL SITO
 (anzi pulirla e tenerla per fare indice di tutte le parti)
 
-# MANOSCRITTO:
--CodLocationBrick, Hands, Edit, Loci
+## MANCA
+### MANOSCRITTO:
+-SheetLabels e CodLocation (Daniele)  
+-Hands  
+-Edit  
+-Loci  
 
-# GENERALI:
+### GENERALI:
 -finire eid, Asserted id, assertion  
 -Events+thesaurus  
 -biblio  
 -bricks: editor, save, etc.
 -foto parti generali
 
-# TEXT-PERSON:
+## TEXT-PERSON:
 -revisione finale;
 
-> Legenda  
+## Legenda  
 > Fatta: ok; mod(ifiche); no   
 > manca: elenco cose che mancano  
 > immagini: sì, 📷 (=necessarie -di norma in tutti i brick), - (non necessarie)  
