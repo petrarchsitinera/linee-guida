@@ -6,7 +6,15 @@ Per ogni _item_ e per alcune delle sue parti, Itinera si serve di:
 ⚠️ La compilazione dell'_eid_ degli _item_ è obbligatoria [cfr. Metadata Part](Metadata_Part.md): senza di esso risulta impossibile stabilire un collegamento tra gli _item_.  
 
 ## EID
-Nei casi in cui sia necessario **creare ed attribuire** un _eid_, è necessario attenersi alle seguenti regole generali:  
+
+Nella banca dati Itinera gli _eid_ sono ospitati da campi denominati _EID_ o _ID_ o, se sono accompagnati da un'asserzione, [AssertedId](Asserted_Ids_Brick.md).  
+Ogni volta che si incontra uno di questi campi sono disponibili queste due opzioni, tra loro alternative:  
+* assegnazione di un nuovo _eid_, se l'entità ne è sprovvista;  
+* riuso di un _eid_ già esistente, per collegare la parte che si sta compilando con un'entità già presente nel database.
+
+### Creazione di un nuovo EID
+
+Nei casi in cui sia necessario **creare ed attribuire** un nuovo _eid_, è necessario attenersi alle seguenti regole generali:  
 * l'_eid_ deve essere composto esclusivamente con i caratteri a-z, 0-9; 
 * non utilizzare lettere maiuscole;  
 * utilizzare sempre underscore (\_) e mai trattino semplice (-); 
@@ -30,10 +38,10 @@ Nei casi in cui sia necessario **creare ed attribuire** un _eid_, è necessario 
 Il compilatore deve perciò in primo luogo verificare nel [repository](repository.md) se all'_item_ da descrivere è già stato attribuito un _eid_, e ricorrere a quello in caso positivo.  
 Diversamente, deve procedere ad attribuire un _eid_ all'_item_ facendo attenzione a che non corrisponda ad _eid_ già presenti, ricorrendo sia ai [repository](repository.md) sia alla funzione di [lookup](lookup.md).   
 
-Per **richiamare un _item_** è necessario richiamarne l'_eid_: anche in questo caso è possibile ricorrere alla funzione di [lookup](lookup.md).  
-Per **richiamare una _part_** è necessario richiamarne l'_eid_, cui deve essere premesso, separato da "/", l'identificativo dell'_item_ (la voce _item ID_ nella finestra di [lookup](lookup.md).  
 
-In alcuni casi, all'_eid_ può essere associata una [Assertion](Asserted_Ids_Brick.md).   
+### Riuso di un EID già esistente
+Se l'entità di interesse (_item_, _part_, o singolo elemento) è già provvista di un identificativo (_eid_) all'interno di Itinera, occorre riportare quest'ultimo.  
+Per cercare gli _eid_ esistenti è possibile ricorrere ai [repository](repository.md) (solo per determinati _items_) o alla funzione di [lookup](lookup.md) (per qualsiasi elemento).   
 
 
 ## External Ids
