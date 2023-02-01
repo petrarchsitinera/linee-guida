@@ -93,7 +93,7 @@ Per ogni elemento _unit_ inserito è necessario salvare cliccando sul tasto di s
 
 
 ## Palimpsests
-Per ogni palinsesto o, eventualmente, per gruppi di carte palinseste (di comune provenienza) è creato un elemento _palimpsest_ mediante [editor](Editor_Brick.md).
+Per ogni carta palinsesta o per gruppi di carte palinseste di comune provenienza, è creato un elemento _palimpsest_ mediante [editor](Editor_Brick.md).
 
 ### Range
 Permette di indicare la collocazione della carta palinsesta o del gruppo di carte palinseste secondo il modello [Cod Location](Cod_Location_Brick.md).
