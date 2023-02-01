@@ -37,7 +37,7 @@ Il flag viene spuntato nel caso in cui la regola di Gregory non sia rispettata.
 La compilazione del campo è riservata ai manoscritti membranacei.
 
 ### Format
-Permette di indicare il formato del manoscritto o dell'unità codicologica, qualora siano cartacei. Selezionare un valore tra:
+Permette di indicare il formato del manoscritto o dell'unità codicologica. Selezionare un valore tra:
 * --- (per i manoscritti membranacei)
 * in-folio
 * in-4°
@@ -45,7 +45,7 @@ Permette di indicare il formato del manoscritto o dell'unità codicologica, qual
 * in-16°
 * altro
 
-La compilazione del campo è obbligatoria.
+La compilazione del campo è riservata ai manoscritti cartacei.
 
 ### State
 Permette di indicare lo stato di conservazione del manoscritto o dell'unità codicologica. Selezionare un valore tra:
