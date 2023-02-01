@@ -4,7 +4,7 @@ Per creare, modificare, eliminare _parts_, accedere alla schermata riassuntiva s
 
 bla
 
-> <img src="/docs/assets/images/edbrick_partsumma.png">
+<img src="/docs/assets/images/edbrick_partsumma.png">
 
 Per creare una nuova _part_, selezionare dal menu a tendina del campo _part_ il nome di quella desiderata e cliccare sul comando _add part_.  
 > ![](/docs/assets/images/edbrick_addpart.png)  
