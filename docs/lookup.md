@@ -1,6 +1,12 @@
 # Strumento di lookup
+
 Per la ricerca di _eid_ già esistenti in Itinera è possibile ricorrere a uno strumento di ricerca interno al database (_lookup_).  
-Gli _eid_ sono identificativi che permettono di richiamare un'entità (_item_, _part_ o _element_): per ulteriori informazioni consultare [questa pagina](identifiers.md).   
+Inoltre, per alcuni _item_ e _parts_ è possibile consultare l'elenco degli _eid_ utilizzati nei [repository dedicati](repository.md).  
+ 
+⚠️ Gli _eid_ sono identificativi che permettono di richiamare un'entità (_item_, _part_ o _element_): per ulteriori informazioni consultare [questa pagina](identifiers.md).   
+
+## Lookup e campi 
+Nella banca dati Itinera gli _eid_ sono ospitati da campi denominati _EID_ o _ID_ o, se sono accompagnati da un'asserzione, [AssertedId](Asserted_Ids_Brick.md).  
 
 
 -a cosa serve
