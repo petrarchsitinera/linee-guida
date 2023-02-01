@@ -1,3 +1,4 @@
+# SOSTITUISCI LINK CON URI
 # Creare, modificare, eliminare _parts_
 Per creare, modificare, eliminare _parts_, accedere alla schermata riassuntiva selezionando la sezione _parts_ nella schermata superiore della scheda:
 > ![](/docs/assets/images/edbrick_partsumma.png?raw=true)  
@@ -5,7 +6,6 @@ Per creare, modificare, eliminare _parts_, accedere alla schermata riassuntiva s
 Per creare una nuova _part_, selezionare dal menu a tendina del campo _part_ il nome di quella desiderata e cliccare sul comando _add part_.  
 > ![](/docs/assets/images/edbrick_addpart.png)
 
-  ui
 
 > ![](https://github.com/petrarchsitinera/linee-guida/blob/7203f76a7487bf1a9e4d888b47c73d868ea4bb20/docs/assets/images/edbrick_addpart.png?raw=true) 
 
