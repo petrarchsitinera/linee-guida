@@ -1,9 +1,17 @@
 # Strumento di lookup
+Per la ricerca di _eid_ già esistenti in Itinera è possibile ricorrere a uno strumento di ricerca interno al database (_lookup_).  
+Gli _eid_ sono identificativi che permettono di richiamare un'entità (_item_, _part_ o _element_): per ulteriori informazioni consultare [questa pagina](identifiers.md).   
+
+
 -a cosa serve
 -tipo: integrato in campo (asserted id e altri casi) o attivabile con tool
 -cosa fa: 
   -pin
   -EID builder (casi in cui pescare solo pin, o in cui premettere id item)
+  Per **richiamare un _item_** è necessario richiamarne l'_eid_: anche in questo caso è possibile ricorrere alla funzione di [lookup](lookup.md).  
+
+Per **richiamare una _part_** è necessario richiamarne l'_eid_, cui deve essere premesso, separato da "/", l'identificativo dell'_item_ (la voce _item ID_ nella finestra di [lookup](lookup.md)).  
+
   -selezionare eid e copiare/importare
 
 
