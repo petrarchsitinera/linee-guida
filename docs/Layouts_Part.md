@@ -68,7 +68,7 @@ Per layout fortemente irregolari è possibile inserire, oltre ai valori riscontr
 La compilazione del campo è facoltativa, ma fortemente raccomandata.
 
 ### Layout formula
-Permette di esprimere le dimensioni della pagina e dello specchio di scrittura secondo le convenzioni correnti. Tutte le misure, rilevate nella carta _sample_, sono espresse in millimetri; le misure dell’altezza sono rilevate lungo la giustificazione interna, quelle della larghezza lungo la rettrice di testa; per una corretta misurazione è opportuno non spostare lo strumento, ma rilevare le scansioni interne, procedendo per sottrazione.
+Permette di esprimere le dimensioni della pagina e dello specchio di scrittura secondo le convenzioni correnti. Tutte le misure, rilevate nella carta _sample_, sono espresse in millimetri; le misure dell’altezza sono rilevate lungo la riga di giustificazione interna, quelle della larghezza lungo la rettrice di testa; per una corretta misurazione è opportuno non spostare lo strumento, ma rilevare le scansioni interne, procedendo per sottrazione.
 
 La formula è introdotta dalle misure dell’altezza moltiplicata per la larghezza, seguite dal segno di uguale; seguono, divise dal segno di moltiplicazione, la sezione delle misure relative all’altezza e la sezione delle misure relative alla larghezza, le cui somme devono coincidere con quelle dell’altezza e della larghezza complessive; le misure relative allo specchio di scrittura sono posizionate all’interno di parentesi quadre, quelle relative ai margini non scritti all’esterno; la presenza di colonnini è indicata da barre oblique “/”, a seconda che questi contengano o meno scrittura, sono situati all’interno o all’esterno delle parentesi quadre; nei manoscritti a due colonne l’intercolumnio è indicato all’interno delle parentesi quadre, racchiuso tra parentesi tonde; eventuali colonnini non scritti figurano all’interno delle parentesi quadre ma sono segnalati da asterisco.
 
@@ -77,15 +77,15 @@ Si dà la seguente formula esemplificativa, dove sono espressi tutti valori poss
 > “**240** × **150** = **30** / <u>5 [ 5</u>/ **170** / <u>5] 5</u>/ **40** × **15** / <u>5 [5</u> / **50** / 5<u>\*</u> (20) 5<u>\*</u> / 40 / <u>5] 5</u> / **15**”  
 >     - “240 × 150 =”: altezza e larghezza della pagina;  
 >      - “30 / 5 [ 5/ 170 / 5] 5/ 40”: misure relative all’altezza, ove:  
->              - “30” rappresenta il valore del margine superiore, obbligatorio;   
->              - “/5” e “[5/”, non obbligatori e alternativi, indicano la riga di testa, vuota o con scrittura;   
->              - “170” indica lo specchio di scrittura, obbligatorio;   
->              - “/5]” e “5/”, non obbligatori e alternativi, indicano la riga di piede, vuota o con scrittura;   
->              - “40” indica il margine inferiore, obbligatorio;  
+>              - “30” misura del margine superiore, obbligatoria;   
+>              - “/5” e “[5/”, non obbligatori e alternativi, indicano la misura della riga di testa, vuota o con scrittura;   
+>              - “170” misura dello specchio di scrittura, obbligatoria;   
+>              - “/5]” e “5/”, non obbligatori e alternativi, indicano la misura della riga di piede, vuota o con scrittura;   
+>              - “40” misura del margine inferiore, obbligatoria;  
 >       - “15 / 5 [5 / 50 / 5* (20) 5* / 40 / 5] 5 / 15”: misure relative alla larghezza, ove:   
->              - “15” indica il margine sinistro, obbligatorio;   
->              - “/5” e “[5/”, non obbligatori e alternativi, indicano il colonnino sinistro, vuoto o con scrittura;   
->              - “50” indica lo specchio di scrittura dell’unica colonna o della prima colonna in manoscritto a due colonne, obbligatorio;   
+>              - “15” indica la misura del margine sinistro, obbligatoria;   
+>              - “/5” e “[5/”, non obbligatori e alternativi, indicano la misura del colonnino sinistro, vuoto o con scrittura;   
+>              - “50” indica la misura dello specchio di scrittura dell’unica colonna o della prima colonna in manoscritto a due colonne, obbligatorio;   
 >              - “/ 5” o “/ 5*”, non obbligatori e alternativi, indicano il colonnino sinistro, con scrittura o vuoto;   
 >              - “(20)” indica l’intercolumnio in un manoscritto a due colonne;   
 >              - “5/” o “5*/” , non obbligatori e alternativi, indicano il colonnino sinistro della seconda colonna, con scrittura o vuoto;   
