@@ -13,7 +13,7 @@ Per modificare una parte già salvata, cliccare sul comando _edit_ accanto alla 
 > ![](/docs/assets/images/edbrick_edit.png)  
 
 Per eliminare una parte già salvata, cliccare sul comando _delete_ accanto alla parte da eliminare, e confermare cliccando _yes_ nella finestra pop-up.
-> ![](/docs/assets/images/edbrick_delpart.png)  
+> ![](/images/edbrick_delpart.png)  
 
 # Creare, modificare, eliminare elementi
 Alcune _parts_ sono costituite da elementi replicabili. Per creare un elemento aprire la _part_ e cliccare sul comando _+ add [nome elemento]_.
