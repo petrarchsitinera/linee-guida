@@ -1,2 +1,8 @@
 title: Petrarch's Itinera
 description: Linee guida per i compilatori
+theme: just-the-docs
+
+url: https://petrarchsitinera.github.io/linee-guida
+
+aux_links: # remove if you don't want this link to appear on your pages
+  Template Repository: https://github.com/petrarchsitinera/linee-guida
