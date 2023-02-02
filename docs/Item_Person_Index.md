@@ -4,7 +4,7 @@
 * [Info Part](Person_Info_Part.md)
 * [Names Part](Names_Part.md)
 * [Metadata Part](Metadata_Part.md)
-* [IDs Part](Asserted_Ids_Brick.md)
+* [IDs Part](External_Ids_Part_Person.md)
 * [Events Part](Events_Part.md)
 * [Works Part](Person_Works_Part.md)
 * [Bibliography Part](External_Bibliography_Part.md)
