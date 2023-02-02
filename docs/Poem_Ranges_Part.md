@@ -34,7 +34,7 @@ Permette di registrare la sequenza dei componimenti quale è presentata dal test
 > * -ogni elemento o intervallo di elementi è separato da spazio.   
 
 Una volta inserita la sequenza dei componimenti, cliccare il comando _add_ alla destra del campo.   
-> ![](/docs/assets/images/sheelabels_add.png)  
+> ![](https://github.com/petrarchsitinera/linee-guida/blob/dd315d43374df9c4178b249de371b751f18a7081/docs/assets/images/sheelabels_add.png?raw=true)  
 
 Al di sotto del campo comparirà l'elenco dei componimenti inseriti.  
 
@@ -42,15 +42,15 @@ Una volta inserita la sequenza, è possibile eventualmente aggiungere altri comp
 
 Dall'elenco dei componimenti inseriti è possibile:
 * eliminare singoli componimenti o intervalli mediante il comando _delete_;  
-> ![](/docs/assets/images/sheelabels_delselectedcol.png)  
+> ![](https://github.com/petrarchsitinera/linee-guida/blob/8a2effa68ad54a3bdd20a430929058c014b1eff8/docs/assets/images/sheelabels_delselectedcol.png?raw=true)  
 
 * modificarne l'ordine relativo mediante i comandi _move up_/_move down_.
-> ![](/docs/assets/images/moveup_down.png)
+> ![](https://github.com/petrarchsitinera/linee-guida/blob/8a2effa68ad54a3bdd20a430929058c014b1eff8/docs/assets/images/moveup_down.png?raw=true)
 
 Qualora lo si ritenga preferibile, è possibile procedere inserendo i componimenti e gli intervalli uno per volta nel campo _ranges_, ripetendo ogni volta l'operazione di aggiunta mediante il comando _add_.
 
 Il comando _delete all ranges_ permette di eliminare l'intera sequenza inserita. 
-> ![](/docs/assets/images/sheelabels_trimtablerows.png)
+> ![](https://github.com/petrarchsitinera/linee-guida/blob/8a2effa68ad54a3bdd20a430929058c014b1eff8/docs/assets/images/sheelabels_trimtablerows.png?raw=true)
 
 La compilazione del campo è obbligatoria.
   
@@ -77,16 +77,16 @@ Per attribuire una tipologia di impaginazione, occorre selezionare i relativi co
 La **selezione** dei componimenti può essere effettuata secondo diverse modalità:
 
 * per selezionare tutti i componimenti, utilizzare il comando _select all_;  
-> ![](/docs/assets/images/editor_selectall.png)  
+> ![](https://github.com/petrarchsitinera/linee-guida/blob/8a2effa68ad54a3bdd20a430929058c014b1eff8/docs/assets/images/editor_selectall.png?raw=true)  
 * per selezionare un singolo componimento, utilizzare il comando _select this layout_, presente all'interno di ogni singola cella;  
-> ![](/docs/assets/images/ranges_selectcella.png)  
+> ![](https://github.com/petrarchsitinera/linee-guida/blob/8a2effa68ad54a3bdd20a430929058c014b1eff8/docs/assets/images/ranges_selectcella.png?raw=true)  
 * per selezionare un intervallo continuo di componimenti, tenendo premuto il tasto _shift_, selezionare la prima e l'ultima cella dell'intervallo;
 * per selezionare una serie discontinua di componimenti, tenendo premuto il tasto _ctrl_, selezionare le relative celle;
 * per selezionare i componimenti in base al genere metrico (sonetto, canzone, ballata, madrigale, sestina), selezionare dal campo _presets_, attraverso menu a tendina, il genere metrico desiderato;
 * per deselezionare tutti i componimenti, utilizzare il comando _deselect all_;   
-> ![](/docs/assets/images/editor_selectall.png)   
+> ![](https://github.com/petrarchsitinera/linee-guida/blob/8a2effa68ad54a3bdd20a430929058c014b1eff8/docs/assets/images/editor_deselectall.png?raw=true)   
 * per deselezionare un singolo componimento, utilizzare il comando _clear this layout_, presente all'interno di ogni singola cella.  
-> ![](/docs/assets/images/ranges_clearcella.png)  
+> ![](https://github.com/petrarchsitinera/linee-guida/blob/8a2effa68ad54a3bdd20a430929058c014b1eff8/docs/assets/images/ranges_clearcella.png?raw=true)  
 
 Per l' **attribuzione** di un tipo di impaginazione al componimento o ai componimenti selezionati, scegliere un'opzione dal thesaurus _layout_.  
 Ad ogni selezione può essere attribuito un solo _layout_; se il testimone presenta più tipologie di impaginazione, è necessario ripetere la procedura di selezione e attribuzione più volte.  
@@ -95,7 +95,7 @@ Ad ogni selezione può essere attribuito un solo _layout_; se il testimone prese
 Per **eliminare** tutte le impaginazioni inserite, selezionare tutti i componimenti attraverso il comando _select all_ e scegliere l'opzione "---" dal thesaurus di _layout_.
 
 È possibile aggiungere un **nota** relativa all'impaginazione di un singolo componimento attraverso il comando _edit_, presente all'interno delle celle (ad es. se l'impaginazione cambia all'interno di un singolo componimento).  
-> ![](/docs/assets/images/ranges_editcella.png)   
+> ![](https://github.com/petrarchsitinera/linee-guida/blob/8a2effa68ad54a3bdd20a430929058c014b1eff8/docs/assets/images/ranges_editcella.png?raw=true)   
 
 La compilazione della sezione _layouts_ è obbligatoria per le descrizioni analitiche.
 
