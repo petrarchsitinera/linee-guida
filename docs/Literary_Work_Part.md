@@ -15,20 +15,20 @@ Per aggiungere la parte, selezionare **_info_** dal menu a tendina, quindi clicc
 ## Generale [General]
 
 ### Authors
+Permette di indicare l'autore del testo, secondo il modello [Asserted Id](Asserted_Ids_Brick.md).  
+Se l'autore è schedato come Item Person in Itinera, cercare l'item relativo e copiarne [l'_eid_](identifiers.md), servendosi eventualmente dei [repository](repository.md) e della funzione di [lookup](lookup.md). 
+⚠️ L'_eid_ deve essere copiate nel campo _value_.   
 
-Permette di indicare l'autore del testo. 
-🚧 NON PIU COSì 🚧 Questo campo deve essere utilizzato *soltanto nei casi in cui la paternità del testo risulti certa*. Questi casi comprendono anche quelli in cui l'autore del testo non sia identificato storicamente.    
-    
-🚧 NON PIU COSì 🚧 Se uno di questi autori è un nome di piuma, avrà un suo item dove si compila la PersonWorksPart; se per questo autore esistono proposte di identificazione, l'Item Person dell'autore di cui si propone l'identificazione con il nome di piuma  è collegato all'Item di quest'ultimo attraverso una tripla (o attraverso un External Id con scope=Itinera, che funzioni come un predicato "è identificabile con", con relativo rank. Nell’item dedicato al personaggio ipoteticamente identificato con il nome di piuma la PersonWorksPart non è compilata con il testo attribuito al nome di piuma. 
-[AGGIUNGERE ESEMPIO NICOLA PARIGI] 
+> Tutti gli autori dispongono, di norma, di un Item Person dedicato. In caso contrario, e dopo aver verificato sui [repository](repository.md) è opportuno creare un Item Person dedicato e richiamarne l'_eid_ nel campo _author_.   
+> Se l'autore non è di interesse specifico di Itinera, è possibile evitare la creazione di un Item Person dedicato e inserire un identificativo convenzionale secondo le regole definite per gli [_eid_](identifiers.md).  
+> Anche autori non identificati storicamente dispongono, di norma, di un Item Person dedicato. Se sussistono ipotesi di identificazione, queste sono registrate nella [_External Ids Part_ di tali _items_](External_Ids_Part_Person.md#soggetti-non-identificati-storicamente). Di conseguenza, occorre compilare il campo _author_ con l'identificativo dell'Item Person dedicato all'autore non storicamente identificato cui è attribuito il testo e NON con l'identificativo dell'Item Person con cui l'ignoto è identificato.  
 
-🚧 NON PIU COSì 🚧 Nei casi di autorialità dubbia o contesa, il compilatore dovrà aprire la [[Person Works Part|Person_Works_Part]] dell'autore o degli autori cui il testo è dubitosamente attribuito e inserire l'id dell'opera con un rank uguale o superiore a 2.   
- 
-[AGGIUNGERE ESEMPIO NICOLA PARIGI]    
+La sezione _assertion_ permette di precisare il grado di attendibilità dell'attribuzione, e di indicarne eventualmente le fonti.  
 
-PER NOMI DI PIUMA FARE RIFERIMENTO A EXTERNAL IDS PART
+Il campo _author_ è replicabile: permette infatti di dare conto di casi di autorialità multipla o contesa.  
+In questi casi creare più elementi _Asserted Id_, con i relativi _rank_ e fonti.
 
-La compilazione del campo è 🚧 obbligatoria.
+La compilazione del campo è obbligatoria.
 
 ### Title
 Permette di indicare il titolo del testo.  
@@ -38,10 +38,10 @@ Il titolo del testo inserito deve coincidere con il nome dell'item, ovvero con q
 
 ⚠️ Per le lettere di Petrarca, oltre al titolo redazionale (coincidente con il nome dell'item, ovvero con quello riportato nel **repository dei corpora**: es. Fam. I 1), creare un secondo elemento _title_ corrispondente all’incipit della lettera.  
 
-I titoli sono inseriti attraverso un [[visual editor|Editor_Brick]]. Per ciascun titolo è possibile indicare:  
+I titoli sono inseriti attraverso un [editor](Editor_Brick.md). Per ciascun titolo è possibile indicare:  
 * la lingua in cui il titolo è espresso (obbligatorio);
 * il titolo (obbligatorio);
-* una [[Assertion|Assertion_Brick]] (facoltativa) per precisare il grado di attendibilità e le fonti del titolo.
+* una [Assertion](Assertion_Brick.md) per precisare il grado di attendibilità e le fonti del titolo.
 
 Per salvare i dati inseriti *per ogni titolo*, cliccare il tasto di spunta blu. I dati inseriti saranno così visualizzati nella parte superiore in una tabella di riepilogo.
 
