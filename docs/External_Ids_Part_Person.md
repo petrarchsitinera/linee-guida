@@ -27,7 +27,7 @@ Individuato il record ISNI relativo alla persona, copiarne l'identificativo nel 
 * ULAN ID (artisti: copisti e decoratori)
 
 
-## Identificativi interni
+## Soggetti non identificati storicamente
 In presenza di soggetti non individuati storicamente è possibile utilizzare questa parte per proporre ipotesi di identificazione.  
 
 Se per un soggetto non individuato storicamente è possibile proporre una o più ipotesi di identificazione con una persona schedata in Itinera come Item Person, è necessario creare un Item Person relativo al soggetto non individuato; nella relativa _External Ids Part_ è creato un [AssertedId](Asserted_Ids_Brick.md#identificativi-interni-a-itinera-eid) che ha come _value_ l'_eid_ del personaggio noto. Naturalmente, è possibile, grazie all'_Assertion_ esprimere l'attendibilità e le fonti di tale proposta di identificazione.  
