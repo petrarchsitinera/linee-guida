@@ -51,7 +51,7 @@ Per la data, in mancanza di indicazione cronologica più specifica, utilizzare d
 
 
 ### References
-Permette di registrare l'eventuale bibliografia relativa all'apparato decorativo, secondo le norme definite per [External Bibliography](External_Bibliography_Part.md).
+Permette di registrare l'eventuale bibliografia relativa all'apparato decorativo, secondo il modello [DocReference](Docref_Brick.md).  
 
 La compilazione del campo è facoltativa.
 
