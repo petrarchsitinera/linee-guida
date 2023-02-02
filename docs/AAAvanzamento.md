@@ -42,11 +42,11 @@
 |-------------|----------|-----------|-----------|    
 |[indice](Item_Work_Index.md)|ok|-|-|
 |[Creazione dell'item](Item_Work_Metadata.md)|ok|-|-|
-|[Literary Work Part](Literary_Work_Part.md)|**mod**|author|-|
-|[Chronotopes Part](Asserted_Chronotope_Part.md)|**mod**|tag|-|
-|[Letter Info Part](Letter_Info_Part.md)|**mod**|esempi|-|
+|[Literary Work Part](Literary_Work_Part.md)|**rev**|-|-|
+|[Chronotopes Part](Asserted_Chronotope_Part.md)|**rev**|tag|-|
+|[Letter Info Part](Letter_Info_Part.md)|**rev**|esempi|-|
 |[Referenced Text Part](Referenced_Text_Part.md)|ok|-|-|
-|[Related Person Part](Related_Person_Part.md)|**mod**|id > asserted id|-|
+|[Related Person Part](Related_Person_Part.md)|**rev**|-|-|
 |[Witnesses Part](Witnesses_Part.md)|ok|-|-|
 |Meta, IDs, Events, Biblio, Note|vedi sopra|-|-| |
 
