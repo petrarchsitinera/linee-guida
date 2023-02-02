@@ -26,6 +26,8 @@ Permette di indicare l'autore del testo.
  
 [AGGIUNGERE ESEMPIO NICOLA PARIGI]    
 
+PER NOMI DI PIUMA FARE RIFERIMENTO A EXTERNAL IDS PART
+
 La compilazione del campo è 🚧 obbligatoria.
 
 ### Title
