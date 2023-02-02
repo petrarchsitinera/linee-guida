@@ -25,15 +25,12 @@ In presenza di più citazioni riferite ad un sola persona, si privilegia la form
 
 La compilazione del campo è obbligatoria.
 
-### Id 🚧 MA ORA VEDI CON LOOKUP
-Permette di collegare il nome inserito ad una o più persone storicamente individuate.
+### Ids 
+Permette di collegare il nome inserito ad una o più persone storicamente individuate, secondo il modello [Asserted Id](Asserted_Ids_Brick.md).   
+Se la persona è schedata come Item Person in Itinera, cercare l'item relativo e copiarne [l'_eid_](identifiers.md), servendosi eventualmente dei [repository](repository.md) e della funzione di [lookup](lookup.md). 
+⚠️ L'_eid_ deve essere copiate nel campo _value_.   
+Per gli altri casi consultare le indicazioni per la compilazione degli [identificativi](identifiers.md).  
 
-Il collegamento avviene attraverso l'inserimento dell'ID della persona, sia essa schedata nel database di Itinera oppure in risorse esterne.
-Nel primo caso, l'**external ID** corrisponde all'ID dell'item persona, cioè al **title** dell'item, e lo **scope** a **Itinera**.
-Per gli altri casi consultare le indicazioni per la compilazione di [[ExternalIDs|External_IDs_Part]]
-
-### Assertion 🚧 MA ELIMINARE PERCHè ORA è ASSERTED ID quindi tutta la spiega è nel brick corrisp.
-Permette, mediante il modello [Assertion](Assertion_Brick.md) di indicare l'attendibilità dell'identificazione e le eventuali fonti a sostegno.
 
 ## Save ⚠️ 
 
