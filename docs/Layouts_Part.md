@@ -95,7 +95,7 @@ Si dà la seguente formula esemplificativa, dove sono espressi tutti valori poss
 
 
 Una volta inserita la formula è necessario cliccare sul tasto di spunta blu _apply formula_. 
-> ![](/docs/assets/images/layout_applyfor.png)   
+> ![](https://github.com/petrarchsitinera/linee-guida/blob/1a94390ee30ce0a5b737f4b1fd4dabbf453c4c06/docs/assets/images/layout_applyfor.png?raw=true)   
 
 Tutti i valori inseriti compariranno in _dimensions_ sotto i rispettivi ID.
 
@@ -113,7 +113,7 @@ Ogni elemento _dimension_ è provvisto di:
 * _unit_: unità di misura prescelta, automaticamente impostata come “mm”. 
 
 È possibile modificare il valore dei singoli elementi ed aggiornare conseguentemente la formula cliccando, all’interno del campo _layout formula_, il tasto _update formula_.  
-> ![](/docs/assets/images/layout_updatefor.png)
+> ![](https://github.com/petrarchsitinera/linee-guida/blob/1a94390ee30ce0a5b737f4b1fd4dabbf453c4c06/docs/assets/images/layout_updatefor.png?raw=true)
 
 
 ### Note
