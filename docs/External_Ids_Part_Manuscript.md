@@ -1,4 +1,4 @@
-## IDs - External IDs Part
+# External IDs Part
 **External IDs Part** raccoglie gli identificativi dell'item in risorse esterne, permettendo così di incrociare, in fase di pubblicazione, i dati inseriti nel database di Itinera con quelli presenti altrove.   
 
 La descrizione del modello, basato su [_Asserted Id_](Asserted_Ids_Brick.md), è disponibile su [Github](https://github.com/vedph/cadmus-general#externalidspart).  
