@@ -55,8 +55,6 @@ Permette di registrare l'eventuale bibliografia relativa all'apparato decorativo
 
 La compilazione del campo è facoltativa.
 
-⚠️ Per ogni elemento _reference_ inserito è necessario salvare cliccando sul comando di spunta blu.
-
 
 ### Artist
 Permette di inserire informazioni sul responsabile (decoratore o bottega) dell'apparato decorativo (d'ora in avanti, per convenzione, "artista").
