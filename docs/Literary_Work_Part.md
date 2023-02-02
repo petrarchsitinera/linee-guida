@@ -14,7 +14,7 @@ Per aggiungere la parte, selezionare **_info_** dal menu a tendina, quindi clicc
 
 ## Generale [General]
 
-### 🚧 Author 🚧 ora su modello AssertedId
+### Authors
 
 Permette di indicare l'autore del testo. 
 🚧 NON PIU COSì 🚧 Questo campo deve essere utilizzato *soltanto nei casi in cui la paternità del testo risulti certa*. Questi casi comprendono anche quelli in cui l'autore del testo non sia identificato storicamente.    
