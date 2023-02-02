@@ -13,7 +13,7 @@ Per aggiungere la parte, selezionare **_bibliography_** dal menu a tendina della
 
 ## Bibliografia dell'item
 Attraverso Bibliography Part è possibile creare una lista di voci bibliografiche (_entries_) relative all'_item_, selezionandole tra quelle presenti nel database bibliografico.  
-Di norma vengono registrate in questa parte tutte le voci bibliografiche dedicate all'_item_ nel suo complesso, mentre voci bibliografiche dedicate a specifici aspetti possono essere richiamati nelle _parts_ corrispondenti mediante [Assertion](Assertion_Brick.md).  
+Di norma vengono registrate in questa parte tutte le voci bibliografiche dedicate all'_item_ nel suo complesso, mentre voci bibliografiche dedicate a specifici aspetti possono essere richiamati nelle _parts_ corrispondenti mediante [DocReference](Docref_Brick.md).  
 
 > 🚧 Esempi
 
@@ -54,7 +54,7 @@ Per creare una nuova _entry_ cliccare il comando _+ new_.
 Ogni _entry_ è strutturata nei seguenti campi:  
 * _container_: non spuntare la casella;
 * _typeId_: permette di specificare la tipologia di voce bibliografica selezionando tra: article; book; journal; proceedings;  
-* _key_: chiave identificativa creata automaticamente; può essere utilizzata per richiamare la voce bibliografica in [Assertion](Assertion_Brick.md);  
+* _key_: chiave identificativa creata automaticamente; può essere utilizzata per richiamare sinteticamente la voce bibliografica in un [DocReference](Docref_Brick.md);   
 * _authors_: permette di indicare l'autore o gli autori della voce bibliografica. Cliccando il campo si apre una finestra dalla quale è possibile:
   * cercare il nome di un autore già presente nel database bibliografico: inserendo le prime lettere del nome o del cognome dell'autore nel campo _last name_ sono mostrati suggerimenti; selezionare l'autore prescelto e cliccare _accept authors_;
   > 🚧 immagine  
@@ -88,7 +88,7 @@ Per creare un nuovo _container_ cliccare il comando _+ new_.
 Ogni _container_ è strutturato nei seguenti campi: 
 * _container_: spuntare la casella;
 * _typeId_: permette di specificare la tipologia di voce bibliografica selezionando tra: article; book; journal; proceedings;  
-* _key_: chiave identificativa creata automaticamente; può essere utilizzata per richiamare la voce bibliografica in [Assertion](Assertion_Brick.md);  
+* _key_: chiave identificativa creata automaticamente; può essere utilizzata per richiamare sinteticamente la voce bibliografica in un [DocReference](Docref_Brick.md);  
 * _authors_: permette di indicare l'autore o gli autori della voce bibliografica. Cliccando il campo si apre una finestra dalla quale è possibile:
   * cercare il nome di un autore già presente nel database bibliografico: inserendo le prime lettere del nome o del cognome dell'autore nel campo _last name_ sono mostrati suggerimenti; selezionare l'autore prescelto e cliccare _accept authors_;
   > 🚧 immagine  
