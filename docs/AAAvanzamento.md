@@ -13,7 +13,7 @@
 |[Bibliography Part](External_Bibliography_Part.md)|**rev**|-|📷|
 |[Note Part](Note_Part.md)|ok|-|-|
 |[Asserted Ids](Asserted_Ids_Brick.md)|**no**|ex novo|-|
-|[eid](identifiers.md)|ok|-|-|
+|[eid](identifiers.md)|**mod**|norme eid item|-|
 |[lookup](lookup.md)|**no**|ex novo|-|
 |[repositories](repository.md)|**no**|ex novo e link ulteriori|-|
 |[Editor elemento](Editor_Brick.md)|ok|-|ok|
