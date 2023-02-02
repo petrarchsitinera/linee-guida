@@ -16,7 +16,7 @@
 |[eid](identifiers.md)|**rev**|norme eid item|-|
 |[lookup](lookup.md)|**rev**|pin/eid, forma|-|
 |[repositories](repository.md)|**no**|ex novo e link ulteriori|-|
-|[Editor elemento](Editor_Brick.md)|ok|-|ok|
+|[Editor elemento](Editor_Brick.md)|ok|aggiungere creazione item|ok|
 |[Assertion](Assertion_Brick.md)|**rev**|rank, key, separare DocRef?|ok|
 |[Editor cronotopo](Asserted_Chronotope_Brick.md)|**rev**|Cursi "moderna", etc.; norme place|📷|
 |[Codicological Location](Cod_Location_Brick.md)|**rev**|Daniele|-|
