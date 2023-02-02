@@ -1,52 +1,19 @@
-## IDs - External IDs Part
-**External IDs Part** raccoglie gli **identificativi** dell'item in risorse esterne, permettendo così di incrociare, in fase di pubblicazione, i dati inseriti nel database di Itinera con quelli presenti altrove.   
+# External IDs Part
+**External IDs Part** raccoglie gli identificativi dell'item in risorse esterne, permettendo così di incrociare, in fase di pubblicazione, i dati inseriti nel database di Itinera con quelli presenti altrove.   
 
-🚧 La descrizione del modello è disponibile su [Github](https://github.com/vedph/cadmus-general#externalidspart).  
+La descrizione del modello, basato su [_Asserted Id_](Asserted_Ids_Brick.md), è disponibile su [Github](https://github.com/vedph/cadmus-general#externalidspart).  
 
-**External ID**: indica l'ID assegnato alla persona, al testo o al manoscritto nella risorsa esterna.
+Per la compilazione della parte si veda il paragrafo di _Asserted Id_ dedicato al collegamento con [risorse esterne](Asserted_Ids_Brick.md#identificativi-esterni).  
 
-**Scope**: indica il nome della risorsa esterna.
-
-**tag**: lasciare vuoto.
-
-È possibile inserire più identificativi per ogni item. 
-Cliccando sulle frecce, è possibile modificare l'ordine degli identificativi inseriti.
-
-<img width="376" alt="Schermata 2022-07-20 alle 11 57 14" src="https://user-images.githubusercontent.com/102725489/179954747-cc39aa76-d7ac-4569-8106-a455c9a568b2.png">
-
-
-### Item Person
- 
-Per i soggetti storicamente esistiti ed individuabili si inseriscono **obbligatoriamente** gli identificativi presenti in:
+Per gli Item Person relativi a soggetti storicamente esistiti ed individuabili si inseriscono **obbligatoriamente** gli identificativi presenti in:
 
 - **VIAF**
 - **ISNI** 
 
-Per recuperare **l'identificativo VIAF** è possibile ricorrere al **tool di ricerca** presente in Cadmus.
+Per recuperare **l'identificativo VIAF** è possibile ricorrere al [tool di ricerca](Asserted_Ids_Brick.md#tool-viaf) presente in Cadmus.  
 
-Per attivare il tool, cliccare il pulsante nel menu in alto a sinistra, come nell'immagine:  
-
-<img width="369" alt="Schermata 2022-07-05 alle 17 37 01" src="https://user-images.githubusercontent.com/102725489/177365176-a97f149c-1a34-4956-a221-91a0b6f5f8d3.png">   
-
-Una volta attivato il tool, l'editor che permette di cercare gli identificativi in VIAF compare nella parte sinistra della schermata.    
-Digitando nella barra di ricerca VIAF il nome della persona, un menu a tendina mostra i nomi presenti in VIAF.  
-Selezionando il nome della persona desiderata, il sistema ne copia in automatico l'identificativo, che può così essere direttamente incollato nel campo _external ID_   
-
-<img width="719" alt="Schermata 2022-09-23 alle 15 01 31" src="https://user-images.githubusercontent.com/102725489/191966109-bd7d4f34-d685-4e95-82de-2021c9bce0bf.png">
-
-Per chiudere il tool di ricerca VIAF, cliccare di nuovo il pulsante di attivazione dell'editor nel menu in alto a sinistra.
-
-Per **l'identificativo ISNI**, consultare il database disponibile a questo [link](https://isni.org/page/search-database/):
-
-<img width="680" alt="Schermata 2022-09-22 alle 09 50 01" src="https://user-images.githubusercontent.com/102725489/191689270-8ab9f946-f85f-4d87-8a1a-e2657e0918d1.png">
-
-
-Individuato il record ISNI relativo alla persona, copiarne l'identificativo nel campo _external ID_ dell'item, come nell'immagine:
-
-<img width="628" alt="Schermata 2022-09-22 alle 09 55 13" src="https://user-images.githubusercontent.com/102725489/191690135-26ab322f-8e49-4020-b68d-0806860c4f15.png">
-
-
-[PARTE IN ALLESTIMENTO: AGGIUNGERE LINK E DECIDERE GERARCHIA]
+Per **l'identificativo ISNI**, consultare il database disponibile a questo [link](https://isni.org/page/search-database/).  
+Individuato il record ISNI relativo alla persona, copiarne l'identificativo nel campo _value_.
 
 È possibile aggiungere ulteriori identificativi, se opportuno o utile. Si segnalano, in particolare:
 * Dbpedia
@@ -59,22 +26,18 @@ Individuato il record ISNI relativo alla persona, copiarne l'identificativo nel 
 * Référentiel d&#39;autorités &quot;personnes&quot; IRHT
 * ULAN ID (artisti: copisti e decoratori)
 
-## Scope
 
-Inserire il nome della risorsa esterna dalla quale è stato prelevato l'identificativo inserito:  
-* VIAF
-* ISNI
-[aggiorna in base a sopra con gli altri]
+## Identificativi interni
+In presenza di soggetti non individuati storicamente è possibile utilizzare questa parte per proporre ipotesi di identificazione.  
 
-## Tag
-Lasciare in bianco
+Se per un soggetto non individuato storicamente è possibile proporre una o più ipotesi di identificazione con una persona schedata in Itinera come Item Person, è necessario creare un Item Person relativo al soggetto non individuato; nella relativa _External Ids Part_ è creato un [AssertedId](Asserted_Ids_Brick.md#identificativi-interni-a-itinera-eid) che ha come _value_ l'_eid_ del personaggio noto. Naturalmente, è possibile, grazie all'_Assertion_ esprimere l'attendibilità e le fonti di tale proposta di identificazione.  
+
+> Una simile procedura si osserva, ad esempio, nel caso di nomi d'autore attestati dalla tradizione di cui non è possibile stabilire l'identità storica; per cui si veda il campo [Author](Literary_Work_Part.md#authors) dell'Item Text).  
 
 
-***
+## Save ⚠️ 
 
-**Assertion**
-
-L'_Assertion non va **mai** compilata nella _External IDs Part_ dell'item Person.
-
-
+Cliccare sul tasto **_save_** per salvare la parte.  
+La parte è correttamente salvata quando in fondo allo schermo compare la notifica **_Part saved_**.  
+Completato il salvataggio, cliccare sul tasto **_Close_** per tornare alla schermata di riepilogo dell'item.
 
