@@ -2,12 +2,14 @@
 
 **Assertion** permette di qualificare i dati inseriti con un indice numerico di affidabilità e/o di associare ad essi fonti e voci bibliografiche.  
 
-Ogni _Assertion_ si riferisce ad un singolo dato inserito.
+Ogni _Assertion_ si riferisce ad un singolo dato inserito.  
+
+![](https://github.com/petrarchsitinera/linee-guida/blob/9a3544c46e6ea09d6092d436a630821b00eb5fef/docs/assets/images/assertion.png?raw=true)
 
 Si compila un'_Assertion_ per indicare l'affidabilità di un dato e/o inserire voci bibliografiche, senza che le due possibilità si escludano. È cioè possibile inserire un'_Assertion_ per aggiungere soltanto un rank o soltanto una voce bibliografica, ma è possibile ricorrere alla parte per inserirli entrambi.
 
 ## Tag
-Lasciare il campo vuoto, se non altrimenti indicato.
+Lasciare il campo vuoto, se non altrimenti indicato nelle linee guida della _part_ relativa.
 
 ## Rank 
 Il rank è un indice numerico di affidabilità associato al dato inserito. Va da un massimo (1) ad un minimo (3) di certezza:
@@ -26,7 +28,9 @@ Il campo _note_ permette di inserire una breve stringa di testo esplicativo. Com
 ## Assertion references  
 Permette di inserire fonti e voci bibliografiche a sostegno del dato inserito.  
 È possibile aggiungere più _References_, una per fonte o voce bibliografica.
-> 🚧 Immagine
+
+![](https://github.com/petrarchsitinera/linee-guida/blob/9a3544c46e6ea09d6092d436a630821b00eb5fef/docs/assets/images/assertion_ref.png?raw=true)
+
 
 ### Type
 Indica la tipologia di fonte addotta. Selezionare un valore tra:  
