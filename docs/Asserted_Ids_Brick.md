@@ -1,8 +1,25 @@
 # Asserted Ids
--a cosa serve: 
-  -a richiamare, qualificando però il dato con assertion e fonti, id interni, definiti [qui](identifiers.md);
-  -a collegare con db esterni
--modello generale -con link ad [Assertion](Assertion_Brick.md) 
+**Asserted Ids** permette due differenti operazioni:  
+* richiamare uno o più identificativi ([_eid_](identifiers.md)), qualificando i dati con una [Assertion](Assertion_Brick.md), ovvero con indice di affidabilità e fonti a sostegno;  
+* collegare un _item_ o un elemento ad una o più entità schedate in database esterni.
+
+È possibile creare tanti _Asserted Ids_ quante sono le identificazioni.  
+
+La descrizione del modello è disponibile su [Github](https://github.com/vedph/cadmus-general#externalidspart).  
+
+> La struttura della parte è identica sia che venga utilizzata per richiamare un identificativo interno che per stabilire un collegamento con un database esterno.  
+> Soltanto la compilazione ne risulta differenziata.  
+> * _id_: sezione che permette di inserire l'identificativo e i suoi metadati;   
+>    * _tag_: permette di attribuire all'identificativo un'etichetta utile ai fini della ricerca;  
+>    * _scope_: permette di indicare la fonte in cui è archiviato l'identificativo (Itinera o database esterno);  
+>    * _value_: permette di inserire l'identificativo (per le entità di Itinera l'_eid_, ricercabile attraverso lo strumento di [lookup integrato](lookup.md));  
+> * _assertion_: sezione, attivabile con finestra a comparsa, permette di attribuire un'indice di affidabilità all'identificazione attraverso [Assertion](Assertion_Brick.md) e di precisarne le [fonti](Docref_Brick.md).  
+  
+
+![](https://github.com/petrarchsitinera/linee-guida/blob/e88adcfe6655f13f9f18f6aa7de232fe8d83907b/docs/assets/images/asserted_id.png)  
+
+
+[Assertion](Assertion_Brick.md) 
 
 ## per id interni (scope:itn?)
 -come compilare
