@@ -14,7 +14,7 @@
 |[Note Part](Note_Part.md)|ok|-|-|
 |[Asserted Ids](Asserted_Ids_Brick.md)|**no**|ex novo|-|
 |[eid](identifiers.md)|**mod**|norme eid item|-|
-|[lookup](lookup.md)|**no**|ex novo|-|
+|[lookup](lookup.md)|**rev**|pin/eid, forma|-|
 |[repositories](repository.md)|**no**|ex novo e link ulteriori|-|
 |[Editor elemento](Editor_Brick.md)|ok|-|ok|
 |[Editor asserzione](Assertion_Brick.md)|**rev**|rank, key|📷|
