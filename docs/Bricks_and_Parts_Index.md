@@ -4,6 +4,7 @@
 ## Componenti essenziali (bricks e editor)
 
 * [Editor elemento](Editor_Brick.md)
+* [Editor DocReference](Docref_Brick.md)
 * [Editor asserzione](Assertion_Brick.md)
 * [Editor identificativo](Asserted_Ids_Brick.md)
 * [Editor cronotopo](Asserted_Chronotope_Brick.md)
