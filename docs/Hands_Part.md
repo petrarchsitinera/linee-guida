@@ -23,20 +23,17 @@ Creando un elemento _hand_ si accede a una schermata introduttiva dove è possib
 
 ### EID 
 Permette di attribuire un identificativo convenzionale alla mano.
-
-⚠️  La scelta dell'identificativo deve tenere conto delle regole generali di composizione degli [identificativi](identifiers.md).  
+Per ogni mano utilizzare l'etichetta convenzionale "mano" seguita da trattino basso e lettera alfabetica minuscola (es. "mano_a", "mano_b", etc.).  
 
 ⚠️ Se la mano è riconducibile ad un copista noto, questo dato è espresso in un Item Person relativo al copista.  
 
-Se il copista coincide con una persona già schedata come corrispondente nel database di Itinera (es. Giovanni Boccaccio), si utilizza l'_eid_ dell'Item Person già esistente. Cercare l'item e copiarne [l'_eid_](identifiers.md), servendosi eventualmente dei [repository](repository.md) e della funzione di [lookup](lookup.md).  
+Se il copista coincide con una persona già schedata come corrispondente nel database di Itinera (es. Giovanni Boccaccio), occorre accedere alla [EventsPart](Events_Part.md) dell'Item Person relativo.  
+Creare un evento con _type_ "trascrizione";  nella sezione _related_ inserire una _related entity_ con _type_ "mano" e nel campo _eid_ inserire l'_eid_ della mano.  
+L'eid della mano deve essere cercato attraverso la funzione di [lookup](lookup.md) e ad esso deve essere premesso, separato da "/", l'identificativo dell'_item_ (la voce _item ID_ nella finestra di _lookup_).  
 
 Se il copista non ha un Item Person occorre crearlo ex novo. Questa procedura deve essere seguita anche nel caso di copista anonimo noto agli studi per la sua produzione (es. "copista principale del Dante dei Cento").  
 Ugualmente, deve essere creato un Item Person per qualsiasi copista la cui mano sia riconosciuta su almeno due manoscritti, e anche in tutti i casi ove sia possibile fornire qualche informazione biografica relativa al copista (es. notaio, copista di professione, etc.).  
-Una volta creato l'item, copiarne [l'_eid_](identifiers.md), servendosi eventualmente dei [repository](repository.md) e della funzione di [lookup](lookup.md).  
-
-⚠️🚧⚠️🚧⚠️🚧
-[🚧] Dall'Item Person, aprire [EventsPart](Events_Part.md) e creare un evento con _type_ "attività scrittoria" [🚧 da creare] e inserire nella sezione _related_ con _type_ "mano" [🚧 da creare] l'EID della mano.  
-⚠️🚧⚠️🚧⚠️🚧  
+Una volta creato l'_item_, accedere alla [EventsPart](Events_Part.md) e procedere come descritto sopra.    
 
 La compilazione del campo è facoltativa.
 
