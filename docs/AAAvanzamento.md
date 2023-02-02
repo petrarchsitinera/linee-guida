@@ -12,13 +12,13 @@
 |[grafo](semantic_graph.md)|**no**|ex novo, dopo|-|
 |[Bibliography Part](External_Bibliography_Part.md)|**rev**|-|📷|
 |[Note Part](Note_Part.md)|ok|-|-|
-|[Asserted Ids](Asserted_Ids_Brick.md)|**no**|ex novo|-|
-|[eid](identifiers.md)|**mod**|norme eid item|-|
+|[Asserted Ids](Asserted_Ids_Brick.md)|**rev**|-|-|
+|[eid](identifiers.md)|**rev**|norme eid item|-|
 |[lookup](lookup.md)|**rev**|pin/eid, forma|-|
 |[repositories](repository.md)|**no**|ex novo e link ulteriori|-|
 |[Editor elemento](Editor_Brick.md)|ok|-|ok|
-|[Editor asserzione](Assertion_Brick.md)|**rev**|rank, key|📷|
-|[Editor cronotopo](Asserted_Chronotope_Brick.md)|**mod**|Cursi "moderna", etc.; norme place|📷|
+|[Assertion](Assertion_Brick.md)|**rev**|rank, key, separare DocRef?|ok|
+|[Editor cronotopo](Asserted_Chronotope_Brick.md)|**rev**|Cursi "moderna", etc.; norme place|📷|
 |[Codicological Location](Cod_Location_Brick.md)|**rev**|Daniele|-|
 |[Physical Size](Physical_Size_Brick.md)|ok|-|-|
 |[Cod Image](Cod_Image_Brick.md)|ok|-|-|
