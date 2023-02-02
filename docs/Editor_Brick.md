@@ -1,4 +1,3 @@
-# SOSTITUISCI LINK CON URI
 # Creare, modificare, eliminare _parts_
 Per creare, modificare, eliminare _parts_, accedere alla schermata riassuntiva selezionando la sezione _parts_ nella schermata superiore della scheda:
 > ![](https://github.com/petrarchsitinera/linee-guida/blob/8a92ebc9b799db18a314b0ff1d86240a970400a9/docs/assets/images/edbrick_partsumma.png?raw=true)  
