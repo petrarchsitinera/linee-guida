@@ -53,7 +53,7 @@ La compilazione del campo è obbligatoria.
 ### Location
 
 Permette di indicare la collocazione del _locus_ nel codice secondo il modello [Cod Location](Cod_Location_Brick.md).  
-Occorre indicare carta, facciata, colonna (ove pertinente) e riga [🚧 verificare].
+Occorre indicare carta, facciata, colonna (ove pertinente) e riga.  
 
 La compilazione del campo è obbligatoria.
 
