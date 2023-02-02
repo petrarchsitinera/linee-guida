@@ -1,13 +1,12 @@
 # Regole per identificativi e authority file
-Per ogni _item_ e per alcune delle sue parti, Itinera si serve di:
+Per ogni _item_ e per alcune _parts_ e _elements_, Itinera si serve di:
 * un identificativo interno _human readable_ (**EID**), che permette di identificare e, ove necessario, richiamare le entità di interesse all'interno del database;  
 * eventuali identificativi esterni (**External Ids**), che permettono di collegarli a risorse esterne al database Itinera.  
 
 ⚠️ La compilazione dell'_eid_ degli _item_ è obbligatoria [cfr. Metadata Part](Metadata_Part.md): senza di esso risulta impossibile stabilire un collegamento tra gli _item_.  
 
 ## EID
-
-Nella banca dati Itinera gli _eid_ sono ospitati da campi denominati _EID_ o _ID_ o, se sono accompagnati da un'asserzione, [AssertedId](Asserted_Ids_Brick.md).  
+Nella banca dati Itinera gli _eid_ sono ospitati da campi denominati _EID_ o _ID_ o, se sono accompagnati da un'asserzione, da [AssertedId](Asserted_Ids_Brick.md).  
 Ogni volta che si incontra uno di questi campi sono disponibili queste due opzioni, tra loro alternative:  
 * assegnazione di un nuovo _eid_, se l'entità ne è sprovvista;  
 * riuso di un _eid_ già esistente, per collegare la parte che si sta compilando con un'entità già presente nel database.
@@ -41,7 +40,7 @@ Diversamente, deve procedere ad attribuire un _eid_ all'_item_ facendo attenzion
 
 ### Riuso di un EID già esistente
 Se l'entità di interesse (_item_, _part_, o singolo elemento) è già provvista di un identificativo (_eid_) all'interno di Itinera, occorre riportare quest'ultimo.  
-Per cercare gli _eid_ esistenti è possibile ricorrere ai [repository](repository.md) (solo per determinati _items_) o alla funzione di [lookup](lookup.md) (per qualsiasi elemento).   
+Per cercare gli _eid_ esistenti è possibile ricorrere ai [repository](repository.md) (solo per determinate entità) o alla funzione di [lookup](lookup.md) (per qualsiasi elemento).   
 
 
 ## External Ids
