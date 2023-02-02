@@ -52,6 +52,7 @@ Per la data, in mancanza di indicazione cronologica più specifica, utilizzare d
 
 ### References
 Permette di registrare l'eventuale bibliografia relativa all'apparato decorativo, secondo il modello [DocReference](Docref_Brick.md).  
+L'elemento è replicabile per ogni voce bibliografica.  
 
 La compilazione del campo è facoltativa.
 
@@ -93,7 +94,8 @@ Permette di collegare la scheda con eventuali risorse esterne dedicate all'artis
 La compilazione del campo è facoltativa.
 
 #### Element keys
-Permette di attribuire all'artista uno specifico elemento decorativo, utilizzando la _key_ inserita nell' _element_ interessato (cfr. infra: 🚧 LINK INTRATESTUALE tramite MARKUP). In presenza di più elementi attribuiti, elencare le key di seguito separate da spazio.
+Permette di attribuire all'artista uno specifico elemento decorativo, utilizzando la _key_ inserita nell' _element_ interessato (cfr. infra).  
+In presenza di più elementi attribuiti, elencare le key di seguito separate da spazio.
 
 La compilazione del campo è facoltativa.
 
@@ -140,7 +142,7 @@ Ad es.:
 -se in un manoscritto sono presenti numerose iniziali filigranate senza differenze sostanziali che si ritenga opportuno segnalare, sarà creato un unico _element_ della tipologia "iniziali-filigranate" che accoglierà la descrizione complessiva delle stesse;  
 -se in un manoscritto sono presenti alcune illustrazioni e si ritiene utile descriverle singolarmente, sarà creato un _element_ "illustrazione" per ognuna di esse.
 
-⚠️ 🚧  Ogni _element_ è provvisto di un campo _key_ che può essere utilizzato per attribuire l'elemento prescelto alla paternità di uno specifico artista (tramite il campo _element-keys_ di _artist_ cfr. supra), nel caso in cui alla realizzazione dell'apparato decorativo abbiano partecipato più artisti.
+⚠️  Ogni _element_ è provvisto di un campo _key_ che può essere utilizzato per attribuire l'elemento prescelto alla paternità di uno specifico artista (tramite il campo [_element-keys_ di _artist_](Decorations_Part.md#element-keys)), nel caso in cui alla realizzazione dell'apparato decorativo abbiano partecipato più artisti.
 
 ⚠️ Per ogni _element_ inserito è necessario salvare cliccando sul comando di spunta blu.
 
@@ -181,7 +183,7 @@ La compilazione del campo è facoltativa.
 ##### Key
 Permette di attribuire un'etichetta alla pagina incipitaria, che sarà possibile richiamare in eventuali _element_ dedicati alla descrizione di illustrazioni, ornamentazioni, iniziali miniate che siano parte di quella pagina incipitaria.  
 La _key_ dovrà essere costituita dall'etichetta convenzionale "pag-inc"; in caso di più pagine incipitarie, la formula sarà seguita da un numero progressivo (es. "pag-inc-1", "pag-inc-2", etc.).   
-Inoltre, la _key_ può essere utilizzata per attribuire la pagina decorata alla paternità di uno specifico artista; la key attribuita all' _element_ andrà richiamata nel campo _element-keys_ di _artist_ (cfr. supra 🦅).
+Inoltre, la _key_ può essere utilizzata per attribuire la pagina decorata alla paternità di uno specifico artista; la key attribuita all' _element_ andrà richiamata nel campo _element-keys_ di _artist_ (cfr. supra).
 
 #### Typologies
 
@@ -275,7 +277,7 @@ Permette di segnalare i seguenti casi:
 La compilazione del campo è facoltativa.
 
 ##### Key
-Può essere utilizzata per attribuire l'illustrazione alla paternità di uno specifico artista; la key attribuita all' _element_ andrà richiamata nel campo _element-keys_ di _artist_ (cfr. supra 🦅).
+Può essere utilizzata per attribuire l'illustrazione alla paternità di uno specifico artista; la key attribuita all' _element_ andrà richiamata nel campo _element-keys_ di _artist_ (cfr. supra).
 
 La _key_ dovrà essere costituita dall'etichetta convenzionale "ill"; in caso di più illustrazioni, la formula sarà seguita da un numero progressivo (es. "ill-1", "ill-2", etc.).   
 
@@ -399,7 +401,7 @@ Permette di segnalare i seguenti casi:
 La compilazione del campo è facoltativa.
 
 ##### Key
-Può essere utilizzata per attribuire l'ornamentazione alla paternità di uno specifico artista; la key attribuita all' _element_ andrà richiamata nel campo _element-keys_ di _artist_ (cfr. supra 🦅).
+Può essere utilizzata per attribuire l'ornamentazione alla paternità di uno specifico artista; la key attribuita all' _element_ andrà richiamata nel campo _element-keys_ di _artist_ (cfr. supra).
 
 La _key_ dovrà essere costituita dall'etichetta convenzionale "orn"; in caso di più ornamentazioni, la formula sarà seguita da un numero progressivo (es. "orn-1", "orn-2", etc.).   
 
@@ -501,14 +503,14 @@ La compilazione del campo è obbligatoria.
 ##### Features
 Permette di segnalare i seguenti casi:
 
-* spazi bianchi (una o più iniziali non sono stata eseguite) [🚧  CFR. ###SPAZI BIANCHI]
+* spazi bianchi (una o più iniziali non sono stata eseguite)  
 * bozza (una o più iniziali sono a un livello di elaborazione incompleto)
 * lettere guida (una o più iniziali sono accompagnate da lettere guida)
 
 La compilazione del campo è facoltativa.
 
 ##### Key
-Può essere utilizzata per attribuire le iniziali alla paternità di uno specifico artista; la key attribuita all' _element_ andrà richiamata nel campo _element-keys_ di _artist_ (cfr. supra 🦅).
+Può essere utilizzata per attribuire le iniziali alla paternità di uno specifico artista; la key attribuita all' _element_ andrà richiamata nel campo _element-keys_ di _artist_ (cfr. supra).
 
 La _key_ dovrà essere costituita dall'etichetta convenzionale "ini-pla"; in caso di più _element_ relativi ad iniziali semplici, la formula sarà seguita da un numero progressivo (es. "ini-pla-1", "ini-pla-2", etc.).   
 
@@ -607,14 +609,14 @@ La compilazione del campo è obbligatoria.
 ##### Features
 Permette di segnalare i seguenti casi:
 
-* spazi bianchi (una o più iniziali non sono stata eseguite) [🚧  CFR. ###SPAZI BIANCHI]
+* spazi bianchi (una o più iniziali non sono stata eseguite)  
 * bozza (una o più iniziali sono a un livello di elaborazione incompleto)
 * lettere guida (una o più iniziali sono accompagnate da lettere guida)
 
 La compilazione del campo è facoltativa.
 
 ##### Key
-Può essere utilizzata per attribuire le iniziali alla paternità di uno specifico artista; la key attribuita all' _element_ andrà richiamata nel campo _element-keys_ di _artist_ (cfr. supra 🦅).
+Può essere utilizzata per attribuire le iniziali alla paternità di uno specifico artista; la key attribuita all' _element_ andrà richiamata nel campo _element-keys_ di _artist_ (cfr. supra).
 
 La _key_ dovrà essere costituita dall'etichetta convenzionale "ini-wat"; in caso di più _element_ relativi ad iniziali filigranate, la formula sarà seguita da un numero progressivo (es. "ini-wat-1", "ini-wat-2", etc.).   
 
@@ -712,14 +714,14 @@ La compilazione del campo è obbligatoria.
 ##### Features
 Permette di segnalare i seguenti casi:
 
-* spazi bianchi (una o più iniziali non sono stata eseguite) [🚧  CFR. ###SPAZI BIANCHI]
+* spazi bianchi (una o più iniziali non sono stata eseguite)  
 * bozza (una o più iniziali sono a un livello di elaborazione incompleto)
 * lettere guida (una o più iniziali sono accompagnate da lettere guida)
 
 La compilazione del campo è facoltativa.
 
 ##### Key
-Può essere utilizzata per attribuire le iniziali alla paternità di uno specifico artista; la key attribuita all' _element_ andrà richiamata nel campo _element-keys_ di _artist_ (cfr. supra 🦅).
+Può essere utilizzata per attribuire le iniziali alla paternità di uno specifico artista; la key attribuita all' _element_ andrà richiamata nel campo _element-keys_ di _artist_ (cfr. supra).
 
 La _key_ dovrà essere costituita dall'etichetta convenzionale "ini-orn"; in caso di più _element_ relativi ad iniziali ornate, la formula sarà seguita da un numero progressivo (es. "ini-orn-1", "ini-orn-2", etc.).   
 
@@ -837,14 +839,14 @@ La compilazione del campo è obbligatoria.
 ##### Features
 Permette di segnalare i seguenti casi:
 
-* spazi bianchi (una o più iniziali non sono stata eseguite) [🚧  CFR. ###SPAZI BIANCHI]
+* spazi bianchi (una o più iniziali non sono stata eseguite)  
 * bozza (una o più iniziali sono a un livello di elaborazione incompleto)
 * lettere guida (una o più iniziali sono accompagnate da lettere guida)
 
 La compilazione del campo è facoltativa.
 
 ##### Key
-Può essere utilizzata per attribuire le iniziali alla paternità di uno specifico artista; la key attribuita all' _element_ andrà richiamata nel campo _element-keys_ di _artist_ (cfr. supra 🦅).
+Può essere utilizzata per attribuire le iniziali alla paternità di uno specifico artista; la key attribuita all' _element_ andrà richiamata nel campo _element-keys_ di _artist_ (cfr. supra).
 
 La _key_ dovrà essere costituita dall'etichetta convenzionale "ini-fig"; in caso di più _element_ relativi ad iniziali istoriate, la formula sarà seguita da un numero progressivo (es. "ini-fig-1", "ini-fig-2", etc.).   
 
@@ -951,13 +953,13 @@ La compilazione del campo è obbligatoria.
 ##### Features
 Permette di segnalare i seguenti casi:
 
-* spazi bianchi (uno o più elementi paragrafematici non sono stati eseguiti) [🚧  CFR. ###SPAZI BIANCHI]
+* spazi bianchi (uno o più elementi paragrafematici non sono stati eseguiti)  
 * bozza (uno o più elementi paragrafematici sono a un livello di elaborazione incompleto)
 
 La compilazione del campo è facoltativa.
 
 ##### Key
-Può essere utilizzata per attribuire gli elementi paragrafematici alla paternità di uno specifico artista; la key attribuita all' _element_ andrà richiamata nel campo _element-keys_ di _artist_ (cfr. supra 🦅).
+Può essere utilizzata per attribuire gli elementi paragrafematici alla paternità di uno specifico artista; la key attribuita all' _element_ andrà richiamata nel campo _element-keys_ di _artist_ (cfr. supra).
 
 La _key_ dovrà essere costituita dall'etichetta convenzionale "par"; in caso di più _element_ relativi ad elementi paragrafematici, la formula sarà seguita da un numero progressivo (es. "par-1", "par-2", etc.).   
 
