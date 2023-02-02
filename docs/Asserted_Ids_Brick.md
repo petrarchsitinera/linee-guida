@@ -39,12 +39,17 @@ Per stabilire un collegamento con un'entità schedata in una database esterno a 
   * _value_: compilare con l'URI dell'entità nella banca dati utilizzata (per VIAF ricercabile attraverso un _tool_ specifico; cfr. infra);  
 * _assertion_: compilare secondo le modalità previste in [Assertion](Assertion_Brick.md);  
 
-Per 
+### Tool Viaf
+Per recuperare **l'identificativo VIAF** è possibile ricorrere ad un _tool_ di ricerca integrato.  
+Per attivare la funzionalità, nella barra di testa, sulla destra, attivare il pulsante _toogle tools_.  
+![](https://github.com/petrarchsitinera/linee-guida/blob/e4de2f4f2dca13dcba7beae653a386470c141348/docs/assets/images/tools_off.png?raw=true)  
+Cliccandolo, si illumina di rosso.   
+![](https://github.com/petrarchsitinera/linee-guida/blob/e4de2f4f2dca13dcba7beae653a386470c141348/docs/assets/images/tools_on.png?raw=true)   
+Contestualmente, sul lato sinistro della pagina si apre una barra laterale che dà accesso a una funzionalità denominata _VIAF_.   
+![](https://github.com/petrarchsitinera/linee-guida/blob/32a21f598ab1973e807dff0be492e94d155e5c4c/docs/assets/images/tool_viaf.png?raw=true)   
+Digitando nella barra di ricerca VIAF il nome della persona, un menu a tendina mostra i nomi presenti in VIAF.  
+Selezionando il nome della persona desiderata, il sistema ne copia in automatico l'identificativo, che può così essere direttamente incollato nel campo _value_.     
 
-
--utilizzo di external id come part autonoma negli item  
--come compilare
--come compilare value: 
-  -tool viaf (magari pagina autonoma linkata)
+![](https://github.com/petrarchsitinera/linee-guida/blob/7de26f57ea824e0286a03b47055b362667dfcc73/docs/assets/images/tool_viaf2.png?raw=true)
 
 
