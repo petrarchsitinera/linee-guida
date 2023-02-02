@@ -81,7 +81,7 @@ La compilazione del campo è obbligatoria.
 
 #### Description key
 Permette di collegare la _instance_ a una _description_ richiamando la _key_ corrispondente.  
-⚠️  Questo campo compare solo dopo la creazione di almeno un elemento _description_ e la compilazione del relativo campo [_key_](Hands_Part.md#description-key).  
+⚠️  Questo campo compare solo dopo la creazione di almeno un elemento _description_ e la compilazione del relativo campo [_key_](Hands_Part.md#key).  
 Cliccando il campo _description key_ appare la lista delle _keys_ già create in _description_. Selezionare una _key_ per collegare la _instance_  alla _description_ corrispondente.  
 La compilazione del campo è obbligatoria qualora risulti necessario collegare la _instance_ a una _description_.
 
@@ -136,7 +136,7 @@ La compilazione del campo è facoltativa.
 ⚠️ Per ogni elemento _description_ inserito è necessario salvare cliccando sul tasto di spunta blu.
 
 #### Key
-Permette di attribuire alla descrizione un'etichetta che ne consenta il collegamento con uno o più elementi _instance_, attraverso il campo [_description key_](Hands_Part.md#key).  
+Permette di attribuire alla descrizione un'etichetta che ne consenta il collegamento con uno o più elementi _instance_, attraverso il campo [_description key_](Hands_Part.md#description-key).  
 Per ogni _description_ utilizzare l'etichetta convenzionale "descr" seguita senza spazi da numero progressivo (es. "descr1", "descr2", etc.).  
 
 La compilazione del campo è obbligatoria qualora risulti necessario collegare la _description_ a una o più _instance_.
