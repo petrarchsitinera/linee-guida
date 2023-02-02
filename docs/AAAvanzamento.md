@@ -17,13 +17,15 @@
 |[lookup](lookup.md)|**rev**|pin/eid, forma|-|
 |[repositories](repository.md)|**no**|ex novo e link ulteriori|-|
 |[Editor elemento](Editor_Brick.md)|ok|aggiungere creazione item|ok|
-|[Assertion](Assertion_Brick.md)|**rev**|rank, key, separare DocRef?|ok|
+|[Assertion](Assertion_Brick.md)|**rev**|rank, key|ok|
+|[DocReference](Docref_Brick.md)|ok|-|ok|
 |[Editor cronotopo](Asserted_Chronotope_Brick.md)|**rev**|Cursi "moderna", etc.; norme place|📷|
 |[Codicological Location](Cod_Location_Brick.md)|**rev**|Daniele|-|
 |[Physical Size](Physical_Size_Brick.md)|ok|-|-|
 |[Cod Image](Cod_Image_Brick.md)|ok|-|-|
 |[Salvataggio](part_save.md)|ok|-|ok|
 |ALTRO?|-|-|-| |
+
 
 ## Item Person
 |Parte|Fatta|manca|immagini|  
