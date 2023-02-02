@@ -11,7 +11,7 @@ La sezione permette di descrivere e rappresentare su una tabella le carte del co
 
 L'interfaccia presenta due riquadri: _action_ e _adder_. In essi sono contenuti gli operatori che permettono di creare e modificare una tabella. Nella tabella le righe rappresentano le carte reali del manoscritto; le colonne rappresentano la fascicolazione e i sistemi di numerazione e segnatura.  
 
-![Schermata iniziale](/docs/assets/images/sheelabels_main.png)   
+![](docs/assets/images/sheelabels_main.png?raw=true)   
 
 Nel capitolo 'Comandi principali' sono descritte le modalità di funzionamento degli operatori contenuti nei riquadri _adder_ e _action_, e dei comandi interni alle celle della tabella.  
 Nel capitolo 'Compilazione' sono illustrati i passaggi da seguire per la compilazione della tabella e per la descrizione di numerazione, fascicolazione, richiami, segnature.  
@@ -31,13 +31,13 @@ Gli elementi di tipo _columns_ sono: _quire_, _numbering_, _catchword_, _signatu
 Per ogni elemento è possibile, attraverso il campo _name_, attribuire un titolo alla rispetttiva colonna.
 
 Il comando _add_ aggiunge la riga del tipo selezionato.  
-> ![](/docs/assets/images/sheelabels_add.png)
+> ![](https://github.com/petrarchsitinera/linee-guida/blob/dd315d43374df9c4178b249de371b751f18a7081/docs/assets/images/sheelabels_add.png?raw=true)
 
 Il comando _Trim table rows_ cancella le righe non compilate.  
-> ![](/docs/assets/images/sheelabels_trimtablerows.png)  
+> ![](https://github.com/petrarchsitinera/linee-guida/blob/dd315d43374df9c4178b249de371b751f18a7081/docs/assets/images/sheelabels_trimtablerows.png?raw=true)  
 
 Il comando _Trim table rows and columns_ cancella righe e colonne non compilate.  
-> ![](/docs/assets/images/sheelabels_trimtablerowscolumns.png)  
+> ![](https://github.com/petrarchsitinera/linee-guida/blob/dd315d43374df9c4178b249de371b751f18a7081/docs/assets/images/sheelabels_trimtablerowscolumns.png?raw=true)  
 
 #### Action
 Permette di selezionare una delle colonne create e di attribuire dei valori alle celle che la costituiscono; inoltre, permette di fornire una descrizione dell'elemento rappresentato dalla colonna.
@@ -47,22 +47,22 @@ Permette di selezionare una delle colonne create e di attribuire dei valori alle
 * _action_: permette, attraverso una specifica formula, di attribuire dei valori alle celle della colonna.  
 
 Il comando _execute_ compila la colonna selezionata secondo la formula inserita nel campo _action_.
-> ![](/docs/assets/images/sheelabels_execute.png)
+> ![](https://github.com/petrarchsitinera/linee-guida/blob/dd315d43374df9c4178b249de371b751f18a7081/docs/assets/images/sheelabels_execute.png?raw=true)
 
 Il comando _edit the selected column definition_ apre un editor che permette di fornire una descrizione dell'elemento relativo alla colonna selezionata (numerazione, richiami, segnatura fascicolare e a registro).  
-> ![](/docs/assets/images/sheelabels_editselectedcoldef.png)
+> ![](https://github.com/petrarchsitinera/linee-guida/blob/dd315d43374df9c4178b249de371b751f18a7081/docs/assets/images/sheelabels_editselectedcoldef.png?raw=true)
  
 Il comando _delete the selected column_ permette di eliminare l'intera colonna selezionata.
-> ![](/docs/assets/images/sheelabels_delselectedcol.png)
+> ![](https://github.com/petrarchsitinera/linee-guida/blob/dd315d43374df9c4178b249de371b751f18a7081/docs/assets/images/sheelabels_delselectedcol.png?raw=true)
 
 
 #### Celle
 In ogni cella sono presenti due campi:
 
 * _edit value_: permette di attribuire alla cella un valore;  
-> ![](/docs/assets/images/sheelabels_editlabel.png)
+> ![](https://github.com/petrarchsitinera/linee-guida/blob/dd315d43374df9c4178b249de371b751f18a7081/docs/assets/images/sheelabels_editlabel.png?raw=true)
 * _edit note_: permette di aggiungere una nota relativa alla cella.
-> ![](/docs/assets/images/sheelabels_editnote.png)
+> ![](https://github.com/petrarchsitinera/linee-guida/blob/dd315d43374df9c4178b249de371b751f18a7081/docs/assets/images/sheelabels_editnote.png?raw=true)
 
 
 ### Compilazione
