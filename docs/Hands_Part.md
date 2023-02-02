@@ -226,13 +226,10 @@ Permette di aggiungere informazioni non raccolte negli altri campi del modello.
 La compilazione del campo è facoltativa.
 
 ### References
-Permette di registrare l'eventuale bibliografia relativa alla mano in oggetto. L'elemento è replicabile per ogni voce bibliografica.  
-La compilazione è facoltativa.
+Permette di registrare l'eventuale bibliografia relativa alla mano in oggetto, secondo il modello [DocReference](Docref_Brick.md).  
+L'elemento è replicabile per ogni voce bibliografica.   
 
-⚠️ Per ogni elemento _reference_ inserito è necessario salvare cliccando sul tasto di spunta blu.
-
-La sezione è compilata secondo le norme definite per [Bibliography Part](External_Bibliography_Part.md).
-
+La compilazione del campo è facoltativa.
 
 ## Save ⚠️ 
 
