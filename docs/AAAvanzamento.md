@@ -60,7 +60,7 @@
 |[Material Description Part](Material_Description_Part.md)|ok|-|
 |[Watermarks Part](Watermarks_Part.md)|ok|-|-|
 |[Layouts Part](Layouts_Part.md)|ok|-|ok|
-|[Hands Part](Hands_Part.md)|**rev**|eid, triple, signs|-|
+|[Hands Part](Hands_Part.md)|ok|decidere con Marco repository signs|-|
 |[Edits Part](Edits_Part.md)|**rev**|eid|-|
 |[Decorations Part](Decorations_Part.md)|ok|-|-|
 |[Bindings Part](Bindings_Part.md)|ok|-|-|
