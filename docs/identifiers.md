@@ -1,14 +1,14 @@
 # Regole per identificativi e authority file
 Per ogni _item_ e per alcune _parts_ e _elements_, Itinera si serve di:
 * un identificativo interno _human readable_ (**EID**), che permette di identificare e, ove necessario, richiamare le entità di interesse all'interno del database;  
-* eventuali identificativi esterni (**External Ids**), che permettono di collegarli a risorse esterne al database Itinera.  
+* eventuali identificativi esterni (**External Ids**), che permettono di collegare gli _item_ a risorse esterne al database Itinera.  
 
 ⚠️ La compilazione dell'_eid_ degli _item_ è obbligatoria [cfr. Metadata Part](Metadata_Part.md): senza di esso risulta impossibile stabilire un collegamento tra gli _item_.  
 
 ⚠️⚠️⚠️ Il compilatore non deve confondere _eid_ e _title_ dell'_item_, che sono due proprietà diverse e con diverse funzioni.
 
 ## EID
-Nella banca dati Itinera gli _eid_ sono ospitati da campi denominati _EID_ o _ID_ o, se sono accompagnati da un'asserzione, da [AssertedId](Asserted_Ids_Brick.md).  
+Nella banca dati Itinera gli _eid_ sono ospitati da campi denominati: _EID_ o _ID_ o [_Asserted Id_](Asserted_Ids_Brick.md).  
 Ogni volta che si incontra uno di questi campi sono disponibili queste due opzioni, tra loro alternative:  
 * assegnazione di un nuovo _eid_, se l'entità ne è sprovvista;  
 * riuso di un _eid_ già esistente, per collegare la parte che si sta compilando con un'entità già presente nel database.
