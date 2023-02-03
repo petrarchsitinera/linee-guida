@@ -72,7 +72,7 @@ In seguito, è possibile creare le colonne (_columns_), a partire preferibilment
 
 #### Rows
 Per aggiungere righe alla tabella, utilizzare il riquadro _adder_.  
-Il campo _type_ permette di selezionare il tipo di elemento desiderato: _body_, _front endleaf_ o _back endleaf_.  
+Il campo _type_ permette di selezionare il tipo di elemento desiderato:  _front cover_, _front endleaf_, _body_, _back endleaf_, _back cover_.  
 Il campo _count_ permette di indicare il numero di righe da aggiungere per l'elemento selezionato.
 
 ##### Body
@@ -185,7 +185,6 @@ Per creare la colonna utilizzare i comandi del riquadro **_adder_**.
 Nel campo _type_ selezionare _numbering_.  
 Il campo _name_ non deve essere compilato per la numerazione di riferimento.  
 Cliccando il comando _+ add_, viene creata una colonna identificata dal titolo "n", deputata alla descrizione della numerazione di riferimento.  
-⚠️ Tale numerazione sarà utilizzata ogni volta che nell' _item_ sarà compilato il campo [Cod Location](Cod_Location_Brick.md).  
 
 Per tutte le altre numerazioni compilare il campo _name_ con un'etichetta convenzionale (es. "num2", "num.moderna").  
 Cliccando il comando _+ add_, viene creata una colonna identificata dal titolo "n." seguito dall'etichetta scelta.  
@@ -243,17 +242,13 @@ L'applicazione della formula assegna alle celle interessate delle etichette corr
 
 > La formula dell'esempio precedente assegna a partire dalla carta fisica "11v" i valori: 11v=XI, 12r=XII, 12v=XIII, 13r=XIV.  
 
-🚧  
 È sempre possibile editare manualmente il valore di una cella cliccando sul suo campo _edit value_.  
 Si ricorre a questa modalità di compilazione nel caso in cui:  
 * i valori della numerazione presentino errori e discontinuità;
-* la numerazione sia costituita da segni diversi da cifre arabiche, numeri romani, serie di lettere in ordine alfabetico:  
-   * se la numerazione presenta un valore completamente arbitrario, il campo deve essere compilato con il valore presente sul manoscritto 🚧 riportato tra virgolette (es. "abc", "prima", etc.) 🚧;
-   * se la numerazione presenta un valore tipo '13bis', il campo deve essere compilato 🚧 con il numero 13 seguito da "bis" riportato tra virgolette 🚧;
+* la numerazione sia costituita da segni diversi da cifre arabiche, numeri romani, serie di lettere in ordine alfabetico, il campo deve essere compilato con il valore presente sul manoscritto, avendo cura, in caso di cartulazione, di aggiungere sempre l'indicazione _r_ o _v_ (es. 13bisr);
 * una o più carte non siano numerate:
    * se in una cartulazione 1-3, c. 1 è numerata '1', c. 2 non è numerata, c. 3 è numerata '3', alla c. 2 è attribuita l'etichetta '2' e nel campo _edit note_ della cella è inserita l'annotazione 'non numerata'.  
-   * se in una cartulazione 1-3, c. 1 è numerata '1', c. 2 non è numerata, c. 3 è numerata '2', alla c. 2 è attribuita l'etichetta 🚧1"bis"🚧 e nel campo _edit note_ della cella è inserita l'annotazione 'non numerata'.  
-🚧  
+   * se in una cartulazione 1-3, c. 1 è numerata '1', c. 2 non è numerata, c. 3 è numerata '2', alla c. 2 è attribuita l'etichetta '1bis' e nel campo _edit note_ della cella è inserita l'annotazione 'non numerata'.   
 
 ⚠️ Sulla colonna relativa alla numerazione di riferimento (_n_) è necessario attribuire sempre, attraverso il campo _edit value_, valori predefiniti alle celle relative a:
 * coperta e controcoperta anteriore (_front cover_): riportare i valori [r], [v];
@@ -261,14 +256,18 @@ Si ricorre a questa modalità di compilazione nel caso in cui:
 * guardia posteriore (_back endleaf_): inserire numeri romani progressivi con apice, seguiti da indicazione di recto o verso (es. I'r, I'v, II'r, II'v, ...);
 * coperta e controcoperta posteriore (_back cover_): riportare i valori [/r], [/v].  
 
-⚠️ In presenza di due numerazioni complementari, e dunque nell'impossibilità di individuare una numerazione che possa fungere da riferimento per l'intera estensione del codice, è opportuno creare tre numerazioni:
+⚠️ In presenza di due numerazioni complementari, e dunque nell'impossibilità di individuare una numerazione che possa fungere da riferimento per l'intera estensione del codice, è possibile creare le due numerazioni e seguire le norme illustrate [qui](Cod_Location_Brick.md#riferimento-alle-carte-fisiche) per la compilazione del campo _range_ all'interno delle parti.  
+
+In alternativa, è possibile adottare la seguente soluzione.   
+Creare tre numerazioni:
 * una numerazione 'n.etichetta1' per la prima numerazione, fornendone la descrizione nell'editor;
 * una numerazione 'n.etichetta2' per la seconda numerazione, fornendone la descrizione nell'editor;
 * una numerazione 'n' risultante dalla somma dei valori delle due numerazioni complementari, compilando i campi _system_, _technique_ e _position_ con il valore '\---'.  
 
 > Questa soluzione può essere adottata in diversi casi, ad esempio:
 > * una numerazione antica copre le cc. 1-50 e una numerazione moderna copre le cc. 51-100;  
-> * una numerazione antica copre tutto il codice ma su alcune carte è stata integrata da numerazione moderna perché non visibile (a causa di rifilatura, inchiostro evanido, dimenticanza, etc.). Se non lo si ritiene opportuno (ad es. se il numero degli interventi moderni è molto ridotto), è possibile creare una sola numerazione (quella antica) e segnalare il fenomeno di integrazione nel campo _note_ dell'editor o nel campo _edit note_ delle singole celle.  
+> * una numerazione antica copre tutto il codice ma su alcune carte è stata integrata da numerazione moderna perché non visibile (a causa di rifilatura, inchiostro evanido, dimenticanza, etc.). Se non lo si ritiene opportuno (ad es. se il numero degli interventi moderni è molto ridotto), è possibile creare una sola numerazione (quella antica) e segnalare il fenomeno di integrazione nel campo _note_ dell'editor o nel campo _edit note_ delle singole celle.   
+
 
 
 #### Catchword
