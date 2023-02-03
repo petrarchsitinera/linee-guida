@@ -5,6 +5,8 @@ Per ogni _item_ e per alcune _parts_ e _elements_, Itinera si serve di:
 
 ⚠️ La compilazione dell'_eid_ degli _item_ è obbligatoria [cfr. Metadata Part](Metadata_Part.md): senza di esso risulta impossibile stabilire un collegamento tra gli _item_.  
 
+⚠️⚠️⚠️ Il compilatore non deve confondere _eid_ e _title_ dell'_item_, che sono due proprietà diverse e con diverse funzioni.
+
 ## EID
 Nella banca dati Itinera gli _eid_ sono ospitati da campi denominati _EID_ o _ID_ o, se sono accompagnati da un'asserzione, da [AssertedId](Asserted_Ids_Brick.md).  
 Ogni volta che si incontra uno di questi campi sono disponibili queste due opzioni, tra loro alternative:  
@@ -22,14 +24,16 @@ Nei casi in cui sia necessario **creare ed attribuire** un nuovo _eid_, è neces
 
 > Per l'_eid_ degli _item_ utilizzare:   
 > 
-> 🚧 Item Person: nome della persona in minuscolo, senza spazi né segni di interpunzione:  
-> es. Per l'_item_ di Giovanni dell’Incisa, l'_eid_ sarà "giovannidellincisa"  
+> Item Person: nome della persona in minuscolo, sostituendo spazi e segni di interpunzione con underscore (\_):  
+> es. Per l'_item_ di Giovanni dell’Incisa, l'_eid_ sarà "giovanni_dell_incisa"  
 > 
-> 🚧 Item Text: ripetere il _title_ dell'_item_ sostituendo gli spazi con punto:
->  es. Fam. I 1 diventa "Fam.I_1" "Fam_I_1" "Fam.I1" "Fam.I.1"
->  
-> 🚧 Item Manuscript:
-> es. "Firenze_BML_Plut.XL.1"?
+> Item Text: ripetere il _title_ dell'_item_, sostituendo spazi e segni di interpunzione con underscore (\_); nel caso dei testi citati attraverso _incipit_, abbreviare il titolo in modo opportuno:  
+>  es. Fam. I 1 diventa "Fam_I_1" 
+>  es. Rvf 84 diventa "Rvf_84"    
+>  es. "I’provai già quanto la soma è grave" diventa "I_provai".  
+> Item Manuscript: indicare sinteticamente la sigla della biblioteca e/o del fondo come riportata nel [repository dei manoscritti](repository.md), seguita da underscore (\_) e dalla segnatura. Nel caso in cui la segnatura del codice comprenda punti, questi sono sostituiti da underscore (\_):  
+> es. "Plut_XL_1" 🚧  
+> es. "Bodl_Can_It_66" 🚧  
 
 > Per gli _eid_ di singole parti (ad es. Events, Hands, Edits, etc.), consultare le linee guida delle relative _parts_.  
 
