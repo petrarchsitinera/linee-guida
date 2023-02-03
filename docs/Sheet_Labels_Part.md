@@ -178,8 +178,9 @@ Ad esempio, se il primo fascicolo è un quaderno con perdita di una carta (cc. 1
 
 
 ##### Numbering
-Permette di creare e compilare una o più colonne relative alla numerazione del manoscritto.  
+Permette di creare e compilare una o più colonne relative alla numerazione del manoscrit.  
 È possibile infatti creare un elemento del tipo _numbering_ per ogni differente numerazione presente sul codice.   
+Nel campo [_ranges_](Cod_Location_Brick.md) delle varie _parts_ è possibile riferirsi a queste differenti numerazioni, oppure alle carte fisiche.  
 
 Per creare la colonna utilizzare i comandi del riquadro **_adder_**.
 Nel campo _type_ selezionare _numbering_.  
