@@ -61,28 +61,13 @@
 |[Watermarks Part](Watermarks_Part.md)|ok|-|-|
 |[Layouts Part](Layouts_Part.md)|ok|-|ok|
 |[Hands Part](Hands_Part.md)|ok|decidere con Marco repository signs|-|
-|[Edits Part](Edits_Part.md)|**rev**|eid|-|
+|[Edits Part](Edits_Part.md)|ok|-|-|
 |[Decorations Part](Decorations_Part.md)|ok|-|-|
 |[Bindings Part](Bindings_Part.md)|ok|-|-|
 |[Contents Part](Contents_Part.md)|ok|-|-|
-|[Loci Part](Loci_Part.md)|**mod**|definire regole trascrizione|-|
+|[Loci Part](Loci_Part.md)|ok|rivedere con Marco regole trascrizione|-|
 |[Poem Ranges Part](Poem_Ranges_Part.md)|ok|-|ok|
 |[History Part](History_Part.md)|ok|-|-|
 |[Locations Part](Locations_Part.md)|ok|-|-|
 |[Toponyms Part](Toponyms_Part.md)|ok|-|-|
 |Meta, IDs, Events, Biblio, Note|vedi sopra|-|-| |
-
-**************************************************************************
-DA FARE
-
-GENERALI:
--finire eid, Asserted id, assertion  
--Events+thesaurus   
--bricks: editor, save, etc.
--foto parti generali
--rev
-
-TEXT-PERSON:
--rev;
-
-CONTROLLARE ASSUNTI
