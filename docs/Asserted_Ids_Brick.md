@@ -7,8 +7,7 @@
 
 La descrizione del modello è disponibile su [Github](https://github.com/vedph/cadmus-general#externalidspart).  
 
-> La struttura della parte è identica sia che venga utilizzata per richiamare un identificativo interno che per stabilire un collegamento con un database esterno.  
-> Soltanto la compilazione ne risulta differenziata.  
+> La struttura della parte è la seguente:  
 > * _id_: sezione che permette di inserire l'identificativo e i suoi metadati;   
 >    * _tag_: permette di attribuire all'identificativo un'etichetta utile ai fini della ricerca;  
 >    * _scope_: permette di indicare la fonte in cui è archiviato l'identificativo (Itinera o database esterno);  
@@ -18,6 +17,7 @@ La descrizione del modello è disponibile su [Github](https://github.com/vedph/c
 
 ![](https://github.com/petrarchsitinera/linee-guida/blob/e88adcfe6655f13f9f18f6aa7de232fe8d83907b/docs/assets/images/asserted_id.png)  
 
+La parte viene compilata in modo diverso a seconda che si debba richiamare un identificativo interno o stabilire un collegamento con una risorsa esterna.  
 
 ## Identificativi interni a Itinera (_eid_)
 
