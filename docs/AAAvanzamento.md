@@ -23,7 +23,6 @@
 |[Codicological Location](Cod_Location_Brick.md)|ok|agg. foto tool|-|
 |[Physical Size](Physical_Size_Brick.md)|ok|-|-|
 |[Cod Image](Cod_Image_Brick.md)|ok|-|-|
-|[Salvataggio](part_save.md)|ok|-|ok|
 |ALTRO?|-|-|-| |
 
 
