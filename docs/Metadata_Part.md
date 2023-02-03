@@ -27,7 +27,7 @@ Nel campo _type_ è possibile selezionare un valore tra:
 
 ### Identificativo
 Permette di attribuire un identificativo univoco all'_item_, con il quale potrà essere richiamato nel database.  
-Le regole relative alla composizione e all'utilizzo degli identificativi sono descritte [qui](Asserted_Ids_Brick.md).  
+Le regole relative alla composizione e all'utilizzo degli identificativi sono descritte [qui](identifiers.md).  
 
 * _type_: selezionare il valore _identificativo_;
 * _name:_ compilare sempre con la voce **eid**;
