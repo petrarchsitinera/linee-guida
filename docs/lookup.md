@@ -6,10 +6,11 @@ Inoltre, per alcuni _item_ e _parts_ è possibile consultare l'elenco degli _eid
 ⚠️ Gli _eid_ sono identificativi che permettono di richiamare un'entità (_item_, _part_ o _element_): per ulteriori informazioni consultare [questa pagina](identifiers.md).   
 
 ## Lookup e campi _EID_
-Nella banca dati Itinera gli _eid_ sono ospitati da campi denominati _EID_ o _ID_ o, se sono accompagnati da un'asserzione, da [AssertedId](Asserted_Ids_Brick.md).  
-Lo strumento di _lookup_ facilita l'inserimento dell'_eid_ corretto all'interno di questi campi. Permette infatti, attraverso una ricerca interna, di individuare (o eventualmente comporre; cfr. oltre) l'_eid_ desiderato. Questo identificativo può essere successivamente **copiato** nel campo che si intende compilare.  
+Nella banca dati Itinera gli _eid_ sono ospitati da campi denominati: _EID_ o _ID_ o [AssertedId](Asserted_Ids_Brick.md).  
+Lo strumento di _lookup_ facilita l'inserimento dell'_eid_ corretto all'interno di questi campi. Permette infatti, attraverso una ricerca interna, di individuare  l'_eid_ desiderato.  
+Questo identificativo può essere successivamente **copiato** nel campo che si intende compilare.  
 
-All'interno di determinate _parts_ il richiamo di entità già esistenti all'interno di Itinera risulta più frequente: pertanto, in questi casi, lo strumento di _lookup_ appare, per comodità, affiancato al campo _EID_ (è il caso di [Referenced Text Part](Referenced_Text_Part.md) e della sezione [RelatedEntities di Events Part](Events_Part.md#related-entities).
+Poiché all'interno di alcune _parts_ si rende necessario più frequentemente richiamare entità già esistenti in Itinera, lo strumento di _lookup_ appare, per comodità, affiancato al campo _EID_ (come nel caso di [Referenced Text Part](Referenced_Text_Part.md) e della sezione [RelatedEntities di Events Part](Events_Part.md#related-entities)).
 
 ![](https://github.com/petrarchsitinera/linee-guida/blob/e4de2f4f2dca13dcba7beae653a386470c141348/docs/assets/images/lookup_shape_1.png?raw=true)  
 
