@@ -108,6 +108,7 @@ La compilazione del campo è facoltativa.
 
 
 ## Save ⚠️ 
+Per ogni elemento _edit_ inserito è necessario salvare cliccando sul tasto di spunta blu.  
 
 Cliccare sul tasto **_save_** per salvare la parte.
 La parte è correttamente salvata quando in fondo allo schermo compare la notifica **_Part saved_**.  
