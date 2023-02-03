@@ -14,10 +14,10 @@
 |[Note Part](Note_Part.md)|ok|-|-|
 |[Asserted Ids](Asserted_Ids_Brick.md)|ok|-|-|
 |[eid](identifiers.md)|ok|norme eid item|-|
-|[lookup](lookup.md)|**rev**|pin/eid, forma|-|
+|[lookup](lookup.md)|**rev**|eid|-|
 |[repositories](repository.md)|ok|creare i repositories; definire clickup|-|
 |[Editor elemento](Editor_Brick.md)|ok|aggiungere creazione item|ok|
-|[Assertion](Assertion_Brick.md)|**rev**|rank, key|ok|
+|[Assertion](Assertion_Brick.md)|ok|-|ok|
 |[DocReference](Docref_Brick.md)|ok|-|ok|
 |[Editor cronotopo](Asserted_Chronotope_Brick.md)|**rev**|Cursi "moderna", etc.; norme place|📷|
 |[Codicological Location](Cod_Location_Brick.md)|ok|agg. foto tool|-|
