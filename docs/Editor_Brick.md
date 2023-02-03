@@ -1,3 +1,20 @@
+🚧
+# Creare, modificare, eliminare _items_
+Per creare, modificare, eliminare _parts_, accedere alla schermata riassuntiva selezionando la sezione _parts_ nella schermata superiore della scheda:
+> ![](https://github.com/petrarchsitinera/linee-guida/blob/8a92ebc9b799db18a314b0ff1d86240a970400a9/docs/assets/images/edbrick_partsumma.png?raw=true)  
+
+Per creare una nuova _part_, selezionare dal menu a tendina del campo _part_ il nome di quella desiderata e cliccare sul comando _add part_.  
+> ![](https://github.com/petrarchsitinera/linee-guida/blob/8a92ebc9b799db18a314b0ff1d86240a970400a9/docs/assets/images/edbrick_addpart.png?raw=true)
+
+Per modificare una parte già salvata, cliccare sul comando _edit_ accanto alla _part_ da modificare e procedere con le modifiche.    
+> ![](https://github.com/petrarchsitinera/linee-guida/blob/8a92ebc9b799db18a314b0ff1d86240a970400a9/docs/assets/images/edbrick_edit.png?raw=true)  
+
+Per eliminare una parte già salvata, cliccare sul comando _delete_ accanto alla parte da eliminare, e confermare cliccando _yes_ nella finestra pop-up.
+> ![](https://github.com/petrarchsitinera/linee-guida/blob/8a92ebc9b799db18a314b0ff1d86240a970400a9/docs/assets/images/edbrick_delpart.png?raw=true)  
+🚧
+E AGGIUNGI SAVE QUI
+🚧
+
 # Creare, modificare, eliminare _parts_
 Per creare, modificare, eliminare _parts_, accedere alla schermata riassuntiva selezionando la sezione _parts_ nella schermata superiore della scheda:
 > ![](https://github.com/petrarchsitinera/linee-guida/blob/8a92ebc9b799db18a314b0ff1d86240a970400a9/docs/assets/images/edbrick_partsumma.png?raw=true)  
