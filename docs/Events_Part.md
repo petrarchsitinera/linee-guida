@@ -16,8 +16,8 @@ Per ogni evento è creato un elemento _event_ mediante un [editor](Editor_Brick.
 La schermata principale permette di fornire le informazioni fondamentali sull'evento.  
 La schermata _related_, cui si può accedere attraverso il menu orizzontale in alto permette di registrare le entità (persone, testi, manoscritti, etc.) collegate all'evento schedato. 
 
-⚠️ Gli eventi relativi a più Item Person devono essere registrati una sola volta in Itinera.  
-Per verificare che l'evento che si desidera creare non sia già presente nella banca dati, è necessario consultare il [grafo](semantic_graph.md) e la Events Part degli altri Item Person interessati.  
+⚠️⚠️⚠️ Gli eventi relativi a più _item_ devono essere registrati una sola volta in Itinera.  
+Per verificare che l'evento che si desidera creare non sia già presente nella banca dati, è necessario consultare la Events Part degli altri _item_ interessati e il [grafo](semantic_graph.md).  
 
 ### Eid
 Permette di creare un identificativo univico dell'evento.  
