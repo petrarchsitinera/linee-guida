@@ -61,13 +61,13 @@ La compilazione del campo è obbligatoria.
 
 Permette di inserire la lezione del manoscritto relativa al luogo critico.
 
-🚧 🌵 
 **Si registrano**:
--luogo critico con varianti: trascrivi verso;  
--luogo critico senza varianti: inserisci "="; NB: ricadono sotto questa fattispecie i casi di mera variabilità ortografica.   
--componimento presente con lacuna in corrispondenza del luogo critico: "-";    
-**Non si registrano:**  
--componimenti assenti.
+-luogo critico con varianti: trascrivi l'intero verso;    
+-luogo critico senza varianti: inserisci "="; ⚠️ ricadono sotto questa fattispecie i casi di mera variabilità ortografica;  
+-componimento presente con lacuna in corrispondenza del luogo critico: "-".     
+
+**Non si registrano**:  
+-componimenti assenti.   
 
 **Norme di trascrizione**:  
 > Nel campo text si riporta la lezione del testimone in trascrizione semidiplomatica, secondo i seguenti criteri:  
@@ -80,14 +80,11 @@ Permette di inserire la lezione del manoscritto relativa al luogo critico.
 > * non riportare l’eventuale presenza di segni diacritici e di punteggiatura del testimone;
 > * non utilizzare maiuscole.
 
-**Note** 🚧 CAMPO DA CREARE 🚧
-> Rappresentano casi particolari: 🚧 [tutte le soluzioni di seguito potrebbero compromettere l’interrogabilità (e sollecitare l’arbitrio dei compilatori); occorre capire come è meglio comportarsi, anche in base al funzionamento del motore di ricerca]
-> * se il componimento relativo a un locus è assente nel testimone, il locus non viene registrato; se invece il testo è presente ma il verso corrispondente al locus è assente, il locus è registrato e nel campo text si inserisce la dicitura “[vacat]”; 
-> * in presenza di guasti materiali che compromettano la leggibilità del verso o di parte del verso corrispondente al locus, nel campo text la parte illeggibile si indica con […]; se è possibile integrare le lettere mancanti per congettura si indichino tra parentesi quadre; [forse si rischia di sollecitare l’arbitrio dei compilatori, ma nel caso di integrazioni ovvie potrebbe essere meglio dare la lezione ricostruita]
-> * in presenza di interventi correttori del copista come rasure, cancellature, lettere soprascritte, nel campo text si trascrive la lezione risultante dall’intervento e di seguito, tra parentesi quadre, la lezione precedente e la natura dell’intervento, ad esempio: “Fortuna ingiuriosa non contrasti [‘Furtuna’ con ‘o’ spscr. ???]”.
+> Rappresentano **casi particolari**: 
+> * in presenza di guasti materiali che compromettano la leggibilità del verso o di parte del verso corrispondente al locus, nel campo text la parte illeggibile si indica con […]; se è possibile integrare le lettere mancanti per congettura si indichino tra parentesi quadre; 
+> * in presenza di interventi correttori del copista come rasure, cancellature, lettere soprascritte, nel campo text si trascrive la lezione risultante dall’intervento e di seguito, tra parentesi quadre, la lezione precedente e la natura dell’intervento, ad esempio: “Fortuna ingiuriosa non contrasti [‘Furtuna’ con ‘o’ spscr. ]”.
 > * in presenza di postille che trasmettono varianti rispetto alla lezione presente a testo, nel campo text si trascrive la lezione a testo e di seguito, tra parentesi quadre, la variante, la posizione, la tipologia di richiamo, la mano responsabile, in questo modo: lezione testimone [‘variante’, posizione, richiamo, mano], ad esempio: “facti son i miei lauri or querce et olmi [‘spenti’, in margine, con segno di richiamo e introdotto da ‘al(iter)’, di mano sec. XVI (mano b)]”.
 > * le lezioni in cui sono presenti realizzazioni agrammaticali sono trascritte in forma diplomatica; in particolare, le lezioni relative al locus 70.10 vanno sempre trascritte in forma diplomatica. 
-🚧
 
 La compilazione del campo è obbligatoria.
 
