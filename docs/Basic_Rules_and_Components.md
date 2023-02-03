@@ -1,9 +1,6 @@
-Descrivere funzioni di base (forse metterlo -anche o solo- nell'indice di ogni item) .
+# Istruzioni generali
 
-* Creazione item  
-* salvataggio item (solo qui, con link interno ad loca)  
-* [salvataggio parte](part_save.md) (solo qui, con link interno ad loca?)  
-* salvataggio sottoparte (solo qui, con link interno ad loca)  
-* [eliminare/modificare parti ed elementi](Editor_Brick.md)
-* [regole per identificativi e authority file](identifiers.md)
-* altre raccomandazioni
+* [Creazione item, parti ed elementi](Editor_Brick.md) 
+* [Salvataggio item, parti ed elementi](part_save.md) (solo qui, con link interno ad loca?)   
+* [Regole per l'utilizzo di identificativi e authority file](identifiers.md)
+
