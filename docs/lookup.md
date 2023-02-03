@@ -38,7 +38,7 @@ Lo strumento è composto dai seguenti campi:
 * **_type_**: permette di indicare a quale tipologia di entità appartiene l'_eid_ ricercato. A seconda del valore selezionato, è possibile effettuare la ricerca tra:
 🚧 capire come fare questa lista: spiegando così, o con rinvio a parti/elementi, o citare esplicitamente solo meta\_eid e accennare genericamente a 'tutti gli altri'🚧
   * meta\_eid: gli identificativi degli _item_, quali sono stati registrati in [Metadata Part](Metadata_Part.md);
-  * event\_eid: gli identificativi degli eventi;
+  * event\_eid: gli identificativi degli eventi 🚧 precisare bene norme di richiamo in base a norme decise per eid eventi 🚧;
   * cod\_matdsc\_eid: gli identificativi delle unità codicologiche;
   * cod\_hand\_eid: gli identificativi delle mani;
   * cod\_decoration\_eid: gli identificativi degli apparati decorativi;
