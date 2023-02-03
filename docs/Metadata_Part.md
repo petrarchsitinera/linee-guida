@@ -32,7 +32,6 @@ Le regole relative alla composizione e all'utilizzo degli identificativi sono de
 * _type_: selezionare il valore _identificativo_;
 * _name:_ compilare sempre con la voce **eid**;
 * _value_: compilare con l'identificativo prescelto.  
-⚠️ L'identificativo deve essere composto esclusivamente con i caratteri A-Z, 0-9; utilizzare sempre underscore (_) e mai trattino semplice (-); evitare l'uso di un numero come primo carattere dell'identificativo. 
 
 La compilazione del campo è obbligatoria.
 
