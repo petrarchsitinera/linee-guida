@@ -56,7 +56,7 @@
 |[indice](Item_Manuscript_Index.md)|ok|-|-|
 |[Creazione dell'item](Item_Manuscript_Metadata.md)|ok|-|-|
 |[Shelfmarks Part](Shelfmarks_Part.md)|ok|-|-|
-|[Sheet Labels Part](Sheet_Labels_Part.md)|**mod**|Daniele|ok|
+|[Sheet Labels Part](Sheet_Labels_Part.md)|ok|rivedere con Daniele etichetta [r e non [r] |ok|
 |[Material Description Part](Material_Description_Part.md)|ok|-|
 |[Watermarks Part](Watermarks_Part.md)|ok|-|-|
 |[Layouts Part](Layouts_Part.md)|ok|-|ok|
