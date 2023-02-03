@@ -13,12 +13,12 @@ Per la compilazione del campo è possibile scegliere tra due modalità:
 
 Per utilizzare la numerazione di riferimento (colonna _n_ di [Sheet Labels Part](Sheet_Labels_Part.md)) occorre osservare la seguente sintassi:
 * **numerazione di riferimento**: inserire sempre come primo elemento l'indicazione della colonna _n_, seguita da due punti (:);
- > n:
+  > n:
 * **carta**: inserire sempre l'indicazione della carta, riportando tra apici doppi ("") l'intera etichetta presente sulla cella relativa alla carta desiderata, comprensiva di _r_/_v_.
- > n:"4r" 
- > n:"IVr" 
- > n:"13bisv" 
- > n:"[v]" (controguardia anteriore)
+  > n:"4r" 
+  > n:"IVr" 
+  > n:"13bisv" 
+  > n:"[v]" (controguardia anteriore)
 * **colonna**: in caso di impaginazione a più colonne, è possibile indicare la colonna con lettera alfabetica minuscola (a, b, ...);
   > n:"4r"a   
 * **linea**: è possibile, se necessario, registrare la linea di testo: inserire il numero preceduto da punto (.); 
@@ -28,11 +28,11 @@ Per utilizzare la numerazione di riferimento (colonna _n_ di [Sheet Labels Part]
 
 Singole _location_ possono essere combinate secondo queste regole:
 * per esprimere **intervalli di carte successive**, separare le _location_ con trattino semplice (-) senza spazi né prima né dopo; 
-  > n:"1r"-n:"10v"
-⚠️ Ricordarsi di premette ad ogni singola _location_ il prefisso _n:_.
+  > n:"1r"-n:"10v"  
+⚠️ Ricordarsi di premettere ad ogni singola _location_ il prefisso _n:_.
 * per esprimere **serie di carte discontinue**, separare le _location_ o gli intervalli con uno spazio singolo; 
-  > n:"1r" n:"4r"-n:"8v" n:"11r" n:"20r"-n:"30v"
-⚠️ Ricordarsi di premette ad ogni singola _location_ il prefisso _n:_.
+  > n:"1r" n:"4r"-n:"8v" n:"11r" n:"20r"-n:"30v"  
+⚠️ Ricordarsi di premettere ad ogni singola _location_ il prefisso _n:_.
 
 ## Riferimento alle carte fisiche
 Per utilizzare il riferimento alle carte fisiche (colonna grigia di [Sheet Labels Part](Sheet_Labels_Part.md)) occorre osservare la seguente sintassi:  
