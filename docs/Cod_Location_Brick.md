@@ -7,7 +7,11 @@ Il modello permette di esprimere un riferimento a determinate carte del manoscri
 
 La descrizione del modello è disponibile su [Github](https://github.com/vedph/cadmus-bricks-shell/blob/master/projects/myrmidon/cadmus-cod-location/README.md)  
 
-## Sintassi
+## Numerazione di riferimento
+
+## Riferimento alle carte fisiche
+
+### Sintassi
 Ogni singola _location_ può contenere i seguenti elementi:
 * **carta**: unico elemento obbligatorio, da indicare secondo queste possibilità:
   * se la carta è numerata con cifre arabiche, riportarle;
@@ -37,3 +41,5 @@ Singole _location_ possono essere combinate secondo queste regole:
 
 
 🚧 in base a indicazioni Daniele, se system è necessario per esprimere cover spiegarne il funzionamento 🚧
+
+
