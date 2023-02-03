@@ -4,7 +4,7 @@ Linee guida per i compilatori della banca dati di Itinera
 
 [🚧](AAAvanzamento.md)
 
-[Prima di cominciare...](Basic_Rules_and_Components.md) 
+[Istruzioni generali](Basic_Rules_and_Components.md) 
 
 [Item Person](Item_Person_Index.md)  
 [Item Work](Item_Work_Index.md)  
