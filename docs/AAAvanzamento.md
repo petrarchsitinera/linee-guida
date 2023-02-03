@@ -7,15 +7,15 @@
 |-------------|----------|-----------|-----------|    
 |Homepage|**mod**|definire struttura e sottopagine di supporto; altre cose generali: template complessivo; banda di riepilogo su ogni pagina; etc.|-|
 |[Metadata Part](Metadata_Part.md)|ok|-|-|
-|[Events Part](Events_Part.md)|**rev**|-|-|
+|[Events Part](Events_Part.md)|ok|precisare norme specifiche eid|-|
 |[Events Thesaurus](Events_Thesaurus.md)|**no**|ex novo: oppure, senza casi, spiegati ad un seminario dopo aver compilato qualche item con events|-|
 |[grafo](semantic_graph.md)|**no**|ex novo, dopo|-|
 |[Bibliography Part](External_Bibliography_Part.md)|**rev**|-|📷|
 |[Note Part](Note_Part.md)|ok|-|-|
-|[Asserted Ids](Asserted_Ids_Brick.md)|**rev**|-|-|
-|[eid](identifiers.md)|**rev**|norme eid item|-|
+|[Asserted Ids](Asserted_Ids_Brick.md)|ok|-|-|
+|[eid](identifiers.md)|ok|norme eid item|-|
 |[lookup](lookup.md)|**rev**|pin/eid, forma|-|
-|[repositories](repository.md)|**no**|ex novo e link ulteriori|-|
+|[repositories](repository.md)|ok|creare i repositories; definire clickup|-|
 |[Editor elemento](Editor_Brick.md)|ok|aggiungere creazione item|ok|
 |[Assertion](Assertion_Brick.md)|**rev**|rank, key|ok|
 |[DocReference](Docref_Brick.md)|ok|-|ok|
