@@ -43,7 +43,7 @@ Diversamente, deve procedere ad attribuire un _eid_ all'_item_ facendo attenzion
 
 
 ### Riuso di un EID già esistente
-Se l'entità di interesse (_item_, _part_, o singolo elemento) è già provvista di un identificativo (_eid_) all'interno di Itinera, occorre riportare quest'ultimo.  
+Se l'entità di interesse (_item_, _part_, o singolo elemento) è già provvista di un identificativo (_eid_) all'interno di Itinera, occorre copiare quest'ultimo nel campo _EID_/_ID_/_Asserted Id_.    
 Per cercare gli _eid_ esistenti è possibile ricorrere ai [repository](repository.md) (solo per determinate entità) o alla funzione di [lookup](lookup.md) (per qualsiasi elemento).   
 
 
