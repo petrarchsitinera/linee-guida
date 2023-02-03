@@ -25,7 +25,7 @@ Per richiamare l'identificativo di un'entità schedata nel database Itinera, com
 
 * _id_:
   * _tag_: lasciare vuoto;
-  * _scope_: lasciare vuoto (🚧?) 
+  * _scope_: lasciare vuoto;    
   * _value_: compilare con l'[_eid_]((identifiers.md)) dell'entità, ricercandolo tramite [lookup](lookup.md) e nei [repositories](repository.md);  
 * _assertion_: compilare secondo le modalità previste in [Assertion](Assertion_Brick.md);  
 
