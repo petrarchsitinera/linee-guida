@@ -20,7 +20,7 @@
 |[Assertion](Assertion_Brick.md)|**rev**|rank, key|ok|
 |[DocReference](Docref_Brick.md)|ok|-|ok|
 |[Editor cronotopo](Asserted_Chronotope_Brick.md)|**rev**|Cursi "moderna", etc.; norme place|📷|
-|[Codicological Location](Cod_Location_Brick.md)|**rev**|Daniele|-|
+|[Codicological Location](Cod_Location_Brick.md)|ok|agg. foto tool|-|
 |[Physical Size](Physical_Size_Brick.md)|ok|-|-|
 |[Cod Image](Cod_Image_Brick.md)|ok|-|-|
 |[Salvataggio](part_save.md)|ok|-|ok|
