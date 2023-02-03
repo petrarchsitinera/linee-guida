@@ -5,7 +5,7 @@
 ## Parti Generali (parts comuni, bricks, istruzioni)
 |Parte|Stato|manca|immagini|  
 |-------------|----------|-----------|-----------|    
-|Homepage|**mod**|definire struttura e sottopagine di supporto; altre cose generali: template complessivo; banda di riepilogo su ogni pagina; etc.|-|
+|Homepage|ok|-|-|
 |[Metadata Part](Metadata_Part.md)|ok|-|-|
 |[Events Part](Events_Part.md)|ok|precisare norme specifiche eid|-|
 |[Events Thesaurus](Events_Thesaurus.md)|**no**|ex novo: oppure, senza casi, spiegati ad un seminario dopo aver compilato qualche item con events|-|
@@ -16,10 +16,10 @@
 |[eid](identifiers.md)|ok|norme eid item|-|
 |[lookup](lookup.md)|**rev**|eid|-|
 |[repositories](repository.md)|ok|creare i repositories; definire clickup|-|
-|[Editor elemento](Editor_Brick.md)|ok|aggiungere creazione item|ok|
+|[Editor elemento](Editor_Brick.md)|ok|-|ok|
 |[Assertion](Assertion_Brick.md)|ok|-|ok|
 |[DocReference](Docref_Brick.md)|ok|-|ok|
-|[Editor cronotopo](Asserted_Chronotope_Brick.md)|**rev**|Cursi "moderna", etc.; norme place|📷|
+|[Editor cronotopo](Asserted_Chronotope_Brick.md)|ok|Cursi "moderna", etc.; norme place|📷|
 |[Codicological Location](Cod_Location_Brick.md)|ok|agg. foto tool|-|
 |[Physical Size](Physical_Size_Brick.md)|ok|-|-|
 |[Cod Image](Cod_Image_Brick.md)|ok|-|-|
@@ -32,7 +32,7 @@
 |[indice](Item_Person_Index.md)|ok|-|-|
 |[Creazione dell'item](Item_Person_Metadata.md)|ok|-|-|
 |[Info Part](Person_Info_Part.md)|ok|-|-|
-|[Names Part](Names_Part.md)|**mod**|obbligatorietà nome principale?|-|
+|[Names Part](Names_Part.md)|ok|-|-|
 |[Works Part](Person_Works_Part.md)|**mod**|lookup|-|
 |Meta, IDs, Events, Biblio, Note|vedi sopra|-|-| |
 
