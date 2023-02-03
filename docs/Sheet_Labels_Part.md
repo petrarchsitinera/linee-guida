@@ -207,6 +207,7 @@ Il campo _edit the selected column definition_ apre un **editor** che permette d
 
 Il campo _action_ permette, attraverso una specifica formula, di attribuire dei valori alle celle della colonna selezionata.  
 La formula consente di compilare rapidamente la colonna relativa a una numerazione permettendo l'inserimento automatico di serie continue (cifre arabiche, numeri romani, serie di lettere in ordine alfabetico).  
+⚠️ Per numerazioni in numeri romani utilizzare sempre la forma minuscola (es. "iv"), al fine di distinguere le carte del corpo del codice dalle eventuali guardie, numerate sempre in numeri romani maiuscoli (es. "IV").    
 Per una numerazione regolare, senza interruzioni o errori, sarà sufficiente l'inserimento di un sola formula; per numerazioni irregolari sarà possibile ricorrere a inserimenti successivi e/o intervenire direttamente sulle singole celle.  
 
 La **formula** per l'inserimento di una **cartulazione** deve rispettare la seguente sintassi:  
@@ -233,15 +234,15 @@ n1r/v % n2 = n3
 * n2 = la quantità di facciate consecutive interessate dalla paginazione che si intende inserire.  
 * n3 = il valore iniziale della serie che si intende inserire (arabo, romano o alfabetico).  
 
-> es. 11v%4=XI permette la creazione di una paginazione XI-XIV a partire dalla carta fisica 11v:
+> es. 11v%4=xi permette la creazione di una paginazione xi-xiv a partire dalla carta fisica 11v:
 >           -11v: la paginazione parte dalla carta contrassegnata "11v" nella colonna relativa alla carte fisiche (colonna grigia a sinistra);
 >           -4: la paginazione interessa 4 facciate (4 caselle);  
->           -XI: la cartulazione inizia con il valore "XI", e prosegue automaticamente con i numeri romani successivi.  
+>           -xi: la cartulazione inizia con il valore "xi", e prosegue automaticamente con i numeri romani successivi.  
   
 Dopo avere inserito la formula, cliccare il comando _Execute_.
 L'applicazione della formula assegna alle celle interessate delle etichette corrispondenti alla paginazione inserita. 
 
-> La formula dell'esempio precedente assegna a partire dalla carta fisica "11v" i valori: 11v=XI, 12r=XII, 12v=XIII, 13r=XIV.  
+> La formula dell'esempio precedente assegna a partire dalla carta fisica "11v" i valori: 11v=xi, 12r=xii, 12v=xiii, 13r=xiv.  
 
 È sempre possibile editare manualmente il valore di una cella cliccando sul suo campo _edit value_.  
 Si ricorre a questa modalità di compilazione nel caso in cui:  
