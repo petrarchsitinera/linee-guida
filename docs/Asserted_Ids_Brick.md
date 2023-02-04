@@ -1,18 +1,18 @@
 # Asserted Ids
 **Asserted Ids** permette due differenti operazioni:  
-* richiamare uno o più identificativi ([_eid_](identifiers.md)), qualificando i dati con una [Assertion](Assertion_Brick.md), ovvero con indice di affidabilità e fonti a sostegno;  
+* richiamare uno o più identificativi ([_eid_](identifiers.md)), qualificando il richiamo con evenutali indici di affidabilità e fonti a sostegno attraverso l'[Assertion](Assertion_Brick.md),;  
 * collegare un _item_ o un elemento ad una o più entità schedate in risorse esterne.
 
-È possibile creare tanti _Asserted Ids_ quante sono le identificazioni.  
+È possibile creare tanti _Asserted Ids_ quante sono le identificazioni da inserire.  
 
 La descrizione del modello è disponibile su [Github](https://github.com/vedph/cadmus-general#externalidspart).  
 
 > La struttura della parte è la seguente:  
-> * _id_: sezione che permette di inserire l'identificativo e i suoi metadati;   
+> * _id_: permette di inserire l'identificativo e i suoi metadati;   
 >    * _tag_: permette di attribuire all'identificativo un'etichetta utile ai fini della ricerca;  
->    * _scope_: permette di indicare la fonte in cui è archiviato l'identificativo (Itinera o database esterno);  
+>    * _scope_: permette di indicare la fonte in cui è archiviato l'identificativo (Itinera o database esterni);  
 >    * _value_: permette di inserire l'identificativo (per le entità di Itinera l'_eid_, ricercabile attraverso lo strumento di [lookup integrato](lookup.md));  
-> * _assertion_: sezione, attivabile con finestra a comparsa, permette di attribuire un'indice di affidabilità all'identificazione attraverso [Assertion](Assertion_Brick.md) e di precisarne le [fonti](Docref_Brick.md).  
+> * _assertion_: compilabile aprendo la finestra a comparsa, permette di attribuire un'indice di affidabilità all'identificazione attraverso [Assertion](Assertion_Brick.md) e di precisarne le [fonti](Docref_Brick.md).  
   
 
 ![](https://github.com/petrarchsitinera/linee-guida/blob/e88adcfe6655f13f9f18f6aa7de232fe8d83907b/docs/assets/images/asserted_id.png)  
@@ -21,7 +21,7 @@ La parte viene compilata in modo diverso a seconda che si debba richiamare un id
 
 ## Identificativi interni a Itinera (_eid_)
 
-Per richiamare l'identificativo di un'entità schedata nel database Itinera, compilare i campi nel seguente modo:
+Per richiamare l'identificativo di un'entità schedata nel database Itinera, compilare i campi come segue:
 
 * _id_:
   * _tag_: lasciare vuoto;
