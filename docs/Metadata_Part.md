@@ -9,7 +9,8 @@ La parte è comune a tutti gli _item_: comprende sia voci generiche, da compilar
 Per aggiungere la parte, selezionare **_meta_** dal menu a tendina, quindi cliccare su **_add part_**.  
 
 ## Metadatum
-Per ogni metadato è creato un elemento _metadatum_ mediante un [editor](Editor_Brick.md).
+Ciascun metadato è inserito come un elemento singolo (_metadatum_) - cfr. la sezione [Creare, modificare, eliminare e salvare elementi](Editor_Brick.md).
+
 
 Ogni _metadatum_ è strutturato in tre campi: 
 * _type_: permette di indicare, da thesaurus, la tipologia del metadato;  
