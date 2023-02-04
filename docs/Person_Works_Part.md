@@ -7,7 +7,7 @@ La descrizione del modello è disponibile su [Github](https://github.com/vedph/c
 Per aggiungere la parte, selezionare **works** dal menu a tendina, quindi cliccare su **add part**.  
 
 ##  Work
-Per ogni opera è creato un elemento _work_ mediante un [editor](Editor_Brick.md).
+Ciascuna opera è inserita come elemento singolo (_work_) - cfr. la sezione [Creare, modificare, eliminare e salvare elementi](Editor_Brick.md).
 
 ###  Title
 Inserire il titolo completo dell'opera **nella forma d'autore**. In caso di dubbio si preferisce il **titolo usato più frequentemente** nelle edizioni moderne.
