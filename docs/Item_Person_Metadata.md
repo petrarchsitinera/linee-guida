@@ -3,28 +3,29 @@
 L’__**item Person**__ è pensato per l’inserimento dei dati relativi alle **persone**, quale che ne sia il ruolo e lo statuto. 
 
 Per aggiungere un _item Person_:  
-1. dopo aver effettuato l'accesso, selezionare _Items_ nel menu in alto a sinistra;  
-2. cliccare il pulsante **_add item_** in fondo alla schermata a sinistra;  
+1. effettuare l'accesso con le proprie credenziali e selezionare _Items_ dal menu nella parte alta della schermata;
+2. cliccare **_add item_** in fondo alla schermata a sinistra;  
 3. inserire i **metadati**.  
 
 ## Metadata 
 
->   I **Metadata** descrivono sinteticamente l'_item_ che si intende compilare. I campi vanno compilati diversamente a seconda della tipologia di _item_:  
+I **Metadata** descrivono sinteticamente l'_item_. La compilazione segue regole diverse a seconda che l'_item_ da inserire sia una persona, un testo o un manoscritto:  
+
 >   * **Title**: indica il nome dell'_item_.  
 >   * **Description**: è una breve descrizione dell'_item_, che ne costituisce l'anteprima di visualizzazione nella schermata di riepilogo.  
 >   * **Facet**: indica la tipologia dell'_item_ - _Person_, _Text_ o _Manuscript_.   
 >   * **Group ID**: raccoglie le eventuali etichette dell'_item_, che permettono di inserirlo in _sottocorpora_ di _item_ coerenti.   
->   * **Flags**: indicano se l'item è stato completato (_completed_) o revisionato (_revised_). 
+>   * **Flags**: indicano se l'item è stato completato (_completed_) e/o revisionato (_revised_). 
 
 ### Title
-Inserire il nome della persona nella forma riportata nel **repository dei nomi di persona Itinera** (🚧 in allestimento).
+Inserire il nome della persona nella forma riportata nel **[repository dei nomi di persona](repository.md)**(🚧 in allestimento).
 
 Per gli **anonimi**, ricorrere alle formule:  
 * **anonimo (autore di [testo])**: per gli anonimi autori di opere o testi individuati;
 * **anonimo (citato in [testo])**: per gli anonimi di cui abbiamo conoscenza esclusivamente grazie alla loro menzione in opere o testi individuati;
 
 
-⚠️ Verificare che i nomi delle persone schedate nel database coincidano con quelli riportati nel **repository**. Quando assenti, aggiornare il repository con le nuove immissioni.
+⚠️ Verificare che i nomi delle persone schedate nel database coincidano con quelli riportati nel [repository dei nomi di persona](repository.md). Nel caso in cui la persona da inserire non si trovi nel repository, occorre aggiornare il repository stesso. L'aggiornamento del repository è svolto dai responsabili a partire dalla segnalazione delle nuove immissioni da parte dei compilatori su click up.
 
 ### Description
 
