@@ -41,8 +41,10 @@ Per gli _eid_ di singole parti (ad es. Events, Hands, Edits, etc.), consultare l
 
 
 ### Riuso di un EID già esistente
-Se l'entità di interesse (_item_, _part_, o singolo elemento) è già provvista di un identificativo (_eid_) all'interno di Itinera, occorre copiare quest'ultimo nel campo _EID_/_ID_/_Asserted Id_.    
-Per cercare gli _eid_ esistenti è possibile ricorrere ai [repository](repository.md) (solo per determinate entità) o alla funzione di [lookup](lookup.md) (per qualsiasi elemento).   
+Se l'entità di interesse è già provvista di un identificativo (_eid_) all'interno di Itinera, occorre copiare quest'ultimo nel campo daa compilare (_EID_, _ID_, o _Asserted Id_).    
+Per veriricare se all'entità da descrivere sia già stato attribuito un _eid_, il compilatore può ricorrere ai [repository](repository.md) o allo strumento di [lookup](lookup.md).
+
+⚠️ I [repository](repository.md) sono stati predisposti soltanto per le seguenti entità: nomi di persona, testi, manoscritti. Per individuare l'_eid_ delle altre entità, è necessario avvalersi dello strumento di [lookup](lookup.md).
 
 
 ## External Ids
