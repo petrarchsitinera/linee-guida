@@ -3,7 +3,7 @@ Per ogni _item_ e per alcune _parts_ e _elements_, Itinera si serve di:
 * un identificativo interno _human readable_ (**EID**), che permette di identificare e, ove necessario, richiamare le entità di interesse all'interno del database;  
 * eventuali identificativi esterni (**External Ids**), che permettono di collegare gli _item_ a risorse esterne al database Itinera.  
 
-⚠️ La compilazione dell'_eid_ degli _item_ è obbligatoria: senza di esso risulta impossibile stabilire qualsiasi collegamento tra gli _item_. Cfr. [Metadata Part](Metadata_Part.md) 
+⚠️ L'attribuzione dell'_eid_ agli _item_ è obbligatoria: senza di esso risulta impossibile stabilire qualsiasi collegamento tra gli _item_. L'_eid_ di un item si indica nella [Metadata Part](Metadata_Part.md), secondo le regole stabilite per la compilazione della parte.
 
 ⚠️⚠️⚠️ Il compilatore non deve confondere _eid_ e _title_ dell'_item_, che sono due proprietà diverse e con diverse funzioni.
 
