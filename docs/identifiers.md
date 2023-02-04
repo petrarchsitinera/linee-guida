@@ -12,35 +12,32 @@ Nella banca dati Itinera gli _eid_ si indicano in campi diversi a seconda della 
 
 Ogni volta che si incontra uno di questi campi sono disponibili due possibilità, tra loro alternative:  
 * assegnazione di un nuovo _eid_, se l'entità ne è sprovvista;  
-* riuso di un _eid_, se l'entità ne possiede già uno.
+* richiamo dell'_eid_ già assegnato all'entità, nel caso in cui l'entità esista e sia già identificata all'interno del database.
 
-### Creazione di un nuovo EID
+### Attribuire un EID
 
-Nei casi in cui sia necessario **creare ed attribuire** un nuovo _eid_, è necessario attenersi alle seguenti regole generali:  
-* l'_eid_ deve essere composto esclusivamente con i caratteri a-z, 0-9; 
-* non utilizzare lettere maiuscole;  
-* utilizzare sempre underscore (\_) e mai trattino semplice (-); 
+Quando si renda necessario **creare ed attribuire** un nuovo _eid_, occorre attenersi alle seguenti regole generali:  
+* l'_eid_ si compone di caratteri a-z, 0-9; 
+* l'_eid_ non può contenere lettere maiuscole;  
+* l'_eid_ non può contenere spazi;
+* l'_eid_ non può contenere trattino semplice (-), sostituito eventualmente dall'underscore (\_); 
 * il primo carattere dell'_eid_ non può mai essere un numero;
-* non utilizzare spazi. 
 
-> Per l'_eid_ degli _item_ utilizzare:   
+Per l'_eid_ degli _item person_, si ricorre al nome della persona nella forma indicata nel [repository dei nomi di persona](repository.md), ponendo tutte le lettere in minuscolo e sostituendo eventuali spazi e segni di interpunzione con underscore (\_):  
+> es.  Giovanni dell’Incisa > giovanni_dell_incisa   
 > 
-> Item Person: nome della persona in minuscolo, sostituendo spazi e segni di interpunzione con underscore (\_):  
-> es. Per l'_item_ di Giovanni dell’Incisa, l'_eid_ sarà "giovanni_dell_incisa"  
-> 
-> Item Text: ripetere il _title_ dell'_item_, sostituendo spazi e segni di interpunzione con underscore (\_); nel caso dei testi citati attraverso _incipit_, abbreviare il titolo in modo opportuno:  
->  es. Fam. I 1 diventa "Fam_I_1" 
->  es. Rvf 84 diventa "Rvf_84"    
->  es. "I’provai già quanto la soma è grave" diventa "I_provai".  
-> Item Manuscript: indicare sinteticamente la sigla della biblioteca e/o del fondo come riportata nel [repository dei manoscritti](repository.md), seguita da underscore (\_) e dalla segnatura. Nel caso in cui la segnatura del codice comprenda punti, questi sono sostituiti da underscore (\_):  
+Per l'_eid_ degli _item text_, si ricorre al _title_ dell'_item_, sostituendo spazi e segni di interpunzione con underscore (\_). Nel caso dei testi citati attraverso l'_incipit_, il titolo va abbreviato in modo opportuno:  
+>  es. Fam. I 1 > Fam_I_1.  
+>  es. Rvf 84 > Rvf_84    
+>  es. I’provai già quanto la soma è grave > I_provai 
+>       
+Per l'_eid_ degli _item manuscript_, si indica sinteticamente la sigla della biblioteca e/o del fondo come riportata nel [repository dei manoscritti](repository.md), seguita da underscore (\_) e dalla segnatura. Nel caso in cui la segnatura del codice comprenda punti, questi sono sostituiti da underscore (\_):  
 > es. "Plut_XL_1" 🚧  
 > es. "Bodl_Can_It_66" 🚧  
 
-> Per gli _eid_ di singole parti (ad es. Events, Hands, Edits, etc.), consultare le linee guida delle relative _parts_.  
+Per gli _eid_ di singole parti (ad es. Events, Hands, Edits, etc.), consultare le linee guida delle relative _parts_.  
 
-⚠️ È fondamentale che l'_eid_ sia univoco e non abbia doppioni.  
-Il compilatore deve perciò in primo luogo verificare nel [repository](repository.md) se all'_item_ da descrivere è già stato attribuito un _eid_, e ricorrere a quello in caso positivo.  
-Diversamente, deve procedere ad attribuire un _eid_ all'_item_ facendo attenzione a che non corrisponda ad _eid_ già presenti, ricorrendo sia ai [repository](repository.md) sia alla funzione di [lookup](lookup.md).   
+⚠️ È di fondamentale importanza che l'_eid_ sia univoco e non abbia doppioni. Il compilatore deve perciò verificare sempre e in primo luogo se nel [repository](repository.md) sia già stato attribuito un _eid_ all'_item_ da descrivere. In caso positivo, il compilatore ricorrerà all'_eid_ già assegnato. Diversamente, procederà ad una nuova attribuzione, facendo attenzione a che il nuovo _eid_ non corrisponda ad alti già presenti a sistema. Per le verifiche necessarie all'attribuzione, il compilatore può ricorrre ai [repository predisposti](repository.md) e allo strumento di [lookup](lookup.md).   
 
 
 ### Riuso di un EID già esistente
