@@ -11,20 +11,19 @@ Ciascuna opera è inserita come elemento singolo (_work_) - cfr. la sezione [Cre
 
 ###  Title
 Inserire il titolo completo dell'opera **nella forma d'autore**. In caso di dubbio si preferisce il **titolo usato più frequentemente** nelle edizioni moderne.
-> [Francesco Petrarca] _Rerum vulgarium fragmenta_ 📷 se no uno pensa di dover mettere anche nome d'autore e corsivo 📷   
-> [Francesco Petrarca] _Res Seniles_   
-> [Giovanni Boccaccio] _Decamerone_      
+> Ad esempio, nell'item relativo a Francesco Petrarca, saranno inseriti come singoli elementi i 'Rerum vulgarium fragmenta' (e non il 'Canzoniere'), le 'Res Seniles' (e non le 'Senili' o le 'Lettere senili'), ecc., come nell'immagine:
+> 
+>   <img width="308" alt="Schermata 2023-02-04 alle 19 02 05" src="https://user-images.githubusercontent.com/102725489/216782582-1fe5f640-0111-411d-ac3d-2a04841bdd99.png">
 
 Nel caso di **raccolte d'autore**, si inserisce soltanto il **titolo della raccolta**, **mai** il titolo dei singoli testi.  
-> Nell'item Francesco Petrarca non si inserisce mai _Rvf 1_, ma soltanto _Rerum vulgarium fragmenta_.  
-> Allo stesso modo, si inserisce _Res Seniles_ e mai _Sen. V 1_.      
+> Nell'item relativo a Francesco Petrarca non si inserisce mai 'Rvf 1', ma soltanto 'Rerum vulgarium fragmenta'. Allo stesso modo, si inserisce 'Res Seniles' e mai 'Sen. V 1'.      
 
-Nel caso di **testi poetici** sciolti e senza titolo, inserire il **primo verso**.  
-> [Giacomo Colonna] _Se le parti del corpo mio destrutte_       
+Nel caso di **testi poetici** sciolti e senza titolo, inserire come titolo il **primo verso**.  
+> [item Giacomo Colonna] _Se le parti del corpo mio destrutte_       
 
-Nel caso di **lettere** non raccolte, inserire **l'intestazione** o, in sua assenza, **le prime parole del testo**.   
-> [Barbato da Sulmona] _Frater carissime_  
-> [Francesco Nelli] _Amor et dolor impellunt_      
+Nel caso di **lettere** non raccolte dall'autore, inserire **l'intestazione** o, in sua assenza, **le prime parole del testo**.   
+> [item Barbato da Sulmona] _Frater carissime_  
+> [item Francesco Nelli] _Amor et dolor impellunt_    
 
 🚧 NICOLA DOMANDA PER NOI: COME CI COMPORTIAMO RISPETTO A LETTERE E RIME DISPERSE? LE INSERIAMO UNA PER UNA OPPURE COME CORPUS NON D'AUTORE? E PER I CASI COME BOCCACCIO, AUTORE DI LETTERE E RIME NON RACCOLTE MA PUBBLICATE IN EDIZIONI DI CUI E' INVALSA LA NUMERAZIONE? 
 
