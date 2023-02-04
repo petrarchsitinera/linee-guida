@@ -7,7 +7,7 @@ La descrizione del modello è disponibile su [Github](https://github.com/vedph/c
 Per aggiungere la parte, selezionare **_names_** dal menu a tendina, quindi cliccare sul tasto **add part**.  
 
 # Name
-Ciascuna forma del nome è inserita all'interno della _names part_ attraverso un editor come elemento singolo - cfr. la sezione [Creare, modificare, eliminare e salvare elementi](Editor_Brick.md).
+Ciascuna forma del nome è inserita come elemento singolo - cfr. la sezione [Creare, modificare, eliminare e salvare elementi](Editor_Brick.md).
 
 È possibile aggiungere più nomi e più forme del nome per ogni forma attestate o in uso. È tuttavia **obbligatorio** inserire la forma del nome individuata come principale, come tale dichiarata attraverso il tag: consultare il **repository dei nomi di persona**.  
 
