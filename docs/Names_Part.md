@@ -7,14 +7,15 @@ La descrizione del modello è disponibile su [Github](https://github.com/vedph/c
 Per aggiungere la parte, selezionare **_names_** dal menu a tendina, quindi cliccare sul tasto **add part**.  
 
 # Name
-Per ogni nome è creato un elemento _name_ mediante un [editor](Editor_Brick.md).
+Ciascuna forma del nome è inserita all'interno della _names part_ attraverso un editor come elemento singolo - cfr. la sezione [Creare, modificare, eliminare e salvare elementi](Editor_Brick.md).
 
-È possibile aggiungere più nomi, uno per ogni forma attestate o in uso. È tuttavia **obbligatorio** inserire la forma del nome individuata come principale, e come tale dichiarata attraverso il tag: consultare il **repository dei nomi di persona**.  
+È possibile aggiungere più nomi e più forme del nome per ogni forma attestate o in uso. È tuttavia **obbligatorio** inserire la forma del nome individuata come principale, come tale dichiarata attraverso il tag: consultare il **repository dei nomi di persona**.  
 
 ### Language
 Selezionare dal menu a tendina la lingua in cui è espresso il nome. 
 
 La compilazione del campo è obbligatoria.
+
 
 ### Tag
 Inserire:  
@@ -23,9 +24,11 @@ Inserire:
 
 La compilazione del campo è obbligatoria.  
 
+⚠️ I tag sono sempre scritti in minuscolo.
+
 ### Piece
 Cliccando _+add piece_ è possibile inserire le componenti del nome: nome, cognome o nome generico.  
-In Itinera, tuttavia, il nome non viene scomposto nelle sue componenti ma inserito integralmente in un unico _piece_ con il _tag_ "nome generico".  
+In Itinera il nome non viene scomposto nelle sue componenti ma inserito come singolo _piece_, selezionando sempre "nome generico".  
 
 #### Type
 Selezionare dal menu a tendina _solo ed esclusivamente_ **nome generico**.
