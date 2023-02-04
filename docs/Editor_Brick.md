@@ -1,22 +1,21 @@
 # Creare, modificare, eliminare _items_
-Per creare un nuovo _item_, accedere alla schermata riassuntiva degli _item_ e  cliccare sul comando _+ add item_, posto in basso a sinistra.  
+Dopo aver effettuato l'accesso con le proprie credenziali, cliccare _items_ dal menu nella parte alta della schermata per aprire la pagina di riepilogo degli _item_.  
 
-> ![](https://github.com/petrarchsitinera/linee-guida/blob/8572fa7a707570f8de3500d5fb7f2ef738cfc10c/docs/assets/images/item_create.png?raw=true)  
+Per creare un nuovo _item_, cliccare sul comando _+ add item_ in basso a sinistra nella schermata.  
 
-Per cercare un _item_ filtrare l'elenco attraverso i campi della finestra di ricerca a sinistra.  
+> <img width="385" alt="Schermata 2023-02-04 alle 16 09 18" src="https://user-images.githubusercontent.com/102725489/216774824-eab57cbf-8e98-44c6-b9b9-7b41da992f59.png">
 
-Per modificare un _item_ cliccare sul comando _edit_ in corrispondenza dell'_item_ prescelto.  
+È possibile cercare un _item_ tra quelli già inseriti in Itinera compilando uno o più campi di ricerca dal menu verticale a sinistra e cliccando sulla spunta blu.
 
-> ![](https://github.com/petrarchsitinera/linee-guida/blob/8572fa7a707570f8de3500d5fb7f2ef738cfc10c/docs/assets/images/edbrick_edit.png?raw=true)  
+Per modificare un _item_ cliccare sul comando _edit_ in corrispondenza dell'_item_ prescelto (1). Eventuali modifiche all'_item_ sono salvate automaticamente al salvataggio delle _parts_ modificate (cfr. infra).  
 
-Per eliminare un _item_ cliccare sul comando _delete_ in corrispondenza dell'_item_ prescelto.  
+Per eliminare un _item_ cliccare sul comando _delete_ in corrispondenza dell'_item_ prescelto (2).  
 
-> ![](https://github.com/petrarchsitinera/linee-guida/blob/8572fa7a707570f8de3500d5fb7f2ef738cfc10c/docs/assets/images/edbrick_delpart.png?raw=true)  
-
-Eventuali modifiche all'_item_ sono salvate automaticamente al salvataggio delle _parts_ modificate (cfr. infra).  
+> <img width="401" alt="Schermata 2023-02-04 alle 16 15 53" src="https://user-images.githubusercontent.com/102725489/216775218-2e832302-8b1c-4801-b565-870d24b09ff9.png">
 
 # Creare, modificare, eliminare e salvare _parts_
-Per creare, modificare, eliminare _parts_, accedere alla schermata riassuntiva dell'_item_ selezionando la sezione _parts_ nella schermata superiore della scheda:
+Per creare, modificare, aggiungere ed eliminare _parts_, accedere all'_item_ e selezionare _parts_ dal menu orizzontale della scheda:
+
 > ![](https://github.com/petrarchsitinera/linee-guida/blob/8a92ebc9b799db18a314b0ff1d86240a970400a9/docs/assets/images/edbrick_partsumma.png?raw=true)  
 
 Per creare una nuova _part_, selezionare dal menu a tendina del campo _part_ il nome di quella desiderata e cliccare sul comando _+ add part_.  
