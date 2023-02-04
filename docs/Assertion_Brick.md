@@ -6,7 +6,7 @@ Ogni _Assertion_ si riferisce ad un singolo dato inserito.
 
 ![](https://github.com/petrarchsitinera/linee-guida/blob/9a3544c46e6ea09d6092d436a630821b00eb5fef/docs/assets/images/assertion.png?raw=true)
 
-Si compila un'_Assertion_ per indicare l'affidabilità di un dato e/o inserire voci bibliografiche, senza che le due possibilità si escludano. È cioè possibile inserire un'_Assertion_ per aggiungere soltanto un rank o soltanto una voce bibliografica, ma è possibile ricorrere alla parte per inserirli entrambi.
+Si compila un'_Assertion_ per indicare l'affidabilità di un dato e/o inserire voci bibliografiche, senza che le due possibilità si escludano. È cioè possibile inserire un'_Assertion_ perché si ha bisogno di aggiungere un rank, una voce bibliografica, o entrambe le cose contemporaneamente.
 
 ## Tag
 Lasciare il campo vuoto, se non altrimenti indicato nelle linee guida della _part_ relativa.
