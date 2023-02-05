@@ -7,7 +7,7 @@ Una volta selezionata la tipologia di un evento in _general_, per le entità _re
 
 > Ad esempio, dopo aver selezionato _matrimonio_, non sarà possibile selezionare _persona incontrata_ come relazione per il _related_: _matrimonio_ ha infatti come relazioni possibili soltanto _marito_ e _moglie_.
 
-La/e persona/e inserita/e tra i _related_ può/possono non essere schedata nel database Itinera.
+Le entità inserite tra i _related_ non devono necessariamente esistere come _item_ in Itinera.
 
 Di seguito è fornita la lista commentata delle voci.
 
