@@ -1,6 +1,9 @@
 # Person Works Part
 
-**Person Work Part** permette di inserire le opere di un autore, siano esse letterie o non letterarie, autentiche, dubbie o attribuite.   
+**Person Work Part** permette di inserire le opere di un autore, compresi i testi non letterari, dubbi e/o attribuiti.
+
+⚠️ In linea generale, e salvo specifiche eccezioni, il compilatore deve inserire nella _Person work part_ di un autore soltanto i testi per i quali non sia prevista la creazione di un _item_ dedicato. 
+> Lo scopo della norma è quello di evitare ridondanza nelle immissioni, stante la possibilità di collegare i testi e i rispettivi autori già negli _item text_. Ad esempio, poiché le lettere cosiddette _Disperse_ di Petrarca risultano schedate singolarmente nei rispettivi _item text_ (Disp. 1, Disp. 2, ecc.), e poiché le _Disperse_ non costituiscono un _corpus_ d'autore (cfr. _infra_), le _Disperse_ non saranno inserite nella _Person work part_ dell'_item_ relativo a Francesco Petrarca. Per verificare per quali testi è prevista la creazione di _item_ specifici, consultare i [repository dei corpora](repository.md).
 
 La descrizione del modello è disponibile su [Github](https://github.com/vedph/cadmus-itinera#personworkspart).
 
@@ -10,22 +13,19 @@ Per aggiungere la parte, selezionare **works** dal menu a tendina, quindi clicca
 Ciascuna opera è inserita come elemento singolo (_work_) - cfr. la sezione [Creare, modificare, eliminare e salvare elementi](Editor_Brick.md).
 
 ###  Title
-Inserire il titolo completo dell'opera **nella forma d'autore**. In caso di dubbio si preferisce il **titolo usato più frequentemente** nelle edizioni moderne.
-> Ad esempio, nell'item relativo a Francesco Petrarca, saranno inseriti come singoli elementi i 'Rerum vulgarium fragmenta' (e non il 'Canzoniere'), le 'Res Seniles' (e non le 'Senili' o le 'Lettere senili'), ecc., come nell'immagine:
-> 
->   <img width="308" alt="Schermata 2023-02-04 alle 19 02 05" src="https://user-images.githubusercontent.com/102725489/216782582-1fe5f640-0111-411d-ac3d-2a04841bdd99.png">
+Inserire il titolo completo dell'opera **nella forma d'autore**. In caso di dubbio, si inserisce il titolo più usato o nella forma più comune. 
 
-Nel caso di **raccolte d'autore**, si inserisce soltanto il **titolo della raccolta**, **mai** il titolo dei singoli testi.  
-> Nell'item relativo a Francesco Petrarca non si inserisce mai 'Rvf 1', ma soltanto 'Rerum vulgarium fragmenta'. Allo stesso modo, si inserisce 'Res Seniles' e mai 'Sen. V 1'.      
+> [item Francesco Petrarca] _Triumphi_    
+> [item Giovanni Boccaccio] _Decamerone_ 
 
-Nel caso di **testi poetici** sciolti e senza titolo, inserire come titolo il **primo verso**.  
-> [item Giacomo Colonna] _Se le parti del corpo mio destrutte_       
+Nel caso di **testi poetici** sciolti, si inserisce come titolo il **primo verso**. La regola vale per tutti i testi che non costituiscano un _corpus_ d'autore, compresi quelli pubblicati in edizioni moderne di cui siano eventualmente invalsi titolo e numerazione.
 
-Nel caso di **lettere** non raccolte dall'autore, inserire **l'intestazione** o, in sua assenza, **le prime parole del testo**.   
-> [item Barbato da Sulmona] _Frater carissime_  
-> [item Francesco Nelli] _Amor et dolor impellunt_    
+> All'interno della _Person work Part_ dell'_item_ relativo a Giovanni Boccaccio, ad esempio, le _Rime_ non saranno inserite come elemento _Rime_: il compilatore procederà ad inserire singolarmente ciascun testo (un testo = un elemento), indicandone di volta in volta l'_incipit_ come _title_.
+ 
+Nel caso di **lettere** non raccolte dall'autore, si inserisce **l'intestazione** o, in sua assenza, **le prime parole del testo**. La regola vale per tutte le lettere che non costituiscano un _corpus_ d'autore, comprese quelle pubblicate in edizioni moderne di cui siano eventualmente invalsi titolo e numerazione.
 
-🚧 NICOLA DOMANDA PER NOI: COME CI COMPORTIAMO RISPETTO A LETTERE E RIME DISPERSE? LE INSERIAMO UNA PER UNA OPPURE COME CORPUS NON D'AUTORE? E PER I CASI COME BOCCACCIO, AUTORE DI LETTERE E RIME NON RACCOLTE MA PUBBLICATE IN EDIZIONI DI CUI E' INVALSA LA NUMERAZIONE? 
+> All'interno della _Person work Part_ dell'_item_ relativo a Giovanni Boccaccio, ad esempio, le _Lettere_ non saranno inserite come elemento _Lettere_: il compilatore procederà ad inserire singolarmente ciascun testo (un testo = un elemento), indicandone di volta in volta l'intestazione o l'_incipit_ come _title_.
+
 
 La compilazione del campo è obbligatoria.  
 
@@ -34,11 +34,9 @@ L'_eid_ è l'identificativo dell'opera quando questa si trovi descritta all'inte
 L'_eid_ permette di collegare il testo inserito nella **Person Work Part** con l'item autonomo eventualmente già esistente che descrive quel testo.
 
 
-DOBBIAMO DECIDERE SE INSERIRE SOLO OPERE EXTRA-DB o ANCHE OPERE IN DB.
 
 🚧 NICOLA DOMANDA PER NOI: SE INVECE IL TESTO O L'OPERA NON E' DESCRITTO IN ITINERA NON COMPILIAMO L'EID? O NE METTIAMO COMUNQUE UNO D'UFFICIO? IN QUESTO SECONDO CASO FORSE POTREMMO PENSARE AD UN REPOSITORY DI TITOLI, PER TENERE TRACCIA DI TUTTI 'GLI OGGETTI' INSERITI, COSI' DA POTERLI COLLEGARE ANCHE IN FUTURO QUALORA I CORPORA DESCRITTI DOVESSERO ALLARGARSI.
 
-🚧 NB. Rivedere questione possibili doppioni risolti con indicizzazione automatica. Altrimenti ricorrere alla soluzione del repository e della creazione preventiva di tutti gli item text.
 🚧 Rivedere legame con AUTHOR 🚧
 
 
