@@ -29,9 +29,9 @@ Per le regole di composizione degli identificativi cliccare [qui](identifiers.md
 La compilazione del campo è obbligatoria.
 
 ### Type 
-Permette di indicare la tipologia di evento inserito.  
+Permette di indicare la tipologia di evento inserito, selezionando una voce dal _thesaurus_ eventi.  
+
 A seconda dell'evento inserito, sarà possibile, nella schermata _related_, creare diverse tipologie di entità (persone, testi, manoscritti, etc.) collegate all'evento.  
-Per ulteriori chiarimenti sulle tipologie di eventi e sulle entità collegate cliccare [qui](Events_Thesaurus.md).  
 
 La compilazione del campo è obbligatoria.
 
@@ -41,7 +41,7 @@ Permette di inserire, in forma di testo libero, una descrizione breve e concisa 
 La compilazione del campo è obbligatoria.
 
 ### Note    
-Permette di inserire, in forma di testo libero, eventuali informazioni aggiuntive non riportabili nei campi a disposizione.
+Permette di inserire, in forma di testo libero, eventuali informazioni aggiuntive che non è possibile inserire nei campi a disposizione.
 
 ### Chronotope 
 Permette di indicare la data e il luogo dell'evento secondo il modello [Asserted Chronotope](Asserted_Chronotope_Brick.md).  
@@ -52,10 +52,15 @@ Permette di assegnare un indice di affidabilità all'evento schedato e di indica
 
 ### Related Entities
 In questa sezione è possibile registrare le entità (persone, testi, manoscritti, etc.) collegate all'evento schedato.  
-Per ogni entità è creato un elemento _related_ mediante un [editor](Editor_Brick.md).   
-Ogni _related_ deve essere salvato cliccando il tasto di spunta blu a fianco.  
 
-⚠️ Quando è creato un evento che annovera tra le _related entities_ una o più entità schedate in Itinera come Item Person, Work o Manuscript, l'evento **non deve essere creato una seconda volta** nelle Events Part di tali item. Infatti, una volta che l'evento viene salvato, viene automaticamente proiettato sul [grafo](semantic_graph.md).
+Ciascuna entità legata all'evento creato è inserita come elemento singolo (_related_) - cfr. la sezione [Creare, modificare, eliminare e salvare elementi](Editor_Brick.md).
+
+Ogni elemento_related_ deve essere salvato cliccando il tasto di spunta blu a fianco.  
+
+⚠️ Un evento (_a_) inserito in un _item_ (_item_ 1) che abbia tra i _related_ un altro _item_ (_item_ 2) non **non deve essere inserito una seconda volta** nella _events Part_ di quest'ultimo, indipendentemente dalla tipologia di _item_ 1 e 2. Una volta salvato in _item_ 1, infatti, l'evento _a_ è subito e contestulmente proiettato sul [grafo](semantic_graph.md) a collegare _item_ 1 e _item_ 2. Va tuttavia specificato che l'evento _a_ non risulta visibile nella _events Part_ di _item_ 2. 
+
+
+
 
 #### Relation 
 Permette di indicare la tipologia della relazione tra l'entità e l'evento .  
