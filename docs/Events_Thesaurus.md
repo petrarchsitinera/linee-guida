@@ -139,21 +139,62 @@ Il [Chronotope](Asserted_Chronotope_Brick.md) dell'evento coincide con il luogo 
 
 #### Invio 
 
+Permette di inserire l'invio di un oggetto (testo, manoscritto, altro) da parte della persona schedata.
+
+Il [Chronotope](Asserted_Chronotope_Brick.md) dell'evento coincide con il luogo e la data dell'invio.   
+
+È obbligatorio indicare come _related_ almeno un'entità tra _destinatario_ e _oggetto inviato_. Nel caso di più destinatari o di più oggetti inviati, si procede alla creazione di un singolo elemento _related_ per ognuno di essi.
+
+È possibile indicare inoltre come entità _related_ l'eventuale _latore_, ove noto, ovvero la persona cui è affidata la trasmissione dell'oggetto. 
+
 #### Ricezione   
+
+Permette di inserire la ricezione di un oggetto (testo, manoscritto, altro) da parte della persona schedata.
+
+Il [Chronotope](Asserted_Chronotope_Brick.md) dell'evento coincide con il luogo e la data della ricezione.   
+
+È obbligatorio indicare come _related_ almeno un'entità tra _mittente_ e _oggetto ricevuto_ . Nel caso di più mittenti o di più oggetti ricevuti, si procede alla creazione di un singolo elemento _related_ per ognuno di essi.
+
+È possibile indicare inoltre come entità _related_ l'eventuale _latore_, ove noto, ovvero la persona cui è affidata la trasmissione dell'oggetto.
 
 #### Consegna  
 
-#### Scambio 
+Permette di inserire la consegna di un oggetto (testo, manoscritto, altro) da parte della persona schedata. Rientra nella consegna anche lo scambio diretto di oggetti.
+
+Il [Chronotope](Asserted_Chronotope_Brick.md) dell'evento coincide con il luogo e la data della consegna.   
+
+È obbligatorio indicare almeno una entità _related_ tra _oggetto consegnato_, _mittente_ e _destinatario_. Nel caso più oggetti consegnati, di più destinatari o di più mittenti, si procede alla creazione di un singolo elemento _related_ per ognuno di essi.
 
 #### Trascrizione
 
-#### Postilla 
+Permette di inserire la puntuale attività di trascrizione di un testo da parte di una persona.
 
-#### Raccolta
+Il [Chronotope](Asserted_Chronotope_Brick.md) dell'evento coincide con il luogo e la data della trascrizione.   
+
+È obbligatorio indicare tra le entità _related_:
+* la _copia_: il manoscritto che conserva la trascrizione materialmente dalla persona schedata, ove noto;
+* il _testo copiato_: il titolo del testo che la persona ha copiato;
+
+#### Raccolta di testi petrarcheschi
+
+Permette di inserire eventuali attività di collezione di testi petrarcheschi da parte di una persona.
+
+Il [Chronotope](Asserted_Chronotope_Brick.md) dell'evento coincide con il luogo e la data o l'intervallo di tempo della raccolta dei testi.   
+
+È obbligatorio indicare tra le entità _related_:
+* il _manoscritto_: il manoscritto che conserva la collezione raccolta dalla persona schedata, ove noto;
+* il _testo copiato_: il titolo del testo petrarchesco che la persona ha raccolto;
+
+Nel caso di più testi petrarcheschi raccolti, si procede alla creazione di un singolo elemento _related_ per ognuno di essi.  
+Nel caso di più manoscritti, si procede alla creazione di più elementi _Raccolta di testi petrarcheschi_.
 
 #### Stesura 
 
-#### Risposta   
+ [🚧QUI?]
+
+#### Postilla
+
+#### Stesura
  
 #### Testimone manoscritto 
 
