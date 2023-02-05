@@ -86,7 +86,7 @@ Per ogni evento 'professione', il compilatore deve selezionare una voce tra quel
 * _conte_: se la persona è un conte, a seguito di nomina, elezione o altro;
 * _principe_: se la persona è un principe;
 * _a servizio di_: se la persona presta i propri servizi, per un periodo breve o lungo, ad un'altra persona - da non confondere con _servo_. In questo caso è obbligatorio indicare come entità _related_ il _protettore_.
-* _protettore_: se la persona ha il ruolo di protettore e/o mecenate di una o più persone. In questo caso è obbligatorio indicare almeno nell'entità _related_ il _protettore_.
+* _protettore_: se la persona ha il ruolo di protettore e/o mecenate di una o più persone. In questo caso è obbligatorio indicare almeno nell'entità _related_ il _protetto_.
 
 
 #### Titolo  
