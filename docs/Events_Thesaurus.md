@@ -1,7 +1,12 @@
 # Thesaurus eventi 🚧
 
 
-Il **thesaurus eventi** è unico per gli item person, text e manuscript. 
+Il **thesaurus eventi**, unico per tutte le tipologie di _item_, è strutturato come un _thesaurus_ gerarchico. 
+In base alla tipologia di evento selezionata nella parte _general_ è cioè possibile selezionare le relative voci _related_. 
+
+> Ad esempio, dopo aver selezionato _matrimonio_ in _general_, non sarà possibile selezionare _persona incontrata_ come relazione per il _related_, perché _matrimonio_ ha come relazioni possibili soltanto _marito_ e _moglie_.
+
+Di seguito è fornita la lista delle voci e alcune indicazioni per la scelta di tipologia e relazione.
 
 ***
 
