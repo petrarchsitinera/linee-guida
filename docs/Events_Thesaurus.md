@@ -91,13 +91,13 @@ Per ogni evento 'professione', il compilatore deve selezionare una voce tra quel
 
 #### Titolo  
 Permette di inserire eventuali titoli ricevuti dalla persona schedata nell'_item_ - titoli nobiliari, titoli di studio o altro.   
-Il [Chronotope](Asserted_Chronotope_Brick.md) dell'evento coincide con il luogo la data della ricezione del titolo da parte della persona.   
+Il [Chronotope](Asserted_Chronotope_Brick.md) dell'evento coincide con il luogo e la data della ricezione del titolo da parte della persona.   
 Nel caso in cui il titolo dia luogo ad una posizione o ad un'attività descritta in un evento _Professione_, la data d'inizio di quest'ultima dovrà coincidere con il Chronotope del _Titolo_, che è sempre una data puntuale.
 
 #### Nomina   
 
 Permette di inserire eventuali nomine ricevute dalla persona schedata nell'_item_ - nomine a cariche pubbliche, universitarie, ecclesiastiche, ecc.   
-Il [Chronotope](Asserted_Chronotope_Brick.md) dell'evento coincide con il luogo la data di nomina della persona.   
+Il [Chronotope](Asserted_Chronotope_Brick.md) dell'evento coincide con il luogo e la data di nomina della persona.   
 Nel caso in cui la nomina dia luogo ad una posizione o ad un'attività descritta in un evento _Professione_, la data d'inizio di quest'ultima dovrà coincidere con il Chronotope della _Nomina_, che è sempre una data puntuale.
 
 #### Gruppo 
