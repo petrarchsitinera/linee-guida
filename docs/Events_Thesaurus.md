@@ -6,7 +6,7 @@ In base alla tipologia di evento selezionata nella parte _general_ è cioè poss
 
 > Ad esempio, dopo aver selezionato _matrimonio_ in _general_, non sarà possibile selezionare _persona incontrata_ come relazione per il _related_, perché _matrimonio_ ha come relazioni possibili soltanto _marito_ e _moglie_.
 
-Di seguito è fornita la lista delle voci e alcune indicazioni per la scelta di tipologia e relazione.
+Di seguito è fornita la lista commentata delle voci.
 
 ***
 
