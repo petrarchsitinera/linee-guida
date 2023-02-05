@@ -13,11 +13,14 @@ Per aggiungere la parte, selezionare **events** dal menu a tendina, quindi clicc
 
 ## Event
 Ciascun evento è inserito come elemento singolo (_event_) - cfr. la sezione [Creare, modificare, eliminare e salvare elementi](Editor_Brick.md).
-La schermata principale permette di fornire le informazioni fondamentali sull'evento.  
-La schermata _related_, cui si può accedere attraverso il menu orizzontale in alto permette di registrare le entità (persone, testi, manoscritti, etc.) collegate all'evento schedato. 
 
-⚠️⚠️⚠️ Gli eventi relativi a più _item_ devono essere registrati una sola volta in Itinera.  
-Per verificare che l'evento che si desidera creare non sia già presente nella banca dati, è necessario consultare la Events Part degli altri _item_ interessati e il [grafo](semantic_graph.md).  
+La schermata principale, _general_ permette di fornire le informazioni fondamentali sull'evento (1). 
+
+La schermata _related_, cui si accede attraverso il menu orizzontale in alto, permette di registrare le entità (persone, testi, manoscritti, etc.) collegate all'evento schedato (2). 
+
+<img width="930" alt="Schermata 2023-02-05 alle 18 27 46" src="https://user-images.githubusercontent.com/102725489/216835381-26a94505-55f8-4fcf-8b82-51ca0871c47d.png">
+
+⚠️⚠️⚠️ In Itinera, gli eventi che interessano più _item_, come ad esempio un incontro tra due persone schedate, vanno inseriti una sola volta. In questi casi, il compilatore deve perciò verificare sempre che l'evento non sia già stato inserito, consultando la _Events Part_ degli _item_ interessati dall'evento e il [grafo](semantic_graph.md).  
 
 ### Eid
 Permette di creare un identificativo univico dell'evento.  
