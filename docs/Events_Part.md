@@ -12,7 +12,7 @@ La descrizione del modello è disponibile su [Github](https://github.com/vedph/c
 Per aggiungere la parte, selezionare **events** dal menu a tendina, quindi cliccare sul tasto **add part**.
 
 ## Event
-Per ogni evento è creato un elemento _event_ mediante un [editor](Editor_Brick.md).  
+Ciascun evento è inserito come elemento singolo (_event_) - cfr. la sezione [Creare, modificare, eliminare e salvare elementi](Editor_Brick.md).
 La schermata principale permette di fornire le informazioni fondamentali sull'evento.  
 La schermata _related_, cui si può accedere attraverso il menu orizzontale in alto permette di registrare le entità (persone, testi, manoscritti, etc.) collegate all'evento schedato. 
 
