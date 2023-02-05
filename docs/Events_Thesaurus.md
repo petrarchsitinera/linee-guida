@@ -7,6 +7,8 @@ Una volta selezionata la tipologia di un evento in _general_, in altre parole, p
 
 > Ad esempio, dopo aver selezionato _matrimonio_, non sarà possibile selezionare _persona incontrata_ come relazione per il _related_. _matrimonio_ ha infatti come relazioni possibili soltanto _marito_ e _moglie_.
 
+La/e persona/e inserita/e tra i _related_ può/possono non essere schedata nel database Itinera.
+
 Di seguito è fornita la lista commentata delle voci.
 
 ***
@@ -20,12 +22,14 @@ Non è possibile aggiungere entità _related_.
 
 Permette di inserire i membri della famiglia della persona schedata nell'_item_. 🚧 Il [Chronotope](Asserted_Chronotope_Brick.md) dell'evento coincide ...  
 Selezionando l'evento _famiglia_, è possibile indicare come entità _related_:
-* figlio: il figlio della persona schedata;
-* figlia: la figlia della persona schedata;
-* madre: la madre della persona schedata;
-* padre: il padre della persona schedata;
-* sorella: la sorella della persona schedata;
-* fratello: il marito della persona schedata.
+* _figlio_: il figlio della persona schedata;
+* _figlia_: la figlia della persona schedata;
+* _madre_: la madre della persona schedata;
+* _padre_: il padre della persona schedata;
+* _sorella_: la sorella della persona schedata;
+* _fratello_: il marito della persona schedata.
+
+Per ogni figlio, figlia, fratello o sorella, si procede alla creazione di un singolo elemento _related_.
 
 #### Morte 
 
@@ -40,7 +44,7 @@ Selezionando l'evento _matrimonio_, è possibile indicare come entità _related_
 * _moglie_: la moglie della persona schedata a seguito del matrimonio;
 * _marito_: il marito della persona schedata a seguito del matrimonio.
 
-La persona inserita tra i _related_ può non essere schedata nel database Itinera.
+Per ogni allievo si procede alla creazione di un elemento _related_.
 
 #### Professione   
 Permette di inserire la professione della persona schedata nell'_item_. Con 'professione' ci si riferisce ad ogni tipo di attività. Possono essere inseriti profili professionali generici oppure specifici, di durata lunga e breve, nomine e cariche, servizi prestati presso gerarchie laiche o ecclesiastiche, e così via.  
