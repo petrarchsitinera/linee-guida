@@ -172,7 +172,7 @@ Permette di inserire la puntuale attività di trascrizione di un testo da parte 
 Il [Chronotope](Asserted_Chronotope_Brick.md) dell'evento coincide con il luogo e la data della trascrizione.   
 
 È obbligatorio indicare tra le entità _related_:
-* la _copia_: il manoscritto che conserva la trascrizione materialmente dalla persona schedata, ove noto;
+* la _copia_: il manoscritto che conserva la trascrizione materialmente eseguita dalla persona, ove noto;
 * il _testo copiato_: il titolo del testo che la persona ha copiato;
 
 #### Raccolta di testi petrarcheschi
