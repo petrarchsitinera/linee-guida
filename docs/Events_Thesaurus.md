@@ -14,14 +14,17 @@ Di seguito è fornita la lista commentata delle voci.
 ***
 
 #### Nascita
-Permette di inserire la nascita della persona schedata nell'_item_. Il [Chronotope](Asserted_Chronotope_Brick.md) dell'evento coincide con la data di nascita della persona.
+Permette di inserire la nascita della persona schedata nell'_item_.    
+Il [Chronotope](Asserted_Chronotope_Brick.md) dell'evento coincide con il luogo la data di nascita della persona.
 
 Non è possibile aggiungere entità _related_.
     
 #### Famiglia
 
-Permette di inserire i membri della famiglia della persona schedata nell'_item_. 🚧 Il [Chronotope](Asserted_Chronotope_Brick.md) dell'evento coincide ...  
-Selezionando l'evento _famiglia_, è possibile indicare come entità _related_:
+Permette di inserire i membri della famiglia della persona schedata nell'_item_.   
+🚧 Il [Chronotope](Asserted_Chronotope_Brick.md) dell'evento coincide ...  
+
+È obbligatorio indicare almeno un'entità _related_, scegliendo tra:
 * _figlio_: il figlio della persona schedata;
 * _figlia_: la figlia della persona schedata;
 * _madre_: la madre della persona schedata;
@@ -33,22 +36,24 @@ Per ogni figlio, figlia, fratello o sorella, si procede alla creazione di un sin
 
 #### Morte 
 
-Permette di inserire la _morte_ della persona schedata nell'item. Il [Chronotope](Asserted_Chronotope_Brick.md) dell'evento coincide con la data di morte della persona.
+Permette di inserire la _morte_ della persona schedata nell'item.   
+Il [Chronotope](Asserted_Chronotope_Brick.md) dell'evento coincide con il luogo e la data di morte della persona.
 
 Non è possibile aggiungere entità _related_.
 
 #### Matrimonio  
 
-Permette di inserire il matrimonio della persona schedata nell'_item_. Il [Chronotope](Asserted_Chronotope_Brick.md) dell'evento coincide con la data del matrimonio inserito.  
-Selezionando l'evento _matrimonio_, è possibile indicare come entità _related_:
+Permette di inserire il matrimonio della persona schedata nell'_item_.  
+Il [Chronotope](Asserted_Chronotope_Brick.md) dell'evento coincide con il luogo e la data del matrimonio inserito.  
+
+È possibile indicare come entità _related_:
 * _moglie_: la moglie della persona schedata a seguito del matrimonio;
 * _marito_: il marito della persona schedata a seguito del matrimonio.
 
-Per ogni allievo si procede alla creazione di un elemento _related_.
 
 #### Professione   
 Permette di inserire la professione della persona schedata nell'_item_. Con 'professione' ci si riferisce ad ogni tipo di attività. Possono essere inseriti profili professionali generici oppure specifici, di durata lunga e breve, nomine e cariche, servizi prestati presso gerarchie laiche o ecclesiastiche, e così via.  
-Il [Chronotope] (Asserted_Chronotope_Brick.md) dell'evento coincide con la durata dell'attività, della carica o della nomina, eventualmente coincidente con la morte della persona. Quando sia possibile individuare un preciso momento di inizio dell'attività nel tempo (come nel caso delle nomine), si indicherà quel momento come inizio dell'attività. Se non si possiede nessun elemento cronologico, ma si presume che l'attività sia proseguita per l'intera vita della persona, si inserisce almeno la data di fine, che coincide con la data di morte della persona.
+Il [Chronotope] (Asserted_Chronotope_Brick.md) dell'evento coincide con il luogo e la durata dell'attività, della carica o della nomina, eventualmente coincidente con la morte della persona. Quando sia possibile individuare un preciso momento di inizio dell'attività nel tempo (come nel caso delle nomine), si indicherà quel momento come inizio dell'attività. Se non si possiede nessun elemento cronologico, ma si presume che l'attività sia proseguita per l'intera vita della persona, si inserisce almeno la data di fine, che coincide con la data di morte della persona.
 
 Per ogni evento 'professione', il compilatore deve selezionare una voce tra quelle riportate di seguito. A più professioni o attività corrisponderanno più elementi 'professione'.
 
@@ -85,18 +90,52 @@ Per ogni evento 'professione', il compilatore deve selezionare una voce tra quel
 
 
 #### Titolo  
+Permette di inserire eventuali titoli ricevuti dalla persona schedata nell'_item_ - titoli nobiliari, titoli di studio o altro.   
+Il [Chronotope](Asserted_Chronotope_Brick.md) dell'evento coincide con il luogo la data della ricezione del titolo da parte della persona.   
+Nel caso in cui il titolo dia luogo ad una posizione o ad un'attività descritta in un evento _Professione_, la data d'inizio di quest'ultima dovrà coincidere con il Chronotope del _Titolo_, che è sempre una data puntuale.
 
 #### Nomina   
 
+Permette di inserire eventuali nomine ricevute dalla persona schedata nell'_item_ - nomine a cariche pubbliche, universitarie, ecclesiastiche, ecc.   
+Il [Chronotope](Asserted_Chronotope_Brick.md) dell'evento coincide con il luogo la data di nomina della persona.   
+Nel caso in cui la nomina dia luogo ad una posizione o ad un'attività descritta in un evento _Professione_, la data d'inizio di quest'ultima dovrà coincidere con il Chronotope della _Nomina_, che è sempre una data puntuale.
+
 #### Gruppo 
 
-#### Incontro  
+Permette di indicare se la persona è membro di un gruppo storicamente identificabile, afferente a istituzioni laiche o ecclesiastiche.   
+Il [Chronotope](Asserted_Chronotope_Brick.md) dell'evento coincide con il luogo e l'intervallo di permanenza della persona nel gruppo, ove nota.   
+
+#### Incontro
+
+Permette di inserire gli incontri della persona schedata.  
+Il [Chronotope](Asserted_Chronotope_Brick.md) dell'evento coincide con il luogo e la data o l'intervallo di tempo in cui si è verificato l'incontro.   
+
+È obbligatorio indicare come entità _related_ la _persona incontrata_. Per ogni  _persona incontrata_, si procede alla creazione di un singolo elemento _related_.
+
+È possibile inoltre inserire uno o più _spettatori_, nel caso di incontri istituzionali o formali che prevedono una cerimonia della quale si vogliano indicare i presenti. Per ogni _spettatore_, si procede alla creazione di un singolo elemento _related_.
 
 #### Viaggio 
 
+Permette di inserire i viaggi della persona schedata.  
+Il [Chronotope](Asserted_Chronotope_Brick.md) dell'evento coincide con la meta e la data o l'intervallo di tempo del viaggio.   
+
+È possibile indicare come entità _related_ i _partecipanti_, quando al viaggio prendano parte altre persone. Per ogni _partecipante_, si procede alla creazione di un singolo elemento _related_.
+
 #### Partecipazione  
 
+Permette di inserire la partecipazione della persona schedata ad eventi non altrimenti descritti dal thesaurus, come ad esempio un'ambasceria.
+
+Il [Chronotope](Asserted_Chronotope_Brick.md) dell'evento coincide con il luogo e la data o l'intervallo di tempo dell'attività cui la persona prende parte.   
+
+È obbligatorio indicare come entità _related_ i _partecipanti_, quando al viaggio prendano parte altre persone. Per ogni _partecipante_, si procede alla creazione di un singolo elemento _related_.
+
 #### Attestazione
+
+Permette di inserire le attestazioni documentarie della persona schedata.
+
+Il [Chronotope](Asserted_Chronotope_Brick.md) dell'evento coincide con il luogo e la data del documento che dà luogo all'attestazionne.   
+
+È obbligatorio indicare come entità _related_ il _partecipante_?  [🚧QUI CI SIAMO PERSI QUALCOSA MI SA]
 
 #### Invio 
 
