@@ -2,8 +2,8 @@
 
 
 Il **thesaurus eventi**, unico per tutte le tipologie di _item_, è strutturato come un _thesaurus_ gerarchico.   
-Le relazioni che le entità collegate possono intrattenere con l'_item_ in cui l'evento è inserito dipendono dalla tipologia dell'evento. 
-Una volta selezionata la tipologia di un evento in _general_, in altre parole, per le entità _related_ sarà possibile selezionare soltanto le relazioni previste per quella tipologia di evento.  
+Le relazioni che le entità collegate possono intrattenere con l'_item_ in cui l'evento è inserito dipendono dalla tipologia dell'evento. In altre parole,
+Una volta selezionata la tipologia di un evento in _general_, per le entità _related_ sarà possibile selezionare soltanto le relazioni previste per quella tipologia di evento.  
 
 > Ad esempio, dopo aver selezionato _matrimonio_, non sarà possibile selezionare _persona incontrata_ come relazione per il _related_. _matrimonio_ ha infatti come relazioni possibili soltanto _marito_ e _moglie_.
 
