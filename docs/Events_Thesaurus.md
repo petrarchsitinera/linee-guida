@@ -173,7 +173,7 @@ Il [Chronotope](Asserted_Chronotope_Brick.md) dell'evento coincide con il luogo 
 
 È obbligatorio indicare tra le entità _related_:
 * la _copia_: il manoscritto che conserva la trascrizione materialmente eseguita dalla persona, ove noto;
-* il _testo copiato_: il titolo del testo che la persona ha copiato;
+* il _testo copiato_: il titolo del testo oggetto della copia, ovvero il titolo dell'antigrafo;
 
 #### Raccolta di testi petrarcheschi
 
