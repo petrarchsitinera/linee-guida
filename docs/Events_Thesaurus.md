@@ -15,7 +15,7 @@ Di seguito è fornita la lista commentata delle voci.
 
 #### Nascita
 Permette di inserire la nascita della persona schedata nell'_item_.    
-Il [Chronotope](Asserted_Chronotope_Brick.md) dell'evento coincide con il luogo la data di nascita della persona.
+Il [Chronotope](Asserted_Chronotope_Brick.md) dell'evento coincide con il luogo e la data di nascita della persona.
 
 Non è possibile aggiungere entità _related_.
     
