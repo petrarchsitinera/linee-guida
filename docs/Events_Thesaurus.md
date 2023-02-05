@@ -73,7 +73,7 @@ Per ogni evento 'professione', il compilatore deve selezionare una voce tra quel
 * _copista_: se la persona è un copista, di professione o meno;
 * _artista_: se la persona è un artista, un decoratore, un miniatore, ecc.;
 * _musico_: se la persona è un musico;
-* _apprendista_: nel caso in cui la persona abbia trascorso un apprendistato professionale prima di esercitare autonomamente la professione;
+* _apprendista_: nel caso in cui la persona abbia completato un periodo di apprendistato professionale prima di esercitare autonomamente la professione;
 * _consigliere_: se la persona è un consigliere, formalmente o informalmente incaricato, a servizio delle gerarchie presso cui opera, ed è dunque un membro stabile delle élites che amministrano la politica, l'economica e così via;
 * _cancelliere_: se la persona svolge le funzioni di cancelliere di un'istituzione a seguito di un incarico formale;
 * _segretario_: se la persona svolge le funzioni di segretario personale, oppure di segretario in un'istituzione, in questo caso a seguito di un incarico formale; 
