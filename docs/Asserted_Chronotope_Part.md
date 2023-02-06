@@ -1,5 +1,4 @@
 # Asserted Chronotopes Part
-🚧 rinominare Writing Part?
 
 Permette di inserire data e luogo di stesura di un testo.  
 È strutturata secondo il modello [AssertedChronotope](Asserted_Chronotope_Brick.md) ma prevede uno specifico utilizzo dei tag.  
