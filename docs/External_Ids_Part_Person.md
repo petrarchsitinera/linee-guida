@@ -3,7 +3,17 @@
 
 La descrizione del modello, basato su [_Asserted Id_](Asserted_Ids_Brick.md), è disponibile su [Github](https://github.com/vedph/cadmus-general#externalidspart).  
 
-Per la compilazione della parte si veda il paragrafo di _Asserted Id_ dedicato al collegamento con [risorse esterne](Asserted_Ids_Brick.md#identificativi-esterni).  
+Per stabilire un collegamento con un'entità presente in una database esterno a Itinera, compilare i campi come segue:  
+
+* _id_:
+  * _tag_: lasciare vuoto;
+  * _scope_: indicare il nome della banca dati utilizzata;
+  * _value_: compilare con l'URI dell'entità nella banca dati utilizzata (per VIAF ricercabile attraverso un _tool_ specifico; cfr. infra);  
+* _assertion_: compilare secondo le modalità previste in [Assertion](Assertion_Brick.md);  
+
+⚠️ Nello _scope_ la risorsa è indicata con i nomi nella forma specificata nei paragrafi successivi.
+
+## External IDs obbligatori
 
 Per gli Item Person relativi a soggetti storicamente esistiti ed individuabili si inseriscono **obbligatoriamente** gli identificativi presenti in:
 
@@ -14,6 +24,9 @@ Per recuperare **l'identificativo VIAF** è possibile ricorrere al [tool di rice
 
 Per **l'identificativo ISNI**, consultare il database disponibile a questo [link](https://isni.org/page/search-database/).  
 Individuato il record ISNI relativo alla persona, copiarne l'identificativo nel campo _value_.
+
+
+## External IDs facoltativi
 
 È possibile aggiungere ulteriori identificativi, se opportuno o utile. Si segnalano, in particolare:
 * Dbpedia
