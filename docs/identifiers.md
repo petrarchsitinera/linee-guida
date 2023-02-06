@@ -27,7 +27,7 @@ Per l'_eid_ degli _item person_, si ricorre al nome della persona nella forma in
 > es.  Giovanni dell’Incisa > giovanni_dell_incisa   
 > 
 Per l'_eid_ degli _item text_, si ricorre al _title_ dell'_item_, sostituendo spazi e segni di interpunzione con underscore (\_). Nel caso dei testi citati attraverso l'_incipit_, il titolo va abbreviato in modo opportuno:  
->  es. Fam. I 1 > Fam_I_1 
+>  es. Fam. I 1 > Fam_I_1    
 >  es. Rvf 84 > Rvf_84    
 >  es. I’provai già quanto la soma è grave > I_provai 
 >       
