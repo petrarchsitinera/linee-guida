@@ -16,7 +16,7 @@ Ciascuna opera è inserita come elemento singolo (_work_) - cfr. la sezione [Cre
 Inserire il titolo completo dell'opera **nella forma d'autore**. In caso di dubbio, si inserisce il titolo più usato o nella forma più comune. 
 
 > [item Francesco Petrarca] _Triumphi_    
-> [item Giovanni Boccaccio] _Decamerone_ 
+> [item Giovanni Boccaccio] _Decamerone_  
 
 Nel caso di **testi poetici** sciolti, si inserisce come titolo il **primo verso**. La regola vale per tutti i testi che non costituiscano un _corpus_ d'autore, compresi quelli pubblicati in edizioni moderne di cui siano eventualmente invalsi titolo e numerazione.
 
@@ -30,14 +30,11 @@ Nel caso di **lettere** non raccolte dall'autore, si inserisce **l'intestazione*
 La compilazione del campo è obbligatoria.  
 
 ### Eid
-L'_eid_ è l'identificativo dell'opera quando questa si trovi descritta all'interno della banca dati Itinera.  
-L'_eid_ permette di collegare il testo inserito nella **Person Work Part** con l'item autonomo eventualmente già esistente che descrive quel testo.
 
+In linea generale, le opere e i testi inseriti nella _Person Work Part_ di un autore non sono descritti in _item_ autonomi (cfr. supra).  
+Tuttavia, per garantire un eventuale allargamento dei _corpora_ del progetto - che nella sua prosecuzione potrebbe arrivare a descrivere più testi di quelli inizialmente previsti - si è deciso di associare comunque ad ogni elemento inserito un _eid_.
 
-
-🚧 NICOLA DOMANDA PER NOI: SE INVECE IL TESTO O L'OPERA NON E' DESCRITTO IN ITINERA NON COMPILIAMO L'EID? O NE METTIAMO COMUNQUE UNO D'UFFICIO? IN QUESTO SECONDO CASO FORSE POTREMMO PENSARE AD UN REPOSITORY DI TITOLI, PER TENERE TRACCIA DI TUTTI 'GLI OGGETTI' INSERITI, COSI' DA POTERLI COLLEGARE ANCHE IN FUTURO QUALORA I CORPORA DESCRITTI DOVESSERO ALLARGARSI.
-
-🚧 Rivedere legame con AUTHOR 🚧
+Compilare il campo attribuendo un _eid_ al testo secondo le norme indicate [qui](identifiers.md#attribuire-un-eid).  
 
 
 ###  Assertion  
