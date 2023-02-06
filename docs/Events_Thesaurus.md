@@ -74,9 +74,9 @@ Per ogni evento 'professione', il compilatore deve selezionare una voce tra quel
 * _artista_: se la persona è un artista, un decoratore, un miniatore, ecc.;
 * _musico_: se la persona è un musico;
 * _apprendista_: nel caso in cui la persona abbia completato un periodo di apprendistato professionale prima di esercitare autonomamente la professione;
-* _consigliere_: se la persona è un consigliere, formalmente o informalmente incaricato, a servizio delle gerarchie presso cui opera, ed è dunque un membro stabile delle élites che amministrano la politica, l'economica e così via. Nel caso in cui la persona sia un consigliere personale, occorre creare un secondo evento professione _a servizio di_ per specificare nei _related_ la persona o le persone presso cui è svolta l'attività.
+* _consigliere_: se la persona è un consigliere, formalmente o informalmente incaricato, a servizio delle gerarchie presso cui opera, ed è dunque un membro stabile delle élites che amministrano la politica, l'economica e così via. Nel caso in cui la persona sia un consigliere personale, occorre creare un secondo evento professione _a servizio di_ per specificare nei _related_ la persona o le persone presso cui è svolta l'attività;
 * _cancelliere_: se la persona svolge le funzioni di cancelliere di un'istituzione a seguito di un incarico formale;
-* _segretario_: se la persona svolge le funzioni di segretario personale, oppure di segretario in un'istituzione, in questo caso a seguito di un incarico formale. Nel caso in cui la persona sia un segretario personale, occorre creare un secondo evento professione _a servizio di_ per specificare nei _related_ la persona o le persone presso cui è svolta l'attività.
+* _segretario_: se la persona svolge le funzioni di segretario personale, oppure di segretario in un'istituzione, in questo caso a seguito di un incarico formale. Nel caso in cui la persona sia un segretario personale, occorre creare un secondo evento professione _a servizio di_ per specificare nei _related_ la persona o le persone presso cui è svolta l'attività;
 * _mercante_: se la persona è un mercante o svolge attività legate alla mercatura;
 * _artigiano_: se la persona è un artigiano;
 * _servo_: se la persona è servitore di una o più persone;
@@ -85,7 +85,7 @@ Per ogni evento 'professione', il compilatore deve selezionare una voce tra quel
 * _duca_: se la persona è un duca, a seguito di nomina, elezione o altro;
 * _conte_: se la persona è un conte, a seguito di nomina, elezione o altro;
 * _principe_: se la persona è un principe;
-* _a servizio di_: se la persona presta i propri servizi, per un periodo breve o lungo, ad un'altra persona - da non confondere con _servo_. In questo caso è obbligatorio indicare come entità _related_ il _protettore_.
+* _a servizio di_: se la persona presta i propri servizi, per un periodo breve o lungo, ad un'altra persona - da non confondere con _servo_. In questo caso è obbligatorio indicare come entità _related_ la _persona_ che riceve il servizio.
 * _protettore_: se la persona ha il ruolo di protettore e/o mecenate di una o più persone. In questo caso è obbligatorio indicare almeno nell'entità _related_ il _protetto_.
 
 
@@ -133,9 +133,10 @@ Il [Chronotope](Asserted_Chronotope_Brick.md) dell'evento coincide con il luogo 
 
 Permette di inserire le attestazioni documentarie della persona schedata.
 
-Il [Chronotope](Asserted_Chronotope_Brick.md) dell'evento coincide con il luogo e la data del documento che dà luogo all'attestazionne.   
+Il [Chronotope](Asserted_Chronotope_Brick.md) dell'evento coincide con il luogo e la data del documento che dà luogo all'attestazione.   
 
-È obbligatorio indicare come entità _related_ il _partecipante_?  [🚧QUI CI SIAMO PERSI QUALCOSA MI SA]
+È obbligatorio indicare come entità _related_ il _documento_ che dà luogo all'attestazione, indicato attraverso la segnatura archivistica dello stesso 
+> es. AsBo, Notarile, San Giovanni in Monte, VI 5
 
 #### Invio 
 
@@ -143,7 +144,8 @@ Permette di inserire l'invio di un oggetto (testo, manoscritto, altro) da parte 
 
 Il [Chronotope](Asserted_Chronotope_Brick.md) dell'evento coincide con il luogo e la data dell'invio.   
 
-È obbligatorio indicare come _related_ almeno un'entità tra _destinatario_ e _oggetto inviato_. Nel caso di più destinatari o di più oggetti inviati, si procede alla creazione di un singolo elemento _related_ per ognuno di essi.
+È obbligatorio indicare come _related_ almeno un'entità tra _destinatario_ e _oggetto inviato_.  
+Nel caso di più destinatari o di più oggetti inviati afferenti ad un medesimo invio (con un medesimo con _Chronotope_), si procede alla creazione di un singolo elemento _related_ per ognuno di essi.
 
 È possibile indicare inoltre come entità _related_ l'eventuale _latore_, ove noto, ovvero la persona cui è affidata la trasmissione dell'oggetto. 
 
@@ -153,7 +155,8 @@ Permette di inserire la ricezione di un oggetto (testo, manoscritto, altro) da p
 
 Il [Chronotope](Asserted_Chronotope_Brick.md) dell'evento coincide con il luogo e la data della ricezione.   
 
-È obbligatorio indicare come _related_ almeno un'entità tra _mittente_ e _oggetto ricevuto_ . Nel caso di più mittenti o di più oggetti ricevuti, si procede alla creazione di un singolo elemento _related_ per ognuno di essi.
+È obbligatorio indicare come _related_ almeno un'entità tra _mittente_ e _oggetto ricevuto_ .   
+Nel caso di più mittenti o di più oggetti ricevuti afferenti ad un medesima ricezione (con un medesimo con _Chronotope_), si procede alla creazione di un singolo elemento _related_ per ognuno di essi.
 
 È possibile indicare inoltre come entità _related_ l'eventuale _latore_, ove noto, ovvero la persona cui è affidata la trasmissione dell'oggetto.
 
@@ -163,7 +166,8 @@ Permette di inserire la consegna di un oggetto (testo, manoscritto, altro) da pa
 
 Il [Chronotope](Asserted_Chronotope_Brick.md) dell'evento coincide con il luogo e la data della consegna.   
 
-È obbligatorio indicare almeno una entità _related_ tra _oggetto consegnato_, _mittente_ e _destinatario_. Nel caso più oggetti consegnati, di più destinatari o di più mittenti, si procede alla creazione di un singolo elemento _related_ per ognuno di essi.
+È obbligatorio indicare almeno una entità _related_ tra _oggetto consegnato_, _mittente_ e _destinatario_.   
+Nel caso più oggetti consegnati, di più destinatari o di più mittenti, afferenti ad una medesima consegna (con un medesimo con _Chronotope_), si procede alla creazione di un singolo elemento _related_ per ognuno di essi.
 
 #### Trascrizione
 
@@ -171,9 +175,10 @@ Permette di inserire la puntuale attività di trascrizione di un testo da parte 
 
 Il [Chronotope](Asserted_Chronotope_Brick.md) dell'evento coincide con il luogo e la data della trascrizione.   
 
-È obbligatorio indicare tra le entità _related_:
+In linea generale, è sempre obbligatorio indicare tra le entità _related_:
 * la _copia_: il manoscritto che conserva la trascrizione materialmente eseguita dalla persona, ove noto;
 * il _testo copiato_: il titolo del testo oggetto della copia, ovvero il titolo dell'antigrafo;
+
 
 #### Raccolta di testi petrarcheschi
 
@@ -200,11 +205,6 @@ Il [Chronotope](Asserted_Chronotope_Brick.md) dell'evento coincide con il luogo 
 
 Nel caso di più testi postillati, si procede alla creazione di un singolo elemento _related_ per ognuno di essi.  
 Nel caso di più manoscritti postillati, si procede alla creazione di più eventi _Postilla_.
-
-
-#### Stesura
-
- [🚧QUI?]
  
 #### Commissione
 
@@ -367,6 +367,4 @@ Il [Chronotope](Asserted_Chronotope_Brick.md) dell'evento coincide con il luogo 
 * _precedente_: la redazione precedente del testo schedato;
 * _successiva_: la redazione successiva del testo schedato;
 
-#### Restauro
 
-#### Smembramento      
