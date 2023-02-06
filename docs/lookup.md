@@ -8,7 +8,7 @@ Inoltre, per alcuni _item_ e _parts_ è possibile consultare l'elenco degli _eid
 ## Lookup e campi _EID_
 Nella banca dati Itinera gli _eid_ sono ospitati da campi denominati: _EID_ o _ID_ o [AssertedId](Asserted_Ids_Brick.md).  
 Lo strumento di _lookup_ facilita l'inserimento dell'_eid_ corretto all'interno di questi campi. Permette infatti, attraverso una ricerca interna, di individuare  l'_eid_ desiderato.  
-Questo identificativo può essere successivamente **copiato** nel campo che si intende compilare.  
+Questo identificativo può essere successivamente **copiato e incollato** nel campo che si intende compilare.  
 
 Poiché all'interno di alcune _parts_ si rende necessario più frequentemente richiamare entità già esistenti in Itinera, lo strumento di _lookup_ appare, per comodità, affiancato al campo _EID_ (come nel caso di [Referenced Text Part](Referenced_Text_Part.md) e della sezione [RelatedEntities di Events Part](Events_Part.md#related-entities)).
 
@@ -27,7 +27,7 @@ Contestualmente, sul lato sinistro della pagina si apre una barra laterale che d
 ![](https://github.com/petrarchsitinera/linee-guida/blob/e4de2f4f2dca13dcba7beae653a386470c141348/docs/assets/images/lookup_shape_3.png?raw=true)   
 
 
-⚠️ Il funzionamento dello strumento di _lookup_ è indipendente da queste strategie di rappresentazione: in tutti i casi permette, infatti, attraverso i medesimi campi e con identiche modalità, di individuare l'_eid_ desiderato e di copiarlo nel campo che si intende compilare.  
+⚠️ Il funzionamento dello strumento di _lookup_ è indipendente da queste strategie di rappresentazione: in tutti i casi permette, infatti, attraverso i medesimi campi e con identiche modalità, di individuare l'_eid_ desiderato e di copiarlo e incollarlo nel campo che si intende compilare.  
 
 
 ## Funzionamento dello strumento di _lookup_
