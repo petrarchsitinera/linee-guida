@@ -55,28 +55,28 @@ Il [Chronotope](Asserted_Chronotope_Brick.md) dell'evento coincide con il luogo 
 Permette di inserire la professione della persona schedata nell'_item_. Con 'professione' ci si riferisce ad ogni tipo di attività. Possono essere inseriti profili professionali generici oppure specifici, di durata lunga e breve, nomine e cariche, servizi prestati presso gerarchie laiche o ecclesiastiche, e così via.  
 Il [Chronotope](Asserted_Chronotope_Brick.md) dell'evento coincide con il luogo e la durata dell'attività, della carica o della nomina, eventualmente coincidente con la morte della persona. Quando sia possibile individuare un preciso momento di inizio dell'attività nel tempo (come nel caso delle nomine), si indicherà quel momento come inizio dell'attività. Se non si possiede nessun elemento cronologico, ma si presume che l'attività sia proseguita per l'intera vita della persona, si inserisce almeno la data di fine, che coincide con la data di morte della persona.
 
-Per ogni evento 'professione', il compilatore deve selezionare una voce tra quelle riportate di seguito. A più professioni o attività corrisponderanno più elementi 'professione'.
+Per ogni evento 'professione', il compilatore deve selezionare una voce tra quelle riportate di seguito. A più professioni o attività corrisponderanno più eventi 'professione'.
 
 * _cardinale_: se la persona è nominata cardinale; 
 * _vescovo_: se la persona è nominata vescovo;
 * _frate_: se la persona è membro di un ordine religioso;
 * _priore_: se la persona è nominata priore;
 * _canonico_: se la persona è nominata canonico;
-* _sovrano_: se la persona è un sovrano, a seguito di nomina, elezione o altro.
-* _uomo politico_: se la persona esercita regolarmente attività politica all'interno di gerarchie laiche; [🚧PRECISARE MEGLIO]
-* _maestro_: se la persona esercita la professione di maestro di scuola o una generica attività didattica, anche privatamente. È possibile indicare come entità _related_ il _discepolo_, se il dato è disponibile o interessante da rilevare. Per ogni allievo si procede alla creazione di un elemento _related_.
-* _lettore_: se la persona è un lettore conventuale, responsabile della formazione intellettuale del convento di appartenenza;
+* _sovrano_: se la persona è un sovrano, a seguito di nomina, elezione o altro;
+* _uomo politico_: se la persona esercita regolarmente attività politica all'interno di gerarchie laiche, quando non sia possibile precisare ulteriormente tale attività selezionando altre voci del _thesaurus_ (es. cancelliere, segretario, ecc.);
+* _maestro_: se la persona esercita la professione di maestro di scuola o una generica attività didattica, anche privatamente. È possibile indicare come entità _related_ il _discepolo_, se il dato è disponibile o interessante da rilevare. Per ogni allievo si procede alla creazione di un elemento _related_;
+* _lettore_: se la persona è un lettore conventuale, responsabile della formazione intellettuale del convento di appartenenza, o un docente universitario;
 * _giurista_: se la persona è un giureconsulto o un dottore in legge, attivo o meno in ambito universitario;
 * _diplomatico_: se la persona svolge attività diplomatica presso gerarchie laiche o ecclesiastiche, compiendo missioni e ambascerie per conto dell'istituzione per cui opera;
 * _notaio_: se la persona esercita attività notarile, risultando perciò iscritto alla matricola dei notai nel luogo di formazione o di esercizio dell'attività;
 * _uomo d'armi_: se la persona è un soldato, un condottiero, un mercenario, o risulta regolarmente impegnato in attività militari;
-* _copista_: se la persona è un copista, di professione o meno;
+* _copista_: se la persona è un copista di professione. Non vannno considerati copisti tutti coloro che abbiano svolto attività di copia, anche per periodi prolungati, senza che fosse la loro attività principale;
 * _artista_: se la persona è un artista, un decoratore, un miniatore, ecc.;
 * _musico_: se la persona è un musico;
 * _apprendista_: nel caso in cui la persona abbia completato un periodo di apprendistato professionale prima di esercitare autonomamente la professione;
-* _consigliere_: se la persona è un consigliere, formalmente o informalmente incaricato, a servizio delle gerarchie presso cui opera, ed è dunque un membro stabile delle élites che amministrano la politica, l'economica e così via;
+* _consigliere_: se la persona è un consigliere, formalmente o informalmente incaricato, a servizio delle gerarchie presso cui opera, ed è dunque un membro stabile delle élites che amministrano la politica, l'economica e così via. Nel caso in cui la persona sia un consigliere personale, occorre creare un secondo evento professione _a servizio di_ per specificare nei _related_ la persona o le persone presso cui è svolta l'attività.
 * _cancelliere_: se la persona svolge le funzioni di cancelliere di un'istituzione a seguito di un incarico formale;
-* _segretario_: se la persona svolge le funzioni di segretario personale, oppure di segretario in un'istituzione, in questo caso a seguito di un incarico formale; 
+* _segretario_: se la persona svolge le funzioni di segretario personale, oppure di segretario in un'istituzione, in questo caso a seguito di un incarico formale. Nel caso in cui la persona sia un segretario personale, occorre creare un secondo evento professione _a servizio di_ per specificare nei _related_ la persona o le persone presso cui è svolta l'attività.
 * _mercante_: se la persona è un mercante o svolge attività legate alla mercatura;
 * _artigiano_: se la persona è un artigiano;
 * _servo_: se la persona è servitore di una o più persone;
