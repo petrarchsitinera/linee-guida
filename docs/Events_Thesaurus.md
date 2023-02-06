@@ -30,13 +30,13 @@ Permette di inserire i membri della famiglia della persona schedata nell'_item_.
 * _madre_: la madre della persona schedata;
 * _padre_: il padre della persona schedata;
 * _sorella_: la sorella della persona schedata;
-* _fratello_: il marito della persona schedata.
+* _fratello_: il fratello della persona schedata.
 
 Per ogni figlio, figlia, fratello o sorella, si procede alla creazione di un singolo elemento _related_.
 
 #### Morte 
 
-Permette di inserire la _morte_ della persona schedata nell'item.   
+Permette di inserire la morte della persona schedata nell'item.   
 Il [Chronotope](Asserted_Chronotope_Brick.md) dell'evento coincide con il luogo e la data di morte della persona.
 
 Non è possibile aggiungere entità _related_.
@@ -177,42 +177,195 @@ Il [Chronotope](Asserted_Chronotope_Brick.md) dell'evento coincide con il luogo 
 
 #### Raccolta di testi petrarcheschi
 
-Permette di inserire eventuali attività di collezione di testi petrarcheschi da parte di una persona.
+Permette di inserire eventuali attività di collezione di testi petrarcheschi da parte della persona.
 
-Il [Chronotope](Asserted_Chronotope_Brick.md) dell'evento coincide con il luogo e la data o l'intervallo di tempo della raccolta dei testi.   
+Il [Chronotope](Asserted_Chronotope_Brick.md) dell'evento coincide con il luogo e la data o l'intervallo di tempo della raccolta dei testi da parte della persona.   
 
 È obbligatorio indicare tra le entità _related_:
 * il _manoscritto_: il manoscritto che conserva la collezione raccolta dalla persona schedata, ove noto;
-* il _testo copiato_: il titolo del testo petrarchesco che la persona ha raccolto;
+* il _testo raccolto_: il titolo del testo petrarchesco che la persona ha raccolto;
 
 Nel caso di più testi petrarcheschi raccolti, si procede alla creazione di un singolo elemento _related_ per ognuno di essi.  
-Nel caso di più manoscritti, si procede alla creazione di più elementi _Raccolta di testi petrarcheschi_.
-
-#### Stesura 
-
- [🚧QUI?]
+Nel caso di più manoscritti, si procede alla creazione di più eventi _Raccolta di testi petrarcheschi_.
 
 #### Postilla
 
+Permette di inserire eventuali attività di postillatura di testi da parte della persona.
+
+Il [Chronotope](Asserted_Chronotope_Brick.md) dell'evento coincide con il luogo e la data o l'intervallo di tempo dell'attività di postillatura da parte della persona.
+
+È obbligatorio indicare tra le entità _related_:
+* il _manoscritto postillato_: il manoscritto che conserva le postille apposte dalla persona;
+* il _testo postillato_: il titolo del testo postillato dalla persona;
+
+Nel caso di più testi postillati, si procede alla creazione di un singolo elemento _related_ per ognuno di essi.  
+Nel caso di più manoscritti postillati, si procede alla creazione di più eventi _Postilla_.
+
+
 #### Stesura
+
+ [🚧QUI?]
  
-#### Testimone manoscritto 
-
-#### Redazione
-
-#### Edit
-
 #### Commissione
+
+Permette di inserire eventuali commissioni di codici da parte della persona.
+
+Il [Chronotope](Asserted_Chronotope_Brick.md) dell'evento coincide con il luogo e la data o l'intervallo di tempo della commissione.
+
+È obbligatorio indicare tra le entità _related_:
+* il _manoscritto_: il manoscritto commmissionato;
+* l'_esecutore_: la persona che materialmente allestisce o contribuisce ad allestire il codice, ove nota;
+
+Nel caso di più esecutori, si procede alla creazione di un singolo elemento _related_ per ognuno di essi.  
+Nel caso di più manoscritti commissionati, si procede alla creazione di più eventi _Commissione_.
+
+#### Esecuzione su commissione
+
+Permette di inserire eventuali commissioni di codici ricevute dalla persona.
+
+Il [Chronotope](Asserted_Chronotope_Brick.md) dell'evento coincide con il luogo e la data o l'intervallo di tempo della commissione.
+
+È obbligatorio indicare tra le entità _related_:
+* il _manoscritto_: il manoscritto commmissionato;
+* il _committente_: la persona che ha commissionato il manoscritto;
+
+Nel caso di più committenti, si procede alla creazione di un singolo elemento _related_ per ognuno di essi.  
+Nel caso di più manoscritti commissionati, si procede alla creazione di più eventi _Esecuzione su commissione_.
 
 #### Dedica
 
+Permette di inserire le dediche di testi o manoscritti da parte della persona.
+
+Il [Chronotope](Asserted_Chronotope_Brick.md) dell'evento coincide con il luogo e la data o l'intervallo di tempo della dedica.
+
+È obbligatorio indicare tra le entità _related_ il _dedicatario_.
+Nel caso di più dedicatari, si procede alla creazione di un singolo elemento _related_ per ognuno di essi.
+
+È obbligatorio inoltre indicare tra le entità _related_ l'oggetto dedicato, da scegliere tra:
+* _testo_: il testo dedicato;
+* _manoscritto_: il manoscritto dedicato;
+ 
+Nel caso di più dediche, si procede alla creazione di più eventi _Dedica_.
+
+#### Ricezione di dedica
+
+Permette di inserire le dediche di testi o manoscritti ricevute della persona.
+
+Il [Chronotope](Asserted_Chronotope_Brick.md) dell'evento coincide con il luogo e la data o l'intervallo di tempo della dedica.
+
+È obbligatorio indicare tra le entità _related_ il _dedicante_.
+Nel caso di più dedicanti, si procede alla creazione di un singolo elemento _related_ per ognuno di essi.
+
+È obbligatorio inoltre indicare tra le entità _related_ l'oggetto dedicato, da scegliere tra:
+* _testo_: il testo dedicato;
+* _manoscritto_: il manoscritto dedicato;
+ 
+Nel caso di più dediche, si procede alla creazione di più eventi _Dedica_.
+
 #### Possesso
+
+Permette di inserire il possesso stabile di manoscritti da parte della persona.
+
+Il [Chronotope](Asserted_Chronotope_Brick.md) dell'evento coincide con il luogo e la durata del possesso.
+
+È obbligatorio indicare tra le entità _related_ il _manoscritto_.
+Nel caso di più manoscritti, si procede alla creazione di un singolo elemento _related_ per ognuno di essi.
 
 #### Prestito
 
-#### Restituzione
+Permette di inserire il prestito di manoscritti da parte della persona (prestito da altri).
 
-#### Acquisto
+Il [Chronotope](Asserted_Chronotope_Brick.md) dell'evento coincide con il luogo e la durata del prestito.
+
+È obbligatorio indicare tra le entità _related_ almeno uno tra:
+* _manoscritto_: il manoscritto preso in prestito, ove noto;
+* _presta_: la persona da cui il manoscritto è preso in prestito, ove nota;
+
+Nel caso di più manoscritti, si procede alla creazione di un singolo elemento _related_ per ognuno di essi.
+Nel caso di più prestatari, si procede alla creazione di più eventi _Prestito_.
+
+#### Presta
+
+Permette di inserire il prestito di manoscritti da parte della persona (prestito ad altri).
+
+Il [Chronotope](Asserted_Chronotope_Brick.md) dell'evento coincide con il luogo e la durata del prestito.
+
+È obbligatorio indicare tra le entità _related_ almeno uno tra:
+* _manoscritto_: il manoscritto preso in prestito, ove noto;
+* _prende in prestito_: la persona a cui il manoscritto è dato in prestito, ove nota;
+
+Nel caso di più manoscritti, si procede alla creazione di un singolo elemento _related_ per ognuno di essi.
+Nel caso di più persone cui si danno in prestito manoscritti, si procede alla creazione di più eventi _Presta_.
+
+#### Restituisce
+
+Permette di inserire la restituzione di manoscritti da parte della persona (restituzione ad altri).
+
+Il [Chronotope](Asserted_Chronotope_Brick.md) dell'evento coincide con il luogo e la data di restituzione.
+
+È obbligatorio indicare tra le entità _related_ almeno uno tra:
+* _manoscritto_: il manoscritto restituito, ove noto;
+* _ottiene restituzione_: la persona a cui il manoscritto è restituito, ove nota;
+
+Nel caso di più persone cui si restituiscono manoscritti, si procede alla creazione di un singolo elemento _related_ per ognuno di essi.
+Nel caso di più manoscritti, si procede alla creazione di più eventi _Restituzione_.
+
+#### Ottiene restituzione
+
+Permette di inserire la restituzione di manoscritti alla persona (restituzione da altri).
+
+Il [Chronotope](Asserted_Chronotope_Brick.md) dell'evento coincide con il luogo e la data di restituzione.
+
+È obbligatorio indicare tra le entità _related_ almeno uno tra:
+* _manoscritto_: il manoscritto restituito, ove noto;
+* _restituisce_: la persona che restituisce il manoscritto, ove nota;
+
+Nel caso di più persone che restituiscono manoscritti, si procede alla creazione di un singolo elemento _related_ per ognuno di essi.
+Nel caso di più manoscritti, si procede alla creazione di più eventi _Ottiene restituzione_.
+
+#### Acquista
+
+Permette di inserire l'acquisto di manoscritti da parte della persona.
+
+Il [Chronotope](Asserted_Chronotope_Brick.md) dell'evento coincide con il luogo e la data dell'acquisto.
+
+È obbligatorio indicare tra le entità _related_ almeno uno tra:
+* _manoscritto_: il manoscritto acquistato, ove noto;
+* _venditore_: la persona da cui si acquista manoscritto, ove nota;
+
+Nel caso di più venditori, si procede alla creazione di un singolo elemento _related_ per ognuno di essi.
+Nel caso di più manoscritti, si procede alla creazione di più eventi _Acquista_.
+
+#### Vendita
+
+Permette di inserire la vendita di manoscritti da parte della persona.
+
+Il [Chronotope](Asserted_Chronotope_Brick.md) dell'evento coincide con il luogo e la data della vendita.
+
+È obbligatorio indicare tra le entità _related_ almeno uno tra:
+* _manoscritto_: il manoscritto venduto, ove noto;
+* _acquirente_: la persona cui si vende il manoscritto, ove nota;
+
+Nel caso di più manoscritti, si procede alla creazione di un singolo elemento _related_ per ognuno di essi.
+Nel caso di più acquirenti, si procede alla creazione di più eventi _Acquista_.
+
+#### Raccolta
+
+Permette di indicare quando il testo è parte di una raccolta d'autore.
+
+Il [Chronotope](Asserted_Chronotope_Brick.md) dell'evento coincide con il luogo e la data dell'ingresso del testo in raccolta, ove noto.
+
+È obbligatorio indicare tra le entità _related_ la _raccolta_, ovvero la raccolta d'autore in cui è inserito il testo.
+
+#### Redazione
+
+Permette di indicare quando il testo è la redazione precedente o successiva di un altro testo.
+
+Il [Chronotope](Asserted_Chronotope_Brick.md) dell'evento coincide con il luogo e la data della stesura del testo.
+
+È obbligatorio indicare tra le entità _related_ una tra:
+* _precedente_: la redazione precedente del testo schedato;
+* _successiva_: la redazione successiva del testo schedato;
 
 #### Restauro
 
