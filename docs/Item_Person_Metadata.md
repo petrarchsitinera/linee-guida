@@ -25,7 +25,7 @@ Per gli **anonimi**, ricorrere alle formule:
 * **anonimo (citato in [testo])**: per gli anonimi di cui abbiamo conoscenza esclusivamente grazie alla loro menzione in opere o testi individuati;
 
 
-⚠️ Verificare che i nomi delle persone schedate nel database coincidano con quelli riportati nel [repository dei nomi di persona](repository.md). Nel caso in cui la persona da inserire non si trovi nel repository, occorre aggiornare il repository stesso. L'aggiornamento del repository è svolto dai responsabili a partire dalla segnalazione delle nuove immissioni da parte dei compilatori su click up.
+⚠️ Verificare che la forma del nome della persona schedata nel database coincida con quella principale riportata nel [repository dei nomi di persona](repository.md). Nel caso in cui la persona da inserire non si trovi nel repository, occorre aggiornare il repository stesso. L'aggiornamento del repository è svolto dai responsabili a partire dalla segnalazione delle nuove immissioni da parte dei compilatori su click up.
 
 ### Description
 
