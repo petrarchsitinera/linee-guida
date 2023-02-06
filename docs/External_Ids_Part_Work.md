@@ -3,9 +3,15 @@
 
 La descrizione del modello, basato su [_Asserted Id_](Asserted_Ids_Brick.md), è disponibile su [Github](https://github.com/vedph/cadmus-general#externalidspart).  
 
-Per la compilazione della parte si veda il paragrafo di _Asserted Id_ dedicato al collegamento con [risorse esterne](Asserted_Ids_Brick.md#identificativi-esterni).  
+Per stabilire un collegamento con un'entità presente in una database esterno a Itinera, compilare i campi come segue:  
 
-Per gli Item Work è possibile, ad esempio, creare un collegamento con schede eventualmente presenti sulla banca dati Mirabile.  
+* _id_:
+  * _tag_: lasciare vuoto;
+  * _scope_: indicare il nome della banca dati utilizzata;
+  * _value_: compilare con l'URI dell'entità nella banca dati utilizzata (per VIAF ricercabile attraverso un _tool_ specifico; cfr. infra);  
+* _assertion_: compilare secondo le modalità previste in [Assertion](Assertion_Brick.md);  
+
+⚠️ Per gli Item Work è possibile creare un collegamento con Mirabile e/o con Biblioteca italiana, indicate in questa forma nello _scope_.
 
 ## Save ⚠️ 
 
