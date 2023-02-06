@@ -88,6 +88,12 @@ La **selezione** dei componimenti può essere effettuata secondo diverse modalit
 * per deselezionare un singolo componimento, utilizzare il comando _clear this layout_, presente all'interno di ogni singola cella.  
 > ![](https://github.com/petrarchsitinera/linee-guida/blob/8a2effa68ad54a3bdd20a430929058c014b1eff8/docs/assets/images/ranges_clearcella.png?raw=true)  
 
+🌵👷 Istruzioni per tastiera Mac 
+Intervallo: tenere premuto Shift mentre si seleziona il primo e l'ultimo elemento dell'intervallo o viceversa;
+per aggiungere singoli elementi o elementi discontinui ad un intervallo già selezionato, tenere premuto Alt (=option) mentre si selezionano gli elementi
+Nel caso in cui si debbano inserire due o più intervalli discontinui tra loro, seguire le istruzioni per il primo intervallo; poi, tenendo premuto Alt (=option) selezionare il primo elemento del secondo intervallo; poi, tenendo premuto contemporaneamente Shift e Alt (=option) selezionare l'ultimo elemento del secondo intervallo.
+
+
 Per l' **attribuzione** di un tipo di impaginazione al componimento o ai componimenti selezionati, scegliere un'opzione dal thesaurus _layout_.  
 Ad ogni selezione può essere attribuito un solo _layout_; se il testimone presenta più tipologie di impaginazione, è necessario ripetere la procedura di selezione e attribuzione più volte.  
 ⚠️ Dopo ogni attribuzione della tipologia di impaginazione alla selezione di componimenti, è necessario deselezionare tutti i componimenti prima di procedere a una nuova selezione.  
