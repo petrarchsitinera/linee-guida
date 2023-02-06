@@ -13,6 +13,9 @@ Compilare il campo _tag_ con uno dei seguenti valori:
 * stesura ricostruita (data ricostruita da Billanovich)  
 * elementi utili alla datazione
 
+
+⚠️ I tag sono sempre scritti in minuscolo.
+
 🚧 Inoltre, ci sarà un tag, da combinare con i precedenti ( 🚧 come? virgola, punto e virgola?) , “data di riferimento” che deciderà quale data sarà utilizzata come riferimento.
 
 ⚠️ Date e luoghi di eventi relativi alla storia del testo (invio, ricezione, copia, etc.) sono espresse in [Events Part](Events_Part.md)
