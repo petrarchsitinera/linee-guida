@@ -206,6 +206,19 @@ Il [Chronotope](Asserted_Chronotope_Brick.md) dell'evento coincide con il luogo 
 Nel caso di più testi postillati, si procede alla creazione di un singolo elemento _related_ per ognuno di essi.  
 Nel caso di più manoscritti postillati, si procede alla creazione di più eventi _Postilla_.
  
+#### Stesura
+Permette di inserire la stesura di testi da parte della persona.
+
+⚠️ L'evento stesura va inserito nella _Events Part_ di una persona soltanto quando risultino rispettate queste condizioni:
+* il testo non è descritto in un _item_ autonomo;
+* il titolo del testo è inserito *anche* nella _Work Part_ della persona.
+
+Il [Chronotope](Asserted_Chronotope_Brick.md) dell'evento coincide con il luogo e la data o l'intervallo di tempo della stesura.
+
+È obbligatorio indicare tra le entità _related_ il _testo_ composto dalla stesura, richiamandolo attraverso l'[_eid_](identifiers.md)
+
+Nel caso di più testi, qualora il _Chronotope_ non coincida, si procede alla creazione di più eventi _Stesura_
+
 #### Commissione
 
 Permette di inserire eventuali commissioni di codici da parte della persona.
