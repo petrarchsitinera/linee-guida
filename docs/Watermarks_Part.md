@@ -29,25 +29,17 @@ Permette di fornire una descrizione approfondita del soggetto della filigrana e 
 La compilazione del campo è facoltativa.
 
 ### Identifiers
-Permette di identificare la filigrana con una o più esemplari presenti nei repertori, secondo il modello [IDs Brick](Asserted_Ids_Brick.md).
+Permette di identificare la filigrana con una o più esemplari presenti nei repertori, secondo il modello [Asserted IDs](Asserted_Ids_Brick.md).
 Per ogni riscontro è possibile creare un elemento _ID_ mediante un [editor](Editor_Brick.md).
 
-* _External id_: indicare il nome del repertorio ("Briquet" o "Piccard") seguito dal numero d’ordine della filigrana individuata.
-* _Scope_: se il repertorio ha una versione online, indicare l'indirizzo web della pagina dedicata alla filigrana individuata.
-* _Tag_: non compilare.
-* _Assertion_: permette di esprimere il grado di somiglianza della filigrana rilevata sul manoscritto con l'esemplare del repertorio. Occorre compilare il solo campo _rank_: 
-   * 1, ovvero “identico a”;
-   * 2, ovvero “simile a”;
-   * 3, ovvero “variante di”.
-
-> -**_External id_**: Briquet 2402  
-> -**_Scope_**: https://briquet-online.at/loadRepWmark.php?rep=briquet&refnr=2402&lang=fr  
-> -**_Tag_**:  
-> -**_Assertion_**  
->     - _Tag_:   
->     - _Rank_: 1  
->      - _Note_:   
->      - _Assertion References_:  
+* _tag_: non compilare;  
+* _scope_: indicare il nome del repertorio "Briquet" o "Piccard", in questa forma;  
+* _value_: indicare il numero d’ordine della filigrana all'interno del repertorio indicato in _scope_ .
+* _Assertion_: permette di esprimere il grado di somiglianza della filigrana rilevata sul manoscritto con l'esemplare del repertorio.
+  * _tag_: non compilare;  
+  * _rank_: selezionare un valore tra 1 (“identico a”), 2 (“simile a”), 3 (“variante di”);
+  * _note_: non compilare;
+  * _Assertion References_: compilare il solo campo _citation_ con l'indirizzo web della pagina dedicata alla filigrana individuata.
 
 La compilazione del campo è facoltativa.
 
