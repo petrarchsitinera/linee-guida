@@ -5,6 +5,8 @@
 ⚠️ In linea generale, e salvo specifiche eccezioni, il compilatore deve inserire nella _Person work part_ di un autore soltanto i testi per i quali non sia prevista la creazione di un _item_ dedicato. 
 > Lo scopo della norma è quello di evitare ridondanza nelle immissioni, stante la possibilità di collegare i testi e i rispettivi autori già negli _item text_. Ad esempio, poiché le lettere cosiddette _Disperse_ di Petrarca risultano schedate singolarmente nei rispettivi _item text_ (Disp. 1, Disp. 2, ecc.), e poiché le _Disperse_ non costituiscono un _corpus_ d'autore (cfr. _infra_), le _Disperse_ non saranno inserite nella _Person work part_ dell'_item_ relativo a Francesco Petrarca. Per verificare per quali testi è prevista la creazione di _item_ specifici, consultare i [repository dei corpora](repository.md).
 
+⚠️ Per ogni opera o testo inserito nella _Work Part_, deve essere compilato un evento [_stesura_](https://github.com/petrarchsitinera/linee-guida/blob/main/docs/Events_Thesaurus.md#stesura). Nel caso di più testi o più opere, si procede all'inserimento di un solo evento _stesura_ soltanto se i testi o le opere siano state composte in un medesimo arco cronologico. Se i testi o le opere sono state composte in momenti diversi, si procede alla ceazione di più eventi _stesura_.
+
 La descrizione del modello è disponibile su [Github](https://github.com/vedph/cadmus-itinera#personworkspart).
 
 Per aggiungere la parte, selezionare **works** dal menu a tendina, quindi cliccare su **add part**.  
