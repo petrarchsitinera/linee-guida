@@ -44,7 +44,7 @@ Indicare come entità _related_:
 
 ⚠️ Si registrano: copisti storicamente identificati; copisti anonimi noti agli studi per la loro produzione (es. "copista principale del Dante dei Cento"); qualsiasi copista la cui mano sia riconosciuta su almeno due manoscritti; tutti i copisti per cui sia possibile fornire qualche informazione biografica (es. notaio, copista di professione, etc.).  
 
-#### Editing
+#### 🚧 Editing
 Permette di attribuire ad un personaggio noto gli interventi scrittori successivi alla copia del codice registrati in [Edits Part](Edits_Part.md).  
 
 Il [Chronotope](Asserted_Chronotope_Brick.md) dell'evento non deve essere compilato.   
@@ -53,7 +53,7 @@ Indicare come entità _related_:
 * _eid edit_: richiamare attraverso [lookup](lookup.md) l'_eid_ assegnato all'_edit_, avendo cura di premettervi l'_eid_ del manoscritto;  
 * _eseguito da_.  
 
-#### 🚧Commissione
+#### 🚧 Commissione
 Permette di inserire informazioni sulla commissione del manoscritto.  
 
 Il [Chronotope](Asserted_Chronotope_Brick.md) dell'evento non deve essere compilato, a meno che non siano note ulteriori informazioni sulla commissione, diverse dalla data di esecuzione del manoscritto registrata in [Material Description Part](Material_Description_Part.md).  
