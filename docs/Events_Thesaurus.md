@@ -7,6 +7,10 @@ Una volta selezionata la tipologia di un evento in _general_, per le entità _re
 
 > Ad esempio, dopo aver selezionato _matrimonio_, non sarà possibile selezionare _persona incontrata_ come relazione per il _related_: _matrimonio_ ha infatti come relazioni possibili soltanto _marito_ e _moglie_.
 
+È possibile, se necessario, inserire più elementi _related_ della stessa tipologia.
+
+> Ad esempio, nel caso di più destinatari o di più oggetti inviati afferenti ad un medesimo invio (con un medesimo con _Chronotope_), si procede alla creazione di un singolo elemento _related_ per ognuno di essi.
+
 Le entità inserite tra i _related_ non devono necessariamente esistere come _item_ in Itinera.
 
 Nelle seguenti pagine è fornita la lista commentata delle voci, suddivise per _item_.
