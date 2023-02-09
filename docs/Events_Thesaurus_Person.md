@@ -196,6 +196,9 @@ Il [Chronotope](Asserted_Chronotope_Brick.md) dell'evento coincide con il luogo 
 Nel caso di più testi postillati, si procede alla creazione di un singolo elemento _related_ per ognuno di essi.  
 Nel caso di più manoscritti postillati, si procede alla creazione di più eventi _Postilla_.
  
+#### Scrittura
+🚧da fare su modello ms
+ 
 #### Stesura
 Permette di inserire la stesura di testi da parte della persona.
 
