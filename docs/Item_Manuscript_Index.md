@@ -21,3 +21,5 @@
 * [Note Part](Note_Part.md)
 * [Locations Part](Locations_Part.md)
 * [Toponyms Part](Toponyms_Part.md)
+
+[Compilazione di scheda sintetica](Item_Manuscript_sint.md)
