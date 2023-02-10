@@ -28,7 +28,7 @@ Per i codici o le parti di codici che trasmettono RVF, la compilazione è obblig
 Per i codici o le parti di codici che non trasmettono RVF, non compilare i campi _derolez_ e _pricking_. Inoltre, nel campo [_layout formula_](Layouts_Part.md#layout-formula) è possibile registrare soltanto altezza e larghezza della pagina, rispettando la sintassi come da esempio: 250 x 160 = 0 [250] 0 x 0 [160] 0.  
 
 #### [Hands Part](Hands_Part.md)
-Compilare i campi _eid_ e _name_
+Compilare i campi _eid_ e _name_ 
 Sezione [instances](Hands_Part.md#instances): compilazione obbligatoria.  
 Sezione [description](Hands_Part.md#descriptions): compilazione facoltativa.  
 Sezione [subscriptions](Hands_Part.md#subscriptions): compilazione obbligatoria, in presenza di sottoscrizione.  
