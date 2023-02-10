@@ -43,7 +43,7 @@ Compilare il campo _features_.
 Sezione [chronotopes](Decorations_Part.md#chronotopes): compilazione obbligatoria. 
 Sezione [references](Decorations_Part.md#references): compilazione facoltativa.  
 Sezione [artists](Decorations_Part.md#artist): compilare i campi _type_, _name_ e, se l'artista è noto, _ID_.  
-Sezione [elements](Decorations_Part.md#elements---informazioni-generali): è obbligatorio registrare la presenza dei vari elementi decorativi; è a discrezione del compilatore il grado di approfondimento della descrizione dei singoli elementi.  
+Sezione [elements](Decorations_Part.md#elements---informazioni-generali): è obbligatorio registrare la presenza delle varie tipologie di elemento decorativo; è a discrezione del compilatore il grado di approfondimento della descrizione dei singoli elementi.  
 
 #### [Bindings Part](Bindings_Part.md) 
 Compilazione obbligatoria dei campi _tag_, _cover_, _board_, _chronotope_.
