@@ -1,6 +1,6 @@
 # Poem Ranges Part
 
-**Poem Ranges Part** permette di inserire informazioni su alcune caratteristiche del testimone dei _Rerum vulgarium fragmenta_, quali:
+**Poem Ranges Part** permette di inserire informazioni su alcune caratteristiche del testimone dei _Rerum vulgarium fragmenta_ (o per i codici ove siano presenti sequenze di RVF consecutivi), quali:
 * l'eventuale presenza della divisione dell'opera in due parti;
 * l’ordine dei componimenti;
 * la tipologia di impaginazione.
