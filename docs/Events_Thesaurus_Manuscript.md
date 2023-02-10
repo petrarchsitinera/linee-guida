@@ -34,7 +34,7 @@ Il [Chronotope](Asserted_Chronotope_Brick.md) dell'evento coincide con il luogo 
 * _latore_.  
 
 #### Scrittura
-Permette di stabilire una corrispondenza tra una delle mani presenti nel codice e un copista noto.  
+Permette di stabilire una corrispondenza tra una delle mani che copia il codice, inserite in [Hands Part](Hands_Part.md), e un copista noto.  
 
 Il [Chronotope](Asserted_Chronotope_Brick.md) dell'evento non deve essere compilato.  
 
