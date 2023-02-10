@@ -6,7 +6,7 @@ La descrizione del modello è disponibile su [Github](https://github.com/vedph/c
 Per aggiungere la parte, selezionare **_bindings_** dal menu a tendina, quindi cliccare su **_add part_**.  
 
 ## Binding
-Per ogni legatura è creato un elemento _binding_ mediante [[editor|Editor_Brick]].
+Per ogni legatura è creato un elemento _binding_ mediante [editor](Editor_Brick).
 
 ### Tag
 Permette di indicare se l'elemento aggiunto corrisponde alla legatura attuale, a una legatura precedente, oppure se il manoscritto è privo di legatura. Selezionare una voce dal thesaurus:
