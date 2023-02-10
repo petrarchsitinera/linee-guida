@@ -56,10 +56,10 @@ Permette di segnalare, relativamente ad un _Work Item_, il caso in cui il testo 
 Compilare se pertinente.
 
 ### Modalità di esame del manoscritto
-Permette di indicare, relativamente ad un _Manuscript Item_, la modalità di esame del manoscritto.  
+Permette di indicare, relativamente ad un _Manuscript Item_, la modalità di esame e di schedatura del manoscritto.  
 
 * _type_: selezionare il valore _modalità di esame ms_;
-* _name:_ compilare sempre con un trattino semplice (**-**);
+* _name:_ compilare il campo con una delle seguenti opzioni: _analatica_; _sintetica_:  
 * _value_: compilare il campo con una delle seguenti opzioni: _autoptica_; _da riproduzione_; _da catalogo_; _da banca dati_.
 
 ⚠️ Nel caso in cui la scheda sia _da catalogo_ o _da banca dati_, creare un ulteriore _metadatum_ con:  
