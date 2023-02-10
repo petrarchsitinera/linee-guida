@@ -12,8 +12,8 @@ Una volta selezionata la tipologia di un evento in _general_, per le entità _re
 > Ad esempio, nel caso di più destinatari o di più oggetti inviati afferenti ad un medesimo invio (con un medesimo con _Chronotope_), si procede alla creazione di un singolo elemento _related_ per ognuno di essi.
 
 ⚠️ Le entità inserite tra i _related_, se presenti in Itinera (in qualità di _item_, _parts_ o _elements_), devono essere richiamate attraverso l'_eid_, secondo le regole stabilite in [_lookup_](lookup.md).  
+Le entità inserite tra i _related_ non devono necessariamente esistere come _item_ in Itinera.  In tal caso, sono inserite secondo le norme definite per gli [identificativi](identifiers.md) di persone, testi e manoscritti. In questo caso, essi hanno un valore soltanto "letterale", cioè non sono collegati a nessun _item_, _part_ o _elements_. Resta comunque sempre possibile, se necessario, creare a posteriori un _item_ collegato a questi identificativi.  
 
-Le entità inserite tra i _related_ non devono necessariamente esistere come _item_ in Itinera.  
 
 ⚠️ 🚧🚧 Se due eventi sono collegati (ad es. un invio e una ricezione), sono creati indipendentemente e poi riuniti in un unico evento attraverso il mapper. 🚧🚧
 
