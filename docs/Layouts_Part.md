@@ -77,21 +77,21 @@ Si dà la seguente formula esemplificativa, dove sono espressi tutti valori poss
 > **240** × **150** = **30** / <u>5 [ 5</u>/ **170** / <u>5] 5</u>/ **40** × **15** / <u>5 [5</u> / **50** / 5<u>\*</u> (20) 5<u>\*</u> / 40 / <u>5] 5</u> / **15**  
 >     - 240 × 150 =: altezza e larghezza della pagina;  
 >      - 30 / 5 [ 5/ 170 / 5] 5/ 40: misure relative all’altezza, ove:  
->              - 30: margine superiore, misura obbligatoria;   
->              - /5 e [5/, misura della riga di testa, vuota o con scrittura, misure non obbligatorie e alternative;   
->              - 170 misura dello specchio di scrittura, obbligatoria;   
->              - /5] e 5/, non obbligatori e alternativi, indicano la misura della riga di piede, vuota o con scrittura;   
->              - 40 misura del margine inferiore, obbligatoria;  
+>              - 30: margine superiore, valore obbligatorio;   
+>              - /5 e [5/: riga di testa vuota o riga di testa con scrittura, valori non obbligatori e alternativi tra loro;   
+>              - 170: specchio di scrittura, valore obbligatorio;   
+>              - /5] e 5/: riga di piede con scrittura o riga di piede vuota, valori non obbligatori e alternativi tra loro;   
+>              - 40 margine inferiore, valore obbligatori;  
 >       - 15 / 5 [5 / 50 / 5* (20) 5* / 40 / 5] 5 / 15: misure relative alla larghezza, ove:   
->              - 15 indica la misura del margine sinistro, obbligatoria;   
->              - /5 e [5/, non obbligatori e alternativi, indicano la misura del colonnino sinistro, vuoto o con scrittura;   
->              - 50 indica la misura dello specchio di scrittura dell’unica colonna o della prima colonna in manoscritto a due colonne, obbligatorio;   
->              - / 5 o / 5*, non obbligatori e alternativi, indicano il colonnino sinistro, con scrittura o vuoto;   
->              - (20) indica l’intercolumnio in un manoscritto a due colonne;   
->              - 5/ o 5*/, non obbligatori e alternativi, indicano il colonnino sinistro della seconda colonna, con scrittura o vuoto;   
->              - 40 indica lo specchio di scrittura della seconda colonna;   
->              - /5] e 5/, non obbligatori e alternativi, indicano il colonnino destro della seconda colonna, con scrittura o vuoto;   
->              - 15 indica il margine destro, obbligatorio.
+>              - 15: margine sinistro, valori obbligatori;   
+>              - /5 e [5/: colonnino sinistro vuoto o colonnino sinistro con scrittura, valori non obbligatori e alternativi tra loro;   
+>              - 50: specchio di scrittura dell’unica colonna o della prima colonna in manoscritto a due colonne, valore obbligatorio;   
+>              - / 5 o / 5*: colonnino destro con scrittura o colonnino vuoto, valori non obbligatori e alternativi tra loro;   
+>              - (20): intercolumnio, valore obbligatorio in un manoscritto a due colonne;   
+>              - 5 / o 5* /: colonnino sinistro della seconda colonna, con scrittura o vuoto, valori non obbligatori e alternativi tra loro;   
+>              - 40: specchio di scrittura della seconda colonna;   
+>              - /5] e 5/: colonnino destro della seconda colonna, con scrittura o vuoto, valori non obbligatori e alternativi tra loro;   
+>              - 15: margine destro, valore obbligatorio.
 
 
 Una volta inserita la formula è necessario cliccare sul tasto di spunta blu _apply formula_. 
