@@ -86,7 +86,7 @@ Si dà la seguente formula esemplificativa, dove sono espressi tutti valori poss
 >              - 15: margine sinistro, valori obbligatori;   
 >              - /5 e [5/: colonnino sinistro vuoto o colonnino sinistro con scrittura, valori non obbligatori e alternativi tra loro;   
 >              - 50: specchio di scrittura dell’unica colonna o della prima colonna in manoscritto a due colonne, valore obbligatorio;   
->              - / 5 o / 5*: colonnino destro con scrittura o colonnino vuoto, valori non obbligatori e alternativi tra loro;   
+>              - / 5 o / 5*: colonnino destro con scrittura o colonnino destro vuoto, valori non obbligatori e alternativi tra loro;   
 >              - (20): intercolumnio, valore obbligatorio in un manoscritto a due colonne;   
 >              - 5 / o 5* /: colonnino sinistro della seconda colonna, con scrittura o vuoto, valori non obbligatori e alternativi tra loro;   
 >              - 40: specchio di scrittura della seconda colonna;   
@@ -98,6 +98,11 @@ Una volta inserita la formula è necessario cliccare sul tasto di spunta blu _ap
 > ![](https://github.com/petrarchsitinera/linee-guida/blob/1a94390ee30ce0a5b737f4b1fd4dabbf453c4c06/docs/assets/images/layout_applyfor.png?raw=true)   
 
 Tutti i valori inseriti compariranno in _dimensions_ sotto i rispettivi ID.
+
+⚠️ Nel caso di _mise en page_ con assenza di margini, i relativi valori obbligatori andranno compilati con il valore "0", come nell'esempio:
+> 250 x 160 = 0 [250] 0 x 0 [160] 0
+
+⚠️ 
 
 La compilazione del campo è obbligatoria. Ove la sintassi non sia rispettata, non risulterà possibile validare la formula.
 
