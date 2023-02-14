@@ -100,9 +100,7 @@ Una volta inserita la formula è necessario cliccare sul tasto di spunta blu _ap
 Tutti i valori inseriti compariranno in _dimensions_ sotto i rispettivi ID.
 
 ⚠️ Nel caso di _mise en page_ con assenza di margini, i relativi valori obbligatori andranno compilati con "0", come nell'esempio:
-> 250 x 160 = 0 [250] 0 x 0 [160] 0
-
-⚠️ 
+> 250 x 160 = 0 [250] 0 x 0 [160] 0  
 
 La compilazione del campo è obbligatoria. Ove la sintassi non sia rispettata, non risulterà possibile validare la formula.
 
