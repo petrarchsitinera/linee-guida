@@ -75,7 +75,7 @@ La formula è introdotta dalle misure dell’altezza moltiplicata per la larghez
 Si dà la seguente formula esemplificativa, dove sono espressi tutti valori possibili di una carta impaginata su due colonne (i valori sottolineati sono alternativi, quelli in grassetto obbligatori):
 
 > **240** × **150** = **30** / <u>5 [ 5</u>/ **170** / <u>5] 5</u>/ **40** × **15** / <u>5 [5</u> / **50** / 5<u>\*</u> (20) 5<u>\*</u> / 40 / <u>5] 5</u> / **15**  
->     - 240 × 150 =: altezza e larghezza della pagina;  
+>     - 240 × 150 =: altezza e larghezza della pagina, valori obbligatori;  
 >      - 30 / 5 [ 5/ 170 / 5] 5/ 40: misure relative all’altezza, ove:  
 >              - 30: margine superiore, valore obbligatorio;   
 >              - /5 e [5/: riga di testa vuota o riga di testa con scrittura, valori non obbligatori e alternativi tra loro;   
@@ -99,7 +99,7 @@ Una volta inserita la formula è necessario cliccare sul tasto di spunta blu _ap
 
 Tutti i valori inseriti compariranno in _dimensions_ sotto i rispettivi ID.
 
-⚠️ Nel caso di _mise en page_ con assenza di margini, i relativi valori obbligatori andranno compilati con il valore "0", come nell'esempio:
+⚠️ Nel caso di _mise en page_ con assenza di margini, i relativi valori obbligatori andranno compilati con "0", come nell'esempio:
 > 250 x 160 = 0 [250] 0 x 0 [160] 0
 
 ⚠️ 
