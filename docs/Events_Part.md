@@ -29,7 +29,7 @@ Per le regole di composizione degli identificativi cliccare [qui](identifiers.md
 La compilazione del campo è obbligatoria.
 
 ### Type 
-Permette di indicare la tipologia di evento inserito, selezionando una voce dal _thesaurus_ eventi.  
+Permette di indicare la tipologia di evento inserito, selezionando una voce dal [_thesaurus_](Events_Thesaurus.md) eventi.
 
 A seconda dell'evento inserito, sarà possibile, nella schermata _related_, creare diverse tipologie di entità (persone, testi, manoscritti, etc.) collegate all'evento.  
 
