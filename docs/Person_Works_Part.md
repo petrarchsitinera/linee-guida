@@ -1,6 +1,7 @@
 # Person Works Part
 
-**Person Work Part** permette di inserire le opere di un autore. Si inseriscono anche i testi non letterari e le opere dubbie e/o attribuite. In quest'ultimo caso, è prevista la compilazione dell'[assertion](Assertion_Brick).
+**Person Work Part** permette di inserire le opere di un autore.  
+Si inseriscono anche i testi non letterari e le opere dubbie e/o attribuite. In quest'ultimo caso, è prevista la compilazione dell'[assertion](Assertion_Brick).
 
 ⚠️ In linea generale, e salvo specifiche eccezioni, il compilatore deve inserire nella _Person work part_ di un autore soltanto i testi per i quali non sia prevista la creazione di un _item_ dedicato. 
 > Lo scopo della norma è quello di evitare ridondanza nelle immissioni, stante la possibilità di collegare i testi e i rispettivi autori già negli _item text_. Ad esempio, poiché le lettere cosiddette _Disperse_ di Petrarca risultano schedate singolarmente nei rispettivi _item text_ (Disp. 1, Disp. 2, ecc.), e poiché le _Disperse_ non costituiscono un _corpus_ d'autore (cfr. _infra_), le _Disperse_ non saranno inserite nella _Person work part_ dell'_item_ relativo a Francesco Petrarca. Per verificare per quali testi è prevista la creazione di _item_ specifici, consultare i [repository dei corpora](repository.md).
