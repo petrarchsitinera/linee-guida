@@ -27,13 +27,13 @@ Per l'_eid_ degli _item person_, si ricorre al nome della persona nella forma in
 > es.  Giovanni dell’Incisa > giovanni_dell_incisa   
 > 
 Per l'_eid_ degli _item text_, si ricorre al _title_ dell'_item_, sostituendo spazi e segni di interpunzione con underscore (\_). Nel caso dei testi citati attraverso l'_incipit_, il titolo va abbreviato in modo opportuno:  
->  es. Fam. I 1 > Fam_I_1    
->  es. Rvf 84 > Rvf_84    
->  es. I’provai già quanto la soma è grave > I_provai 
+>  es. Fam. I 1 > fam_I_1    
+>  es. Rvf 84 > rvf_84    
+>  es. I’provai già quanto la soma è grave > i_provai 
 >       
 Per l'_eid_ degli _item manuscript_, si indica sinteticamente la sigla della biblioteca e/o del fondo come riportata nel [repository dei manoscritti](repository.md), seguita da underscore (\_) e dalla segnatura. Nel caso in cui la segnatura del codice comprenda punti, questi sono sostituiti da underscore (\_):  
-> es. "Plut_XL_1" 🚧  
-> es. "Bodl_Can_It_66" 🚧  
+> es. "plut_xl_1" 🚧  
+> es. "bodl_can_it_66" 🚧  
 
 Per gli _eid_ di singole parti (ad es. Events, Hands, Edits, etc.), consultare le linee guida delle relative _parts_.  
 
