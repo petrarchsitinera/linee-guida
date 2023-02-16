@@ -38,6 +38,8 @@ Per le lettere di cui sono conosciute **redazioni precedenti**, nel titolo sarà
 
 Per le **lettere dei corrispondenti** e **dei corrispondenti di corrispondenti** si inserisce **l’incipit del testo**.  
 
+Per i **testi poetici dei corrispondenti** e **dei corrispondenti di corrispondenti** si inserisce **l’incipit del testo**.  
+
 Per le **lettere perdute**, il titolo coincide con: 
 * **l'incipit**, quando conosciuto;
 * **lettera perduta (r. a. [_testo_])**: dove _r. a_ sta per _risposta a_. Da usare quando la lettera perduta è conosciuta come risposta ad un testo conservato - ove con [_testo_] si intende il testo conservato al quale si fa riferimento;
