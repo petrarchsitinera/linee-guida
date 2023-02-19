@@ -26,7 +26,7 @@ Permette di attribuire un identificativo convenzionale alla mano.
 Per ogni mano utilizzare l'etichetta convenzionale "mano" seguita da trattino basso e lettera alfabetica minuscola (es. "mano_a", "mano_b", etc.).  
 
 ⚠️ Se la mano è riconducibile ad un **copista noto**, questo dato è espresso nella [EventsPart del manoscritto](Events_Thesaurus_Manuscript.md#scrittura) o [dell'Item Person dedicato al copista](Events_Thesaurus_Person.md#scrittura).  
-Con **copista noto** si intende: copisti storicamente identificati; copisti anonimi noti agli studi per la loro produzione (es. "copista principale del Dante dei Cento"); qualsiasi copista la cui mano sia riconosciuta su almeno due manoscritti; tutti i copisti per cui sia possibile fornire qualche informazione biografica (es. notaio, copista di professione, etc.).  
+Con **copista noto** si intende: copisti storicamente identificati; copisti anonimi noti agli studi per la loro produzione (es. "copista principale dei Danti del Cento"); qualsiasi copista la cui mano sia riconosciuta su almeno due manoscritti; tutti i copisti per cui sia possibile fornire qualche informazione biografica (es. notaio, copista di professione, etc.).  
 
 La compilazione del campo è facoltativa.
 
