@@ -33,7 +33,7 @@ La compilazione del campo è facoltativa.
 ### Name
 Permette di attribuire un nome alla mano.  
 Per ogni mano utilizzare l'etichetta convenzionale "mano" seguita da lettera alfabetica maiuscola (es. "mano A", "mano B", etc.).  
-Se il copista è noto o se è possibile indicare una denominazione convenzionalmente utilizzata negli studi, il nome o la denominazione sono espressi per esteso tra parentesi dopo l'etichetta: es. "mano A (Giovanni Boccaccio)".  
+Se il copista è noto o se è possibile indicare una denominazione convenzionalmente utilizzata negli studi, il nome o la denominazione sono espressi per esteso tra parentesi dopo l'etichetta, es.: mano A (Giovanni Boccaccio).  
 
 La compilazione del campo è obbligatoria.
 
