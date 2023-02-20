@@ -31,7 +31,7 @@ La collocazione non è mai preceduta dall’indicazione 'ms.' o 'cod.', a meno c
 ### Description
 Inserire l'indicazione del dato topico seguita da quella del dato cronico, come nell'esempio:  
 > Firenze, 1384  
-> Italia settentrionale, XV sec.  
+> Italia settentrionale, sec. XV  
 
 
 ### Facet
