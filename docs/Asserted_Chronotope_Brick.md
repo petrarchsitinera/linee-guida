@@ -13,7 +13,7 @@ Permette di inserire le informazioni relative al luogo.
 
 * _tag_: può ospitare un'etichetta, variabile a seconda dell'item.
 * _place_: permette di indicare il luogo.  
-* _place assertion_: permette di indicare l'attendibilità e le fonti della data topica, secondo il modello [[Assertion|Assertion_Brick]].
+* _place assertion_: permette di indicare l'attendibilità e le fonti della data topica, secondo il modello [Assertion](Assertion_Brick.md).
 
 Il campo _place_ deve essere compilato con un unico valore, corrispondente all'indicazione geografica più precisa tra città/regione/area/stato.  
 Solo nel caso in cui sia possibile fornire un'indicazione topografica più precisa rispetto alla città (ad es. un edificio, una via, un quartiere, etc.), si indica il nome della città seguito da tale indicazione, separate da virgola.
