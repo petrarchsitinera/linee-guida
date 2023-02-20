@@ -29,21 +29,25 @@ Per gli **anonimi**, ricorrere alle formule:
 
 ### Description
 
-Compilare ripetendo il nome nella forma già inserita in _**title**_, aggiungendo tra parentesi tonde la data e il luogo di nascita e di morte, precedute dalle sigle **_n._** (nascita) e _**m.**_ (morte),separate da un trattino.  
+Compilare ripetendo il nome nella forma già inserita in _**title**_, aggiungendo tra parentesi tonde la data e il luogo (separati da virgola) di nascita e di morte, precedute dalle sigle **_n._** (nascita) e _**m.**_ (morte), separate da un trattino.  
 
-> Francesco Petrarca (n. Arezzo 1304 - m. Arquà 1374). </sub>   
+> Francesco Petrarca (n. Arezzo, 1304 - m. Arquà, 1374). </sub>   
 
-Quando una data è approssimativa o ipotetica, alla data segue l'abbreviazione **ca.**    
+Quando il luogo e/o la data sono incerti o approssimativi, l'indicazione dell'uno e/o dell'altra va accompagnata con il segno **?**.   
 
-Quando il luogo e/o la data sono incerti, l'indicazione dell'uno e/o dell'altra va accompagnata con il segno **?**  
-
-Se la data e/o il luogo di nascita o di morte sono ignoti, ricorrere al segno **?**
+Se la data e/o il luogo di nascita o di morte sono ignoti, ricorrere al segno **?**.  
 
 Ricorrere alle formule **ante** e **post** per i termini cronologici _ante quem_ e _post quem_.
  
-> Checco di Meletto Rossi (n. Forlì 1320 ca. – Rimini? post 1364)   
-> Pandolfo Malatesta (n. ? 1325 ca. - Pesaro 1373)   
-> Giacomo Carradori (n. Imola? ? - m. Imola? post 1381 ca.)
+> Checco di Meletto Rossi (n. Forlì, 1320? – Rimini?, post 1364)   
+> Giacomo Carradori (n. Imola?, ? - m. Imola?, post 1381?)
+
+Quando non esistono indicazioni su data e luogo di nascita e morte, si inserisca almeno il secolo d'attività.  
+
+> Dietisalvi Petri (Siena?, sec. XIVin.?)   
+
+In presenza di più ipotesi, riportarle una di seguito all'altra separate da "/".  
+> (n. Siena / Padova, sec. XIV)
 
 ### Facet
 
