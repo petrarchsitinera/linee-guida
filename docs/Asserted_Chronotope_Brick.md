@@ -28,7 +28,7 @@ Permette di inserire le informazioni relative alla data. Per inserire una datazi
 
 * _tag_: può ospitare un'etichetta, variabile a seconda dell'item e della parte in cui viene inserito il _Chronotope_.
 * _datation_: permette di indicare la data.
-* _date assertion_: permette di indicare l'attendibilità e le fonti della data, secondo il modello [[Assertion|Assertion_Brick]].
+* _date assertion_: permette di indicare l'attendibilità e le fonti della data, secondo il modello [Assertion](Assertion_Brick.md).
 
 ### _datation_
 Permette di inserire date complete di anno-mese-giorno, date con solo anno e mese, date con solo anno, date al secolo, intervalli da-a, date ante quem e post quem.
@@ -48,14 +48,13 @@ I flag non solo esclusivi: è possibile sceglierne più di uno. L’inserimento 
 
 Dopo aver inserito una datazione attraverso il visual editor **è necessario salvare** cliccando sul **bottone di spunta blu** nel box dell'editor.
 
-🚧 ⚠️ Per tutti i casi in cui sia prassi indicare i dati cronologici con formulazioni di massima tipo "moderna", "recente", è opportuno indicare l'intervallo cronologico facendo riferimento alla seguente tavola di corrispondenza:
+
+***
+Per i manoscritti:  
+⚠️ In tutti i casi in cui sia prassi indicare i dati cronologici con formulazioni di massima tipo "moderna", "recente", è opportuno indicare l'intervallo cronologico facendo riferimento alla seguente tavola di corrispondenza:
 * coeva: il secolo di datazione dell'oggetto;  
-* antica: entro il sec. XV;  🏃 
-* moderna: entro il sec. XIX;  🏃 
-* recente: secc. XX-XXI.  🏃 
-🚧 
+* antica: entro il sec. XV;  
+* moderna: entro il sec. XIX;   
+* recente: secc. XX-XXI.  
 
 
-
-
-[Assertion](Assertion_Brick.md)
