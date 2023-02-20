@@ -131,8 +131,8 @@ Il campo _edit the selected column definition_ non è attivo per _quire_.
 Il campo _action_ permette, attraverso una specifica formula, di attribuire dei valori alle celle della colonna selezionata.  
 La formula consente di inserire in una sola volta fascicoli dello stesso tipo e consecutivi. Per serie di fascicoli di tipo diverso occorrerà ripetere l'operazione cambiando i relativi valori. Per serie molto irregolari o casi specifici, è possibile intervenire direttamente sulle singole celle (vedi oltre).
 
-La **formula** deve rispettare la seguente sintassi: 
-n1 x n2 = q n3 / n4  
+La **formula** deve rispettare la seguente sintassi (senza spazi):  
+n1 * n2 = q n3 / n4  
 * n1 = il numero della carta fisica, senza indicazione di recto o verso, da cui parte la fascicolazione che si intende inserire.   
 * n2 = la quantità di fascicoli dello stesso tipo e consecutivi che si intende inserire; 
 * q = operatore specifico per l'aggiunta dei fascicoli, da inserire sempre;
@@ -210,7 +210,7 @@ La formula consente di compilare rapidamente la colonna relativa a una numerazio
 ⚠️ Per numerazioni in numeri romani utilizzare sempre la forma minuscola (es. "iv"), al fine di distinguere le carte del corpo del codice dalle eventuali guardie, numerate sempre in numeri romani maiuscoli (es. "IV").    
 Per una numerazione regolare, senza interruzioni o errori, sarà sufficiente l'inserimento di un sola formula; per numerazioni irregolari sarà possibile ricorrere a inserimenti successivi e/o intervenire direttamente sulle singole celle.  
 
-La **formula** per l'inserimento di una **cartulazione** deve rispettare la seguente sintassi:  
+La **formula** per l'inserimento di una **cartulazione** deve rispettare la seguente sintassi (senza spazi):  
 n1 * n2 = n3  
 * n1 = il numero della carta fisica, senza indicazione di recto o verso, da cui parte la cartulazione che si intende inserire.  
 * \* = comando preposto all'inserimento di una cartulazione.
@@ -297,7 +297,7 @@ Il campo _edit the selected column definition_ apre un **editor** che permette d
 Il campo _action_ permette, attraverso una specifica formula, di attribuire dei valori alle celle della colonna selezionata.  
 La formula consente di compilare rapidamente la colonna relativa ai richiami permettendo l'inserimento di un valore convenzionale ('R') per segnalare su quali carte sono presenti i richiami.  
 
-La **formula** per l'inserimento dei richiami deve rispettare la seguente sintassi:  
+La **formula** per l'inserimento dei richiami deve rispettare la seguente sintassi (senza spazi):  
 range := R  
 * range = la carta fisica o l'intervallo, anche discontinuo, di carte fisiche sulle quali sono presenti i richiami.  
 * \: = comando preposto all'inserimento di un valore convenzionale fisso.  
