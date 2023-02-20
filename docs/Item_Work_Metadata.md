@@ -68,15 +68,15 @@ Per tutti gli altri testi perduti, che non siano né lettere né testi poetici, 
 Inserire, nell'ordine
 1. nome dell'autore del testo (nella forma indicata nel repository);
 2. nel caso di testi di corrispondenza, nome dell'eventuale destinatario (nella forma indicata nel repository), preceduto da 'a';
-3. tipologia del testo, preceduta da trattino - da scegliere tra _lettera_, _testo poetico_, _testo in morte_, _testo_.
 
 Nel caso in cui l'autore e/o il destinatario del testo fosse **dubbio**, al nome segue il simbolo **?**
 Nel caso in cui esistano **più ipotesi di identificazione** per l'autore e/o il destinatario, si inseriscono tutti i nomi separati da **o**
 
-> Per _Rvf_ 366: Francesco Petrarca - testo poetico     
-> Per _Sen._ III 1: Francesco Petrarca a Giovanni Boccaccio - lettera  
-> Per _Mavortis milex_: Giovanni Boccaccio a Francesco Petrarca? - testo poetico  
-> Per _I’provai già quanto la soma è grave_: Antonio Beccari a Lancillotto Anguissola o Francesco Petrarca - testo poetico  
+> Per _Rvf_ 366: Francesco Petrarca
+> Per _Epystole_: Francesco Petrarca   
+> Per _Sen._ III 1: Francesco Petrarca a Giovanni Boccaccio  
+> Per _Mavortis milex_: Giovanni Boccaccio a Francesco Petrarca?  
+> Per _I’provai già quanto la soma è grave_: Antonio Beccari a Lancillotto Anguissola o Francesco Petrarca 
 
 
 ### Facet
@@ -88,11 +88,13 @@ Selezionare _**Text**_ dal menu a tendina.
 È un’etichetta che permette di raggruppare gli item, in questo caso i testi, secondo logiche utili alla ricerca. È possibile inserire più di un'etichetta, separate da punto e virgola.
 
 Per i testi inserire le seguenti etichette:
-* **lettere**: per le lettere;
-* **testi poetici**: per i testi poetici;
+* **lettere**: per le lettere, anche metriche;
+* **testi poetici**: per i testi poetici volgari;
 * **testi in morte**: per i testi in morte;
 * **redazioni gamma**: se il testo inserito è individuato come redazione gamma;
 * **redazioni beta**: se il testo inserito è individuato come redazione beta.  
+
+⚠️: rimangono esclusi dai _Group ID_ le opere e le raccolte d'autore come, ad esempio, quelle petrarchesche (_Rerum vulgarium fagmenta_; _Res seniles_).
 
   
 ***
