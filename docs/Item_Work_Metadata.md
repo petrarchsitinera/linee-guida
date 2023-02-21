@@ -72,7 +72,7 @@ Inserire, nell'ordine
 Nel caso in cui l'autore e/o il destinatario del testo fosse **dubbio**, al nome segue il simbolo **?**
 Nel caso in cui esistano **più ipotesi di identificazione** per l'autore e/o il destinatario, si inseriscono tutti i nomi separati da **o**
 
-> Per _Rvf_ 366: Francesco Petrarca
+> Per _Rvf_ 366: Francesco Petrarca  
 > Per _Epystole_: Francesco Petrarca   
 > Per _Sen._ III 1: Francesco Petrarca a Giovanni Boccaccio  
 > Per _Mavortis milex_: Giovanni Boccaccio a Francesco Petrarca?  
