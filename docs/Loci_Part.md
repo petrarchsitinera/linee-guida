@@ -61,9 +61,9 @@ La compilazione del campo è obbligatoria.
 
 Permette di inserire la lezione del manoscritto relativa al luogo critico.
 
-**Si registrano**:
--luogo critico con varianti: trascrivi l'intero verso;    
--luogo critico senza varianti: inserisci "="; ⚠️ ricadono sotto questa fattispecie i casi di mera variabilità ortografica;  
+**Si registrano**:  
+-luogo critico con varianti: trascrivere l'intero verso;    
+-luogo critico senza varianti: inserire "="; ⚠️ ricadono sotto questa fattispecie i casi di mera variabilità ortografica;  
 -componimento presente con lacuna in corrispondenza del luogo critico: "-".     
 
 **Non si registrano**:  
