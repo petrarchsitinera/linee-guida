@@ -87,7 +87,9 @@ La compilazione di questo sottoparte è facoltativa ed è riservata ai testi poe
 Permette di indicare, attraverso selezione multipla, il metro o i metri utilizzati nel testo.
 
 ### Strophe
-Permette di inserire lo schema rimico del testo, secondo la prassi tradizionale (per quanto riguarda i testi italiani lettere capitali per endecasillabi, minuscole per settenari).
+Permette di inserire lo schema rimico del testo, secondo la prassi tradizionale (per quanto riguarda i testi italiani lettere capitali per endecasillabi, minuscole per settenari).  
+Inserire l'intero schema rimico senza spazi.  
+> es. ABBAABBACDECDE  
 
 ## Save ⚠️ 
 Cliccare sul tasto **_save_** per salvare la parte.  
