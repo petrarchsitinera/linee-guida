@@ -19,10 +19,10 @@ La compilazione del campo è obbligatoria.
 
 ### Tag
 Inserire:  
-* principale: per la forma principale del nome, che deve coincidere con il nome indicato nel **repository dei nomi di persona**.
-* improprio: per le forme del nome improprie o erronee 
+* principale: per la forma principale del nome, che deve coincidere con il nome indicato nel **repository dei nomi di persona** (assegnare _rank_ "0");
+* improprio: per le forme del nome improprie o erronee (assegnare _rank_ "3");
 > es. Marco Barbato per Barbato da Sulmona
-* alternativo: per tutte le altre forme del nome.
+* alternativo: per tutte le altre forme note del nome (assegnare _rank_ "0").  
 
 La compilazione del campo è obbligatoria.  
 
