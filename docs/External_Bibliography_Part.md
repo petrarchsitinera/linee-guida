@@ -75,6 +75,7 @@ Ogni _work_ è strutturato nei seguenti campi:
 * _language_: lingua dell'opera, selezionando un valore nel menu a tendina;
 * _place_: luogo di edizione;
 * _year_: anno di edizione;
+* _year2_: se l'anno di edizione corrisponde a un intervallo (in questo caso attribuire una _key_ bibliografica arbitraria, poiché quella automatica indica solo il valore inserito in _year_);   
 * _publisher_: editore;
 * _container_: permette di indicare il contenitore, nel caso di articoli su rivista o in volumi miscellanei. Il contenitore può essere cercato digitando le prime lettere del titolo; deve essere già presente nel database nell'elenco dei _container_; in caso contrario, andrà creato prima della compilazione della _entry_ 
   > ![](https://github.com/petrarchsitinera/linee-guida/blob/4cdc916490f77390f06ed821a68f27d7dd39b224/docs/assets/images/bibl6.png?raw=true)   
@@ -112,7 +113,8 @@ Ogni _container_ è strutturato nei seguenti campi:
 * _title_: titolo dell'opera;
 * _language_: lingua dell'opera, selezionando un valore nel menu a tendina;
 * _place_: luogo di edizione;
-* _year_: anno di edizione;
+* _year_: anno di edizione;  
+* _year2_: se l'anno di edizione corrisponde a un intervallo (in questo caso attribuire una _key_ bibliografica arbitraria, poiché quella automatica indica solo il valore inserito in _year_);   
 * _publisher_: editore;
 * _number_: permette di inserire il numero, nel caso di collane;
 * _note_: permette di aggiungere note di vario tipo;
