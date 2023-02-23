@@ -2,13 +2,16 @@
 
 **Bibliography Part** raccoglie la bibliografia relativa all'_item_, collegando il database di Itinera ad un database bibliografico esterno.  
 
+La descrizione del modello è disponibile su [Github](https://github.com/vedph/cadmus-general#bibliographypart). 
+
 Grazie a questa _part_ è possibile, all'interno di un'unica schermata:
 * creare e gestire l'elenco delle voci bibliografiche relative all'item;  
 * gestire il database bibliografico esterno, quindi aggiungere, modificare o cancellare voci bibliografiche.
 
-La descrizione del modello è disponibile su [Github](https://github.com/vedph/cadmus-general#bibliographypart).  
-
-Per aggiungere la parte, selezionare **_bibliography_** dal menu a tendina della scheda di riepilogo dell'_item_, quindi cliccare su **_add part_**. 
+Il database bibliografico è dunque accessibile:
+* direttamente, cliccando la voce Bibliography nel menu orizzontale nella parte alta della schermata: 
+> ![](https://github.com/petrarchsitinera/linee-guida/blob/def4a09b59b5012905bebdb1fc6da7358a086762/docs/assets/images/bibl7.png?raw=true)
+* dall'interno di un item, aggiungendo Bibliography Part: per aggiungere la parte, selezionare **_bibliography_** dal menu a tendina della scheda di riepilogo dell'_item_, quindi cliccare su **_add part_**. 
 
 
 ## Bibliografia dell'item
@@ -74,12 +77,12 @@ Ogni _work_ è strutturato nei seguenti campi:
 * _year_: anno di edizione;
 * _publisher_: editore;
 * _container_: permette di indicare il contenitore, nel caso di articoli su rivista o in volumi miscellanei. Il contenitore può essere cercato digitando le prime lettere del titolo; deve essere già presente nel database nell'elenco dei _container_; in caso contrario, andrà creato prima della compilazione della _entry_ 
-  > ![https://github.com/petrarchsitinera/linee-guida/blob/4cdc916490f77390f06ed821a68f27d7dd39b224/docs/assets/images/bibl6.png](?raw=true)   
+  > ![](https://github.com/petrarchsitinera/linee-guida/blob/4cdc916490f77390f06ed821a68f27d7dd39b224/docs/assets/images/bibl6.png?raw=true)   
 * _from-to_: permette di inserire le pagine, nel caso di articoli su rivista o in volumi miscellanei;
 * _number_: permette di inserire il numero, nel caso di articoli su rivista o di collane;
 * _note_: permette di aggiungere note di vario tipo;
-* _location_: 🚧 permette di indicare, nel caso di risorse online, l'indirizzo web;
-* _access date_: 🚧 permette di indicare, nel caso di risorse online, la data di consultazione;
+* _location_: permette di indicare, nel caso di risorse online, l'indirizzo web;
+* _access date_: permette di indicare, nel caso di risorse online, la data di consultazione;
 * _keywords_: per aggiungere _tag_ utili ai fine della ricerca.  
 
 
@@ -99,7 +102,7 @@ Ogni _container_ è strutturato nei seguenti campi:
   * se si desidera attribuire una chiave diversa da quella generata automaticamente (ad es. per opere senza anno o senza autore), spuntare la casella _user key_.  
 * _authors_: permette di indicare l'autore o gli autori della voce bibliografica. Cliccando il campo si apre una finestra dalla quale è possibile:
   * cercare il nome di un autore già presente nel database bibliografico: inserendo le prime lettere del nome o del cognome dell'autore nel campo _last name_ sono mostrati suggerimenti; selezionare l'autore prescelto e cliccare _accept authors_;
-  > ![](https://github.com/petrarchsitinera/linee-guida/blob/b6f38e89e2d111d405164114fd26681777fd4b03/docs/assets/images/bibl5.png?raw=true)   
+ > ![](https://github.com/petrarchsitinera/linee-guida/blob/b6f38e89e2d111d405164114fd26681777fd4b03/docs/assets/images/bibl5.png?raw=true)   
   * inserire il nome di un autore: cliccare _add new author_ e compilare i seguenti campi:
     * firstName: nome;
     * lastName: cognome;
@@ -113,8 +116,8 @@ Ogni _container_ è strutturato nei seguenti campi:
 * _publisher_: editore;
 * _number_: permette di inserire il numero, nel caso di collane;
 * _note_: permette di aggiungere note di vario tipo;
-* _location_: 🚧 permette di indicare, nel caso di risorse online, l'indirizzo web;
-* _access date_: 🚧 permette di indicare, nel caso di risorse online, la data di consultazione;
+* _location_: permette di indicare, nel caso di risorse online, l'indirizzo web;
+* _access date_: permette di indicare, nel caso di risorse online, la data di consultazione;
 * _keywords_: per aggiungere _tag_ utili ai fine della ricerca.
 
 Una volta compilati i campi salvare il _container_ cliccando sul tasto di spunta blu.
