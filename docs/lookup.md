@@ -5,6 +5,8 @@ Inoltre, per alcuni _item_ e _parts_ è possibile consultare l'elenco degli _eid
  
 ⚠️ Gli _eid_ sono identificativi che permettono di richiamare un'entità (_item_, _part_ o _element_): per ulteriori informazioni consultare [questa pagina](identifiers.md).   
 
+La documentazione sul funzionamento dello strumento di _lookup_ e [degli _eid_](identifiers.md) è disponibile [qui](https://myrmex.github.io/overview/cadmus/dev/concepts/lookup).  
+
 ## Lookup e campi _EID_
 Nella banca dati Itinera gli _eid_ sono ospitati da campi denominati: _EID_ o _ID_ o [AssertedId](Asserted_Ids_Brick.md).  
 Lo strumento di _lookup_ facilita l'inserimento dell'_eid_ corretto all'interno di questi campi. Permette infatti, attraverso una ricerca interna, di individuare  l'_eid_ desiderato.  
