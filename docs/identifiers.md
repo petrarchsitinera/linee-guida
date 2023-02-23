@@ -5,14 +5,17 @@ Per ogni _item_ e per alcune _parts_ e _elements_, Itinera si serve di:
 
 ⚠️ L'attribuzione dell'_eid_ agli _item_ è obbligatoria: senza di esso risulta impossibile stabilire qualsiasi collegamento tra gli _item_. L'_eid_ di un item si indica nella [Metadata Part](Metadata_Part.md), secondo le regole stabilite per la compilazione della parte.
 
-⚠️⚠️⚠️ Il compilatore non deve confondere _eid_ e _title_ dell'_item_, che sono due proprietà diverse e con diverse funzioni.
+⚠️⚠️⚠️ Il compilatore non deve confondere _eid_ e _title_ dell'_item_, che sono due proprietà diverse e con diverse funzioni.  
+
 
 ## EID
 Nella banca dati Itinera gli _eid_ si indicano in campi diversi a seconda della tipologia di entità da identificare. I campi in cui si inseriscono gli _eid_ sono: _EID_ o _ID_ o [_Asserted Id_](Asserted_Ids_Brick.md).  
 
 Ogni volta che si incontra uno di questi campi sono disponibili due possibilità, tra loro alternative:  
 * assegnazione di un nuovo _eid_, se l'entità ne è sprovvista;  
-* richiamo dell'_eid_ già assegnato all'entità, nel caso in cui l'entità esista e sia già identificata all'interno del database.
+* richiamo dell'_eid_ già assegnato all'entità tramite [_lookup_](lookup.md), nel caso in cui l'entità esista e sia già identificata all'interno del database.
+
+La documentazione sul funzionamento degli _eid_ e dello [strumento di _lookup_](lookup.md) è disponibile [qui](https://myrmex.github.io/overview/cadmus/dev/concepts/lookup).    
 
 ### Attribuire un EID
 
