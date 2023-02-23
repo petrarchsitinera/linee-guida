@@ -9,7 +9,7 @@ Permette di inserire fonti e voci bibliografiche a sostegno di un singolo dato i
 Indica la tipologia di fonte addotta. Selezionare un valore tra:  
 * ---: quando la fonte del dato non è identificabile con nessuna delle opzioni seguenti;
 * testo: quando la fonte del dato è un testo letterario (lettere, testi poetici, opere, ecc.);
-* bibliografia: quando la fonte del dato è una voce biblografica;
+* bibliografia: quando la fonte del dato è una voce bibliografica;
 * manoscritto: quando la fonte del dato è un manoscritto;
 * documento arch.: quando la fonte del dato è un documento d'archivio.
 
@@ -19,6 +19,8 @@ Lasciare vuoto il campo.
 ### Citation
 Permette di indicare il titolo o il riferimento sintetico alla fonte.  
 ⚠️ Se la fonte è registrata nel [database bibliografico di Itinera](External_Bibliography_Part.md) è possibile riferirsi ad essa attraverso l'utilizzo della _key_ ad esso attribuita nel database.  
+⚠️ Se si intende indicare il numero di pagina (o di volume, capitolo, paragrafo, etc.), inserirlo dopo il riferimento o la key, preceduto da virgola e spazio.  
+> es. Santagata 1996, 312-313
 
 ### Note
 Il campo _note_ permette di inserire una breve stringa di testo esplicativo. Compilare il campo solo se strettamente necessario. 
