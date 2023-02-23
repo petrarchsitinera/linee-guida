@@ -15,20 +15,21 @@ Per aggiungere la parte, selezionare **_bibliography_** dal menu a tendina della
 Attraverso Bibliography Part è possibile creare una lista di voci bibliografiche (_entries_) relative all'_item_, selezionandole tra quelle presenti nel database bibliografico.  
 Di norma vengono registrate in questa parte tutte le voci bibliografiche dedicate all'_item_ nel suo complesso, mentre voci bibliografiche dedicate a specifici aspetti possono essere richiamati nelle _parts_ corrispondenti mediante [DocReference](Docref_Brick.md).  
 
-> 🚧 Esempi
-
 Per aggiungere una _entry_ alla Bibliography Part di un _item_, cercare il titolo di interesse nella lista delle _entries_ già inserite nel database bibliografico.  
+
+> ![](https://github.com/petrarchsitinera/linee-guida/blob/a774c9e27b3631e2158f67ecded8da7192cee972/docs/assets/images/bibl0.png?raw=true)
+ 
 Se la voce bibliografica desiderata non è presente nel database bibliografico, occorre [crearla](External_Bibliography_Part.md#database-bibliografico). 
 
 Una volta individuata la _entry_ desiderata, cliccare il tasto _pick this work_
-> 🚧 immagine
+> ![](https://github.com/petrarchsitinera/linee-guida/blob/a774c9e27b3631e2158f67ecded8da7192cee972/docs/assets/images/bibl3.png?raw=true)
 
 Le _entries_ selezionate compariranno, in forma di lista, nella parte superiore della schermata.
-> 🚧 immagine
+> ![](https://github.com/petrarchsitinera/linee-guida/blob/a774c9e27b3631e2158f67ecded8da7192cee972/docs/assets/images/bibl1.png?raw=true)
 
 Ogni _entry_ dispone di due campi:
-* _tag_: permette di specificare la tipologia di voce bibliografica (🚧 arricchire thesaurus, mettere "---" preimpostato)
-* _note_: 🚧 inserire, se pertinente, i numeri delle pagine della voce bibliografica relative all'item, preceduti da _p._ o _pp._. 
+* _tag_: permette di specificare la tipologia di voce bibliografica;  
+* _note_: inserire, se pertinente, i numeri delle pagine della voce bibliografica relative all'item, preceduti da _p._ o _pp._.  
 
 Per ogni _entry_ sono inoltre disponibili le seguenti funzioni:
 * _view work_: permette di visualizzare per esteso la scheda dedicata alla _entry_;
@@ -36,20 +37,19 @@ Per ogni _entry_ sono inoltre disponibili le seguenti funzioni:
 * _remove this work from list_: permette di eliminare la _entry_ dalla bibliografia dell'_item_;
 * _move up_ / _move down_: permette di modificare l'ordine delle _entries_ nella bibliografia dell'_item_;
 * _copy work's ID_: permette di copiare l'id della _entry_. 
-> 🚧 immagine
 
 
 ## Database bibliografico
 Il database bibliografico raccoglie la totalità delle _entries_.  
-Le _entries_ si distinguono in _entries_ semplici e _containers_ (opere che contengono più _entries_, ad es. periodici). Per visualizzare la lista dei _container_ spuntare la voce corrispondente.  
-> 🚧 immagine  
+Le _entries_ si distinguono in _works_ e _containers_ (opere che contengono più _works_, ad es. periodici). Per visualizzare la lista dei _containers_ spuntare la casella relativa.  
+> ![](https://github.com/petrarchsitinera/linee-guida/blob/e3eba119e269037d6a7a224fe257d6b897d7c49c/docs/assets/images/bibl2.png?raw=true)  
 
 Dalla lista è possibile visualizzare, modificare ed eliminare le _entries_ già inserite.  
 ⚠️ Modificare o eliminare una _entry_ nel database ha ricadute su tutti gli _item_ che vi si riferiscono.  
 
 ### Creare una voce bibliografica semplice (_entry_)
 Per creare una nuova _entry_ cliccare il comando _+ new_.  
-> 🚧 immagine  
+> ![](https://github.com/petrarchsitinera/linee-guida/blob/38a8a79aa3f74a4443f314f9d08e2dcd996032c7/docs/assets/images/bibl2a.png?raw=true)   
 
 Ogni _entry_ è strutturata nei seguenti campi:  
 * _container_: non spuntare la casella;
@@ -83,10 +83,12 @@ Una volta compilati i campi salvare la _entry_ cliccando sul tasto di spunta blu
 
 ### Creare un contenitore bibliografica (_container_)
 Per creare un nuovo _container_ cliccare il comando _+ new_.  
-> 🚧 immagine  
+> ![](https://github.com/petrarchsitinera/linee-guida/blob/38a8a79aa3f74a4443f314f9d08e2dcd996032c7/docs/assets/images/bibl2a.png?raw=true)  
 
 Ogni _container_ è strutturato nei seguenti campi: 
 * _container_: spuntare la casella;
+> ![](https://github.com/petrarchsitinera/linee-guida/blob/38a8a79aa3f74a4443f314f9d08e2dcd996032c7/docs/assets/images/bibl4.png?raw=true)  
+
 * _typeId_: permette di specificare la tipologia di voce bibliografica selezionando tra: article; book; journal; proceedings;  
 * _key_: chiave identificativa creata automaticamente; può essere utilizzata per richiamare sinteticamente la voce bibliografica in un [DocReference](Docref_Brick.md);  
 * _authors_: permette di indicare l'autore o gli autori della voce bibliografica. Cliccando il campo si apre una finestra dalla quale è possibile:
