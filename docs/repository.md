@@ -6,7 +6,7 @@ Lo strumento di [lookup](lookup.md) permette una ricerca rapida all'interno dell
 
 Itinera prevede _repositories_ per:
 
-* [persone]()
+* [persone](https://docs.google.com/document/d/16FpaxeFzUwUajNawKctD3ZIA0ia3s3ND)  
 * [testi]()
 * [testi perduti]()
 * [manoscritti]()
