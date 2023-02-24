@@ -53,7 +53,9 @@ Dalla lista è possibile visualizzare, modificare ed eliminare le _entries_ già
 
 ### Creare una voce bibliografica semplice (_work_)
 Per creare un nuovo _work_ cliccare il comando _+ new_.  
-> ![](https://github.com/petrarchsitinera/linee-guida/blob/38a8a79aa3f74a4443f314f9d08e2dcd996032c7/docs/assets/images/bibl2a.png?raw=true)   
+> ![](https://github.com/petrarchsitinera/linee-guida/blob/38a8a79aa3f74a4443f314f9d08e2dcd996032c7/docs/assets/images/bibl2a.png?raw=true)  
+
+⚠️ Per le norme citazionali seguire le istruzioni [in fondo alla pagina](External_Bibliography_Part.md#norme-citazionali).  
 
 Ogni _work_ è strutturato nei seguenti campi:  
 * _container_: non spuntare la casella;
@@ -93,6 +95,8 @@ Una volta compilati i campi salvare la _entry_ cliccando sul tasto di spunta blu
 Per creare un nuovo _container_ cliccare il comando _+ new_.  
 > ![](https://github.com/petrarchsitinera/linee-guida/blob/38a8a79aa3f74a4443f314f9d08e2dcd996032c7/docs/assets/images/bibl2a.png?raw=true)  
 
+⚠️ Per le norme citazionali seguire le istruzioni [in fondo alla pagina](External_Bibliography_Part.md#norme-citazionali).  
+
 Ogni _container_ è strutturato nei seguenti campi: 
 * _container_: spuntare la casella;
 > ![](https://github.com/petrarchsitinera/linee-guida/blob/38a8a79aa3f74a4443f314f9d08e2dcd996032c7/docs/assets/images/bibl4.png?raw=true)  
@@ -128,3 +132,8 @@ Una volta compilati i campi salvare il _container_ cliccando sul tasto di spunta
 Cliccare sul tasto **_save_** per salvare la parte.  
 La parte è correttamente salvata quando in fondo allo schermo compare la notifica **_Part saved_**.  
 Completato il salvataggio, cliccare sul tasto **_Close_** per tornare alla schermata di riepilogo dell'_item_.
+
+***
+
+## Norme citazionali
+
