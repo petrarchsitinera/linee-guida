@@ -8,7 +8,6 @@ Itinera prevede _repositories_ per:
 
 * [persone](https://docs.google.com/document/d/16FpaxeFzUwUajNawKctD3ZIA0ia3s3ND/edit?usp=sharing&ouid=112663865453613266465&rtpof=true&sd=true)
 * [testi]()
-* [testi perduti]()
 * [manoscritti]()
 * [elementi di scrittura]()
 * [decoratori]()
