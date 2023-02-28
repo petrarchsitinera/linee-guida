@@ -35,7 +35,6 @@ Il [Chronotope](Asserted_Chronotope_Brick.md) dell'evento coincide con il luogo 
 * _moglie_: la moglie della persona schedata a seguito del matrimonio;
 * _marito_: il marito della persona schedata a seguito del matrimonio.
 
-
 #### Professione   
 Permette di inserire la professione della persona schedata nell'_item_. Con 'professione' ci si riferisce ad ogni tipo di attività. Possono essere inseriti profili professionali generici oppure specifici, di durata lunga e breve, nomine e cariche, servizi prestati presso gerarchie laiche o ecclesiastiche, e così via.  
 Il [Chronotope](Asserted_Chronotope_Brick.md) dell'evento coincide con il luogo e la durata dell'attività, della carica o della nomina, eventualmente coincidente con la morte della persona. Quando sia possibile individuare un preciso momento di inizio dell'attività nel tempo (come nel caso delle nomine), si indicherà quel momento come inizio dell'attività. Se non si possiede nessun elemento cronologico, ma si presume che l'attività sia proseguita per l'intera vita della persona, si inserisce almeno la data di fine, che coincide con la data di morte della persona.
@@ -202,6 +201,8 @@ Permette di inserire l'elenco delle attestazioni documentarie della persona sche
 Il [Chronotope](Asserted_Chronotope_Brick.md) dell'evento coincide con il luogo e la data del documento che dà luogo all'attestazione.   
 Per ogni Chronotope sono inserite nell'_assertion_ relativa al campo _date_ le segnature archivistiche dei documenti che danno luogo all'attestazione.  
 > es. AsBo, Notarile, San Giovanni in Monte, VI 5
+
+Non è possibile aggiungere entità _related_.   
 
 #### Invio 
 Permette di inserire l'invio di un oggetto (testo, manoscritto, altro) da parte della persona schedata.
