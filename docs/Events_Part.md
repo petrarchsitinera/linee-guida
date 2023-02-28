@@ -32,8 +32,14 @@ La compilazione del campo è obbligatoria.
 Permette di indicare la tipologia di evento inserito, selezionando una voce dal [_thesaurus_ eventi](Events_Thesaurus.md).
 
 A seconda dell'evento inserito, sarà possibile, nella schermata _related_, creare diverse tipologie di entità (persone, testi, manoscritti, etc.) collegate all'evento.  
-
 La compilazione del campo è obbligatoria.
+
+### 🚧 Tag  
+Permette di inserire un'etichetta necessaria al raggruppamento di più eventi afferenti ad un medesimo macro-evento.
+
+> es. di utilizzo
+
+> criteri composizione tag
 
 ### Description
 Permette di inserire, in forma di testo libero, una descrizione breve e concisa dell'evento.  
@@ -45,6 +51,10 @@ Permette di inserire, in forma di testo libero, eventuali informazioni aggiuntiv
 
 ### Chronotope 
 Permette di indicare la data e il luogo dell'evento secondo il modello [Asserted Chronotope](Asserted_Chronotope_Brick.md).  
+
+🚧 L'elemento è replicabile, in presenza di più ipotesi concorrenti.  
+⚠️ Per indicare un intervallo di tempo utilizzare un unico elemento Chronotope.
+
 La compilazione del campo è obbligatoria.  
 
 ### Assertion 
