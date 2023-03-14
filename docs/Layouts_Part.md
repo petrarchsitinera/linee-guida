@@ -81,15 +81,15 @@ Si dà la seguente formula esemplificativa, dove sono espressi tutti valori poss
 >              - /5 e \[5/: riga di testa vuota o riga di testa con scrittura, valori non obbligatori e alternativi tra loro;   
 >              - 170: specchio di scrittura, valore obbligatorio;   
 >              - /5] e 5/: riga di piede con scrittura o riga di piede vuota, valori non obbligatori e alternativi tra loro;   
->              - 40 margine inferiore, valore obbligatori;  
+>              - 40 margine inferiore, valore obbligatorio;  
 >       - 15 / 5 \[5 / 50 / 5* (20) 5* / 40 / 5] 5 / 15: misure relative alla larghezza, ove:   
->              - 15: margine sinistro, valori obbligatori;   
+>              - 15: margine sinistro, valore obbligatorio;   
 >              - /5 e \[5/: colonnino sinistro vuoto o colonnino sinistro con scrittura, valori non obbligatori e alternativi tra loro;   
 >              - 50: specchio di scrittura dell’unica colonna o della prima colonna in manoscritto a due colonne, valore obbligatorio;   
 >              - / 5 o / 5*: colonnino destro con scrittura o colonnino destro vuoto, valori non obbligatori e alternativi tra loro;   
 >              - (20): intercolumnio, valore obbligatorio in un manoscritto a due colonne;   
 >              - 5 / o 5* /: colonnino sinistro della seconda colonna, con scrittura o vuoto, valori non obbligatori e alternativi tra loro;   
->              - 40: specchio di scrittura della seconda colonna;   
+>              - 40: specchio di scrittura della seconda colonna, valore obbligatorio in un manoscritto a due colonne;     
 >              - /5] e 5/: colonnino destro della seconda colonna, con scrittura o vuoto, valori non obbligatori e alternativi tra loro;   
 >              - 15: margine destro, valore obbligatorio.
 
