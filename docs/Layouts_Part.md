@@ -74,17 +74,17 @@ La formula è introdotta dalle misure dell’altezza moltiplicata per la larghez
 
 Si dà la seguente formula esemplificativa, dove sono espressi tutti valori possibili di una carta impaginata su due colonne (i valori sottolineati sono alternativi, quelli in grassetto obbligatori):
 
-> **240** × **150** = **30** / <u>5 [ 5</u>/ **170** / <u>5] 5</u>/ **40** × **15** / <u>5 [5</u> / **50** / 5<u>\*</u> (20) 5<u>\*</u> / 40 / <u>5] 5</u> / **15**  
+> **240** × **150** = **30** / <ins>5 [ 5</ins>/ **170** / <ins>5] 5</ins>/ **40** × **15** / <ins>5 [5</ins> / **50** / 5<ins>\*</ins> (20) 5<ins>\*</ins> / 40 / <ins>5] 5</ins> / **15**  
 >     - 240 × 150 =: altezza e larghezza della pagina, valori obbligatori;  
->      - 30 / 5 [ 5/ 170 / 5] 5/ 40: misure relative all’altezza, ove:  
+>      - 30 / 5 \[5/ 170 / 5] 5/ 40: misure relative all’altezza, ove:  
 >              - 30: margine superiore, valore obbligatorio;   
->              - /5 e [5/: riga di testa vuota o riga di testa con scrittura, valori non obbligatori e alternativi tra loro;   
+>              - /5 e \[5/: riga di testa vuota o riga di testa con scrittura, valori non obbligatori e alternativi tra loro;   
 >              - 170: specchio di scrittura, valore obbligatorio;   
 >              - /5] e 5/: riga di piede con scrittura o riga di piede vuota, valori non obbligatori e alternativi tra loro;   
 >              - 40 margine inferiore, valore obbligatori;  
->       - 15 / 5 [5 / 50 / 5* (20) 5* / 40 / 5] 5 / 15: misure relative alla larghezza, ove:   
+>       - 15 / 5 \[5 / 50 / 5* (20) 5* / 40 / 5] 5 / 15: misure relative alla larghezza, ove:   
 >              - 15: margine sinistro, valori obbligatori;   
->              - /5 e [5/: colonnino sinistro vuoto o colonnino sinistro con scrittura, valori non obbligatori e alternativi tra loro;   
+>              - /5 e \[5/: colonnino sinistro vuoto o colonnino sinistro con scrittura, valori non obbligatori e alternativi tra loro;   
 >              - 50: specchio di scrittura dell’unica colonna o della prima colonna in manoscritto a due colonne, valore obbligatorio;   
 >              - / 5 o / 5*: colonnino destro con scrittura o colonnino destro vuoto, valori non obbligatori e alternativi tra loro;   
 >              - (20): intercolumnio, valore obbligatorio in un manoscritto a due colonne;   
