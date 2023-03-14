@@ -81,7 +81,7 @@ Si dà la seguente formula esemplificativa, dove sono espressi tutti valori poss
 >              - /5 e \[5/: riga di testa vuota o riga di testa con scrittura, valori non obbligatori e alternativi tra loro;   
 >              - 170: specchio di scrittura, valore obbligatorio;   
 >              - /5] e 5/: riga di piede con scrittura o riga di piede vuota, valori non obbligatori e alternativi tra loro;   
->              - 40 margine inferiore, valore obbligatorio;  
+>              - 40: margine inferiore, valore obbligatorio;  
 >       - 15 / 5 \[5 / 50 / 5* (20) 5* / 40 / 5] 5 / 15: misure relative alla larghezza, ove:   
 >              - 15: margine sinistro, valore obbligatorio;   
 >              - /5 e \[5/: colonnino sinistro vuoto o colonnino sinistro con scrittura, valori non obbligatori e alternativi tra loro;   
