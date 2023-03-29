@@ -13,7 +13,7 @@ Il [Chronotope](Asserted_Chronotope_Brick.md) dell'evento coincide con il luogo 
 * _latore_;
 * _allegato_;
 
-Nel caso di più mittenti, destinatari o latori afferenti ad un medesimo invio (con un medesimo con _Chronotope_), si procede alla creazione di un singolo elemento _related_ per ognuno di essi.  
+Nel caso di più mittenti, destinatari, latori o allegati afferenti ad un medesimo invio (con un medesimo con _Chronotope_), si procede alla creazione di un singolo elemento _related_ per ognuno di essi.  
 ⚠️ 🚧 _tag_ per invio+ricezione+consegna  
 
 #### Ricezione  
