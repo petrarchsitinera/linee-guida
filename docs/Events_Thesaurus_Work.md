@@ -49,16 +49,6 @@ Il [Chronotope](Asserted_Chronotope_Brick.md) dell'evento coincide con il luogo 
 * la _copia_: il manoscritto che conserva la trascrizione, ove noto;
 * il _trascrittore_: l'esecutore della copia, ove noto;
 
-#### Stesura 🚧 ELIMINARE
-Permette di indicare autore e data di stesura del testo schedato
-
-⚠️ L'evento stesura va inserito nella _Events Part_ di un testo soltanto quando risultino rispettate queste condizioni:
-* il testo non è descritto in un _item_ autonomo;
-* il titolo del testo è inserito *anche* nella _Work Part_ della persona.
-
-Il [Chronotope](Asserted_Chronotope_Brick.md) dell'evento coincide con il luogo e la data o l'intervallo di tempo della stesura.
-
-
 #### Raccolta
 Permette di indicare quando il testo è parte di una raccolta d'autore.
 
