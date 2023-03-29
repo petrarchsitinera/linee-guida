@@ -17,7 +17,7 @@ Nel caso di più mittenti, destinatari, latori o allegati afferenti ad un medesi
 ⚠️ 🚧 _tag_ per invio+ricezione+consegna  
 
 #### Ricezione  
-Permette di registrare la ricezione del manoscritto da parte di una persona.  
+Permette di registrare la ricezione del testo da parte di una persona.  
 
 Il [Chronotope](Asserted_Chronotope_Brick.md) dell'evento coincide con il luogo e la data della ricezione.   
 
@@ -31,7 +31,7 @@ Nel caso di più mittenti, destinatari, latori o allegati afferenti ad un medesi
 ⚠️ 🚧 _tag_ per invio+ricezione+consegna  
 
 #### Consegna  
-Permette di registrare la consegna del manoscritto da parte di una persona ad un'altra.  
+Permette di registrare la consegna del testo da parte di una persona ad un'altra.  
 
 Il [Chronotope](Asserted_Chronotope_Brick.md) dell'evento coincide con il luogo e la data della consegna.   
 
