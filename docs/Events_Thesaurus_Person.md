@@ -226,13 +226,16 @@ Nel caso di più mittenti o di più oggetti ricevuti afferenti ad un medesima ri
 
 È possibile indicare inoltre come entità _related_ l'eventuale _latore_, ove noto, ovvero la persona cui è affidata la trasmissione dell'oggetto.
 
-#### Consegna  
-Permette di inserire la consegna di un oggetto (testo, manoscritto, altro) da parte della persona schedata. Rientra nella consegna anche lo scambio diretto di oggetti.
+#### Scambio diretto  
+Permette di inserire lo scambio diretto di uno o più oggetti (testi, manoscritti, altro) tra la persona schedata e altri.
 
-Il [Chronotope](Asserted_Chronotope_Brick.md) dell'evento coincide con il luogo e la data della consegna.   
+Il [Chronotope](Asserted_Chronotope_Brick.md) dell'evento coincide con il luogo e la data dello scambio.   
 
-È obbligatorio indicare almeno una entità _related_ tra _oggetto consegnato_, _mittente_ e _destinatario_.   
-Nel caso più oggetti consegnati, di più destinatari o di più mittenti, afferenti ad una medesima consegna (con un medesimo con _Chronotope_), si procede alla creazione di un singolo elemento _related_ per ognuno di essi.
+È obbligatorio indicare tra le entità _related_ almeno un _oggetto scambiato_ e almeno un _destinatario_.
+Nel caso più oggetti scambiati o di più destinatari si procede alla creazione di un singolo elemento _related_ per ognuno di essi.
+
+Nel caso di scambi reciproci, ogni scambio va registrato in un evento _scambio diretto_ singolo all'interno della _Events Part_ della persona da cui muove lo scambio.
+🚧 (esempio Barbato > Petrarca / Petrarca > Barbato)
 
 #### Trascrizione
 Permette di inserire la puntuale attività di trascrizione di un testo da parte di una persona.
