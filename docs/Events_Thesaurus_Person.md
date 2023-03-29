@@ -273,19 +273,6 @@ Il [Chronotope](Asserted_Chronotope_Brick.md) dell'evento non deve essere compil
 
 È obbligatorio indicare come entità _related_:
 * _mano_: richiamare attraverso [lookup](lookup.md) l'_eid_ assegnato alla mano di interesse, avendo cura di premettervi, separato da "/", l'_eid_ del manoscritto.  
- 
-#### Stesura
-Permette di inserire la stesura di testi da parte della persona.
-
-⚠️ L'evento stesura va inserito nella _Events Part_ di una persona soltanto quando risultino rispettate queste condizioni:
-* il testo non è descritto in un _item_ autonomo;
-* il titolo del testo è inserito *anche* nella _Work Part_ della persona.
-
-Il [Chronotope](Asserted_Chronotope_Brick.md) dell'evento coincide con il luogo e la data o l'intervallo di tempo della stesura.
-
-È obbligatorio indicare tra le entità _related_ il _testo_ composto dalla stesura, richiamandolo attraverso l'[_eid_](identifiers.md)
-
-Nel caso di più testi, qualora il _Chronotope_ non coincida, si procede alla creazione di più eventi _stesura_
 
 #### Commissione
 Permette di inserire eventuali commissioni di codici da parte della persona.
