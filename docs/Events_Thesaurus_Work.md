@@ -42,16 +42,20 @@ Il [Chronotope](Asserted_Chronotope_Brick.md) dell'evento coincide con il luogo 
 #### Raccolta
 Permette di indicare quando il testo è parte di una raccolta d'autore.
 
-Il [Chronotope](Asserted_Chronotope_Brick.md) dell'evento coincide con il luogo e la data dell'ingresso del testo in raccolta, ove noto.
+La compilazione della _description_ è riservata a casi di particolare interesse o complessità, come per esempio lettere transitate da una raccolta all'altra, o testi inizialmente inclusi e poi rifiutati nelle stesse. In tutti gli altri casi, la _description_ non va compilata.   
+Il [Chronotope](Asserted_Chronotope_Brick.md) dell'evento va compilato **solo** nel caso in cui sia nota, più o meno certamente, la data dell'ingresso del testo in una raccolta e/o dell'uscita.  
 
 È obbligatorio indicare come entità _related_:  
 * _raccolta_: la raccolta d'autore in cui è inserito il testo.  
 
 #### Redazione
-Permette di indicare quando il testo è la redazione precedente o successiva di un altro testo.
+Permette di indicare quando il testo è la redazione precedente di un altro testo (ad es. _Sen_. XIII 11 gamma è redazione precedente di _Sen_. XIII 11).  
 
+La compilazione della _description_ è riservata a casi di particolare interesse o complessità, come per esempio lettere notevolmente rimaneggiate e/o smembrate a formare nuovi testi.  In tutti gli altri casi, la _description_ non va compilata.   
 Il [Chronotope](Asserted_Chronotope_Brick.md) dell'evento coincide con il luogo e la data della stesura del testo.
 
-È obbligatorio indicare tra le entità _related_ una tra:
-* _precedente_: la redazione precedente del testo schedato;
-* _successiva_: la redazione successiva del testo schedato.
+È obbligatorio indicare tra le entità _related_:  
+* _precedente di_: la redazione successiva del testo schedato.
+
+Si inserisce tra i _related_ soltanto la redazione immediatamente successiva. Per esempio, nel caso di una lettera di cui siano attestate una redazione gamma, una redazione beta e una redazione alfa, l'_item_ relativo alla redazione gamma riporterà tra i _related_ **soltanto** la redazione beta; l'_item_ relativo alla redazione beta riporterà tra i _related_ **soltanto** la redazione alfa.  
+Si aggiungono più _related_ **soltanto** nel caso in cui una redazione originaria abbia dato luogo, a seguito di smembramento, a due testi diversi.  
