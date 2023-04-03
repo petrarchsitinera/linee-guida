@@ -32,11 +32,11 @@ La compilazione del campo è obbligatoria.
 
 ### Title
 Permette di indicare il titolo del testo.  
-Il titolo del testo inserito deve coincidere con il nome dell'item, ovvero con quello riportato nel **repository dei corpora**. Consultare le indicazioni riportate per il **title** dei testi in [Metadata](Item_Work_Metadata.md).
+Il titolo del testo inserito deve coincidere con il nome dell'item, ovvero con quello riportato nel [**repository dei corpora**](repository.md). Consultare le indicazioni riportate per il **title** dei testi in [Metadata](Item_Work_Metadata.md).
 
 È possibile comunque indicare più titolazioni, quando ne esistessero più di una, d'autore o meno. 
 
-⚠️ Per le lettere di Petrarca, oltre al titolo redazionale (coincidente con il nome dell'item, ovvero con quello riportato nel **repository dei corpora**: es. Fam. I 1), creare un secondo elemento _title_ corrispondente all’incipit della lettera.  
+⚠️ Per le lettere di Petrarca, oltre al titolo redazionale (coincidente con il nome dell'item, ovvero con quello riportato nel [**repository dei corpora**](repository.md): es. Fam. I 1), creare un secondo elemento _title_ corrispondente all’incipit della lettera.  
 
 I titoli sono inseriti attraverso un [editor](Editor_Brick.md). Per ciascun titolo è possibile indicare:  
 * la lingua in cui il titolo è espresso (obbligatorio);
