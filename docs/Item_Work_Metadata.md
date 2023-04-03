@@ -17,7 +17,7 @@ Per aggiungere un _item Work_:
 >   * **Flags**: indicano se l'item è stato completato (_completed_) o revisionato (_revised_). 
 
 ### Title
-Inserire il titolo del testo schedato, nella forma riportata nel [**repository dei testi di Itinera**](repositories.md).  
+Inserire il titolo del testo schedato, nella forma riportata nel [**repository dei testi di Itinera**](repository.md).  
 
 Per i **testi di Petrarca** si ricorre alle abbreviazioni adottate dall'Edizione Nazionale.  
 
@@ -60,15 +60,15 @@ Per tutti gli altri testi perduti, che non siano né lettere né testi poetici, 
 * **testo perduto (c. in [_testo_])**;
 
 
-⚠️ Verificare che i titoli delle lettere e dei testi perduti schedati nel database coincidano con quelli riportati nel [**repository**](repositories.md).   
+⚠️ Verificare che i titoli delle lettere e dei testi perduti schedati nel database coincidano con quelli riportati nel [**repository**](repository.md).   
 Quando assenti, aggiornare il repository con le nuove immissioni tramite segnalazione su clickup.
 
 
 ### Description
  
 Inserire, nell'ordine
-1. nome dell'autore del testo (nella forma indicata nel [repository](repositories.md));
-2. nel caso di testi di corrispondenza, nome dell'eventuale destinatario (nella forma indicata nel [repository](repositories.md)), preceduto da 'a';
+1. nome dell'autore del testo (nella forma indicata nel [repository](repository.md));
+2. nel caso di testi di corrispondenza, nome dell'eventuale destinatario (nella forma indicata nel [repository](repository.md)), preceduto da 'a';
 
 Nel caso in cui l'autore e/o il destinatario del testo fosse **dubbio**, al nome segue il simbolo **?**
 Nel caso in cui esistano **più ipotesi di identificazione** per l'autore e/o il destinatario, si inseriscono tutti i nomi separati da **o**.  
