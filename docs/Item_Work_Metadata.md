@@ -60,7 +60,8 @@ Per tutti gli altri testi perduti, che non siano né lettere né testi poetici, 
 * **testo perduto (c. in [_testo_])**;
 
 
-⚠️ Verificare che i titoli delle lettere e dei testi perduti schedati nel database coincidano con quelli riportati nel **repository**. Quando assenti, aggiornare il repository con le nuove immissioni.
+⚠️ Verificare che i titoli delle lettere e dei testi perduti schedati nel database coincidano con quelli riportati nel [**repository**](repositories.md).   
+Quando assenti, aggiornare il repository con le nuove immissioni tramite segnalazione su clickup.
 
 
 ### Description
