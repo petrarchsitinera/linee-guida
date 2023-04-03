@@ -17,7 +17,7 @@ Per aggiungere un _item Work_:
 >   * **Flags**: indicano se l'item è stato completato (_completed_) o revisionato (_revised_). 
 
 ### Title
-Inserire il titolo del testo schedato, nella forma riportata nel **repository dei testi di Itinera** (🚧 in allestimento).
+Inserire il titolo del testo schedato, nella forma riportata nel [**repository dei testi di Itinera**](repositories.md).  
 
 Per i **testi di Petrarca** si ricorre alle abbreviazioni adottate dall'Edizione Nazionale.  
 
