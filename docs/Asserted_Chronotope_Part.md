@@ -19,7 +19,10 @@ Compilare il campo _tag_ con uno dei seguenti valori:
 * stesura ricostruita: per il luogo e/o la data ricostruiti dalla critica, anche se eventualmente divergenti da quelli dichiarati e/o impliciti;  
 * elementi utili alla datazione.  
 
-⚠️⚠️⚠️ I _tag_ di _place_ e _date_ devono essere coerenti all'interno dell'elemento _chronotope_. Ciascun _chronotope_ deve cioè raccogliere **o** la stesura dichiarata, **o** la stesura implicita o i dati relativi ad **una** ipotesi di datazione ricostruita.   
+⚠️⚠️⚠️ I _tag_ di _place_ e _date_ devono essere coerenti all'interno dell'elemento _chronotope_. Ciascun _chronotope_ deve cioè raccogliere   
+- **o** la stesura dichiarata 
+- **o** la stesura implicita 
+- **o** i dati relativi ad **una** ipotesi di datazione ricostruita.   
 In nessun caso si potrà usare, ad esempio, il _tag_ "stesura ricostruita" per un luogo ipotizzato dalla critica come luogo di stesura di un testo accanto ad una data qualificata come "stesura dichiarata".  
 
 
