@@ -23,6 +23,7 @@ Compilare il campo _tag_ con uno dei seguenti valori:
 - **o** la stesura dichiarata 
 - **o** la stesura implicita 
 - **o** i dati relativi ad **una** ipotesi di datazione ricostruita.   
+
 In nessun caso si potrà usare, ad esempio, il _tag_ "stesura ricostruita" per un luogo ipotizzato dalla critica come luogo di stesura di un testo accanto ad una data qualificata come "stesura dichiarata".  
 
 
