@@ -1,8 +1,7 @@
 # Asserted Chronotopes Part
 
 Permette di inserire data e luogo di **stesura** di un testo.  
-⚠️ Date e luoghi di eventi relativi alla storia del testo (invio, ricezione, copia, etc.) sono espresse in [Events Part](Events_Part.md)
-
+Ulteriori dati cronotopici relativi a eventuali invii, ricezioni, etc., non vanno inseriti qui ma in [Events Part](Events_Part.md).  
 
 La parte è strutturata secondo il modello [AssertedChronotope](Asserted_Chronotope_Brick.md). Per istruzioni sulla compilazione dei _chronotopes_, cliccare [qui](Asserted_Chronotope_Brick.md).  
 
