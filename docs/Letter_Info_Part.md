@@ -13,21 +13,21 @@ Permette di inserire un breve regesto del testo, chiaro e conciso. Evitare le fr
 
 Per lettere perdute di cui si può ricostruire il contenuto a partire dalle risposte, il _subject_ è preceduto dall'indicazione della fonte tra parentesi quadre.  
 
-La compilazione del campo è obbligatoria. 
+La compilazione del campo è **obbligatoria**. Per le lettere perdute, è obbligatoria solo in presenza di dati sul contenuto desumibili da altre fonti. 
 
 ## Header
 Permette di inserire l’intestazione della lettera, in latino, nella forma accertata dall’edizione critica o attestata nel manoscritto.
 
 > Es. Ad eundem se tempore belli ad loca pacifica invitantem
 
-La compilazione del campo è obbligatoria. 
+La compilazione del campo è **obbligatoria** in presenza del dato. 
 
 ## Text date
 Permette di inserire la data della lettera, in latino, nella forma accertata dall’edizione critica o attestata nel manoscritto.
 
 > Es. Florentie penultima die Ianuarii
 
-La compilazione del campo è obbligatoria in presenza di data dichiarata. 
+La compilazione del campo è **obbligatoria** in presenza di data dichiarata. 
 
 ## Save ⚠️ 
 Cliccare sul tasto **_save_** per salvare la parte.  
