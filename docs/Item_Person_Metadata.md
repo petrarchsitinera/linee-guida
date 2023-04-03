@@ -18,7 +18,7 @@ I **Metadata** descrivono sinteticamente l'_item_. La compilazione segue regole 
 >   * **Flags**: indicano se l'item è stato completato (_completed_) e/o revisionato (_revised_). 
 
 ### Title
-Inserire il nome della persona nella forma riportata nel **[repository dei nomi di persona](repository.md)**(🚧 in allestimento).
+Inserire il nome della persona nella forma riportata nel [**repository dei nomi di persona**](repository.md).
 
 Per gli **anonimi**, ricorrere alle formule:  
 * **anonimo (autore di [testo])**: per gli anonimi autori di opere o testi individuati;
