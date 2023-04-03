@@ -5,6 +5,11 @@ Permette di inserire data e luogo di stesura di un testo.
 
 È infatti possibile creare più _chronotopes_, a seconda della tipologia di datazione nota, qualificando ciascuno di essi attraverso il _tag_ del campo _date_.
 
+
+<img width="986" alt="Schermata 2023-04-03 alle 15 08 45" src="https://user-images.githubusercontent.com/102725489/229519331-798c2aca-c6e7-4ef9-8521-724321f6c265.png">
+
+
+
 Compilare il campo _tag_ con uno dei seguenti valori:
 
 * stesura dichiarata (data in calce trasformata in kal. gregoriano, anche solo mese giorno con secolo);  
