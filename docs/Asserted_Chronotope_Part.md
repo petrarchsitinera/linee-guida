@@ -22,6 +22,8 @@ Compilare il campo _tag_ con uno dei seguenti valori:
 ⚠️⚠️⚠️ I _tag_ di _place_ e _date_ devono essere coerenti all'interno dell'elemento _chronotope_. Ciascun _chronotope_ deve cioè raccogliere **o** la stesura dichiarata, **o** la stesura implicita o i dati relativi ad **una** ipotesi di datazione ricostruita.   
 In nessun caso si potrà usare, ad esempio, il _tag_ "stesura ricostruita" per un luogo ipotizzato dalla critica come luogo di stesura di un testo accanto ad una data qualificata come "stesura dichiarata".  
 
+<img width="986" alt="Schermata 2023-04-03 alle 15 08 45" src="https://user-images.githubusercontent.com/102725489/229529813-fae1cac0-3e67-4fe4-be4b-18a4ee448921.png">
+
 
 ⚠️ In presenza di più elementi _chronotope_, il compilatore deve specificare quale di essi sia da considerare quello di riferimento: deve quindi aggiungere ai _tag_ di _place_ e _date_ del _chronotope_ di riferimento la dicitura _principale_, separata da punto e virgola.  
 
