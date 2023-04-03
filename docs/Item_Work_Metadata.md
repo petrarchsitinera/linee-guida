@@ -67,11 +67,11 @@ Quando assenti, aggiornare il repository con le nuove immissioni tramite segnala
 ### Description
  
 Inserire, nell'ordine
-1. nome dell'autore del testo (nella forma indicata nel repository);
-2. nel caso di testi di corrispondenza, nome dell'eventuale destinatario (nella forma indicata nel repository), preceduto da 'a';
+1. nome dell'autore del testo (nella forma indicata nel [repository](repositories.md));
+2. nel caso di testi di corrispondenza, nome dell'eventuale destinatario (nella forma indicata nel [repository](repositories.md)), preceduto da 'a';
 
 Nel caso in cui l'autore e/o il destinatario del testo fosse **dubbio**, al nome segue il simbolo **?**
-Nel caso in cui esistano **più ipotesi di identificazione** per l'autore e/o il destinatario, si inseriscono tutti i nomi separati da **o**
+Nel caso in cui esistano **più ipotesi di identificazione** per l'autore e/o il destinatario, si inseriscono tutti i nomi separati da **o**.  
 
 > Per _Rvf_ 366: Francesco Petrarca  
 > Per _Epystole_: Francesco Petrarca   
@@ -95,7 +95,7 @@ Per i testi inserire le seguenti etichette:
 * **redazioni gamma**: se il testo inserito è individuato come redazione gamma;
 * **redazioni beta**: se il testo inserito è individuato come redazione beta.  
 
-⚠️: rimangono esclusi dai _Group ID_ le opere e le raccolte d'autore come, ad esempio, quelle petrarchesche (_Rerum vulgarium fagmenta_; _Res seniles_).
+⚠️ Rimangono esclusi dai _Group ID_ le opere e le raccolte d'autore come, ad esempio, quelle petrarchesche (_Rerum vulgarium fagmenta_; _Res seniles_).
 
   
 ***
