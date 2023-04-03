@@ -1,9 +1,12 @@
 # Asserted Chronotopes Part
 
-Permette di inserire data e luogo di stesura di un testo.  
-È strutturata secondo il modello [AssertedChronotope](Asserted_Chronotope_Brick.md) ma prevede uno specifico utilizzo dei tag.  
+Permette di inserire data e luogo di **stesura** di un testo.  
+⚠️ Date e luoghi di eventi relativi alla storia del testo (invio, ricezione, copia, etc.) sono espresse in [Events Part](Events_Part.md)
 
-È infatti possibile creare più _chronotopes_, a seconda della tipologia di datazione nota, qualificando ciascuno di essi attraverso il _tag_ dei campi _place_ e _date_.   
+
+La parte è strutturata secondo il modello [AssertedChronotope](Asserted_Chronotope_Brick.md). Per istruzioni sulla compilazione dei _chronotopes_, cliccare [qui](Asserted_Chronotope_Brick.md).  
+
+È possibile creare più _chronotopes_, a seconda della tipologia di datazione nota, qualificando ciascuno di essi attraverso il _tag_ dei campi _place_ e _date_.   
 
 ⚠️ I _tag_ da compilare sono quelli relativi ai campi _place_ e _date_ (cerchiati in rosso nell'immagine), da non confondere con i _tag_ presenti nel riquadro delle _assertions_.  
 
@@ -37,13 +40,3 @@ In nessun caso si potrà usare, ad esempio, il _tag_ "stesura ricostruita" per u
 
 È **obbligatoria** la creazione di un _chronotope_ per la _stesura dichiarata_ e la _stesura implicita_ in presenza dei rispettivi dati. Essendo la fonte di tali dati il testo schedato, non è prevista la compilazione dell'_assertion_.   
 È possibile creare un _chronotope_ per ogni _stesura ricostruita_, cioè per ogni ipotesi critica avanzata nella letteratura.  
-
-Coerenza
-Ordine
-
-
-
-⚠️ Date e luoghi di eventi relativi alla storia del testo (invio, ricezione, copia, etc.) sono espresse in [Events Part](Events_Part.md)
-
-
-
