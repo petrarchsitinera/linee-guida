@@ -1,4 +1,5 @@
-## Database bibliografico
+# Database bibliografico 
+
 Il database bibliografico raccoglie la totalità delle _entries_.  
 Le _entries_ si distinguono in _works_ e _containers_ (opere che contengono più _works_, ad es. periodici). Per visualizzare la lista dei _containers_ spuntare la casella relativa.  
 > ![](https://github.com/petrarchsitinera/linee-guida/blob/e3eba119e269037d6a7a224fe257d6b897d7c49c/docs/assets/images/bibl2.png?raw=true)  
