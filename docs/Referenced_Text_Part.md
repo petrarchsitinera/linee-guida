@@ -1,48 +1,51 @@
 # Referenced Text Part
 
-**Referenced Text Part** permette di inserire e descrivere alcune relazioni del testo schedato con altri testi, in particolare:  
-* il testo al quale il testo schedato risponde - per le tenzoni e per le corrispondenze in prosa;  
+**Referenced Text Part** permette di registrare:  
+* il testo al quale il testo schedato risponde - per le lettere e per le tenzoni poetiche;  
 * i testi citati nel testo schedato.
+
+⚠️ Per i testi di corrispondenza, si registrano in questa parte i soli testi di proposta, collegati cioè come antecedenti al testo schedato nella catena di corrispondenza. **Non si registrano dunque eventuali risposte al testo schedato**. La catena di corrispondenza sarà ricostruita a posteriori automaticamente sul grafo semantico.  
+
+⚠️ La parte raccoglie soltanto le citazioni di testi, opere o lettere scritti da: **Petrarca, suoi corrispondenti, corrispondenti di corrispondenti, altri autori contemporanei**. Non vanno dunque registrate eventuali citazioni di testi, opere, lettere di altri autori, come per esempio i classici.  
 
 La descrizione del modello è disponibile su [Github](https://github.com/vedph/cadmus-itinera#referencedtextspart).
 
-Per aggiungere la parte, selezionare **_ref-texts_** dal menu a tendina, quindi cliccare su **_add part_**. 
-
+Per aggiungere la parte, selezionare **_ref-texts_** dal menu a tendina, quindi cliccare su **_add part_**.  
 
 ## Text
-Per ogni testo collegato è creato un elemento _text_ mediante un [editor](Editor_Brick.md).
-
-⚠️ Per quanto riguarda i testi di corrispondenza, si registrano in questa parte i soli testi collegati come antecedenti nella catena di corrispondenza rispetto al testo schedato. Non si registrano dunque eventuali risposte al testo schedato. L'intera catena di corrispondenza è ricostruita a posteriori sul grafo semantico grazie all'incrocio dei dati.
+Per ogni testo da inserire si crea un elemento _text_ mediante [editor](Editor_Brick.md).  
 
 ### Type
-Permette di specificare il tipo di relazione che l'item schedato intrattiene con l'elemento _text_. Selezionare un valore tra:  
-* risposta a (indica che l'item costituisce una risposta all'elemento _text_ indicato nel campo _target id_);
-* citazione di (indica che l'item contiene una citazione dell'elemento _text_ indicato nel campo _target id_).
+Permette di specificare il tipo di relazione che il testo schedato intrattiene con l'elemento _text_ inserito:  
+* risposta a: quando il _text_ inserito è la proposta del testo schedato (_item_);  
+* citazione di: quando il _text_ inserito è citato nel testo schedato (_item_).  
 
-La compilazione del campo è obbligatoria.
+La compilazione del campo è **obbligatoria**.
 
 ### Target ID
-Il testo interessato collegato all'item schedato.  
-Se il testo è schedato all'interno di Itinera, cercare l'item relativo e copiarne [l'_eid_](identifiers.md), servendosi eventualmente dei [repository](repository.md) e della funzione di [lookup](lookup.md).   
-Se il testo non è schedato all'interno di Itinera, attribuire un _eid_ secondo le regole indicate [per i titoli degli item testuali](Item_Work_Metadata.md).  
+Compilare con l'identificativo del testo da inserire (testo di proposta o testo citato).    
+Per individuare l'identificativo ([_eid_](identifiers.md)) dei testi che fanno parte dei _corpora_ di Itinera,  consultare i [repository](repository.md) o ricorrere alla funzione di [lookup](lookup.md).   
+Se, diversamente, il testo non fa parte dei _corpora_ di Itinera, attribuire un _eid_ secondo le regole [per la creazione di nuovi _eid_]((identifiers.md)) e segnalare l'aggiunta su clickup per permettere l'aggiornamento dei [repository](repository.md).  
 
-La compilazione del campo è obbligatoria.
+La compilazione del campo è **obbligatoria**.
 
 ### Target citation
-Il luogo del testo citato da cui è tratta la citazione, espresso indicando il libro e/o il paragrafo e/o il verso, non separate da virgole. Se si tratta di un intervallo, separare i nn. di paragrafo o di versi con un trattino.
+Il campo è riservato **esclusivamente** ai testi citati (_type_= "citazione di").    
+Compilare con il luogo del testo citato da cui è tratta la citazione, espresso indicando il libro e/o il paragrafo e/o il verso, non separati da virgole. Se si tratta di un intervallo, separare i numeri di paragrafo o di versi con un trattino.
  > Es.:  
  > XII 4 3  
  > I 1 65-68  
 
-La compilazione del campo è facoltativa.
-
+La compilazione del campo è obbligatoria per i testi citati (_type_= "citazione di").
 
 ### Source
-Il luogo del testo schedato in cui si verifica la citazione, espresso indicando il libro e/o il paragrafo e/o il verso, non separate da virgole. Se si tratta di un intervallo, separare i nn. di paragrafo o di versi con un trattino.   
-La compilazione del campo è facoltativa.
+Il campo è riservato **esclusivamente** ai testi citati (_type_= "citazione di").  
+Compilare con il luogo del testo schedato in cui si trova la citazione, espresso indicando il libro e/o il paragrafo e/o il verso, non separati da virgole. Se si tratta di un intervallo, separare i numeri di paragrafo o di versi con un trattino.   
+
+La compilazione del campo è obbligatoria per i testi citati (_type_= "citazione di").
 
 ### Assertion
-Permette, mediante il modello [Assertion](Assertion_Brick.md) di indicare l'attendibilità del collegamento intertestuale e le eventuali fonti a sostegno.
+Permette di indicare l'attendibilità del collegamento inserito ed eventuali fonti. Per la compilazione del campo, consultare le istruzioni di [Assertion](Assertion_Brick.md).  
 
 ## Save ⚠️ 
 Per ogni elemento _text_ inserito è necessario salvare cliccando sul tasto di spunta blu.
