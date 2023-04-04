@@ -1,7 +1,20 @@
 # Database bibliografico 
 
-Il database bibliografico raccoglie la totalità delle _entries_.  
-Le _entries_ si distinguono in _works_ e _containers_ (opere che contengono più _works_, ad es. periodici). Per visualizzare la lista dei _containers_ spuntare la casella relativa.  
+Il database bibliografico raccoglie tutta la bibliografia impiegata nella descrizione degli _item_ ed è accessibile:
+
+* da [_Bibliography_](https://itinera.unisi.it/#/biblio) nel menu orizzontale nella parte alta della schermata, come nell'immagine
+
+<img width="624" alt="Schermata 2023-04-04 alle 15 50 33" src="https://user-images.githubusercontent.com/102725489/229814240-b6ed1a8d-4f43-4d05-b3ab-0cc0e6846132.png">
+
+
+* dalla [_Bibliography Part_](External_Bibliography_Part.md) di un singolo _item_.
+
+Ogni voce bibliografica inserita costituisce una singola _entry_. Le _entries_ si distinguono in:
+- _works_: singole voci bibliografiche;
+- _containers_: voci bibliografiche che ne contengono altre, ad es. periodici, atti di convegno, cataloghi, ecc. 
+
+
+Per visualizzare la lista dei _containers_ spuntare la casella relativa.  
 > ![](https://github.com/petrarchsitinera/linee-guida/blob/e3eba119e269037d6a7a224fe257d6b897d7c49c/docs/assets/images/bibl2.png?raw=true)  
 
 Dalla lista è possibile visualizzare, modificare ed eliminare le _entries_ già inserite.  
