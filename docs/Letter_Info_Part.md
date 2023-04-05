@@ -11,7 +11,9 @@ Permette di inserire un breve regesto del testo, chiaro e conciso. Evitare le fr
 
 > Es. La lettera risponde ad un'altra perduta di Petrarca, che informava Francesco Nelli della morte di Giacomo da Carrara.
 
-Per lettere perdute di cui si può ricostruire il contenuto a partire dalle risposte, il _subject_ è preceduto dall'indicazione della fonte tra parentesi quadre.  
+Per lettere perdute di cui si può ricostruire il contenuto a partire dalle risposte, il _subject_ è preceduto dall'indicazione della fonte tra parentesi quadre. 
+
+⚠️ Ogni frase deve essere chiusa da punto fermo.  
 
 La compilazione del campo è **obbligatoria**. Per le lettere perdute, è obbligatoria solo in presenza di dati sul contenuto desumibili da altre fonti. 
 
