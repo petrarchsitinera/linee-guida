@@ -21,6 +21,8 @@ Nel caso di nuove immissioni, gli _eid_ si attribuiscono secondo le medesime [re
 * _name:_ compilare sempre con la voce **eid**;
 * _value_: compilare con l'identificativo prescelto.  
 
+Esempio. Nell'immagine l'identificativo dell'_item_ Francesco Petrarca (compilato da Mario Rossi).  
+
 <img width="1135" alt="Schermata 2023-04-05 alle 12 23 37" src="https://user-images.githubusercontent.com/102725489/230054099-f6f59ae1-080c-4670-bc49-ffb58fc646d7.png">
 
 La compilazione del campo è **obbligatoria**.
