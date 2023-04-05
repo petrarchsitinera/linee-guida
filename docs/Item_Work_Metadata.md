@@ -17,7 +17,7 @@ Per aggiungere un _item Work_:
 >   * **Flags**: indicano se l'item è stato completato (_completed_) o revisionato (_revised_). 
 
 ### Title
-Inserire il titolo del testo schedato, nella forma riportata nel [**repository dei testi di Itinera**](repository.md).  
+Inserire il titolo del testo schedato, nella forma riportata nel [repository dei testi di Itinera](repository.md).  
 
 Per i **testi di Petrarca** si ricorre alle abbreviazioni adottate dall'Edizione Nazionale.  
 
@@ -60,7 +60,7 @@ Per tutti gli altri testi perduti, che non siano né lettere né testi poetici, 
 * **testo perduto (c. in [_testo_])**;
 
 
-⚠️ Verificare che i titoli delle lettere e dei testi perduti schedati nel database coincidano con quelli riportati nel [**repository**](repository.md).   
+⚠️ Verificare che i titoli delle lettere e dei testi perduti schedati nel database coincidano con quelli riportati nel [repository](repository.md).   
 Quando assenti, aggiornare il repository con le nuove immissioni tramite segnalazione su clickup.
 
 
