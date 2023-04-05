@@ -9,7 +9,7 @@ Per aggiungere la parte, selezionare **_names_** dal menu a tendina, quindi clic
 # Name
 Ciascuna forma del nome è inserita come elemento singolo - cfr. la sezione [Creare, modificare, eliminare e salvare elementi](Editor_Brick.md).
 
-È possibile aggiungere più nomi e più forme del nome per ogni forma attestate o in uso. È tuttavia **obbligatorio** inserire la forma del nome individuata come principale, come tale dichiarata attraverso il tag: consultare il [**repository dei nomi di persona**](repository.md).  
+È possibile aggiungere più nomi e più forme del nome per ogni forma attestate o in uso. È tuttavia **obbligatorio** inserire la forma del nome individuata come principale, come tale dichiarata attraverso il tag: consultare il [repository dei nomi di persona](repository.md).  
 
 ### Language
 Selezionare dal menu a tendina la lingua in cui è espresso il nome. 
@@ -19,7 +19,7 @@ La compilazione del campo è obbligatoria.
 
 ### Tag
 Inserire:  
-* principale: per la forma principale del nome, che deve coincidere con il nome indicato nel [**repository dei nomi di persona**](repository.md) (assegnare _rank_ "0");
+* principale: per la forma principale del nome, che deve coincidere con il nome indicato nel [repository dei nomi di persona](repository.md) (assegnare _rank_ "0");
 * improprio: per le forme del nome improprie o erronee (assegnare _rank_ "3");
 > es. Marco Barbato per Barbato da Sulmona
 * alternativo: per tutte le altre forme note del nome (assegnare _rank_ "0").  
