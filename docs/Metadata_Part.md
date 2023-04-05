@@ -10,9 +10,9 @@ Per aggiungere la parte, selezionare **_meta_** dal menu a tendina, quindi clicc
 
 
 **Metadata Part** si compila in modo diverso a seconda della tipologia di _item_:  
-* [persona](Metadata_Part_Person.md)
-* [testo](Metadata_Part_Text.md)
-* [manoscritto](Metadata_Part_Manuscript.md)
+* [Item Person](Metadata_Part_Person.md)
+* [Item Text](Metadata_Part_Text.md)
+* [Item Manuscript](Metadata_Part_Manuscript.md)
 
 ## Save ⚠️ 
 Dopo la compilazione, cliccare sul tasto **_save_** per salvare la parte.  
