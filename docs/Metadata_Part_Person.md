@@ -1,6 +1,6 @@
 # Metadata Part di Item Person
 
-I metadati da aggiungere **obbligatoriamente** in un Item Person sono:  
+I [metadati](Metadata_Part.md) da aggiungere **obbligatoriamente** in un Item Person sono:  
 * identificativo;
 * autore.
 
@@ -21,51 +21,21 @@ Nel caso di nuove immissioni, gli _eid_ si attribuiscono secondo le medesime [re
 * _name:_ compilare sempre con la voce **eid**;
 * _value_: compilare con l'identificativo prescelto.  
 
-Esempio. Nell'immagine l'identificativo dell'_item_ Francesco Petrarca (compilato da Mario Rossi).  
+> Esempio. Nell'immagine l'identificativo dell'_item_ Francesco Petrarca (compilato da Mario Rossi).  
 
 <img width="1135" alt="Schermata 2023-04-05 alle 12 23 37" src="https://user-images.githubusercontent.com/102725489/230054099-f6f59ae1-080c-4670-bc49-ffb58fc646d7.png">
 
 La compilazione del campo è **obbligatoria**.
 
 ### Autore
-Permette di indicare l'autore della scheda.  
+Permette di indicare l'autore della scheda, cioè il compilatore.  
 
 * _type_: selezionare il valore _autore_;
 * _name:_ compilare sempre con un trattino semplice (**-**).
-* _value_: compilare con il nome e cognome del compilatore.  
+* _value_: compilare con il nome e cognome del compilatore (vedi esempio sopra).  
 
-La compilazione del campo è obbligatoria.
+La compilazione del campo è **obbligatoria**.
 
-
-### Tipologia di testo
-Permette di segnalare, relativamente ad un _Work Item_, il caso in cui il testo costituisca un frammento o una raccolta.  
-
-* _type_: selezionare il valore _tipologia di testo_;
-* _name:_ compilare sempre con un trattino semplice (**-**).
-* _value_: compilare con _frammento_ se si tratta di un frammento di testo; con _raccolta_ se si tratta di una raccolta di testi (ad es. per l'item Rerum vulgarium fragmenta).  
-
-Compilare se pertinente.
-
-### Modalità di esame del manoscritto
-Permette di indicare, relativamente ad un _Manuscript Item_, la modalità di esame e di schedatura del manoscritto.  
-
-* _type_: selezionare il valore _modalità di esame ms_;
-* _name:_ compilare il campo con una delle seguenti opzioni: _analatica_; _sintetica_:  
-* _value_: compilare il campo con una delle seguenti opzioni: _autoptica_; _da riproduzione_; _da catalogo_; _da banca dati_.
-
-⚠️ Nel caso in cui la scheda sia _da catalogo_ o _da banca dati_, creare un ulteriore _metadatum_ con:  
-* _type_: selezionare il valore _altro_;
-* _name:_ compilare con la voce **fonte**;
-* _value_: se la scheda è tratta _da catalogo_, compilare con la _key_ bibliografica relativa alla fonte (cfr. [Bibliography Part](External_Bibliography_Part.md)); se la scheda è tratta _da banca dati_, compilare il campo con il nome o la sigla della banca dati (ad es. "Mirabile", "RDP", "Manus", etc.)
-
-La compilazione del campo è obbligatoria.
-
-### Tipologia manoscritto
-* _type_: selezionare il valore _tipologia ms_;
-* _name_:  compilare sempre con un trattino semplice (**-**);
-* _value_: compilare il campo con una delle seguenti opzioni: _unitario_; _composito_; _fattizio_ (quando l'assemblaggio delle unità codicologiche non risale al progetto originario del manoscritto).
-
-La compilazione del campo è obbligatoria.
 
 ## Save ⚠️ 
 
