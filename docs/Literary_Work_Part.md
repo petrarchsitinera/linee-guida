@@ -51,8 +51,8 @@ La compilazione del campo è obbligatoria.
 Spuntare **is Lost** quando il testo schedato è un testo perduto.
 
 ### Note
-Il campo note permette di inserire una breve stringa di testo esplicativo. Compilare il campo solo se strettamente necessario. 
-
+Il campo note permette di inserire una breve stringa di testo esplicativo. Compilare il campo solo se strettamente necessario.   
+⚠️ Ogni frase deve essere chiusa da punto fermo.  
 
 ## Lingua e genere [lang./note]
 
