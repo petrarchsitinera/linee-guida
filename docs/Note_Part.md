@@ -11,7 +11,8 @@ Per aggiungere la parte, selezionare **_note_** dal menu a tendina, quindi clicc
 Permette di attribuire alla nota un'etichetta utile ai fini della ricerca.
 
 ## Note
-Permette di inserire una nota libero di max 500 caratteri.
+Permette di inserire una nota libero di max 500 caratteri.  
+⚠️ Ogni frase deve essere chiusa da punto fermo.  
 
 ## Save ⚠️ 
 
