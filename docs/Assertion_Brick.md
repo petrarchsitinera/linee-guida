@@ -23,7 +23,7 @@ In caso di più ipotesi equivalenti, è possibile inserire più _Assertions_ con
 
 ##  Note  
 Il campo _note_ permette di inserire una breve stringa di testo esplicativo. Compilare il campo solo se strettamente necessario.  
-
+⚠️ Ogni frase deve essere chiusa da punto fermo.  
 
 ## Assertion references  
 Permette di inserire fonti e voci bibliografiche a sostegno del dato inserito, secondo il modello [DocReference](Docref_Brick.md).  
