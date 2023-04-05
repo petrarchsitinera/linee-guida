@@ -43,6 +43,7 @@ Permette di inserire un'etichetta necessaria al raggruppamento di più eventi af
 
 ### Description
 Permette di inserire, in forma di testo libero, una descrizione breve e concisa dell'evento.  
+⚠️ Ogni frase deve essere chiusa da punto fermo.  
 
 La compilazione del campo è obbligatoria.
 
