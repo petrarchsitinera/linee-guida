@@ -9,6 +9,8 @@ Per aggiungere la parte, selezionare **_rel-persons_** dal menu a tendina, quind
 ## Person
 Per ogni persona collegata si crea un elemento _person_ mediante [editor](Editor_Brick.md).  
 
+⚠️ Il destinatario del testo va inserito **solo** come _destinatario_ (_type_=_destinatario_) anche quando si trovi citato in altri luoghi del testo. **Non** va dunque inserito anche come _citato_ (_type_=_citato_).  
+
 ⚠️ In presenza di più citazioni riferite ad un sola persona, si crea un unico elemento _person_, compilando il campo _name_ con la forma più esplicita, possibilmente il nome, normalizzata al **nominativo** se presente a testo in altri casi.  
 
 ⚠️ Se una persona è citata sia attraverso uno pseudonimo sia con il nome proprio, registrare un'unica _person_ sotto _pseudonimo_. Sono da includere nei citati anche eventuali latori menzionati a testo, sia che si tratti di latori del testo schedato sia che si tratti di latori di altri testi.   
@@ -23,7 +25,6 @@ Per ogni persona collegata si crea un elemento _person_ mediante [editor](Editor
 ⚠️ Nel caso in cui il testo schedato dia notizia di un invio o di una ricezione, occorre creare un evento apposito nella [EventsPart](Events_Part.md) del **testo inviato o ricevuto**, dove è possibile esplicitare i ruoli di mittente, destinatario e latore, a seconda dei casi.  
 
 
-
 ### Type
 Permette di specificare il tipo di relazione che la persona da inserire intrattiene con il testo schedato:  
 * citato: quando la persona è citata nel testo;
@@ -34,18 +35,23 @@ Permette di specificare il tipo di relazione che la persona da inserire intratti
 
 La compilazione del campo è **obbligatoria** in presenza dei dati relativi.  
 
+
 ### Name
 Il nome della persona nella forma presente a testo.  
-In presenza di più citazioni riferite ad un sola persona, si privilegia la forma più esplicita, possibilmente il nome, normalizzata al nominativo.  
+In presenza di più citazioni riferite ad un sola persona, si privilegia la forma più esplicita, possibilmente il nome, normalizzata al **nominativo** se presente a testo in altri casi.    
 
 La compilazione del campo è **obbligatoria**.
 
 ### Ids 
-Permette di collegare il nome inserito ad una o più persone storicamente individuate, secondo il modello [Asserted Id](Asserted_Ids_Brick.md).   
-Se la persona è schedata come Item Person in Itinera, cercare l'item relativo e copiarne [l'_eid_](identifiers.md), servendosi eventualmente dei [repository](repository.md) e della funzione di [lookup](lookup.md). 
-⚠️ L'_eid_ deve essere copiate nel campo _value_.   
-Per gli altri casi consultare le indicazioni per la compilazione degli [identificativi](identifiers.md).  
+Permette di collegare il nome inserito ad una o più persone storicamente individuate. L'_eid_ deve essere copiato nel campo _value_; per la compilazione, vedi [Asserted Id](Asserted_Ids_Brick.md).   
+Ogni _id_ inserito in un singolo elemento _person_ costituisce una proposta di identificazione del _name_ relativo.   
 
+⚠️ Più _id_ all'interno di un singolo elemento _person_ sono proposte di identificazione alternative del _name_ inserito, ciascuna eventualmente corredata di indice di affidabilità e fonti, secondo il modello [Asserted Id](Asserted_Ids_Brick.md).  
+
+Per individuare l'identificativo ([_eid_](identifiers.md)) delle persone che fanno parte dei _corpora_ di Itinera, consultare i [repository](repository.md) o ricorrere alla funzione di [lookup](lookup.md).   
+Se, diversamente, la persona non fa parte dei _corpora_ di Itinera, attribuire un _eid_ secondo le regole [per la creazione di nuovi _eid_](identifiers.md) e segnalare l'aggiunta su clickup per permettere l'aggiornamento dei [repository](repository.md).  
+
+La compilazione del campo è **obbligatoria** in presenza dei dati relativi.  
 
 ## Save ⚠️ 
 
