@@ -8,10 +8,6 @@ La descrizione del modello è disponibile su [Github](https://github.com/vedph/c
 
 Per aggiungere la parte, selezionare **_meta_** dal menu a tendina, quindi cliccare su **_add part_**.  
 
-<img width="1136" alt="Schermata 2023-04-05 alle 12 28 12" src="https://user-images.githubusercontent.com/102725489/230055179-1bbbd288-6e6e-4b4d-8d25-96bfd1ebc9df.png">
-
-
-
 
 **Metadata Part** si compila in modo diverso a seconda della tipologia di _item_:  
 * [persona](Metadata_Part_Person.md)
