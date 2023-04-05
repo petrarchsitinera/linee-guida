@@ -15,16 +15,20 @@ Ogni _metadatum_ è strutturato in tre campi:
 * _name_: permette di indicare l'eventuale nome del metadato (**se la sua compilazione non è pertinente**, compilare con un trattino: **-**);   
 * _value_: permette di inserire il valore del metadato.
 
-
 ### Identificativo
-Permette di attribuire un identificativo univoco all'_item_, con il quale potrà essere richiamato nel database.  
-Le regole relative alla composizione e all'utilizzo degli identificativi sono descritte [qui](identifiers.md).  
+Permette di attribuire un identificativo univoco all'_item_, con il quale potrà essere richiamato in altre parti del database.  
+Gli identificativi dei testi che fanno parte dei _corpora_ di Itinera sono già assegnati secondo le regole descritte [qui](identifiers.md) e sono consultabili nel [repository](repository.md). 
+Nel caso di nuove immissioni, gli _eid_ si attribuiscono secondo le medesime [regole](identifiers.md), segnalando le aggiunte in clickup per permettere l'aggiornamento del [repository](repository.md).  
 
 * _type_: selezionare il valore _identificativo_;
 * _name:_ compilare sempre con la voce **eid**;
 * _value_: compilare con l'identificativo prescelto.  
 
-La compilazione del campo è obbligatoria.
+Esempio. Nell'immagine l'identificativo dell'_item_ Francesco Petrarca (compilato da Mario Rossi).  
+
+<img width="1135" alt="Schermata 2023-04-05 alle 12 23 37" src="https://user-images.githubusercontent.com/102725489/230054099-f6f59ae1-080c-4670-bc49-ffb58fc646d7.png">
+
+La compilazione del campo è **obbligatoria**.
 
 ### Autore
 Permette di indicare l'autore della scheda.  
