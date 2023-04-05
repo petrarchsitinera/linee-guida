@@ -1,6 +1,6 @@
 # Metadata Part di Item Text
 
-I [metadati](Metadata_Part.md) da aggiungere **obbligatoriamente** in un Item Person sono:  
+I [metadati](Metadata_Part.md) da aggiungere **obbligatoriamente** in un Item Text sono:  
 * identificativo;
 * autore.
 
