@@ -11,15 +11,15 @@ La documentazione sul _lookup_ è disponibile [qui](https://myrmex.github.io/ove
 
 ## _lookup_ integrato e tool _lookup_
 
-Poiché all'interno di alcune _parts_ si rende necessario più frequentemente richiamare entità, in alcuni casi lo strumento di _lookup_ appare, per comodità, affiancato al campo _EID_. È il caso di [_AssertedId_](Asserted_Ids_Brick.md): 
+Poiché all'interno di alcune _parts_ si rende necessario più frequentemente richiamare entità, in alcuni casi lo strumento di _lookup_ appare, per comodità, affiancato al campo che ospita l'_eid_. È il caso di [_AssertedId_](Asserted_Ids_Brick.md): 
 
 ![](https://github.com/petrarchsitinera/linee-guida/blob/e4de2f4f2dca13dcba7beae653a386470c141348/docs/assets/images/lookup_shape_2.png?raw=true)  
 
-Lo strumento strumento di lookup è integrato anche nella [Referenced Text Part](Referenced_Text_Part.md) e nella sezione [RelatedEntities di Events Part](Events_Part.md#related-entities)).
+Lo strumento strumento di _lookup_ è integrato anche nella [Referenced Text Part](Referenced_Text_Part.md) e nella sezione [RelatedEntities di Events Part](Events_Part.md#related-entities).
 
 ![](https://github.com/petrarchsitinera/linee-guida/blob/e4de2f4f2dca13dcba7beae653a386470c141348/docs/assets/images/lookup_shape_1.png?raw=true)  
 
-Quando lo strumento non è integrato alla parte, è sempre possibile ricorrere ad esso attivandolo attraverso pulsante _toogle tools_ nella parte alta della schermata sulla destra.
+Quando lo strumento non è integrato alla parte, è sempre possibile ricorrere ad esso attivandolo attraverso pulsante _toogle tools_ nella parte alta della schermata.
 
 ![](https://github.com/petrarchsitinera/linee-guida/blob/e4de2f4f2dca13dcba7beae653a386470c141348/docs/assets/images/tools_off.png?raw=true)  
 
