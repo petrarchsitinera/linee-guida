@@ -146,7 +146,13 @@ Per aggiungere un _container_ compilare i campi come segue:
 
 ## Key
 
+La chiave (_key_) è una chiave identificativa della voce bibliografica. Permette il collegamento tra la voce del database bibliografico e il database ITINERA, dove essa è richiamata al bisogno attraverso la compilazione di DocReferences.
 
+La (_key_) è creata automaticamente a partire dal cognome dell'autore o degli autori e dalla data della pubblicazione. Per pubblicazioni di uno stesso autore uscite nello stesso anno, la chiave è disambiguata automaticamente attraverso l'apposizione di una lettera.
+
+In linea generale non si deve **mai** modificare la _key_ di una voce bibliografica già inserita e in uso, perché si comprometterebbe il collegamento tra quella voce e gli _item_ di Itinera che la richiamano.
+
+Se dovesse rendersi necessario modificare una voce bibliografica in uso (p. es. in caso di errore), occorre tenere presente che la modifica di uno o più autori e/o dell’anno di pubblicazione comporta **automaticamente** la modifica della _key_. Per salvaguardare i collegamenti precedentemente istituiti tra la voce e gli _item_, si **deve perciò procedere manualmente** cliccando la casella _user key_ e ripristinando la _key_ precedente.
 
 ## Save ⚠️ 
 Cliccare sul tasto **_save_** per salvare la parte.  
