@@ -62,19 +62,16 @@ Selezionando il pulsante _edit_ di una _entry_, è possibile modificare la voce 
 Selezionando il pulsante _delete_ di una _entry_, è possibile eliminare la voce bibliografica relativa. Un pop-up chiede conferma dell'azione.
 
 ⚠️⚠️⚠️ **ATTENZIONE**: Eliminare una _entry_ nel database bibliografico ha ricadute su **tutti gli _item_** che fanno riferimento alla relativa voce bibliografica. 
-
-##FILTRI
  
 
 ### Aggungere voci bibliografiche
 
-MEMO. screen tasto new
+Per creare una nuova voce bibliografica cliccare sul pulsante _+new_.
+
+<img width="1436" alt="Schermata 2023-04-06 alle 13 35 04" src="https://user-images.githubusercontent.com/102725489/230365400-d245be08-66df-4a28-8989-520dbdeff806.png">
+
 
 #### Aggiungere voci bibliografiche semplici (_work_)
-Per creare un nuovo _work_ cliccare il comando _+ new_.  
-> ![](https://github.com/petrarchsitinera/linee-guida/blob/38a8a79aa3f74a4443f314f9d08e2dcd996032c7/docs/assets/images/bibl2a.png?raw=true)  
-
-⚠️ Per le norme citazionali seguire le istruzioni [in fondo alla pagina](External_Bibliography_Part.md#norme-citazionali).  
 
 Ogni _work_ è strutturato nei seguenti campi:  
 * _container_: non spuntare la casella;
