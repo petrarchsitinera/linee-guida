@@ -177,7 +177,7 @@ Per indicare il numero di una rivista o di una collana, si usano **sempre** i nu
 * Nel caso di pubblicazioni per le quali i ruoli a disposizione (curatore, traduttore, collaboratore, direttore, organizzatore) non fossero sufficienti, ricorrere **sempre** alla voce _con_
 
 > Esempio.   
-> Nella voce bibliografica "Arnaldo Foresti, _Aneddoti della vita di Francesco Petrarca_, a cura di Antonietta Tissoni Benvenuti, con una premessa di Giuseppe Billanovich, Padova, Antenore, 1977", "Arnaldo Foresti" sarà inserito come autore; Antonietta Tissoni Benvenuti con ruolo "curatore"; Giuseppe Billanovich con ruolo "con".
+> Nella voce bibliografica "Arnaldo Foresti, _Aneddoti della vita di Francesco Petrarca_, a cura di Antonia Tissoni Benvenuti, con una premessa di Giuseppe Billanovich, Padova, Antenore, 1977", "Arnaldo Foresti" sarà inserito come autore; Antonia Tissoni Benvenuti con ruolo "curatore"; Giuseppe Billanovich con ruolo "con".
 
 * Nel caso di opere collettive in più volumi o tomi con titolo particolare di ciascuno, si creano tanti _container_ quanti sono i volumi o i tomi. In questo caso si inserisce come titolo del _container_ il titolo dell'opera collettiva seguito 1. dal numero del volume o del tomo e 2. dal titolo specifico, ove presente. 
 
