@@ -83,7 +83,7 @@ La compilazione del campo è obbligatoria.
 
 ## Metrica [Poetry]
 
-La compilazione di questo sottoparte è facoltativa ed è riservata ai testi poetici.
+La compilazione di questo sottoparte, **obbligatoria**, è riservata ai testi poetici. 
 
 ### Metre
 Permette di indicare, attraverso selezione multipla, il metro o i metri utilizzati nel testo.
