@@ -16,7 +16,9 @@ Per aggiungere la parte, selezionare **_info_** dal menu a tendina, quindi clicc
 
 ### Authors
 Permette di indicare l'autore del testo, secondo il modello [Asserted Id](Asserted_Ids_Brick.md).  
-Se l'autore è schedato come Item Person in Itinera, cercare l'item relativo e copiarne [l'_eid_](identifiers.md), servendosi eventualmente dei [repository](repository.md) e della funzione di [lookup](lookup.md). 
+Per individuare [l'_eid_](identifiers.md) di un autore schedato in Itinera, consultare il [repository delle persone](repository.md) o ricorrere alla funzione di [lookup](lookup.md). 
+Nel caso in cui alla persona da inserire non sia attribuito un _eid_, il compilatore procede ad assegnarne uno seguendo le istruzioni indicate [qui](identifiers.md). 
+
 ⚠️ L'_eid_ deve essere copiate nel campo _value_.   
 
 > Tutti gli autori dispongono, di norma, di un Item Person dedicato. In caso contrario, e dopo aver verificato sui [repository](repository.md) è opportuno creare un Item Person dedicato e richiamarne l'_eid_ nel campo _author_.   
