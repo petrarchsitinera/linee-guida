@@ -46,12 +46,12 @@ Tutte le entità comprese nei _corpora_ di Itinera sono provviste di un _eid_ de
 
 Per ricercare l'_eid_ di un _item_ già presente nella banca dati attraverso lo strumento di _lookup_, occorre dunque limitare la ricerca alla _Metadata Part_ selezionando dal _type_ **_meta_eid_**.   
 
-Selezionato il _type_, il compilatore inizia a digitare nel campo _pin_ il nome dell'entità da cercare (testo, persona o manoscritto). Lo strumento mostra contestualmente i risultati corrispondenti alla ricerca. Il compilatore può a questo punto selezionare il risultato corrispondente alla ricerca.
+Selezionato il _type_, il compilatore inizia a digitare nel campo _pin_ il nome dell'entità da cercare (testo, persona o manoscritto). Lo strumento mostra contestualmente i risultati corrispondenti alla ricerca. Il compilatore può a questo punto selezionare il risultato desiderato.
 
 > Esempio. Lo strumento mostra i risultati compatibili con la ricerca di "nel", tra cui "francesco_nelli"
 > <img width="385" alt="Schermata 2023-04-06 alle 11 56 54" src="https://user-images.githubusercontent.com/102725489/230343471-205c5743-d37e-4cde-b2f5-97485aeace90.png">
 
-Selezionando il risultato desiderato, lo strumento apre la tabella con i dati dell'_item_ relativo.
+Selezionandolo, lo strumento apre la tabella con i dati dell'_item_ relativo.
 
 > Esempio. Tabella con i dati dell'_item_ Francesco Nelli   
 > <img width="335" alt="Schermata 2023-04-06 alle 12 04 59" src="https://user-images.githubusercontent.com/102725489/230345255-fe4adf92-1aac-4cc9-846c-ba01887eb955.png">
