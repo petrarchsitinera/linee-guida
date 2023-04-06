@@ -70,13 +70,20 @@ Per creare una nuova voce bibliografica cliccare sul pulsante _+new_.
 
 <img width="1436" alt="Schermata 2023-04-06 alle 13 35 04" src="https://user-images.githubusercontent.com/102725489/230365400-d245be08-66df-4a28-8989-520dbdeff806.png">
 
+Nella parte bassa della schermata si aprirà una finestra in cui sarà possibile editare i campi relativi alla voce da aggiungere.
+
+<img width="1431" alt="Schermata 2023-04-06 alle 13 39 58" src="https://user-images.githubusercontent.com/102725489/230366351-3a267fc1-eccd-48b8-8742-db65b0d6d172.png">
+
+È possibile aggiungere voci bibliografiche semplici (_work_) e contenitori bibliografici (_container_).
+
 
 #### Aggiungere voci bibliografiche semplici (_work_)
 
-Ogni _work_ è strutturato nei seguenti campi:  
-* _container_: non spuntare la casella;
-* _typeId_: permette di specificare la tipologia di voce bibliografica selezionando tra: article; book; journal; proceedings;  
-* _key_: chiave identificativa della voce biliografica, che può essere utilizzata per richiamare sinteticamente la voce in [DocReference](Docref_Brick.md);
+Per aggiungere un _work_ semplice compilare i campi come segue: 
+
+* _container_: **non spuntare** la casella;
+* _typeId_: selezionare la tipologia tra _article_; _book_; _journal_; _proceedings_; 
+* _key_: chiave identificativa della voce biliografica, utilizzata per richiamare la voce in [DocReference](Docref_Brick.md);
   * la chiave è, di norma, creata automaticamente a partire dal cognome dell'autore o degli autori e dalla data della pubblicazione; in caso di identità (ad es. per   pubblicazioni dello stesso autore uscite nello stesso anno) la chiave è disambiguata automaticamente attraverso l'apposizione di un lettera);  
   * se si desidera attribuire una chiave diversa da quella generata automaticamente (ad es. per opere senza anno o senza autore), spuntare la casella _user key_.  
 * _authors_: permette di indicare l'autore o gli autori della voce bibliografica. Cliccando il campo si apre una finestra dalla quale è possibile:
@@ -108,12 +115,8 @@ Ogni _work_ è strutturato nei seguenti campi:
 Una volta compilati i campi salvare la _entry_ cliccando sul tasto di spunta blu.
 
 #### Aggiungere un contenitore bibliografico (_container_)
-Per creare un nuovo _container_ cliccare il comando _+ new_.  
-> ![](https://github.com/petrarchsitinera/linee-guida/blob/38a8a79aa3f74a4443f314f9d08e2dcd996032c7/docs/assets/images/bibl2a.png?raw=true)  
 
-⚠️ Per le norme citazionali seguire le istruzioni [in fondo alla pagina](External_Bibliography_Part.md#norme-citazionali).  
-
-Ogni _container_ è strutturato nei seguenti campi: 
+Per aggiungere un _container_ compilare i campi come segue:  
 * _container_: spuntare la casella;
 > ![](https://github.com/petrarchsitinera/linee-guida/blob/38a8a79aa3f74a4443f314f9d08e2dcd996032c7/docs/assets/images/bibl4.png?raw=true)  
 
