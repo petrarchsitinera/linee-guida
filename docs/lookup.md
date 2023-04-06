@@ -66,13 +66,7 @@ In alternativa, è possibile copiare l'_eid_ ricorrendo all'[_ID builder_](ID_bu
 
 ### Ricercare _eid_ di _parts_ ed _elements_
 
-- cercare eid testi
-- cercare eid persone
-- cercare eid eventi
-- cercare eid mss
+Lo strumento di _lookup_ permette di ricercare anche _eid_ di singole _parts_ ed _elements_ selezionando altre voci di _type_.
+Consultare [_ID builder_](ID_builder.md).
 
-referenced text solo referenced text
-
-1. se l'item è nei corpora deve esistere e quindi: ha un meta _eid_ e lo stesso _eid_ è usato nelle altre parti
-2. alcuni testi e persone non esistono ma possono esistere come puri nomi in altre parti, quindi bisogn verificare che l'_eid_ che non trovo in meta non sia in ref. events
 
