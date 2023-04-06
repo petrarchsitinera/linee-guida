@@ -1,35 +1,30 @@
-# Bibliography Part e External Bibliography
+# Bibliography Part
 
-**Bibliography Part** raccoglie la bibliografia relativa all'_item_, collegando il database di Itinera ad un database bibliografico esterno.  
+**Bibliography Part** raccoglie le voci bibliografiche relative all'_item_, collegando il database di Itinera ad un database [bibliografico esterno](bibliodb.md).  
+
+Attraverso Bibliography Part è possibile aggiungere all'_item_ 
+- voci bibliografiche già presenti nel [database bibliografico esterno](bibliodb.md), selezionandole dalla lista;
+- creare _ad hoc_ nuove voci bibliografiche che saranno automaticmente aggiunte al [database bibliografico esterno](bibliodb.md).
 
 La descrizione del modello è disponibile su [Github](https://github.com/vedph/cadmus-general#bibliographypart). 
 
-Grazie a questa _part_ è possibile, all'interno di un'unica schermata:
-* creare e gestire l'elenco delle voci bibliografiche relative all'_item_;  
-* gestire il database bibliografico esterno, quindi aggiungere, modificare o cancellare voci bibliografiche.
+Per aggiungere la parte, selezionare **_bibliography_** dal menu a tendina, quindi cliccare sul tasto **add part**.  
 
-Il database bibliografico è dunque accessibile:
-* direttamente, cliccando la voce Bibliography nel menu orizzontale nella parte alta della schermata: 
-> ![](https://github.com/petrarchsitinera/linee-guida/blob/def4a09b59b5012905bebdb1fc6da7358a086762/docs/assets/images/bibl7.png?raw=true)
-* dall'interno di un item, aggiungendo Bibliography Part: per aggiungere la parte, selezionare **_bibliography_** dal menu a tendina della scheda di riepilogo dell'_item_, quindi cliccare su **_add part_**. 
+## Bibliografia dell'_item_
 
+Di norma vengono registrate nella Bibliography Part sia le voci bibliografiche dedicate all'_item_ nel suo complesso sia le edizioni del testo schedato. (critiche o meno, commentate, ecc.). 
 
-## Bibliografia dell'item
-Attraverso Bibliography Part è possibile creare una lista di voci bibliografiche (_entries_) relative all'_item_, selezionandole tra quelle presenti nel database bibliografico
+Le voci bibliografiche dedicate ad aspetti specifici sono richiamate invece nelle _parts_ corrispondenti attraverso la compilazione di apposite [DocReference](Docref_Brick.md).
 
-Di norma vengono registrate in questa parte tutte le voci bibliografiche dedicate all'_item_ nel suo complesso, mentre voci bibliografiche dedicate a specifici aspetti possono essere richiamati nelle _parts_ corrispondenti mediante [DocReference](Docref_Brick.md).  
+## Aggiungere una voce bibliografica all'_item_
 
-Per aggiungere una _entry_ alla Bibliography Part di un _item_, cercare il titolo di interesse nella lista delle _entries_ già inserite nel database bibliografico.  
+Per aggiungere una voce bibliografica già presente nel database bibliografico alla Bibliography Part di un _item_, cercarla nella lista delle _entries_ come indicato [qui](bibliodb.md#cercare-voci-bibliografiche), quindi selezionarla cliccando il pulsante _pick this work_ (cerchiato in rosso nell'immagine). La voce bibliografica comparirà così nella lista presente nella parte superiore della schermata, entrando a far parte della bibliografia dell'_item_.
 
-> ![](https://github.com/petrarchsitinera/linee-guida/blob/a774c9e27b3631e2158f67ecded8da7192cee972/docs/assets/images/bibl0.png?raw=true)
- 
-Se la voce bibliografica desiderata non è presente nel database bibliografico, occorre [crearla](External_Bibliography_Part.md#database-bibliografico). 
+<img width="1440" alt="Schermata 2023-04-06 alle 15 45 41" src="https://user-images.githubusercontent.com/102725489/230397366-67dacae5-ce5b-45c0-9965-3b4eb840f646.png">
 
-Una volta individuata la _entry_ desiderata, cliccare il tasto _pick this work_
-> ![](https://github.com/petrarchsitinera/linee-guida/blob/a774c9e27b3631e2158f67ecded8da7192cee972/docs/assets/images/bibl3.png?raw=true)
+Se la voce bibliografica desiderata non è presente nel database bibliografico, aggiungerla secondo le istruzioni indicate [qui](bibliodb.md#aggungere-voci-bibliografiche).   
+Una volta creata la voce bibliografica, procedere come indicato sopra per aggiungerla alla bibliografia dell'_item_.
 
-Le _entries_ selezionate compariranno, in forma di lista, nella parte superiore della schermata.
-> ![](https://github.com/petrarchsitinera/linee-guida/blob/a774c9e27b3631e2158f67ecded8da7192cee972/docs/assets/images/bibl1.png?raw=true)
 
 Ogni _entry_ dispone di due campi:
 * _tag_: permette di specificare la tipologia di voce bibliografica;  
