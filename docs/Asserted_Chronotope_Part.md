@@ -11,7 +11,7 @@ La parte è strutturata secondo il modello [AssertedChronotope](Asserted_Chronot
 
 <img width="986" alt="Schermata 2023-04-03 alle 15 08 45" src="https://user-images.githubusercontent.com/102725489/229519331-798c2aca-c6e7-4ef9-8521-724321f6c265.png">
 
-⚠️ I _tag_ di _place_ e _date_ devono essere sempre scritti in minuscolo.  
+⚠️ I _tag_ di _place_ e _date_ **devono essere sempre scritti in minuscolo**.  
 
 
 Compilare il campo _tag_ con uno dei seguenti valori:
