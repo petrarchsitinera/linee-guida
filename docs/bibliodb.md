@@ -167,7 +167,7 @@ Per indicare il numero di una rivista o di una collana, si usano **sempre** i nu
 
 ### Casi particolari
 
-* Nel caso di edizioni di testi di un autore, l'autore del testo va **sempre** inserito come primo autore, seguito dal curatore o dai curatori
+* Nel caso di edizioni di testi, l'autore del testo va **sempre** inserito come primo autore, seguito dal curatore o dai curatori
 
 > Esempio.   
 > Nella voce bibliografica "Francesco Petrarca, _Canzoniere_, a cura di M. Santagata, Milano, Mondadori, 1996", si inserirà prima "Francesco Petrarca", quindi "Marco Santagata" (con ruolo = curatore).  
