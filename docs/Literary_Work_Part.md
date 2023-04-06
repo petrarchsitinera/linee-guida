@@ -41,7 +41,7 @@ Il titolo del testo inserito deve coincidere con il nome dell'item, ovvero con q
 ⚠️ Per le lettere di Petrarca è **sempre obbligatorio** creare un secondo elemento _title_ corrispondente all’incipit della lettera, oltre al titolo redazionale (coincidente con il nome dell'item, ovvero con quello riportato nel [**repository dei testi**](repository.md): es. Fam. I 1).  
 
 I titoli sono inseriti attraverso un [editor](Editor_Brick.md). Per ciascun titolo è possibile indicare:  
-* la lingua in cui il titolo è espresso (obbligatorio);
+* la lingua (= la lingua **del titolo**) (obbligatorio);
 * il titolo (obbligatorio);
 * una [Assertion](Assertion_Brick.md) per precisare il grado di attendibilità e le fonti del titolo.
 
