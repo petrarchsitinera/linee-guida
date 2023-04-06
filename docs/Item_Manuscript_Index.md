@@ -3,7 +3,7 @@
 * [Creazione dell'item](Item_Manuscript_Metadata.md)
 * [Shelfmarks Part](Shelfmarks_Part.md)
 * [External IDs Part](External_Ids_Part_Manuscript.md) 
-* [Metadata Part](Metadata_Part.md)
+* [Metadata Part](Metadata_Part_Manuscript.md)
 * [Sheet Labels Part](Sheet_Labels_Part.md)
 * [Material Description Part](Material_Description_Part.md)
 * [Watermarks Part](Watermarks_Part.md)
