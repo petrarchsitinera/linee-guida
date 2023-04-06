@@ -12,7 +12,7 @@ La descrizione del modello è disponibile su [Github](https://github.com/vedph/c
 Per aggiungere la parte, selezionare **events** dal menu a tendina, quindi cliccare sul tasto **add part**.
 
 ## Event
-Ciascun evento è inserito come elemento singolo (_event_) - cfr. la sezione [Creare, modificare, eliminare e salvare elementi](Editor_Brick.md).
+Ciascun evento è inserito come elemento singolo - cfr. la sezione [Creare, modificare, eliminare e salvare elementi](Editor_Brick.md).
 
 La schermata principale, _general_ permette di fornire le informazioni fondamentali sull'evento (1). 
 
@@ -20,7 +20,7 @@ La schermata _related_, cui si accede attraverso il menu orizzontale in alto, pe
 
 <img width="930" alt="Schermata 2023-02-05 alle 18 27 46" src="https://user-images.githubusercontent.com/102725489/216835381-26a94505-55f8-4fcf-8b82-51ca0871c47d.png">
 
-⚠️⚠️⚠️ In Itinera, gli eventi che interessano più _item_, come ad esempio un incontro tra due persone schedate, vanno inseriti una sola volta. In questi casi, il compilatore deve perciò verificare sempre che l'evento non sia già stato inserito, consultando la _Events Part_ degli _item_ interessati dall'evento e il [grafo](semantic_graph.md).  
+⚠️⚠️⚠️ In Itinera, gli eventi che interessano più _item_, come ad esempio un incontro tra due persone schedate, vanno inseriti **una sola volta**. In questi casi, il compilatore deve perciò verificare sempre che l'evento non sia già stato inserito, ricorrrendo allo strumeento di [lookup](lookup.md) oppure consultando la _Events Part_ degli _item_ interessati dall'evento o il [grafo](semantic_graph.md).  
 
 ### Eid
 Permette di assegnare un identificativo univoco all'evento. Ulteriori informazioni sull'_eid_ disponibili [qui](identifiers.md).
