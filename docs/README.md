@@ -12,4 +12,6 @@ Linee guida per i compilatori della banca dati di Itinera
 [Item Work](Item_Work_Index.md)  
 [Item Manuscript](Item_Manuscript_Index.md) 
 
+[Database bibliografico](Update bibliodb.md)
+
 [Elenco completo di parti e componenti](Bricks_and_Parts_Index.md)  
