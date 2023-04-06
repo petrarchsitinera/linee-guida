@@ -23,16 +23,27 @@ La schermata _related_, cui si accede attraverso il menu orizzontale in alto, pe
 ⚠️⚠️⚠️ In Itinera, gli eventi che interessano più _item_, come ad esempio un incontro tra due persone schedate, vanno inseriti una sola volta. In questi casi, il compilatore deve perciò verificare sempre che l'evento non sia già stato inserito, consultando la _Events Part_ degli _item_ interessati dall'evento e il [grafo](semantic_graph.md).  
 
 ### Eid
-Permette di creare un identificativo univico dell'evento.  
-Per le regole di composizione degli identificativi cliccare [qui](identifiers.md).
+Permette di assegnare un identificativo univoco all'evento. Ulteriori informazioni sull'_eid_ disponibili [qui](identifiers.md).
 
-La compilazione del campo è obbligatoria.
+Stante l'ampia casistica coperta dagli eventi, è impossibile stabilire regole univoche per l'attribuzione degli _eid_ che siano valide per tutti gli eventi. Occorre perciò fare appello al buon senso, componendo gli _eid_ nel modo più chiaro ed esplicito possibile. Un _eid_ "parlante" facilita infatti i compilatori successivi eventualmente intressati a rintracciarlo. 
+
+Ferme restando le norme redazionali indicate [qui](identifiers.md#regole-di-composizione-di-nuovi-eid), è buona norma comporre l'_eid_ con i seguenti elementi, separati da _underscore_:
+- sigla fissa della tipologia di evento (p. es. "viag" per "viaggio"; "inv" per "invio"; "nasc" per "nascita");
+- forma abbreviata del nome dell'entità o delle entità coinvolte;
+- anno dell'evento.
+
+Nel caso in cui le entità coinvolte nell'evento o interessate da esso siano troppo numerose e diventi quindi esoso inserirle tutte nell'_eid_, il compilatore provvederà a selezionarne un numero congruo.
+
+> Esempio.
+> Per l'incontro napoletano del 1343 tra Francesco Petrarca, Barbato da Sulmona e Giovanni Barrili, l'_eid_ da adottare sarà: "inc_barb_pet_gio_1343"
+
+La compilazione del campo è **obbligatoria**.
 
 ### Type 
 Permette di indicare la tipologia di evento inserito, selezionando una voce dal [_thesaurus_ eventi](Events_Thesaurus.md).
 
 A seconda dell'evento inserito, sarà possibile, nella schermata _related_, creare diverse tipologie di entità (persone, testi, manoscritti, etc.) collegate all'evento.  
-La compilazione del campo è obbligatoria.
+La compilazione del campo è **obbligatoria**.
 
 ### 🚧 Tag  
 Permette di inserire un'etichetta necessaria al raggruppamento di più eventi afferenti ad un medesimo macro-evento.
