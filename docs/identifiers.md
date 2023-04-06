@@ -17,7 +17,7 @@ Ad ogni _item_ è **obbligatoriamente** associato un _eid_, da registrare in [Me
 Gli identificativi degli _item_ che fanno parte dei _corpora_ di Itinera sono già assegnati e consultabili nel [repository](repository.md).  
 
 Gli _eid_ delle persone sono consultabili nel [repository dei nomi persona](https://shortest.link/m1EA).  
-Gli _eid_ dei testi sono consultabili nel [repository dei nomi persona](https://shortest.link/m1EQ).  
+Gli _eid_ dei testi sono consultabili nel [repository dei testi](https://shortest.link/m1EQ).  
 Gli _eid_ dei manoscritti sono consultabili nel repository 🚧. Nel caso degli Item Manuscript si ricorre ad ulteriori identificativi per singole _parts_ o _elements_. 
 
 ### Regole di composizione di nuovi EID 
