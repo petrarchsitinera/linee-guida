@@ -32,6 +32,7 @@ Per cercare una voce bibliografica già inserita, è possibile ricorrere alla ma
 
 <img width="1438" alt="Schermata 2023-04-06 alle 13 26 18" src="https://user-images.githubusercontent.com/102725489/230363800-0862790d-77d5-4a63-9375-f52a9e37ef84.png">
 
+⚠️ I _containers_ sono visibili soltanto spuntanfo il flag relativo (vd. sopra)
 
 ### Visualizzare, modificare o eliminare voci bibliografiche
 
