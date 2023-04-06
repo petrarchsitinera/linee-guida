@@ -21,7 +21,7 @@ Gli identificativi dei testi che fanno parte dei _corpora_ di Itinera sono già 
 Nel caso di nuove immissioni, gli _eid_ si attribuiscono secondo le medesime [regole](identifiers.md), segnalando le aggiunte in clickup per permettere l'aggiornamento del [repository](repository.md).  
 
 * _type_: selezionare il valore _identificativo_;
-* _name:_ compilare sempre con la voce **eid**;
+* _name:_ compilare **sempre** con la voce **eid**;
 * _value_: compilare con l'identificativo prescelto.  
 
 > Esempio. Nell'immagine l'identificativo dell'_item_ Epystole (compilato da Mario Rossi).  
