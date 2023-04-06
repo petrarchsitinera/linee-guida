@@ -2,20 +2,30 @@
 
 Il database bibliografico raccoglie tutta la bibliografia impiegata nella descrizione degli _item_ ed è accessibile:
 
-* da [_Bibliography_](https://itinera.unisi.it/#/biblio) nel menu orizzontale nella parte alta della schermata, come nell'immagine
+* da [_Bibliography_](https://itinera.unisi.it/#/biblio) nel menu orizzontale nella parte alta della schermata, come nell'immagine:
 
 <img width="624" alt="Schermata 2023-04-04 alle 15 50 33" src="https://user-images.githubusercontent.com/102725489/229814240-b6ed1a8d-4f43-4d05-b3ab-0cc0e6846132.png">
 
 
 * dalla [_Bibliography Part_](External_Bibliography_Part.md) di un singolo _item_.
 
+## Voci bibliografiche
+
 Ogni voce bibliografica inserita costituisce una singola _entry_. Le _entries_ si distinguono in:
 - _works_: singole voci bibliografiche;
-- _containers_: voci bibliografiche che ne contengono altre, ad es. periodici, atti di convegno, cataloghi, ecc. 
+- _containers_: voci bibliografiche che ne contengono altre (ad es. periodici, atti di convegno, cataloghi, ecc.). 
 
+## Bibliografia
+
+La schermata iniziale del database bibliografico mostra la lista delle _entries_ già inserite.
+
+<img width="1438" alt="Schermata 2023-04-06 alle 12 37 26" src="https://user-images.githubusercontent.com/102725489/230355344-ab20ad59-3087-44b6-976f-07e38effd044.png">
+
+Da questa schermata è possibile visualizzare, modificare ed eliminare le _entries_ o aggiungerne di nuove.
 
 Per visualizzare la lista dei _containers_ spuntare la casella relativa.  
-> ![](https://github.com/petrarchsitinera/linee-guida/blob/e3eba119e269037d6a7a224fe257d6b897d7c49c/docs/assets/images/bibl2.png?raw=true)  
+
+<img width="1438" alt="Schermata 2023-04-06 alle 12 37 26" src="https://user-images.githubusercontent.com/102725489/230356154-14186fd2-c218-4ca0-af00-db0c44dd7f10.png">
 
 Dalla lista è possibile visualizzare, modificare ed eliminare le _entries_ già inserite.  
 ⚠️ Modificare o eliminare una _entry_ nel database ha ricadute su tutti gli _item_ che vi si riferiscono.  
