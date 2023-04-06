@@ -1,7 +1,7 @@
 # Asserted Ids
 **Asserted Ids** permette due differenti operazioni:  
 * richiamare uno o più identificativi ([_eid_](identifiers.md)), qualificando il richiamo con evenutali indici di affidabilità e fonti a sostegno attraverso l'[Assertion](Assertion_Brick.md);  
-* collegare un _item_ o un elemento ad una o più entità schedate in risorse esterne.
+* collegare un _item_ o un elemento a risorse esterne.
 
 È possibile creare tanti _Asserted Ids_ quante sono le identificazioni da inserire.  
 
