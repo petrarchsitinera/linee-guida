@@ -86,7 +86,7 @@ Selezionare _**Text**_ dal menu a tendina.
 
 ### Group ID
 
-È un’etichetta che permette di raggruppare gli item, in questo caso i testi, secondo logiche utili alla ricerca. È possibile inserire più di un'etichetta, separate da punto e virgola.
+È un’etichetta che permette di raggruppare gli _item_ secondo logiche utili alla ricerca. È possibile inserire più di un'etichetta, separate da punto e virgola.
 
 Per i testi inserire le seguenti etichette:
 * **lettere**: per le lettere, anche metriche;
