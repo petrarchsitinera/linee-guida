@@ -33,7 +33,7 @@ Per ogni voce bibliografica aggiunta all'_item_, è **obbligatorio** compilare d
 
 Per eliminare una voce bibliografica dalla lista della bibliografia di un _item_, cliccare su _delete this work_ (cerchiato in rosso nell'immagine).  
 
-L'eliminazione della voce dalla bibliografia dell'_item_ NON comporta l'eliminazione della voce dal database bibliografico.
+L'eliminazione della voce dalla bibliografia dell'_item_ **NON** comporta l'eliminazione della voce dal database bibliografico.
 
 <img width="1434" alt="Schermata 2023-04-06 alle 16 06 36" src="https://user-images.githubusercontent.com/102725489/230402420-a533f576-4fc3-429f-8dff-f486de0fc3e1.png">
 
