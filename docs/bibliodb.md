@@ -17,38 +17,60 @@ Ogni voce bibliografica inserita costituisce una singola _entry_. Le _entries_ s
 
 ## Bibliografia
 
-La schermata iniziale del database bibliografico mostra la lista delle _entries_ già inserite.
+La schermata iniziale del database bibliografico mostra la lista di tutte le voci bibliografiche semplici già inserite (_works_).
 
 <img width="1438" alt="Schermata 2023-04-06 alle 12 37 26" src="https://user-images.githubusercontent.com/102725489/230355344-ab20ad59-3087-44b6-976f-07e38effd044.png">
 
-Da questa schermata è possibile visualizzare, modificare ed eliminare le _entries_.
+Per visualizzare la lista dei _containers_, spuntare il flag relativo.  
 
-⚠️⚠️⚠️ **ATTENZIONE**: Modificare o eliminare una _entry_ nel database bibliografico ha ricadute su **tutti gli _item_** che fanno riferimento alla relativa voce bibliografica. 
+<img width="1336" alt="Schermata 2023-04-06 alle 13 31 44" src="https://user-images.githubusercontent.com/102725489/230364816-fae74ce9-d1ac-415a-97c3-62caded0ef3d.png">
+
+
+### Cercare voci bibliografiche
+
+Per cercare una voce bibliografica già inserita, è possibile ricorrere alla maschera di ricerca nella parte sinistra dello schermo compilando almeno uno dei campi.
+
+<img width="1438" alt="Schermata 2023-04-06 alle 13 26 18" src="https://user-images.githubusercontent.com/102725489/230363800-0862790d-77d5-4a63-9375-f52a9e37ef84.png">
+
+
+### Visualizzare, modificare o eliminare voci bibliografiche
 
 Usando i pulsanti a sinistra di ogni voce, è possibile visualizzare, modificare o eliminare le _entries_ relative.
 
 <img width="799" alt="Schermata 2023-04-06 alle 12 54 22" src="https://user-images.githubusercontent.com/102725489/230357314-a9ef4bb7-7bce-4954-81e0-87ebc8f90a37.png">
 
+⚠️⚠️⚠️ **ATTENZIONE**: Modificare o eliminare una _entry_ nel database bibliografico ha ricadute su **tutti gli _item_** che fanno riferimento alla relativa voce bibliografica. 
+
+#### Visualizzare voci bibliografiche
+
 Selezionando il pulsante _view_ di una _entry_, è possibile visualizzare nella parte bassa della schermata la voce bibliografica per esteso.
 
 <img width="1158" alt="Schermata 2023-04-06 alle 12 58 52" src="https://user-images.githubusercontent.com/102725489/230358611-a7ca6324-ed62-46f7-9c32-389d908ac5de.png">
 
+
+#### Modificare voci bibliografiche
+
 Selezionando il pulsante _edit_ di una _entry_, è possibile modificare la voce bibliografica intervenendo nei campi della finestra che si apre nella parte bassa della schermata (vedi più oltre).
+
+⚠️⚠️⚠️ **ATTENZIONE**: Non modificare **mai** la _key_ di una voce già inserita (vedi più oltre).
 
 <img width="1440" alt="Schermata 2023-04-06 alle 13 03 57" src="https://user-images.githubusercontent.com/102725489/230359620-b3e4b87c-63c8-4124-8d51-23def0434a4c.png">
 
-⚠️⚠️⚠️ **ATTENZIONE**: Non modificare **mai** la _key_ di una voce già inserita (vedi più oltre).
+
+#### Eliminare voci bibliografiche
 
 Selezionando il pulsante _delete_ di una _entry_, è possibile eliminare la voce bibliografica relativa. Un pop-up chiede conferma dell'azione.
 
 ⚠️⚠️⚠️ **ATTENZIONE**: Eliminare una _entry_ nel database bibliografico ha ricadute su **tutti gli _item_** che fanno riferimento alla relativa voce bibliografica. 
 
 ##FILTRI
- Per visualizzare soltanto la lista dei _containers_, spuntare la casella relativa.  
+ 
 
-<img width="1438" alt="Schermata 2023-04-06 alle 12 37 26" src="https://user-images.githubusercontent.com/102725489/230356154-14186fd2-c218-4ca0-af00-db0c44dd7f10.png">
+### Aggungere voci bibliografiche
 
-### Creare una voce bibliografica semplice (_work_)
+MEMO. screen tasto new
+
+#### Aggiungere voci bibliografiche semplici (_work_)
 Per creare un nuovo _work_ cliccare il comando _+ new_.  
 > ![](https://github.com/petrarchsitinera/linee-guida/blob/38a8a79aa3f74a4443f314f9d08e2dcd996032c7/docs/assets/images/bibl2a.png?raw=true)  
 
@@ -88,7 +110,7 @@ Ogni _work_ è strutturato nei seguenti campi:
 
 Una volta compilati i campi salvare la _entry_ cliccando sul tasto di spunta blu.
 
-### Creare un contenitore bibliografico (_container_)
+#### Aggiungere un contenitore bibliografico (_container_)
 Per creare un nuovo _container_ cliccare il comando _+ new_.  
 > ![](https://github.com/petrarchsitinera/linee-guida/blob/38a8a79aa3f74a4443f314f9d08e2dcd996032c7/docs/assets/images/bibl2a.png?raw=true)  
 
