@@ -35,7 +35,7 @@ Ferme restando le norme redazionali indicate [qui](identifiers.md#regole-di-comp
 Nel caso in cui le entità coinvolte nell'evento o interessate da esso siano troppo numerose e diventi quindi esoso inserirle tutte nell'_eid_, il compilatore provvederà a selezionarne un numero congruo.
 
 > Esempio.
-> Per l'incontro napoletano del 1343 tra Francesco Petrarca, Barbato da Sulmona e Giovanni Barrili, l'_eid_ da adottare sarà: "inc_barb_pet_gio_1343"
+> Per l'incontro napoletano del 1343 tra Francesco Petrarca, Barbato da Sulmona e Giovanni Barrili, l'_eid_ da adottare sarà: "inc_barb_pet_gio_1343".
 
 La compilazione del campo è **obbligatoria**.
 
