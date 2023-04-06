@@ -17,8 +17,8 @@ Per ogni testo da inserire si crea un elemento _text_ mediante [editor](Editor_B
 
 ### Type
 Permette di specificare il tipo di relazione che il testo schedato intrattiene con l'elemento _text_ inserito:  
-* risposta a: quando il _text_ inserito è la proposta del testo schedato (_item_);  
-* citazione di: quando il _text_ inserito è citato nel testo schedato (_item_).  
+* risposta a: quando il _text_ inserito è la proposta del testo schedato;  
+* citazione di: quando il _text_ inserito è citato nel testo schedato.  
 
 La compilazione del campo è **obbligatoria**.
 
