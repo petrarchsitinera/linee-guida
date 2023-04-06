@@ -3,7 +3,7 @@
 * [Creazione dell'item](Item_Work_Metadata.md)  
 * [Literary Work Part](Literary_Work_Part.md)  
 * [Chronotopes Part](Asserted_Chronotope_Part.md)  
-* [Metadata Part](Metadata_Part.md) 
+* [Metadata Part](Metadata_Part_Text.md) 
 * [External IDs Part](External_Ids_Part_Work.md) 
 * [Letter Info Part](Letter_Info_Part.md)
 * [Referenced Text Part](Referenced_Text_Part.md)
