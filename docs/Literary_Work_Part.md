@@ -16,7 +16,7 @@ Per aggiungere la parte, selezionare **_info_** dal menu a tendina, quindi clicc
 
 ### Authors
 Permette di indicare l'autore del testo, secondo il modello [Asserted Id](Asserted_Ids_Brick.md).  
-Per individuare [l'_eid_](identifiers.md) di un autore schedato in Itinera, consultare il [repository delle persone](repository.md) o ricorrere alla funzione di [lookup](lookup.md). 
+Per individuare [l'_eid_](identifiers.md) di un autore schedato in Itinera, consultare il [repository delle persone](repository.md) o ricorrere alla funzione di [lookup](lookup.md).   
 Nel caso in cui alla persona da inserire non sia attribuito un _eid_, il compilatore procede ad assegnarne uno seguendo le istruzioni indicate [qui](identifiers.md). 
 
 ⚠️ L'_eid_ deve essere copiate nel campo _value_.   
