@@ -83,7 +83,7 @@ Per aggiungere un _work_ semplice compilare i campi come segue:
 
 * _container_: **non spuntare** la casella;
 * _typeId_: selezionare la tipologia tra _article_; _book_; _journal_; _proceedings_; 
-* _key_: chiave identificativa della voce biliografica, utilizzata per richiamare la voce in [DocReference](Docref_Brick.md);
+* _key_: chiave identificativa della voce bibliografica, utilizzata per richiamare la voce in [DocReference](Docref_Brick.md);
   * la chiave è, di norma, creata automaticamente a partire dal cognome dell'autore o degli autori e dalla data della pubblicazione; in caso di identità (ad es. per pubblicazioni dello stesso autore uscite nello stesso anno) la chiave è disambiguata automaticamente attraverso l'apposizione di un lettera);  
   * se si desidera attribuire una chiave diversa da quella generata automaticamente (ad es. per opere senza anno o senza autore), spuntare la casella _user key_.  
 * _authors_: permette di indicare l'autore o gli autori della voce bibliografica. Cliccando il campo si apre una finestra dalla quale è possibile:
@@ -118,7 +118,7 @@ Per aggiungere un _container_ compilare i campi come segue:
 * _container_: **spuntare** la casella;
 > ![](https://github.com/petrarchsitinera/linee-guida/blob/38a8a79aa3f74a4443f314f9d08e2dcd996032c7/docs/assets/images/bibl4.png?raw=true)  
 * _typeId_: selezionare la tipologia tra _article_; _book_; _journal_; _proceedings_; 
-* _key_: chiave identificativa della voce biliografica, utilizzata per richiamare la voce in [DocReference](Docref_Brick.md);
+* _key_: chiave identificativa della voce bibliografica, utilizzata per richiamare la voce in [DocReference](Docref_Brick.md);
   * la chiave è, di norma, creata automaticamente a partire dal cognome dell'autore o degli autori e dalla data della pubblicazione; in caso di identità (ad es. per pubblicazioni dello stesso autore uscite nello stesso anno) la chiave è disambiguata automaticamente attraverso l'apposizione di un lettera);  
   * se si desidera attribuire una chiave diversa da quella generata automaticamente (ad es. per opere senza anno o senza autore), spuntare la casella _user key_.  
 * _authors_: permette di indicare l'autore o gli autori della voce bibliografica. Cliccando il campo si apre una finestra dalla quale è possibile:
