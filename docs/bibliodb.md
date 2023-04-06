@@ -167,17 +167,21 @@ Per indicare il numero di una rivista o di una collana, si usano **sempre** i nu
 
 * Nel caso di edizioni di testi di un autore, l'autore del testo va **sempre** inserito come primo autore, seguito dal curatore o dai curatori
 
-> Esempio. 
+> Esempio.   
 > Nella voce bibliografica "Francesco Petrarca, _Canzoniere_, a cura di M. Santagata, Milano, Mondadori, 1996", si inserirà prima "Francesco Petrarca", quindi "Marco Santagata" (con ruolo = curatore).  
 
 > <img width="1423" alt="Schermata 2023-04-06 alle 16 59 23" src="https://user-images.githubusercontent.com/102725489/230419042-18301315-0b91-4315-8d1a-0d0eafb75850.png">
 
 * Nel caso di pubblicazioni per le quali i ruoli a disposizione (curatore, traduttore, collaboratore, direttore, organizzatore_) non fossero sufficienti, ricorrere **sempre** alla voce _con_
 
-> Esempio. 
+> Esempio.   
 > Nella voce bibliografica "Arnaldo Foresti, _Aneddoti della vita di Francesco Petrarca_, a cura di Antonietta Tissoni Benvenuti, con una premessa di Giuseppe Billanovich, Padova, Antenore, 1977", "Arnaldo Foresti" sarà inserito come autore; Antonietta Tissoni Benvenuti con ruolo "curatore"; Giuseppe Billanovich con ruolo "con".
 
--come facciamo con Storie letteratura italiana con tomi e volumi? Utilizzare il container di livello più basso (e poi collegare in altro modo)
+* Nel caso di opere collettive in più volumi o tomi con titolo particolare di ciascuno, si creano tanti _container_ quanti sono i volumi o i tomi. In questo caso si inserisce come titolo del _container_ il titolo dell'opera collettiva seguito 1. dal numero del volume o del tomo e 2. dal titolo specifico, ove presente. 
 
--articoli usciti due volte: in rivista poi raccolti: quale container? Quello escluso in nota? Oppure lasciarli (anche) creare entrambi, ma predicare coerenza rispetto alla entry; e poi collegarli in qualche modo.
+> Esempio.    
+> Nel caso del volume 10 della _Storia della letteratura italiana_ diretta da Enrico Malato, andrà inserito come titolo: _Storia della letteratura italiana. Vol. 10. La tradizione dei testi_.
+
+* Nel caso di articoli usciti più volte (p. es. prima in rivista e poi in libro), è preferibile registrare la pubblicazione più recente, ricorrendo ad essa anche per la compilazione degli _item_, avendo cura di registrare in nota la sede di prima pubblicazione secondo le norme descritte sopra.  
+Nel richiamare voci bibliografiche di questo tipo durante la compilazione degli _item_, occorre però **prestare la massima attenzione** per non inserire numeri di pagina che facciano riferimento a versioni diverse della stessa pubblicazione. Nel caso in cui il compilatore abbia a disposizione una versione  diversa di una pubblicazione presente nel database bibliografico e fosse impossibilitato a consultare quest'ultima, procederà a registare la verrsione che ha a disposizione.  
 
