@@ -15,12 +15,9 @@ Una volta selezionata la tipologia di un evento in _general_, per le entità _re
 Le entità inserite tra i _related_ non devono necessariamente esistere come _item_ in Itinera: in questo caso hanno un valore solo 'letterale', perché non possono essere collegate a _item_, _part_ o _element_ esterni all'evento dentro cui sono inserite. Tali entità sono comunque immesse secondo le norme definite per gli [identificativi](identifiers.md) di persone, testi e manoscritti. Se necessario, è sempre possibile, in ogni caso, creare a posteriori un _item_ per le entità inserite in related.  
 
 
-⚠️ 🚧🚧 Il compilatore deve prestare la massima attenzione alla formalizzazione degli eventi secondo la tassonomia elaborata per Itinera, individuando la corretta tipologia di evento  dal _thesaurus_ (cfr. _infra_). Deve però  assicurarsi soprattutto che eventi **puntuali**, circoscritti nello spazio e nel tempo, siano descritti in modo altrettanto puntuale all'interno di eventi singoli, anche quando si tratti di eventi logicamente collegati tra loro.   > 
+⚠️ 🚧🚧 Il compilatore deve prestare la massima attenzione alla formalizzazione degli eventi secondo la tassonomia elaborata per Itinera, individuando la corretta tipologia di evento  dal _thesaurus_ (cfr. _infra_). Deve però  assicurarsi soprattutto che eventi **puntuali**, circoscritti nello spazio e nel tempo, siano descritti in modo altrettanto puntuale all'interno di eventi singoli, anche quando si tratti di eventi logicamente collegati tra loro. Due eventi logicamente e fattualmente collegati come un invio e una ricezione, sono infatti inseriti e descritti come eventi singoli, e collegati successivamente attraverso il mapper. 🚧🚧
 
-ma soprattutto assicurarsi di inserire 
-Se due eventi sono collegati (ad es. un invio e una ricezione), sono creati indipendentemente e poi riuniti in un unico evento attraverso il mapper. 🚧🚧
-
-Nelle seguenti pagine è fornita la lista commentata delle voci, suddivise per _item_.
+Di seguito è fornita la lista degli eventi disponibili, suddivisa per tipologia di _item_.
 
 
 * [Person](Events_Thesaurus_Person.md)  
