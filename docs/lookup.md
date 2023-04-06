@@ -1,35 +1,33 @@
-# Strumento di lookup
+# Strumento di lookup e ricerca _eid_
+  
+Gli [_eid_](identifiers.md) servono a identificare _item_, parti o singole componenti di Itinera, permettendo il successivo collegamento tra di essi.  
 
-Per la ricerca di _eid_ già esistenti in Itinera è possibile ricorrere a uno strumento di ricerca interno al database (_lookup_).  
-Inoltre, per alcuni _item_ e _parts_ è possibile consultare l'elenco degli _eid_ esistenti nei [repository dedicati](repository.md).  
+Per individuare _eid_ di _item_ o parti già presenti in Itinera è possibile ricorrere ad uno strumento di ricerca interno al database (_lookup_).  L'_eid_ così individuato può essere successivamente **copiato e incollato** nel campo che si intende compilare. 
  
-⚠️ Gli _eid_ sono identificativi che permettono di richiamare un'entità (_item_, _part_ o _element_): per ulteriori informazioni consultare [questa pagina](identifiers.md).   
+⚠️ Gli _eid_ degli _item_ compresi nei _corpora_ di Itinera sono consultabili anche nei rispettivi [_repositories_](repository.md). Per ulteriori informazioni sugli _eid_ consultare [questa pagina](identifiers.md).   
 
-La documentazione sul funzionamento dello strumento di _lookup_ e degli [_eid_](identifiers.md) è disponibile [qui](https://myrmex.github.io/overview/cadmus/dev/concepts/lookup).  
+La documentazione sul _lookup_ è disponibile [qui](https://myrmex.github.io/overview/cadmus/dev/concepts/lookup).  
 
-## Lookup e campi _EID_
-Nella banca dati Itinera gli _eid_ sono ospitati da campi denominati: _EID_ o _ID_ o [AssertedId](Asserted_Ids_Brick.md).  
-Lo strumento di _lookup_ facilita l'inserimento dell'_eid_ corretto all'interno di questi campi. Permette infatti, attraverso una ricerca interna, di individuare  l'_eid_ desiderato.  
-Questo identificativo può essere successivamente **copiato e incollato** nel campo che si intende compilare.  
 
-Poiché all'interno di alcune _parts_ si rende necessario più frequentemente richiamare entità già esistenti in Itinera, lo strumento di _lookup_ appare, per comodità, affiancato al campo _EID_ (come nel caso di [Referenced Text Part](Referenced_Text_Part.md) e della sezione [RelatedEntities di Events Part](Events_Part.md#related-entities)).
+## _lookup_ integrato e tool _lookup_
 
-![](https://github.com/petrarchsitinera/linee-guida/blob/e4de2f4f2dca13dcba7beae653a386470c141348/docs/assets/images/lookup_shape_1.png?raw=true)  
-
-Anche per _AssertedId_ lo strumento di _lookup_ appare affiancato al campo.  
+Poiché all'interno di alcune _parts_ si rende necessario più frequentemente richiamare entità, in alcuni casi lo strumento di _lookup_ appare, per comodità, affiancato al campo _EID_. È il caso di [_AssertedId_](Asserted_Ids_Brick.md): 
 
 ![](https://github.com/petrarchsitinera/linee-guida/blob/e4de2f4f2dca13dcba7beae653a386470c141348/docs/assets/images/lookup_shape_2.png?raw=true)  
 
-Per tutti gli altri campi _EID_, è sempre possibile ricorrere allo strumento di _lookup_ attraverso una barra laterale.  
-Per attivare la funzionalità, nella barra di testa, sulla destra, attivare il pulsante _toogle tools_.  
+Lo strumento strumento di lookup è integrato anche nella [Referenced Text Part](Referenced_Text_Part.md) e nella sezione [RelatedEntities di Events Part](Events_Part.md#related-entities)).
+
+![](https://github.com/petrarchsitinera/linee-guida/blob/e4de2f4f2dca13dcba7beae653a386470c141348/docs/assets/images/lookup_shape_1.png?raw=true)  
+
+Quando lo strumento non è integrato alla parte, è sempre possibile ricorrere ad esso attivandolo attraverso pulsante _toogle tools_ nella parte alta della schermata sulla destra.
+
 ![](https://github.com/petrarchsitinera/linee-guida/blob/e4de2f4f2dca13dcba7beae653a386470c141348/docs/assets/images/tools_off.png?raw=true)  
-Cliccandolo, si illumina di rosso.   
+
+Cliccandolo, il pulsante si illumina.   
 ![](https://github.com/petrarchsitinera/linee-guida/blob/e4de2f4f2dca13dcba7beae653a386470c141348/docs/assets/images/tools_on.png?raw=true)  
-Contestualmente, sul lato sinistro della pagina si apre una barra laterale che dà accesso a una funzionalità denominata _pin lookup_.   
+
+Contestualmente, sul lato sinistro della pagina si apre una barra laterale che dà accesso ad una funzionalità denominata _pin lookup_.   
 ![](https://github.com/petrarchsitinera/linee-guida/blob/e4de2f4f2dca13dcba7beae653a386470c141348/docs/assets/images/lookup_shape_3.png?raw=true)   
-
-
-⚠️ Il funzionamento dello strumento di _lookup_ è indipendente da queste strategie di rappresentazione: in tutti i casi permette, infatti, attraverso i medesimi campi e con identiche modalità, di individuare l'_eid_ desiderato e di copiarlo e incollarlo nel campo che si intende compilare.  
 
 
 ## Funzionamento dello strumento di _lookup_
