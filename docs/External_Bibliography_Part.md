@@ -25,15 +25,30 @@ Per aggiungere una voce bibliografica già presente nel database bibliografico a
 Se la voce bibliografica desiderata non è presente nel database bibliografico, aggiungerla secondo le istruzioni indicate [qui](bibliodb.md#aggungere-voci-bibliografiche).   
 Una volta creata la voce bibliografica, procedere come indicato sopra per aggiungerla alla bibliografia dell'_item_.
 
+Per ogni voce bibliografica aggiunta all'_item_, è **obbligatorio** compilare due campi:
+* _tag_: selezionare la tipologia di voce bibliografica tra _edizioni_ (per le edizioni, anche commentate), _studi_ (per gli studi), _-_ (in tutti gli altri casi)  
+* _note_: inserire, se pertinente, il numero di pagina/e della voce bibliografica **specificamente dedicate all'item** (non i numeri di pagina della voce bibliografica!), preceduti da _p._ o _pp._.  
 
-Ogni _entry_ dispone di due campi:
-* _tag_: permette di specificare la tipologia di voce bibliografica;  
-* _note_: inserire, se pertinente, i numeri delle pagine della voce bibliografica relative all'item, preceduti da _p._ o _pp._.  
+## Eliminare una voce bibliografica all'_item_
 
-Per ogni _entry_ sono inoltre disponibili le seguenti funzioni:
-* _view work_: permette di visualizzare per esteso la scheda dedicata alla _entry_;
-* _edit this work_: permette di modificare la _entry_ all'interno del database bibliografico.   
-⚠️ Modificare una _entry_ nel database ha ricadute su tutti gli _item_ che vi si riferiscono;
-* _remove this work from list_: permette di eliminare la _entry_ dalla bibliografia dell'_item_;
-* _move up_ / _move down_: permette di modificare l'ordine delle _entries_ nella bibliografia dell'_item_;
-* _copy work's ID_: permette di copiare l'id della _entry_. 
+Per eliminare una voce bibliografica dalla lista della bibliografia di un _item_, cliccare su _delete this work_ (cerchiato in rosso nell'immagine).  
+
+L'eliminazione della voce dalla bibliografia dell'_item_ NON comporta l'eliminazione della voce dal database bibliografico.
+
+<img width="1434" alt="Schermata 2023-04-06 alle 16 06 36" src="https://user-images.githubusercontent.com/102725489/230402420-a533f576-4fc3-429f-8dff-f486de0fc3e1.png">
+
+
+## Altre operazioni
+
+Nella lista delle voci bibliografiche di un _item_ è possibile effettuare inoltre le seguenti azioni:
+
+* _view work_: per [visualizzare la voce bibliografica](bibliodb.md#visualizzare-voci-bibliografiche);
+* _edit this work_: per [modificare la voce bibliografica](bibliodb.md#modificare-voci-bibliografiche);   
+* _move up_ / _move down_: per modificare l'ordine delle voci nella lista;
+* _copy work's ID_: per copiare l'identificativo non _human-friendly_ della voce bibliografica.
+
+
+## Save ⚠️ 
+Cliccare sul tasto **_save_** per salvare la parte.  
+La parte è correttamente salvata quando in fondo allo schermo compare la notifica **_Part saved_**.  
+Completato il salvataggio, cliccare sul tasto **_Close_** per tornare alla schermata di riepilogo dell'_item_.
