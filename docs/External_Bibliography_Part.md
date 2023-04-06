@@ -4,7 +4,7 @@
 
 Attraverso Bibliography Part è possibile aggiungere all'_item_ 
 - voci bibliografiche già presenti nel [database bibliografico esterno](bibliodb.md), selezionandole dalla lista;
-- creare _ad hoc_ nuove voci bibliografiche che saranno automaticmente aggiunte al [database bibliografico esterno](bibliodb.md).
+- creare _ad hoc_ nuove voci bibliografiche che saranno automaticamente aggiunte al [database bibliografico esterno](bibliodb.md).
 
 La descrizione del modello è disponibile su [Github](https://github.com/vedph/cadmus-general#bibliographypart). 
 
