@@ -32,6 +32,47 @@ Contestualmente, sul lato sinistro della pagina si apre una barra laterale che d
 
 ## Funzionamento dello strumento di _lookup_
 
+Lo strumento di _lookup_ ricerca gli _eid_ già presenti e attribuiti ad _item_, parti o singoli elementi all'interno del database. La ricerca si effettua all'interno dei campi in cui l'_eid_ è stato inserito.   
+
+Per la ricerca dell'_eid_ di un _item_, ad esempio, lo strumento interrogherà **soltanto** la parte dell'_item_ deputata ad accogliere il suo _eid_, cioè la [_Metadata Part_](Metadata_Part.md), come nell'esempio:
+
+<img width="189" alt="Schermata 2023-04-06 alle 11 46 04" src="https://user-images.githubusercontent.com/102725489/230340482-47c5eafc-e243-4504-9891-f84f444104a6.png">
+
+Il menu _type_ dello strumento permette di selezionare la _part_ nella quale si intende effettuare la ricerca. Nel paragrafo successivo sono illustrate le modalità di ricerca per gli _eid_ degli _item_, in quello seguente tutte le altre.
+
+### Ricercare l'_eid_ di un _item_
+
+Tutte le entità comprese nei _corpora_ di Itinera sono provviste di un _eid_ depositato nella [_Metadata Part_](Metadata_Part.md).
+Per ricercare l'_eid_ di un _item_ già presente nella banca dati attraverso lo strumento di _lookup_, occorre dunque limitare la ricerca alla _Metadata Part_ selezionando dal _type_ **_meta_eid_**.   
+Selezionato il _type_, il compilatore inizia a digitare nel campo _pin_ il nome dell'entità da cercare (testo, persona o manoscritto). Lo strumento mostra contestualmente i risultati corrispondenti alla ricerca. Il compilatore può a questo punto selezionare il risultato corrispondente alla ricerca.
+
+> Esempio. Lo strumento mostra i risultati compatibili con la ricerca di "nel", tra cui "francesco_nelli"
+> <img width="385" alt="Schermata 2023-04-06 alle 11 56 54" src="https://user-images.githubusercontent.com/102725489/230343471-205c5743-d37e-4cde-b2f5-97485aeace90.png">
+
+Selezionando il risultato desiderato, lo strumento apre la tabella con i dati dell'_item_ relativo.
+
+> Esempio. Tabella con i dati dell'_item_ Francesco Nelli   
+> <img width="335" alt="Schermata 2023-04-06 alle 12 04 59" src="https://user-images.githubusercontent.com/102725489/230345255-fe4adf92-1aac-4cc9-846c-ba01887eb955.png">
+
+Dalla tabella il compilatore può così copiare l'_eid_ dell'_item_ e incollarlo nel campo apposito. 
+
+<img width="347" alt="Schermata 2023-04-06 alle 12 12 09" src="https://user-images.githubusercontent.com/102725489/230347475-877fa458-1c92-4149-9105-07fd19ae8088.png">
+
+In alternativa, è possibile copiare l'_eid_ ricorrendo all'[_Id builder_](id_builder.md).
+
+
+### Ricercare _eid_ di _parts_ ed _elements_
+
+- cercare eid testi
+- cercare eid persone
+- cercare eid eventi
+- cercare eid mss
+
+referenced text solo referenced text
+
+1. se l'item è nei corpora deve esistere e quindi: ha un meta _eid_ e lo stesso _eid_ è usato nelle altre parti
+2. alcuni testi e persone non esistono ma possono esistere come puri nomi in altre parti, quindi bisogn verificare che l'_eid_ che non trovo in meta non sia in ref. events
+
 🚧 ovunque il nome _pin_: distinguere tra pin e eid 
 
 Lo strumento è composto dai seguenti campi:  
