@@ -36,7 +36,7 @@ Per l'_eid_ degli _item person_, si ricorre al nome della persona ponendo tutte 
 
 Per gli anonimi non esistono regole specifiche per l'attribuzione dell'_eid_. In linea generale, il compilatore assegna un _eid_ arbitrario componendolo nel modo più esplicito e parlante possibile. Il compilatore presterà la massima attenzione a verificare che l'anonimo inserito non corrisponda ad altro anonimo già presente nel database.  
 
-> es. Il sonetto _Vo' mi negate la virtù che nunca_, proposta di _Rvf_ 166 è anonimo. Il suo autore sarà schedato in Itinera avendo come _eid_: anonimo_vo_mi_negate.  
+> es. Il sonetto _Vo' mi negate la virtù che nunca_, proposta di _Rvf_ 166, è scritto da un anonimo. Il suo autore sarà schedato in Itinera avendo come _eid_: anonimo_vo_mi_negate.  
 
 Per l'_eid_ degli _item text_, si ricorre al _title_ dell'_item_, sostituendo spazi e segni di interpunzione con underscore (\_). Nel caso dei testi citati attraverso l'_incipit_, il titolo va abbreviato in modo opportuno:  
 >  es. Fam. I 1 > fam_i_1    
