@@ -4,7 +4,7 @@ I [metadati](Metadata_Part.md) da aggiungere **obbligatoriamente** in un Item Te
 * identificativo;
 * autore.
 
-È obbligatorio nei casi che lo richiedono anche:  
+Nei casi che lo richiedono, è **obbligatoria** anche la compilazione di: 
 * tipologia di testo.
 
 ## Metadatum
