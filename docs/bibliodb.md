@@ -39,7 +39,7 @@ Usando i pulsanti a sinistra di ogni voce, è possibile visualizzare, modificare
 
 <img width="799" alt="Schermata 2023-04-06 alle 12 54 22" src="https://user-images.githubusercontent.com/102725489/230357314-a9ef4bb7-7bce-4954-81e0-87ebc8f90a37.png">
 
-⚠️⚠️⚠️ **ATTENZIONE**: Modificare o eliminare una _entry_ nel database bibliografico ha ricadute su **tutti gli _item_** che fanno riferimento alla relativa voce bibliografica. 
+⚠️⚠️⚠️ **ATTENZIONE**: Il compilatore deve prestare la massima attenzione in fase di immissione e salvataggio dei dati. Modificare o eliminare una _entry_ nel database bibliografico ha infatti ricadute su **tutti gli _item_** che fanno riferimento alla relativa voce bibliografica - si veda, in particolare, le istruzioni relative alla [_key_](bibliodb.md#key). 
 
 #### Visualizzare voci bibliografiche
 
@@ -52,7 +52,7 @@ Selezionando il pulsante _view_ di una _entry_, è possibile visualizzare nella 
 
 Selezionando il pulsante _edit_ di una _entry_, è possibile modificare la voce bibliografica intervenendo nei campi della finestra che si apre nella parte bassa della schermata (vedi più oltre).
 
-⚠️⚠️⚠️ **ATTENZIONE**: Non modificare **mai** la _key_ di una voce già inserita (vedi più oltre).
+⚠️⚠️⚠️ **ATTENZIONE**: Il compilatore deve prestare la massima attenzione in fase di immissione e salvataggio dei dati. Modificare o eliminare una _entry_ nel database bibliografico ha infatti ricadute su **tutti gli _item_** che fanno riferimento alla relativa voce bibliografica - si veda, in particolare, le istruzioni relative alla [_key_](bibliodb.md#key). 
 
 <img width="1440" alt="Schermata 2023-04-06 alle 13 03 57" src="https://user-images.githubusercontent.com/102725489/230359620-b3e4b87c-63c8-4124-8d51-23def0434a4c.png">
 
@@ -83,9 +83,7 @@ Per aggiungere un _work_ semplice compilare i campi come segue:
 
 * _container_: **non spuntare** la casella;
 * _typeId_: selezionare la tipologia tra _article_; _book_; _journal_; _proceedings_; 
-* _key_: chiave identificativa della voce bibliografica, utilizzata per richiamare la voce in [DocReference](Docref_Brick.md);
-  * la chiave è, di norma, creata automaticamente a partire dal cognome dell'autore o degli autori e dalla data della pubblicazione; in caso di identità (ad es. per pubblicazioni dello stesso autore uscite nello stesso anno) la chiave è disambiguata automaticamente attraverso l'apposizione di un lettera);  
-  * se si desidera attribuire una chiave diversa da quella generata automaticamente (ad es. per opere senza anno o senza autore), spuntare la casella _user key_.  
+* _key_: per la compilazione vedi il [paragrafo dedicato](bibliodb.md#key). 
 * _authors_: permette di indicare l'autore o gli autori della voce bibliografica. Cliccando il campo si apre una finestra dalla quale è possibile:
   * cercare il nome di un autore già presente nel database bibliografico: inserendo le prime lettere del nome o del cognome dell'autore nel campo _last name_ sono mostrati suggerimenti; selezionare l'autore prescelto e cliccare _accept authors_;
   > ![](https://github.com/petrarchsitinera/linee-guida/blob/b6f38e89e2d111d405164114fd26681777fd4b03/docs/assets/images/bibl5.png?raw=true)   
@@ -118,9 +116,7 @@ Per aggiungere un _container_ compilare i campi come segue:
 * _container_: **spuntare** la casella;
 > ![](https://github.com/petrarchsitinera/linee-guida/blob/38a8a79aa3f74a4443f314f9d08e2dcd996032c7/docs/assets/images/bibl4.png?raw=true)  
 * _typeId_: selezionare la tipologia tra _article_; _book_; _journal_; _proceedings_; 
-* _key_: chiave identificativa della voce bibliografica, utilizzata per richiamare la voce in [DocReference](Docref_Brick.md);
-  * la chiave è, di norma, creata automaticamente a partire dal cognome dell'autore o degli autori e dalla data della pubblicazione; in caso di identità (ad es. per pubblicazioni dello stesso autore uscite nello stesso anno) la chiave è disambiguata automaticamente attraverso l'apposizione di un lettera);  
-  * se si desidera attribuire una chiave diversa da quella generata automaticamente (ad es. per opere senza anno o senza autore), spuntare la casella _user key_.  
+* _key_: per la compilazione vedi il [paragrafo dedicato](bibliodb.md#key).   
 * _authors_: permette di indicare l'autore o gli autori della voce bibliografica. Cliccando il campo si apre una finestra dalla quale è possibile:
   * cercare il nome di un autore già presente nel database bibliografico: inserendo le prime lettere del nome o del cognome dell'autore nel campo _last name_ sono mostrati suggerimenti; selezionare l'autore prescelto e cliccare _accept authors_;
   > ![](https://github.com/petrarchsitinera/linee-guida/blob/b6f38e89e2d111d405164114fd26681777fd4b03/docs/assets/images/bibl5.png?raw=true)   
@@ -146,7 +142,7 @@ Per aggiungere un _container_ compilare i campi come segue:
 
 ## Key
 
-La chiave (_key_) è una chiave identificativa della voce bibliografica. Permette il collegamento tra la voce del database bibliografico e il database ITINERA, dove essa è richiamata al bisogno attraverso la compilazione di DocReferences.
+La chiave (_key_) è una chiave identificativa della voce bibliografica. Permette il collegamento tra la voce del database bibliografico e il database ITINERA, dove essa è richiamata al bisogno attraverso la compilazione di [DocReferences](Docref_Brick.md).
 
 La (_key_) è creata automaticamente a partire dal cognome dell'autore o degli autori e dalla data della pubblicazione. Per pubblicazioni di uno stesso autore uscite nello stesso anno, la chiave è disambiguata automaticamente attraverso l'apposizione di una lettera.
 
