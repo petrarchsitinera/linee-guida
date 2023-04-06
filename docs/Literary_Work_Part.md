@@ -4,7 +4,7 @@
 
 La descrizione del modello è disponibile su [Github](https://github.com/vedph/cadmus-itinera#literaryworkinfopart).
  
-La parte si articola in tre sezioni, visibili e navigabili attraverso il menu orizzontale in alto:
+La parte si articola in tre sezioni, navigabili attraverso il menu orizzontale in alto:
 * generale [general]
 * lingua e genere [lang./note]
 * metrica [poetry], riservata ai testi poetici.
