@@ -157,5 +157,22 @@ Completato il salvataggio, cliccare sul tasto **_Close_** per tornare alla scher
 
 ***
 
-## Norme citazionali
+## Norme redazionali per l'inserimento di voci bibliografiche
+
+Nel caso di articoli in rivista, atti di convegno e simili, **fare attenzione** a creare **prima** il _container_ (se non presente nel database bibliografico), quindi la voce bibliografica (_work).
+
+### Casi particolari
+
+* Nel caso di edizioni di testi di un autore, l'autore del testo va **sempre** inserito come primo autore, seguito dal curatore o dai curatori
+> Esempio. Nella voce bibliografica "Francesco Petrarca, _Canzoniere_, a cura di M. Santagata, Milano, Mondadori, 1996", si inserirà prima "Francesco Petrarca", quindi "Marco Santagata" (con ruolo = curatore).
+> <img width="1423" alt="Schermata 2023-04-06 alle 16 59 23" src="https://user-images.githubusercontent.com/102725489/230419042-18301315-0b91-4315-8d1a-0d0eafb75850.png">
+
+
+
+
+
+-per riviste usare sempre numeri arabi indipendentemente da prassi rivista
+-tra i roles aggiungere “altro”
+-come facciamo con Storie letteratura italiana con tomi e volumi? Utilizzare il container di livello più basso (e poi collegare in altro modo)
+-articoli usciti due volte: in rivista poi raccolti: quale container? Quello escluso in nota? Oppure lasciarli (anche) creare entrambi, ma predicare coerenza rispetto alla entry; e poi collegarli in qualche modo.
 
