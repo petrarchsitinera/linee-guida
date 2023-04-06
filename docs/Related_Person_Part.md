@@ -1,6 +1,6 @@
 # Related Persons Part
 
-**Related Persons Part** permette di elencare le persone collegate al testo a vario titolo (citato, pseudonimo, destinatario, dedicatario, richiesta di recapito).  
+**Related Persons Part** permette di inserire le persone collegate al testo a vario titolo (citato, pseudonimo, destinatario, dedicatario, richiesta di recapito).  
 
 La descrizione del modello è disponibile su [Github](https://github.com/vedph/cadmus-itinera#relatedpersonspart).  
 
