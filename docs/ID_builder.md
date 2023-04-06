@@ -2,6 +2,20 @@
 
 NON VI SERVE ANCORA - In corso
 
+
+- per cercare eid di testi
+- per cercare eid di persone
+- cercare cercare eid eventi
+- cercare eid mss
+
+referenced text solo referenced text
+
+1. se l'item è nei corpora deve esistere e quindi: ha un meta _eid_ e lo stesso _eid_ è usato nelle altre parti
+2. alcuni testi e persone non esistono ma possono esistere come puri nomi in altre parti, quindi bisogn verificare che l'_eid_ che non trovo in meta non sia in ref. events
+
+
+
+
 Lo strumento è composto dai seguenti campi:  
 * **_type_**: permette di indicare a quale tipologia di entità appartiene l'_eid_ ricercato. A seconda del valore selezionato, è possibile effettuare la ricerca tra:
 🚧 capire come fare questa lista: spiegando così, o con rinvio a parti/elementi, o citare esplicitamente solo meta\_eid e accennare genericamente a 'tutti gli altri'🚧
