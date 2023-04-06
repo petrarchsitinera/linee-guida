@@ -12,7 +12,7 @@ Per aggiungere la parte, selezionare **_bibliography_** dal menu a tendina, quin
 
 ## Bibliografia dell'_item_
 
-Di norma vengono registrate nella Bibliography Part sia le voci bibliografiche dedicate all'_item_ nel suo complesso sia le edizioni del testo schedato. (critiche o meno, commentate, ecc.). 
+Di norma vengono registrate nella Bibliography Part sia le voci bibliografiche dedicate all'_item_ nel suo complesso sia le edizioni del testo schedato (critiche o meno, commentate, ecc.). 
 
 Le voci bibliografiche dedicate ad aspetti specifici sono richiamate invece nelle _parts_ corrispondenti attraverso la compilazione di apposite [DocReference](Docref_Brick.md).
 
