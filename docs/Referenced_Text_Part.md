@@ -25,7 +25,7 @@ La compilazione del campo è **obbligatoria**.
 ### Target ID
 Compilare con l'identificativo del testo da inserire (testo di proposta o testo citato).    
 Per individuare l'identificativo ([_eid_](identifiers.md)) dei testi che fanno parte dei _corpora_ di Itinera,  consultare i [repository](repository.md) o ricorrere alla funzione di [lookup](lookup.md).   
-Se, diversamente, il testo non fa parte dei _corpora_ di Itinera, attribuire un _eid_ secondo le regole [per l'attribuzione di nuovi _eid_](identifiers.md) e segnalare l'aggiunta su clickup per permettere l'aggiornamento dei [repository](repository.md).  
+Se, diversamente, il testo non fa parte dei _corpora_ di Itinera, attribuire un _eid_ secondo le regole [per la composizione di nuovi _eid_](identifiers.md#regole-di-composizione-di-nuovi-eid) e segnalare l'aggiunta su clickup per permettere l'aggiornamento dei [repository](repository.md).  
 
 La compilazione del campo è **obbligatoria**.
 
