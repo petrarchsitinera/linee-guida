@@ -91,7 +91,7 @@ Per aggiungere un _work_ semplice compilare i campi come segue:
     * firstName: nome;
     * lastName: cognome;
     * suffix: **non compilare**;
-    * roleId: selezionare, se pertinente, tra: _curatore_, _traduttore_, _collaboratore_, _direttore_, _organizzatore_, _con_;
+    * roleId: nel caso di un autore, non selezionare alcuna opzione; in tutti gli altri casi, scegliere tra: _curatore_, _traduttore_, _collaboratore_, _direttore_, _organizzatore_, _con_;
    Dopo aver compilato i campi cliccare _accept authors_.
 * _title_: titolo dell'opera;
 * _language_: lingua dell'opera, selezionando un valore nel menu a tendina;
@@ -124,7 +124,7 @@ Per aggiungere un _container_ compilare i campi come segue:
     * firstName: nome;
     * lastName: cognome;
     * suffix: **non compilare**;
-    * roleId: selezionare, se pertinente, tra: _curatore_, _traduttore_, _collaboratore_, _direttore_, _organizzatore_, _con_;
+    * roleId: nel caso di un autore, non selezionare alcuna opzione; in tutti gli altri casi, scegliere tra: _curatore_, _traduttore_, _collaboratore_, _direttore_, _organizzatore_, _con_;
    Dopo aver compilato i campi cliccare _accept authors_. 
 * _title_: titolo dell'opera;
 * _language_: lingua dell'opera, selezionando un valore nel menu a tendina;
@@ -161,18 +161,23 @@ Completato il salvataggio, cliccare sul tasto **_Close_** per tornare alla scher
 
 Nel caso di articoli in rivista, atti di convegno e simili, **fare attenzione** a creare **prima** il _container_ (se non presente nel database bibliografico), quindi la voce bibliografica (_work).
 
+Per indicare il numero di una rivista o di una collana, si usano **sempre** i numeri arabi, indipendentemente dalla prassi adottata dalla rivista.
+
 ### Casi particolari
 
 * Nel caso di edizioni di testi di un autore, l'autore del testo va **sempre** inserito come primo autore, seguito dal curatore o dai curatori
-> Esempio. Nella voce bibliografica "Francesco Petrarca, _Canzoniere_, a cura di M. Santagata, Milano, Mondadori, 1996", si inserirà prima "Francesco Petrarca", quindi "Marco Santagata" (con ruolo = curatore).
+
+> Esempio. 
+> Nella voce bibliografica "Francesco Petrarca, _Canzoniere_, a cura di M. Santagata, Milano, Mondadori, 1996", si inserirà prima "Francesco Petrarca", quindi "Marco Santagata" (con ruolo = curatore).  
+
 > <img width="1423" alt="Schermata 2023-04-06 alle 16 59 23" src="https://user-images.githubusercontent.com/102725489/230419042-18301315-0b91-4315-8d1a-0d0eafb75850.png">
 
+* Nel caso di pubblicazioni per le quali i ruoli a disposizione (curatore, traduttore, collaboratore, direttore, organizzatore_) non fossero sufficienti, ricorrere **sempre** alla voce _con_
 
+> Esempio. 
+> Nella voce bibliografica "Arnaldo Foresti, _Aneddoti della vita di Francesco Petrarca_, a cura di Antonietta Tissoni Benvenuti, con una premessa di Giuseppe Billanovich, Padova, Antenore, 1977", "Arnaldo Foresti" sarà inserito come autore; Antonietta Tissoni Benvenuti con ruolo "curatore"; Giuseppe Billanovich con ruolo "con".
 
-
-
--per riviste usare sempre numeri arabi indipendentemente da prassi rivista
--tra i roles aggiungere “altro”
 -come facciamo con Storie letteratura italiana con tomi e volumi? Utilizzare il container di livello più basso (e poi collegare in altro modo)
+
 -articoli usciti due volte: in rivista poi raccolti: quale container? Quello escluso in nota? Oppure lasciarli (anche) creare entrambi, ma predicare coerenza rispetto alla entry; e poi collegarli in qualche modo.
 
