@@ -9,7 +9,7 @@ Per individuare _eid_ di _item_ o parti già presenti in Itinera è possibile ri
 La documentazione sul _lookup_ è disponibile [qui](https://myrmex.github.io/overview/cadmus/dev/concepts/lookup).  
 
 
-## _lookup_ integrato e tool _lookup_
+## _Lookup_ integrato e tool di _lookup_
 
 Poiché all'interno di alcune _parts_ si rende necessario più frequentemente richiamare entità, in alcuni casi lo strumento di _lookup_ appare, per comodità, affiancato al campo che ospita l'_eid_. È il caso di [_AssertedId_](Asserted_Ids_Brick.md): 
 
