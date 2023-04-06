@@ -26,7 +26,7 @@ Quando lo strumento non è integrato alla parte, è sempre possibile ricorrere a
 Cliccandolo, il pulsante si illumina.   
 ![](https://github.com/petrarchsitinera/linee-guida/blob/e4de2f4f2dca13dcba7beae653a386470c141348/docs/assets/images/tools_on.png?raw=true)  
 
-Contestualmente, sul lato sinistro della pagina si apre una barra laterale che dà accesso ad una funzionalità denominata _pin lookup_.   
+Contestualmente, sul lato sinistro della pagina si apre una barra laterale che dà accesso alla funzionalità di ricerca.   
 ![](https://github.com/petrarchsitinera/linee-guida/blob/e4de2f4f2dca13dcba7beae653a386470c141348/docs/assets/images/lookup_shape_3.png?raw=true)   
 
 
