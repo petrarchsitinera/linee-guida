@@ -174,7 +174,7 @@ Per indicare il numero di una rivista o di una collana, si usano **sempre** i nu
 
 > <img width="1423" alt="Schermata 2023-04-06 alle 16 59 23" src="https://user-images.githubusercontent.com/102725489/230419042-18301315-0b91-4315-8d1a-0d0eafb75850.png">
 
-* Nel caso di pubblicazioni per le quali i ruoli a disposizione (curatore, traduttore, collaboratore, direttore, organizzatore_) non fossero sufficienti, ricorrere **sempre** alla voce _con_
+* Nel caso di pubblicazioni per le quali i ruoli a disposizione (curatore, traduttore, collaboratore, direttore, organizzatore) non fossero sufficienti, ricorrere **sempre** alla voce _con_
 
 > Esempio.   
 > Nella voce bibliografica "Arnaldo Foresti, _Aneddoti della vita di Francesco Petrarca_, a cura di Antonietta Tissoni Benvenuti, con una premessa di Giuseppe Billanovich, Padova, Antenore, 1977", "Arnaldo Foresti" sarà inserito come autore; Antonietta Tissoni Benvenuti con ruolo "curatore"; Giuseppe Billanovich con ruolo "con".
