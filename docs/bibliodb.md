@@ -149,7 +149,8 @@ La (_key_) è creata automaticamente a partire dal cognome dell'autore o degli a
 
 In linea generale non si deve **mai** modificare la _key_ di una voce bibliografica già inserita e in uso, perché si comprometterebbe il collegamento tra quella voce e gli _item_ di Itinera che la richiamano.
 
-Se dovesse rendersi necessario modificare una voce bibliografica in uso (p. es. in caso di errore), occorre tenere presente che la modifica di uno o più autori e/o dell’anno di pubblicazione comporta **automaticamente** la modifica della _key_. Per salvaguardare i collegamenti precedentemente istituiti tra la voce e gli _item_, si **deve perciò procedere manualmente** cliccando la casella _user key_ e ripristinando la _key_ precedente.
+Se dovesse rendersi necessario modificare una voce bibliografica in uso (p. es. in caso di errore), occorre tenere presente che la modifica di uno o più autori e/o dell’anno di pubblicazione comporta **automaticamente** la modifica della _key_.   
+Per salvaguardare i collegamenti precedentemente istituiti tra la voce e gli _item_ in caso di modifica, si **deve perciò intervenire manualmente sulla key** cliccando la casella _user key_ e ripristinando la _key_ precedente.
 
 ## Save ⚠️ 
 Cliccare sul tasto **_save_** per salvare la parte.  
