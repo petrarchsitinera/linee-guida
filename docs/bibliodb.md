@@ -179,7 +179,9 @@ Per indicare il numero di una rivista o di una collana, si usano **sempre** i nu
 > Esempio.   
 > Nella voce bibliografica "Arnaldo Foresti, _Aneddoti della vita di Francesco Petrarca_, a cura di Antonia Tissoni Benvenuti, con una premessa di Giuseppe Billanovich, Padova, Antenore, 1977", "Arnaldo Foresti" sarà inserito come autore; Antonia Tissoni Benvenuti con ruolo "curatore"; Giuseppe Billanovich con ruolo "con".
 
-* Nel caso di opere collettive in più volumi o tomi con titolo particolare di ciascuno, si creano tanti _container_ quanti sono i volumi o i tomi. In questo caso si inserisce come titolo del _container_ il titolo dell'opera collettiva seguito 1. dal numero del volume o del tomo e 2. dal titolo specifico, ove presente. 
+* Nel caso di opere collettive in più volumi o tomi con titolo particolare di ciascuno, si creano tanti _container_ quanti sono i volumi o i tomi. In questo caso si inserisce come titolo del _container_ il titolo dell'opera collettiva seguito 
+ 1. dal numero del volume o del tomo
+ 2. dal titolo specifico, ove presente. 
 
 > Esempio.    
 > Nel caso del volume 10 della _Storia della letteratura italiana_ diretta da Enrico Malato, andrà inserito come titolo: _Storia della letteratura italiana. Vol. 10. La tradizione dei testi_.
