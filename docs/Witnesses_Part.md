@@ -1,6 +1,6 @@
 # Witnesses Part
 
-**Witnesses Part** permette di inserire il testimoniale di un testo.   
+**Witnesses Part** permette di inserire i testimoni manoscritti conosciuti di un testo.   
 
 La descrizione del modello è disponibile su [Github](https://github.com/vedph/cadmus-itinera#witnessespart).  
 
