@@ -30,19 +30,19 @@ Se, diversamente, il testo non fa parte dei _corpora_ di Itinera, attribuire un 
 La compilazione del campo è **obbligatoria**.
 
 ### Target citation
-Il campo è riservato **esclusivamente** ai testi citati (_type_= "citazione di").    
+Il campo è riservato **esclusivamente** ai testi citati (_type_ = "citazione di").    
 Compilare con il luogo del testo citato da cui è tratta la citazione, espresso indicando il libro e/o il paragrafo e/o il verso, non separati da virgole. Se si tratta di un intervallo, separare i numeri di paragrafo o di versi con un trattino.
  > Es.:  
  > XII 4 3  
  > I 1 65-68  
 
-La compilazione del campo è obbligatoria per i testi citati (_type_= "citazione di").
+La compilazione del campo è obbligatoria per i testi citati (_type_ = "citazione di").
 
 ### Source
-Il campo è riservato **esclusivamente** ai testi citati (_type_= "citazione di").  
+Il campo è riservato **esclusivamente** ai testi citati (_type_ = "citazione di").  
 Compilare con il luogo del testo schedato in cui si trova la citazione, espresso indicando il libro e/o il paragrafo e/o il verso, non separati da virgole. Se si tratta di un intervallo, separare i numeri di paragrafo o di versi con un trattino.   
 
-La compilazione del campo è obbligatoria per i testi citati (_type_= "citazione di").
+La compilazione del campo è obbligatoria per i testi citati (_type_ = "citazione di").
 
 ### Assertion
 Permette di indicare l'attendibilità del collegamento inserito ed eventuali fonti. Per la compilazione del campo, consultare le istruzioni di [Assertion](Assertion_Brick.md).  
