@@ -21,7 +21,7 @@ Gli _eid_ dei testi sono consultabili nel [repository dei testi](https://shortes
 Gli _eid_ dei manoscritti sono consultabili nel repository 🚧. Nel caso degli Item Manuscript si ricorre ad ulteriori identificativi per singole _parts_ o _elements_. 
 
 ### Regole di composizione di nuovi EID 
-Nel caso di nuove immissioni, gli _eid_ si attribuiscono secondo le regole specifiche.  
+Nel caso di nuove immissioni, gli _eid_ si attribuiscono secondo regole specifiche.  
 Ogni volta che si crea un nuovo _eid_ è **obbligatorio** segnalare l'aggiunta in clickup per permettere l'aggiornamento del [repository](repository.md).  
 
 Quando si renda necessario **creare** un nuovo _eid_, occorre attenersi alle seguenti regole generali:  
