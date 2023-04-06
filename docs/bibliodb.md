@@ -161,7 +161,7 @@ Completato il salvataggio, cliccare sul tasto **_Close_** per tornare alla scher
 
 ## Norme redazionali per l'inserimento di voci bibliografiche
 
-Nel caso di articoli in rivista, atti di convegno e simili, **fare attenzione** a creare **prima** il _container_ (se non presente nel database bibliografico), quindi la voce bibliografica (_work).
+Nel caso di articoli in rivista, atti di convegno e simili, **fare attenzione** a creare **prima** il _container_ (se non presente nel database bibliografico), quindi la voce bibliografica (_work_).
 
 Per indicare il numero di una rivista o di una collana, si usano **sempre** i numeri arabi, indipendentemente dalla prassi adottata dalla rivista.
 
