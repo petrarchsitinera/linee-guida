@@ -4,7 +4,7 @@
 
 La descrizione del modello è disponibile su [Github](https://github.com/vedph/cadmus-itinera#letterinfopart).  
 
-⚠️ Se un testo dà notizia di uno o più eventi riguardanti persone, testi o manoscritti, e se tali eventi sono compresi nel [_thesaurus_ degli eventi di Itinera](Events_Thesaurus.md), è **obbligatorio** creare uno o più eventi dedicati nella [_Events Part_](Events_Part.md) di una delle entità coinvolte. Il testo da cui si ricava l'informazione andrà obbligatoriamente inserito tra le fonti dell'evento, accanto ad altre se presenti.
+⚠️ Se un testo dà notizia di uno o più eventi riguardanti persone, testi o manoscritti, e se tali eventi sono compresi nel [_thesaurus_ degli eventi di Itinera](Events_Thesaurus.md), è **obbligatorio** creare uno o più eventi dedicati nella [_Events Part_](Events_Part.md) di una delle entità coinvolte. Il testo da cui si ricava l'informazione andrà obbligatoriamente inserito tra le fonti dell'evento in [Assertion](Assertion_Brick.md), insieme ad altre fonti se presenti.
 
 > Esempio.   
 Nella lettera _Multa expectaram_ di Francesco Nelli, si dà notizia di un incontro di alcuni amici fiorentini di Petrarca, tra cui Giovanni Boccaccio, Lapo da Castiglionchio e Francesco Bruni, che, riuniti, leggono insieme alcuni versi e lettere inviati loro da Petrarca. Dopo aver verificato sul grafo che gli eventi non siano già stati inseriti e descritti, il compilatore dell'_item_ relativo alla _Multa expectaram_ dovrà creare:  
