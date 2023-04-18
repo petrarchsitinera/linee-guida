@@ -62,6 +62,11 @@ Permette di indicare la tipologia grafica della _instance_. Selezionare un valor
 * antiqua
 * altro
 
+Una volta selezionato il valore, cliccare il comando _+add_.  
+
+Nel caso di scrittura ibrida, è possibile ripetere l'operazione per registrare la presenza di tratti afferenti a una tipologia grafica diversa dalla principale.  
+In questo caso, è buona norma, inoltre, descrivere tali elementi nella sezione [_description_](Hands_Part.md#descriptions).  
+
 La compilazione del campo è obbligatoria.
 
 #### Rank
