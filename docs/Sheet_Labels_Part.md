@@ -114,7 +114,7 @@ Il campo _name_ permette di attribuire un titolo alla colonna selezionata.
 
 Per compilare le colonne create, utilizzare il riquadro _action_.  
 Il campo _column_ permette di selezionare la colonna su cui si vuole intervenire.  
-Il campo _edit the selected column definition_ apre un editor che permette di fornire una descrizione dell'elemento corrispondente alla colonna selezionata.
+Il comando _edit the selected column definition_ apre un editor che permette di fornire una descrizione dell'elemento corrispondente alla colonna selezionata.
 Il campo _action_ permette, attraverso una specifica formula, di attribuire dei valori alle celle della colonna selezionata. 
 
 ##### Quire 
@@ -127,7 +127,7 @@ Cliccando il comando _+ add_, viene creata una colonna identificata dal titolo "
 
 Per compilare la colonna utilizzare i comandi del riquadro **_action_**.
 Nel campo _column_ selezionare "q".  
-Il campo _edit the selected column definition_ non è attivo per _quire_.  
+Il comando _edit the selected column definition_ non è attivo per _quire_.  
 Il campo _action_ permette, attraverso una specifica formula, di attribuire dei valori alle celle della colonna selezionata.  
 La formula consente di inserire in una sola volta fascicoli dello stesso tipo e consecutivi. Per serie di fascicoli di tipo diverso occorrerà ripetere l'operazione cambiando i relativi valori. Per serie molto irregolari o casi specifici, è possibile intervenire direttamente sulle singole celle (vedi oltre).
 
@@ -193,7 +193,7 @@ Cliccando il comando _+ add_, viene creata una colonna identificata dal titolo "
 Per compilare la colonna utilizzare i comandi del riquadro **_action_**.
 Nel campo _column_ selezionare "n" (o "n.etichetta" per le numerazioni secondarie).  
 
-Il campo _edit the selected column definition_ apre un **editor** che permette di descrivere alcune caratteristiche della numerazione attraverso i seguenti campi:
+Il comando _edit the selected column definition_ apre un **editor** che permette di descrivere alcune caratteristiche della numerazione attraverso i seguenti campi:
 * _rank_: non compilare;
 * _pagination_: spuntare nel caso di paginazione (e non di cartulazione);
 * _by scribe_: spuntare nel caso di numerazione di mano di copista. Nel caso in cui il codice sia copiato da più mani e una sola di queste apponga la numerazione, specificare in nota di quale si tratta;   
@@ -286,7 +286,7 @@ Cliccando il comando _+ add_, viene creata una colonna identificata dal titolo "
 Per compilare la colonna utilizzare i comandi del riquadro **_action_**.
 Nel campo _column_ selezionare "c" (o "c.etichetta").  
 
-Il campo _edit the selected column definition_ apre un **editor** che permette di descrivere alcune caratteristiche del sistema di richiami attraverso i seguenti campi:
+Il comando _edit the selected column definition_ apre un **editor** che permette di descrivere alcune caratteristiche del sistema di richiami attraverso i seguenti campi:
 * _rank_: non compilare;
 * _position_: selezionare un valore tra: marg. inf. est.; marg. inf. cen.; marg. inf. int.; altro;  
 * _vertical_: spuntare nel caso di richiami sono verticali;  
@@ -328,7 +328,7 @@ Cliccando il comando _+ add_, viene creata una colonna identificata dal titolo "
 Per compilare la colonna utilizzare i comandi del riquadro **_action_**.
 Nel campo _column_ selezionare "s" (o "s.etichetta").  
 
-Il campo _edit the selected column definition_ apre un **editor** che permette di descrivere alcune caratteristiche della segnatura fascicolare attraverso i seguenti campi:
+Il comando _edit the selected column definition_ apre un **editor** che permette di descrivere alcune caratteristiche della segnatura fascicolare attraverso i seguenti campi:
 * _rank_: non compilare;
 * _system_: selezionare un valore tra: arabo, romano, alfabetico, altro;
 * _position_: selezionare un valore tra: marg. sup. est., marg. sup. cen., marg. sup. int., marg. inf. est., marg. inf. cen., marg. inf. int., altro;  
@@ -369,7 +369,7 @@ Cliccando il comando _+ add_, viene creata una colonna identificata dal titolo "
 Per compilare la colonna utilizzare i comandi del riquadro **_action_**.
 Nel campo _column_ selezionare "r" (o "r.etichetta").  
 
-Il campo _edit the selected column definition_ apre un **editor** che permette di descrivere alcune caratteristiche della numerazione attraverso i seguenti campi:
+Il comando _edit the selected column definition_ apre un **editor** che permette di descrivere alcune caratteristiche della numerazione attraverso i seguenti campi:
 * _rank_: non compilare;
 * _position_: selezionare un valore tra: marg. sup. est., marg. sup. cen., marg. sup. int., marg. inf. est., marg. inf. cen., marg. inf. int., altro;  
 * _note_: si raccolgono qui dati e informazioni che non è possibile inserire altrove, con particolare riferimento a eventuali irregolarità nella segnatura a registro.
