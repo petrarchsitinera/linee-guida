@@ -264,16 +264,9 @@ Si ricorre a questa modalità di compilazione nel caso in cui:
 ##### Numerazioni complementari
 In presenza di due numerazioni complementari, e dunque nell'impossibilità di individuare una numerazione che possa fungere da riferimento per l'intera estensione del codice, è possibile creare le due numerazioni, attribuendo a ciascuna un titolo distinto (es. "n.lapis" e "n.ink"). Per la compilazione del campo _range_, le diverse numerazioni devono essere richiamate utilizzando il prefisso adeguato, secondo le norme illustrate [qui](Cod_Location_Brick.md#riferimento-alle-carte-fisiche).  
 
-In alternativa, è possibile adottare la seguente soluzione.   
-Creare tre numerazioni:
-* una numerazione 'n.etichetta1' per la prima numerazione, fornendone la descrizione nell'editor;
-* una numerazione 'n.etichetta2' per la seconda numerazione, fornendone la descrizione nell'editor;
-* una numerazione 'n' risultante dalla somma dei valori delle due numerazioni complementari, compilando i campi _system_, _technique_ e _position_ con il valore '\---'.  
-
 > Questa soluzione può essere adottata in diversi casi, ad esempio:
 > * una numerazione antica copre le cc. 1-50 e una numerazione moderna copre le cc. 51-100;  
 > * una numerazione antica copre tutto il codice ma su alcune carte è stata integrata da numerazione moderna perché non visibile (a causa di rifilatura, inchiostro evanido, dimenticanza, etc.). Se non lo si ritiene opportuno (ad es. se il numero degli interventi moderni è molto ridotto), è possibile creare una sola numerazione (quella antica) e segnalare il fenomeno di integrazione nel campo _note_ dell'editor o nel campo _edit note_ delle singole celle.   
-
 
 
 #### Catchword
