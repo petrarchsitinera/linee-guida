@@ -11,10 +11,11 @@ Se la scheda è derivata da una banca dati, è obbligatorio registrare la fonte 
 Se è disponibile una riproduzione digitale, è possibile inserire un collegamento in questa parte.  
 
 #### [Metadata Part](Metadata_Part.md)
-Compilazione obbligatoria.
+Compilazione obbligatoria.   
 
 #### [Sheet Labels Part](Sheet_Labels_Part.md)
 Compilazione obbligatoria.  
+In presenza di richiami, segnatura fascicolare e segnatura a registro, è obbligatoria la creazione delle colonne [_Catchwords_](https://github.com/petrarchsitinera/linee-guida/blob/main/docs/Sheet_Labels_Part.md#catchword), [_Signature_](https://github.com/petrarchsitinera/linee-guida/blob/main/docs/Sheet_Labels_Part.md#signature) e [_Register_](https://github.com/petrarchsitinera/linee-guida/blob/main/docs/Sheet_Labels_Part.md#register), e la compilazione dei campi presenti nell'editor (a cui si accede con il comando _edit the selected column definition_). È possibile segnalare su quali carte sono presenti tali elementi nel campo _note_, senza ricorrere alla compilazione delle celle della colonna relativa.  
 
 #### [Material Description Part](Material_Description_Part.md)
 Sezione [_units_](Material_Description_Part.md#units): compilazione obbligatoria.  
