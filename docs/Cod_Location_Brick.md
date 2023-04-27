@@ -5,15 +5,18 @@ Il modello permette di esprimere un riferimento a determinate carte del manoscri
 
 La descrizione del modello è disponibile su [Github](https://github.com/vedph/cadmus-bricks-shell/blob/master/projects/myrmidon/cadmus-cod-location/README.md)  
 
-Per la compilazione del campo è possibile scegliere tra due modalità:
-* utilizzare la numerazione di riferimento _n_ creata in [Sheet Labels Part](Sheet_Labels_Part.md);
+Per la compilazione del campo è possibile scegliere tra due modalità:  
+* utilizzare la numerazione di riferimento creata in [Sheet Labels Part](Sheet_Labels_Part.md);
 * utilizzare le carte fisiche, rappresentate dalla colonna grigia in [Sheet Labels Part](Sheet_Labels_Part.md).  
 
 ## Numerazione di riferimento
 
 Per utilizzare la numerazione di riferimento (colonna _n_ di [Sheet Labels Part](Sheet_Labels_Part.md)) occorre osservare la seguente sintassi:
 * **numerazione di riferimento**: inserire sempre come primo elemento l'indicazione della colonna _n_, seguita da due punti (:);
-  > n:
+  > n:  
+ 
+  ⚠️ In assenza di un'unica numerazione di riferimento, cioè nel caso di due [numerazioni complementari](https://github.com/petrarchsitinera/linee-guida/blob/main/docs/Sheet_Labels_Part.md#numerazioni-complementari), richiamare le numerazioni prescelte attraverso il loro specifico prefisso, ad es. _n.lapis_ e _n.ink_, seguite da due punti (:).
+  
 * **carta**: inserire sempre l'indicazione della carta, riportando tra apici doppi ("") l'intera etichetta presente sulla cella relativa alla carta desiderata, comprensiva di _r_/_v_.
   > n:"4r" 
   > n:"IVr" 
