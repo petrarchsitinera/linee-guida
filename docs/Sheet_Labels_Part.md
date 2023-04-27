@@ -262,7 +262,7 @@ Si ricorre a questa modalità di compilazione nel caso in cui:
 * coperta e controcoperta posteriore (_back cover_): riportare i valori [/r], [/v].  
 
 ##### Numerazioni complementari
-In presenza di due numerazioni complementari, e dunque nell'impossibilità di individuare una numerazione che possa fungere da riferimento per l'intera estensione del codice, è possibile creare le due numerazioni, attribuendo a ciascuna un titolo distinto (es. "n.lapis" e "n.ink"). Quando le numerazioni sono richiamate nella compilazione del campo _range_, utilizzare il prefisso adeguato secondo le norme illustrate [qui](Cod_Location_Brick.md#riferimento-alle-carte-fisiche).  
+In presenza di due numerazioni complementari, e dunque nell'impossibilità di individuare una numerazione che possa fungere da riferimento per l'intera estensione del codice, è possibile creare le due numerazioni, attribuendo a ciascuna un titolo distinto (es. "n.lapis" e "n.ink"). Per la compilazione del campo _range_, le diverse numerazioni devono essere richiamate utilizzando il prefisso adeguato, secondo le norme illustrate [qui](Cod_Location_Brick.md#riferimento-alle-carte-fisiche).  
 
 In alternativa, è possibile adottare la seguente soluzione.   
 Creare tre numerazioni:
