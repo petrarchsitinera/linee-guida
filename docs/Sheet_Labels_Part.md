@@ -248,10 +248,12 @@ L'applicazione della formula assegna alle celle interessate delle etichette corr
 È sempre possibile editare manualmente il valore di una cella cliccando sul suo campo _edit value_.  
 Si ricorre a questa modalità di compilazione nel caso in cui:  
 * i valori della numerazione presentino errori e discontinuità;
+   * se, ad esempio, in una cartulazione 1-3, c. 1 e c. 2 sono numerate entrambe '1', alla c. 2 è attribuita l'etichetta '1bis' e nel campo _edit note_ della cella è inserita l'annotazione 'numerata 1'.  
 * la numerazione sia costituita da segni diversi da cifre arabiche, numeri romani, serie di lettere in ordine alfabetico, il campo deve essere compilato con il valore presente sul manoscritto, avendo cura, in caso di cartulazione, di aggiungere sempre l'indicazione _r_ o _v_ (es. 13bisr);
 * una o più carte non siano numerate:
    * se in una cartulazione 1-3, c. 1 è numerata '1', c. 2 non è numerata, c. 3 è numerata '3', alla c. 2 è attribuita l'etichetta '2' e nel campo _edit note_ della cella è inserita l'annotazione 'non numerata'.  
    * se in una cartulazione 1-3, c. 1 è numerata '1', c. 2 non è numerata, c. 3 è numerata '2', alla c. 2 è attribuita l'etichetta '1bis' e nel campo _edit note_ della cella è inserita l'annotazione 'non numerata'.   
+
 
 ⚠️ Sulla colonna relativa alla numerazione di riferimento (_n_) è necessario attribuire sempre, attraverso il campo _edit value_, valori predefiniti alle celle relative a:
 * coperta e controcoperta anteriore (_front cover_): riportare i valori [r], [v];
