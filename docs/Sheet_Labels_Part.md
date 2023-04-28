@@ -197,7 +197,7 @@ Il comando _edit the selected column definition_ apre un **editor** che permette
 * _rank_: non compilare;
 * _pagination_: spuntare nel caso di paginazione (e non di cartulazione);
 * _by scribe_: spuntare nel caso di numerazione di mano di copista. Nel caso in cui il codice sia copiato da più mani e una sola di queste apponga la numerazione, specificare in nota di quale si tratta;   
-* _system_: selezionare un valore tra: arabo; romano; arabo+romano (nel caso di valori espressi con uso di cifre arabiche e numeri romani: es. C20 per 120), misto (nel caso di numerazione che adotta su alcune carte il sistema arabo e su altre quello romano); altro;
+* _system_: selezionare un valore tra: arabo; romano; arabo+romano (nel caso di valori espressi con uso di cifre arabiche e numeri romani: es. C20 per 120), misto (nel caso di numerazione che adotta su alcune carte il sistema arabo e su altre quello romano); altro; ---;  
 * _technique_: selezionare un valore tra: inchiostro; lapis; n. meccanico; altro;
 * _position_: selezionare un valore tra: marg. sup. est.; marg. sup. cen.; marg. sup. int.; marg. inf. est.; marg. inf. cen.; marg. inf. int.; intercol. sup.; intercol. inf.; altro;
 * _colors_: selezionare un valore tra: bruno scuro, bruno chiaro, rosso, altro;
