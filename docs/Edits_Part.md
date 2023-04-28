@@ -75,7 +75,7 @@ Permette di indicare la lingua dell' _edit_. Selezionare un valore tra:
 * neogreco
 * italiano
 * latino
-* latino-volgare
+* latino+volgare
 * spagnolo
 * altro
 
