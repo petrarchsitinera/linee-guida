@@ -54,27 +54,33 @@ La compilazione del campo è obbligatoria.
 ### Layout formula
 Permette di esprimere le dimensioni della pagina e dello specchio di scrittura secondo le convenzioni correnti. Tutte le misure, rilevate nella carta _sample_, sono espresse in millimetri; le misure dell’altezza sono rilevate lungo la riga di giustificazione interna, quelle della larghezza lungo la rettrice di testa; per una corretta misurazione è opportuno non spostare lo strumento, ma rilevare le scansioni interne, procedendo per sottrazione.
 
-La formula è introdotta dalle misure dell’altezza moltiplicata per la larghezza, seguite dal segno di uguale; seguono, divise dal segno di moltiplicazione, la sezione delle misure relative all’altezza e la sezione delle misure relative alla larghezza, le cui somme devono coincidere con quelle dell’altezza e della larghezza complessive; le misure relative allo specchio di scrittura sono posizionate all’interno di parentesi quadre, quelle relative ai margini non scritti all’esterno; la presenza di colonnini è indicata da barre oblique “/”, a seconda che questi contengano o meno scrittura, sono situati all’interno o all’esterno delle parentesi quadre; nei manoscritti a due colonne l’intercolumnio è indicato all’interno delle parentesi quadre, racchiuso tra parentesi tonde; eventuali colonnini non scritti figurano all’interno delle parentesi quadre ma sono segnalati da asterisco.
+La formula è introdotta dalle misure di altezza per (x) larghezza, seguite dal segno di uguale (=); seguono, divise dal segno di moltiplicazione, la sezione delle misure relative all’altezza e la sezione delle misure relative alla larghezza, le cui somme devono coincidere con quelle dell’altezza e della larghezza complessive.  
+Le misure relative allo specchio di scrittura sono posizionate all’interno di parentesi quadre, quelle relative ai margini non scritti all’esterno delle parentesi.  
+La presenza di colonnini è indicata da barre oblique “/”; a seconda che questi contengano o meno scrittura, sono situati all’interno o all’esterno delle parentesi quadre.  
+Nei manoscritti a due colonne, tra partentesi quadre vanno incluse, nell'ordine: lo specchio di scrittura della prima colonna, l’intercolumnio tra parentesi tonde, lo specchio di scrittura della seconda colonna; eventuali colonnini interni non scritti figurano all’interno delle parentesi quadre ma sono segnalati da asterisco.  
 
 Si dà la seguente formula esemplificativa, dove sono espressi tutti valori possibili di una carta impaginata su due colonne (i valori sottolineati sono alternativi, quelli in grassetto obbligatori):
 
 > **240** × **150** = **30** / <ins>5 [ 5</ins>/ **170** / <ins>5] 5</ins>/ **40** × **15** / <ins>5 [5</ins> / **50** / 5<ins>\*</ins> (20) 5<ins>\*</ins> / 40 / <ins>5] 5</ins> / **15**  
->     - 240 × 150 =: altezza e larghezza della pagina, valori obbligatori;  
->      - 30 / 5 \[5/ 170 / 5] 5/ 40: misure relative all’altezza, ove:  
+> 
+> 240 × 150 =: altezza e larghezza della pagina, valori obbligatori;  
+> 
+> 30 / 5 \[5/ 170 / 5] 5/ 40: misure relative all’altezza, ove:   
 >              - 30: margine superiore, valore obbligatorio;   
 >              - /5 e \[5/: riga di testa vuota o riga di testa con scrittura, valori non obbligatori e alternativi tra loro;   
 >              - 170: specchio di scrittura, valore obbligatorio;   
 >              - /5] e 5/: riga di piede con scrittura o riga di piede vuota, valori non obbligatori e alternativi tra loro;   
 >              - 40: margine inferiore, valore obbligatorio;  
->       - 15 / 5 \[5 / 50 / 5* (20) 5* / 40 / 5] 5 / 15: misure relative alla larghezza, ove:   
+>              
+> 15 / 5 \[5 / 50 / 5* (20) 5* / 40 / 5] 5 / 15: misure relative alla larghezza, ove:   
 >              - 15: margine sinistro, valore obbligatorio;   
 >              - /5 e \[5/: colonnino sinistro vuoto o colonnino sinistro con scrittura, valori non obbligatori e alternativi tra loro;   
 >              - 50: specchio di scrittura dell’unica colonna o della prima colonna in manoscritto a due colonne, valore obbligatorio;   
->              - / 5 o / 5*: colonnino destro con scrittura o colonnino destro vuoto, valori non obbligatori e alternativi tra loro;   
+>              - / 5 o / 5*: colonnino destro della prima colonna, con scrittura o vuoto, valori non obbligatori e alternativi tra loro;   
 >              - (20): intercolumnio, valore obbligatorio in un manoscritto a due colonne;   
 >              - 5 / o 5* /: colonnino sinistro della seconda colonna, con scrittura o vuoto, valori non obbligatori e alternativi tra loro;   
 >              - 40: specchio di scrittura della seconda colonna, valore obbligatorio in un manoscritto a due colonne;     
->              - /5] e 5/: colonnino destro della seconda colonna, con scrittura o vuoto, valori non obbligatori e alternativi tra loro;   
+>              - /5] e 5/: colonnino destro della seconda o unica colonna, con scrittura o vuoto, valori non obbligatori e alternativi tra loro;   
 >              - 15: margine destro, valore obbligatorio.
 
 
