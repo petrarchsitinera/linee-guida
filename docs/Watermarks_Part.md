@@ -36,6 +36,7 @@ Per ogni riscontro è possibile creare un elemento _ID_ mediante un [editor](Edi
 * _scope_: indicare il nome del repertorio "Briquet" o "Piccard", in questa forma;  
 * _value_: indicare il numero d’ordine della filigrana all'interno del repertorio indicato in _scope_ .
 * _Assertion_: permette di esprimere il grado di somiglianza della filigrana rilevata sul manoscritto con l'esemplare del repertorio.
+  * _type_: selezionare il valore "---";  
   * _tag_: non compilare;  
   * _rank_: selezionare un valore tra 1 (“identico a”), 2 (“simile a”), 3 (“variante di”);
   * _note_: non compilare;
