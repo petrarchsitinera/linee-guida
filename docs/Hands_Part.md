@@ -134,7 +134,7 @@ La compilazione del campo è facoltativa.
 
 #### Key
 Permette di attribuire alla descrizione un'etichetta che ne consenta il collegamento con uno o più elementi _instance_, attraverso il campo [_description key_](Hands_Part.md#description-key).  
-Per ogni _description_ utilizzare l'etichetta convenzionale "descr" seguita senza spazi da numero progressivo (es. "descr1", "descr2", etc.).  
+Per ogni _description_ utilizzare un'etichetta convenzionale "desc", "semigot", "merc", eventualmente seguita senza spazi da numero progressivo (es. "merc1", "merc2", etc.).  
 
 La compilazione del campo è obbligatoria qualora risulti necessario collegare la _description_ a una o più _instance_.
 
