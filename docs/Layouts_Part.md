@@ -51,22 +51,6 @@ Permette di indicare il numero delle colonne.
 
 La compilazione del campo è obbligatoria.
 
-### Count
-Permette di inserire il numero di linee e di righe della pagina. 
-
-Per creare un nuovo elemento cliccare _+add count_. Ogni _count_ è provvisto di: 
-* _ID_: selezionare "righe" o "linee";
-* _value_: indicare il valore misurato; 
-* _tag_: permette di inserire un'etichetta utile ai fini della ricerca;
-* _note_: permette di aggiungere eventuali annotazioni.  
-
-
-Si registrano di norma i valori riscontrati sulla carta _sample_.  
-Se tali valori non sono rappresentativi della prassi osservata dal copista nel _range_ di carte del _layout_ in oggetto (perché ad esempio le righe finali della carta _sample_ sono lasciate vuote dopo la fine di un testo), è necessario creare ulteriori elementi _count_ con _ID_ "righe" o "linee" per esprimere il numero di righe o di linee generalmente utilizzate per quel _layout_, aggiungendo a questi valori il _tag_ "prevalente".  
-Per layout fortemente irregolari è possibile inserire, oltre ai valori riscontrati sulla carta _sample_, i valori corrispondenti al numero di linee e righe minimo e massimo, aggiungendovi i tag "max" o "min"; è altresì possibile, per semplicità, segnalare l'irregolarità nel campo _note_ dei singoli valori.  
-
-La compilazione del campo è facoltativa, ma fortemente raccomandata.
-
 ### Layout formula
 Permette di esprimere le dimensioni della pagina e dello specchio di scrittura secondo le convenzioni correnti. Tutte le misure, rilevate nella carta _sample_, sono espresse in millimetri; le misure dell’altezza sono rilevate lungo la riga di giustificazione interna, quelle della larghezza lungo la rettrice di testa; per una corretta misurazione è opportuno non spostare lo strumento, ma rilevare le scansioni interne, procedendo per sottrazione.
 
@@ -118,6 +102,21 @@ Ogni elemento _dimension_ è provvisto di:
 È possibile modificare il valore dei singoli elementi ed aggiornare conseguentemente la formula cliccando, all’interno del campo _layout formula_, il tasto _update formula_.  
 > ![](https://github.com/petrarchsitinera/linee-guida/blob/1a94390ee30ce0a5b737f4b1fd4dabbf453c4c06/docs/assets/images/layout_updatefor.png?raw=true)
 
+### Count
+Permette di inserire il numero di linee e di righe della pagina. 
+
+Per creare un nuovo elemento cliccare _+add count_. Ogni _count_ è provvisto di: 
+* _ID_: selezionare "righe" o "linee";
+* _value_: indicare il valore misurato; 
+* _tag_: permette di inserire un'etichetta utile ai fini della ricerca;
+* _note_: permette di aggiungere eventuali annotazioni.  
+
+
+Si registrano di norma i valori riscontrati sulla carta _sample_.  
+Se tali valori non sono rappresentativi della prassi osservata dal copista nel _range_ di carte del _layout_ in oggetto (perché ad esempio le righe finali della carta _sample_ sono lasciate vuote dopo la fine di un testo), è necessario creare ulteriori elementi _count_ con _ID_ "righe" o "linee" per esprimere il numero di righe o di linee generalmente utilizzate per quel _layout_, aggiungendo a questi valori il _tag_ "prevalente".  
+Per layout fortemente irregolari è possibile inserire, oltre ai valori riscontrati sulla carta _sample_, i valori corrispondenti al numero di linee e righe minimo e massimo, aggiungendovi i tag "max" o "min"; è altresì possibile, per semplicità, segnalare l'irregolarità nel campo _note_ dei singoli valori.  
+
+La compilazione del campo è facoltativa, ma fortemente raccomandata.
 
 ### Note
 Permette di inserire, in forma di testo libero, eventuali precisazioni relative ad irregolarità nello schema di impaginato.
