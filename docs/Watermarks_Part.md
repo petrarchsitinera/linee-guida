@@ -1,5 +1,5 @@
 # Watermarks Part
-**Watermarks Part** permette di identificare e descrivere le filigrane presenti nei manoscritti cartacei.
+**Watermarks Part** permette di identificare e descrivere le filigrane presenti nei manoscritti cartacei, riferendosi eventualmente ai repertori [Briquet](https://briquet-online.at/) e [Piccard](https://www.piccard-online.de/start.php).  
 
 La descrizione del modello è disponibile su [Github](https://github.com/vedph/cadmus-codicology#codwatermarkspart).
 
