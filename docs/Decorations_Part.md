@@ -74,7 +74,7 @@ La compilazione del campo è obbligatoria.
 
 #### EID
 Permette di attribuire un identificativo univoco all'artista, che può essere utilizzato per il collegamento con l'eventuale Item Person ad esso dedicato.  
-Se il copista coincide con una persona già schedata nel database di Itinera, si utilizza l'_eid_ dell'Item Person già esistente. Cercare l'item e copiarne [l'_eid_](identifiers.md), servendosi eventualmente dei [repository](repository.md) e della funzione di [lookup](lookup.md).   
+Se l'artista coincide con una persona già schedata nel database di Itinera, si utilizza l'_eid_ dell'Item Person già esistente. Cercare l'item e copiarne [l'_eid_](identifiers.md), servendosi eventualmente dei [repository](repository.md) e della funzione di [lookup](lookup.md).   
 
 Dal momento che i decoratori non sono oggetto di studio specifico da parte di Itinera, solo in numerati casi sarà loro dedicato un Item Person apposito; negli altri casi, se una risorsa esterna a Itinera contiene informazioni specifiche sul realizzatore della decorazione, si rimanda ad esse tramite il campo Ids (vedi sotto).
 
