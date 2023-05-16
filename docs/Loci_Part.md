@@ -76,11 +76,12 @@ Permette di inserire la lezione del manoscritto relativa al luogo critico.
 > * scioglimento delle abbreviazioni senza ricorso alle parentesi tonde;  
 > * distinzione tra _u_ e _v_ secondo l’uso moderno;
 > * unica forma breve di _-i_;
-> * mantenimento delle particolarità grafiche del testimone (es. _h_ etimologiche, nessi _-ct-_, _-pt-_, grafie _-ngn-_, _-lgl-_, _-ch-_, _x_, _ç_, etc.);
+> * riportare all'uso moderno la grafia di palatali e velari (es. _-ngn-_, _-lgl-_, _-ch-_);
+> * 🚧🚧🚧  mantenimento delle particolarità grafiche del testimone (es. _h_ etimologiche, nessi _-ct-_, _-pt-_, _x_, _ç_, etc.);
 > * non riportare l’eventuale presenza di segni diacritici e di punteggiatura del testimone;
 > * non utilizzare maiuscole.
 
-> Rappresentano **casi particolari**: 
+> 🚧 Rappresentano **casi particolari**: 
 > * in presenza di guasti materiali che compromettano la leggibilità del verso o di parte del verso corrispondente al locus, nel campo text la parte illeggibile si indica con […]; se è possibile integrare le lettere mancanti per congettura si indichino tra parentesi quadre; 
 > * in presenza di interventi correttori del copista come rasure, cancellature, lettere soprascritte, nel campo text si trascrive la lezione risultante dall’intervento e di seguito, tra parentesi quadre, la lezione precedente e la natura dell’intervento, ad esempio: “Fortuna ingiuriosa non contrasti [‘Furtuna’ con ‘o’ spscr. ]”.
 > * in presenza di postille che trasmettono varianti rispetto alla lezione presente a testo, nel campo text si trascrive la lezione a testo e di seguito, tra parentesi quadre, la variante, la posizione, la tipologia di richiamo, la mano responsabile, in questo modo: lezione testimone [‘variante’, posizione, richiamo, mano], ad esempio: “facti son i miei lauri or querce et olmi [‘spenti’, in margine, con segno di richiamo e introdotto da ‘al(iter)’, di mano sec. XVI (mano b)]”.
