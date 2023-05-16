@@ -466,8 +466,10 @@ Permette di indicare lo strumento con il quale è realizzata l'ornamentazione. S
 La compilazione del campo è facoltativa.
 
 ##### Positions
-Permette di indicare la posizione dell'ornamentazione attraverso un campo a testo libero.
- 
+Permette di indicare più opzioni relative alla posizione dell'ornamentazione.  
+Per ogni posizione, compilare il campo a testo libero e cliccare il tasto _+ add a new entry_.  
+È possibile, comunque, deselezionare l'opzione immessa, togliendo la spunta alla relativa casella.  
+
 La compilazione del campo è facoltativa.
 
 #### Description
