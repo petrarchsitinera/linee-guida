@@ -61,7 +61,8 @@ Permette di indicare la tecnica con la quale è stato eseguito l' _edit_. Selezi
 La compilazione del campo è facoltativa.
 
 ### Datation
-Permette di indicare l'epoca dell' _edit_, secondo il sottomodello _date_ del modello [Asserted Chronotope](Asserted_Chronotope_Brick.md). 
+Permette di indicare l'epoca dell' _edit_, secondo il sottomodello _date_ del modello [Asserted Chronotope](Asserted_Chronotope_Brick.md). Per accedere all'_editor_ della data cliccare nel riquadro corrispondente.  
+
 La compilazione del campo è facoltativa.
 
 ### Language
