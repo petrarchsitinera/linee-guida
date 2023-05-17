@@ -52,7 +52,8 @@ Le dimensioni di altezza e larghezza sono inserite, espresse in millimetri, attr
 La compilazione del campo è facoltativa.
 
 ### Chronotope 
-Qualora la filigrana rilevata sul manoscritto trovi riscontro in un repertorio (vedi External Id), indicare relativi data e luogo secondo il modello [Asserted Chronotope](Asserted_Chronotope_Brick.md).
+Qualora la filigrana rilevata sul manoscritto trovi riscontro in un repertorio (vedi External Id), indicare relativi data e luogo secondo il modello [Asserted Chronotope](Asserted_Chronotope_Brick.md).  
+Nel caso in cui i repertori forniscano due o più indicazioni di data e luogo, è possibile creare più elementi Asserted Chronotope.  
 
 La compilazione del campo è obbligatoria solo nel caso in cui sia stata compilata la sezione External Id.
 
