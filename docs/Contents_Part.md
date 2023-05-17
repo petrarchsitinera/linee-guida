@@ -97,7 +97,7 @@ La compilazione della sezione è facoltativa.
 #### Type
 Permette di indicare la tipologia della partizione testuale. Selezionare un valore tra: 
 
-* -
+* \-
 * rubrica
 * prefazione
 * dedica
@@ -116,11 +116,15 @@ La compilazione del campo è obbligatoria.
 
 #### Explicit
 Permette di registrare l'explicit della partizione testuale, in forma diplomatica.  
-La compilazione del campo è obbligatoria.
+La compilazione del campo è facoltativa.
 
 #### Text
 Permette di trascrivere per intero o parzialmente il contenuto della partizione testuale.  
-La compilazione del campo è obbligatoria.
+La compilazione del campo è facoltativa.
+
+#### Note
+Permette di fornire una descrizione generica dell'elemento.  
+La compilazione del campo è facoltativa.
 
 
 ## Save ⚠️ 
