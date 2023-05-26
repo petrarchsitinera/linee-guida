@@ -34,7 +34,7 @@ La compilazione del campo è obbligatoria.
 
 ### Title
 Permette di indicare il titolo del testo.  
-Il titolo del testo inserito deve coincidere con il nome dell'item, ovvero con quello riportato nel [**repository dei testi**](repository.md). Consultare le indicazioni riportate per il **title** dei testi in [Metadata](Item_Work_Metadata.md).
+Il **titolo del testo inserito deve coincidere con il nome dell'item**, ovvero con quello riportato nel [**repository dei testi**](repository.md). Consultare le indicazioni riportate per il **title** dei testi in [Metadata](Item_Work_Metadata.md).
 
 È possibile comunque indicare più titolazioni, se del caso, siano esse d'autore o meno. 
 
