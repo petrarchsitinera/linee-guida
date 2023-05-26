@@ -78,7 +78,7 @@ Nel caso in cui **non esistano ipotesi di identificazione** per il destinatario 
 > Per _Epystole_: Francesco Petrarca   
 > Per _Sen._ III 1: Francesco Petrarca a Giovanni Boccaccio  
 > Per _Mavortis milex_: Giovanni Boccaccio a Francesco Petrarca?  
-> Per _I’provai già quanto la soma è grave_: Antonio Beccari a Lancillotto Anguissola o Francesco Petrarca 
+> Per _I’provai già quanto la soma è grave_: Antonio Beccari a Lancillotto Anguissola o Francesco Petrarca   
 > Per _Fam._ VII 2: Francesco Petrarca ad un amico
 
 
