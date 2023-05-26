@@ -43,6 +43,9 @@ Per l'_eid_ degli _item text_, si ricorre al _title_ dell'_item_, sostituendo sp
 >  es. Rvf 84 > rvf_84    
 >  es. I’provai già quanto la soma è grave > i_provai   
 
+Anche nel caso di lettere di redazione gamma o beta, l'_eid_ corrisponde al titolo, opportunamente adattato alle regole di composizione: riporterà dunque per esteso l'indicazione della redazione, gamma o beta.  
+> es. Sen. II 1 gamma > sen_ii_1_gamma  
+
 Per l'_eid_ dei testi perduti si riccorre alla sigla "tp" seguita da underscore (\_) e dall'_eid_ del testo da cui si deduce l'esistenza del testo perduto.  
 > es. La lettera di Petrarca cui Francesco Nelli risponde con la lettera _Multa expectaram_ è perduta. Tale lettera sarà schedata in Itinera avendo come _eid_ : tp_multa_expectaram.  
 
