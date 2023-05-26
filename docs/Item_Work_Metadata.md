@@ -70,14 +70,15 @@ Inserire, nell'ordine
 1. nome dell'autore del testo (nella forma indicata nel [repository](repository.md));
 2. nel caso di testi di corrispondenza, nome dell'eventuale destinatario (nella forma indicata nel [repository](repository.md)), preceduto da 'a';
 
-Nel caso di lettere con più di un destinario, riportare i nomi di ciascun destinatario nell'ordine della rubrica, separati da **e**.  
+Nel caso di lettere con **più di un destinario**, riportare i nomi di ciascun destinatario nell'ordine della rubrica, separati da **e**.  
 Nel caso in cui l'autore e/o il destinatario del testo fosse **dubbio**, al nome segue il simbolo **?**.  
 Nel caso in cui esistano **più ipotesi di identificazione** per l'autore e/o il destinatario, si inseriscono tutti i nomi separati da **o**.  
 Nel caso in cui **non esistano ipotesi di identificazione** per il destinatario di una lettera, si procede a tradurre in italiano il nome del destinatario dichiarato nella rubrica del testo.
 
 > Per _Rvf_ 366: Francesco Petrarca  
 > Per _Epystole_: Francesco Petrarca   
-> Per _Sen._ III 1: Francesco Petrarca a Giovanni Boccaccio  
+> Per _Sen._ III 1: Francesco Petrarca a Giovanni Boccaccio   
+> Per _Fam._ XVI: Francesco Petrarca a Elie de Tayllerand e Gui de Boulogne  
 > Per _Mavortis milex_: Giovanni Boccaccio a Francesco Petrarca?  
 > Per _I’provai già quanto la soma è grave_: Antonio Beccari a Lancillotto Anguissola o Francesco Petrarca   
 > Per _Fam._ VII 2: Francesco Petrarca ad un amico
