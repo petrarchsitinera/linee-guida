@@ -31,6 +31,8 @@ Permette di inserire l’intestazione della lettera, in latino, nella forma acce
 
 La compilazione del campo è **obbligatoria** in presenza del dato. 
 
+⚠️ Per ragioni legate alla visualizzazione finale dei dati, l'intestazione della lettera non è **mai** seguita dal punto, nemmeno laddove il punto si trovi nell'edizione critica di riferimento.  
+
 ## Text date
 Permette di inserire la data della lettera, in latino, nella forma accertata dall’edizione critica o attestata nel manoscritto.
 
