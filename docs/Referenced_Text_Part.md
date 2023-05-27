@@ -31,7 +31,7 @@ La compilazione del campo è **obbligatoria**.
 
 ### Target citation
 Il campo è riservato **esclusivamente** ai testi citati (_type_ = "citazione di").    
-Compilare con il luogo del testo citato da cui è tratta la citazione, espresso indicando il paragrafo e/o il verso, non separati da virgole. Se si tratta di un intervallo, separare i numeri di paragrafo o di versi con un trattino.
+Compilare con il luogo del testo citato da cui è tratta la citazione, espresso indicando il libro, il paragrafo e/o il verso, non separati da virgole. Se si tratta di un intervallo, separare i numeri di paragrafo o di versi con un trattino.
  > Es.:  
  > XII 4 3  
  > I 1 65-68  
@@ -40,7 +40,7 @@ La compilazione del campo è obbligatoria per i testi citati (_type_ = "citazion
 
 ### Source
 Il campo è riservato **esclusivamente** ai testi citati (_type_ = "citazione di").  
-Compilare con il luogo del testo schedato in cui si trova la citazione, espresso indicando il libro e/o il paragrafo e/o il verso, non separati da virgole. Se si tratta di un intervallo, separare i numeri di paragrafo o di versi con un trattino.   
+Compilare con il luogo del testo schedato in cui si trova la citazione, espresso indicando il paragrafo e/o il verso, non separati da virgole. Se si tratta di un intervallo, separare i numeri di paragrafo o di versi con un trattino.   
 
 La compilazione del campo è obbligatoria per i testi citati (_type_ = "citazione di").
 
