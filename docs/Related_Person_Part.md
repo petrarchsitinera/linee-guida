@@ -40,10 +40,16 @@ La compilazione del campo è **obbligatoria** in presenza dei dati relativi.
 
 ### Name
 Il nome della persona nella forma presente a testo.  
+
 In presenza di più citazioni riferite ad una medesima persona, si privilegia la forma più esplicita, possibilmente il nome, normalizzata al **nominativo** se presente a testo in altri casi.    
+
 Nel caso di lettere perdute di cui si debba indicare il destinatario, essendo impossibile ricorrere alla forma del nome citato a testo, si inserisce il nome della persona nella forma indicata nel [repository dei nomi di persona](repository.md) **tra parentesi quadre**.
 
 > Es. [Francesco Petrarca]
+
+Nel caso in cui il testo schedato sia diretto o citi istituzioni o gruppi istituzionali, si adotta il nome italianizzato presente  nella rubrica del testo o a testo. Qualora fosse utile indicare uno o più membri di tali istituzioni o gruppi, è possibile inserirne gli identificativi nel campo _Ids_.
+
+> Es. La _Related person part_ di Fam. XI 5 avrà un elemento _related person_ in cui il _name_ con _type=destinatario_ coinciderà con "Fiorentini". Poiché in questo caso non è utile indicare la lista dei fiorentini ai quali Petrarca scrive, non occorre compilare il campo _Ids_.
 
 La compilazione del campo è **obbligatoria**.
 
