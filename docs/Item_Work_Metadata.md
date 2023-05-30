@@ -73,7 +73,8 @@ Inserire, nell'ordine
 Nel caso di lettere con **più di un destinario**, riportare i nomi di ciascun destinatario nell'ordine della rubrica, separati da **e**.  
 Nel caso in cui l'autore e/o il destinatario del testo fosse **dubbio**, al nome segue il simbolo **?**.  
 Nel caso in cui esistano **più ipotesi di identificazione** per l'autore e/o il destinatario, si inseriscono tutti i nomi separati da **o**.  
-Nel caso in cui **non esistano ipotesi di identificazione** per il destinatario di una lettera, si procede a tradurre in italiano il nome del destinatario dichiarato nella rubrica del testo.
+Nel caso in cui **non esistano ipotesi di identificazione** per il destinatario di una lettera, si procede a tradurre in italiano il nome del destinatario dichiarato nella rubrica del testo.  
+Nel caso in cui il testo schedato sia diretto o citi **istituzioni o gruppi istituzionali**, si adotta il nome italianizzato presente nella rubrica del testo o a testo
 
 > Per _Rvf_ 366: Francesco Petrarca  
 > Per _Epystole_: Francesco Petrarca   
@@ -81,7 +82,8 @@ Nel caso in cui **non esistano ipotesi di identificazione** per il destinatario 
 > Per _Fam._ XVI: Francesco Petrarca a Elie de Tayllerand e Gui de Boulogne  
 > Per _Mavortis milex_: Giovanni Boccaccio a Francesco Petrarca?  
 > Per _I’provai già quanto la soma è grave_: Antonio Beccari a Lancillotto Anguissola o Francesco Petrarca   
-> Per _Fam._ VII 2: Francesco Petrarca ad un amico
+> Per _Fam._ VII 2: Francesco Petrarca ad un amico  
+> Per _Fam._ XI 5: Francesco Petrarca ai fiorentini  
 
 
 ### Facet
