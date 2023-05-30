@@ -14,7 +14,7 @@ Nella lettera _Multa expectaram_ di Francesco Nelli, si dà notizia di un incont
 Per aggiungere la parte, selezionare **_letter_** dal menu a tendina, quindi cliccare su **_add part_**.
 
 ## Subject
-Permette di inserire un breve regesto del testo, chiaro e conciso. 
+Permette di inserire un breve regesto del contenuto del testo, chiaro e conciso.   
 Sono da evitare le frasi nominali e le abbreviazioni (ad es. "P." per "Petrarca"), come pure la ripetizione di dati già inseriti altrove nel modello: non è necessario, per esempio, riportare il nome delle persone citate, indicate in una parte apposita.  
 
 > Es. La lettera risponde ad un'altra perduta di Petrarca, che informava Francesco Nelli della morte di Giacomo da Carrara.
