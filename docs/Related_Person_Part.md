@@ -41,6 +41,9 @@ La compilazione del campo è **obbligatoria** in presenza dei dati relativi.
 ### Name
 Il nome della persona nella forma presente a testo.  
 In presenza di più citazioni riferite ad un sola persona, si privilegia la forma più esplicita, possibilmente il nome, normalizzata al **nominativo** se presente a testo in altri casi.    
+Nel caso di lettere perdute di cui si debba indicare il destinatario, essendo impossibile ricorrere alla forma del nome citato a testo, si inserisce il nome della persona nella forma indicata nel [repository dei nomi di persona](repository.md) **tra parentesi quadre**.
+
+> Es. [Francesco Petrarca]
 
 La compilazione del campo è **obbligatoria**.
 
