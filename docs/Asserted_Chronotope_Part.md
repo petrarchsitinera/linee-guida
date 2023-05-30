@@ -5,7 +5,9 @@ Ulteriori dati cronotopici relativi a eventuali invii, ricezioni, etc., vanno in
 
 La parte è strutturata secondo il modello [AssertedChronotope](Asserted_Chronotope_Brick.md). Per istruzioni sulla compilazione dei _chronotopes_, cliccare [qui](Asserted_Chronotope_Brick.md).  
 
-È possibile creare più _chronotopes_, a seconda della tipologia di datazione nota, qualificando ciascuno di essi attraverso il _tag_ dei campi _place_ e _date_.   
+È possibile creare più _chronotopes_, a seconda della tipologia di datazione nota, qualificando ciascuno di essi attraverso il _tag_ dei campi _place_ e _date_. 
+
+In presenza di più elementi _chronotope_, il compilatore **deve specificare** quale di essi sia da considerare quello di riferimento: deve quindi aggiungere ai _tag_ di _place_ e _date_ del _chronotope_ di riferimento la dicitura _principale_, separata da punto e virgola.    
 
 ⚠️ I _tag_ da compilare sono quelli relativi ai campi _place_ e _date_ (cerchiati in rosso nell'immagine), da non confondere con i _tag_ presenti nel riquadro delle _assertions_.  
 
