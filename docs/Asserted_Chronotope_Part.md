@@ -17,18 +17,18 @@ Per le lettere petrarchesche, compilare il campo _tag_ con **uno** dei seguenti 
 
 * stesura dichiarata: per il luogo e/o la data dichiarati in calce alla lettera, riportati al calendario gregoriano. In caso di date dichiarate comprensive soltanto di giorno e mese, compilare il campo _value_ con l'indicazione del secolo;  
 * stesura implicita: per il luogo e/o la data di cui gli elementi siano desunti, tutti o in parte, da elementi interni al testo o dalla posizione del testo all'interno della raccolta;  
-* stesura ricostruita: per il luogo e/o la data ricostruiti dalla critica, anche se eventualmente divergenti da quelli dichiarati e/o impliciti; 
+* stesura ricostruita: per il luogo e/o la data ricostruiti dalla critica, anche se eventualmente divergenti da quelli dichiarati e/o impliciti. In presenza di una stesura ricostruita è **sempre** obbligatoria l'indicazione della fonte del dato: se la fonte si riferisce sia al luogo sia alla data, essa va riportata in entambe le _assertion_.
 * altro: per elementi cronologici e termini _ante_ e _post quem_ desumibili dalla lettera, riferiti ad eventi o fatti storici puntuali utili alla datazione del testo stesso, anche in presenza di ipotesi di stesura più o meno certe. In questo caso, i termini cronologici da inserire **coincidono** con la data degli eventi o dei fatti puntuali riportati a testo.   
 
 Per le lettere non petrarchesche, compilare il campo _tag_ con **uno** dei seguenti valori:
 
 * stesura dichiarata: per il luogo e/o la data dichiarati in calce alla lettera, riportati al calendario gregoriano. In caso di date dichiarate comprensive soltanto di giorno e mese, compilare il campo _value_ con l'indicazione del secolo;   
-* stesura ricostruita: per il luogo e/o la data ricostruiti dalla critica, eventualmente divergenti da quelli dichiarati;   
+* stesura ricostruita: per il luogo e/o la data ricostruiti dalla critica, eventualmente divergenti da quelli dichiarati. In presenza di una stesura ricostruita è **sempre** obbligatoria l'indicazione della fonte del dato: se la fonte si riferisce sia al luogo sia alla data, essa va riportata in entambe le _assertion_.  
 * altro: per elementi cronologici e termini _ante_ e _post quem_ desumibili dalla lettera, riferiti ad eventi o fatti storici puntuali utili alla datazione del testo stesso, anche in presenza di ipotesi di stesura più o meno certe. In questo caso, i termini cronologici da inserire **coincidono** con la data degli eventi o dei fatti puntuali riportati a testo.
 
 Per le lettere perdute, compilare il campo _tag_ con **uno** dei seguenti valori:   
 
-* stesura ricostruita: per il luogo e/o la data di stesura ricostruita dalla critica;   
+* stesura ricostruita: per il luogo e/o la data di stesura ricostruita dalla critica. In presenza di una stesura ricostruita è **sempre** obbligatoria l'indicazione della fonte del dato: se la fonte si riferisce sia al luogo sia alla data, essa va riportata in entambe le _assertion_.  
 * altro: per termini _ante_ e _post quem_. Per le lettere perdutee è **sempre obbligatorio** inserire come termine _ante quem_ la data di stesura della lettera che costituisce la fonte di informazione sul testo perduto.
 
 
@@ -50,4 +50,4 @@ In nessun caso si potrà usare, ad esempio, il _tag_ "stesura ricostruita" per u
 > Es. stesura ricostruita; principale
 
 È **obbligatoria** la creazione di un _chronotope_ per la _stesura dichiarata_ e la _stesura implicita_ in presenza dei rispettivi dati. Essendo la fonte di tali dati il testo schedato, non è prevista la compilazione dell'_assertion_.   
-È possibile creare un _chronotope_ per ogni _stesura ricostruita_, cioè per ogni ipotesi critica avanzata nella letteratura.  
+È possibile creare un _chronotope_ per ogni _stesura ricostruita_, cioè per ogni ipotesi critica avanzata nella letteratura. In questi casi, la cmpilazione delle relative _asssertion_ è **sempre obbligatoria**.
