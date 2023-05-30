@@ -9,7 +9,7 @@ La parte è ripetibile per ogni tipologia di data e luogo da inserire e per ogni
 È possibile modificare, spostare, eliminare i singoli _chronotopes_ attraverso un [editor](Editor_Brick.md).  
 
 ## Place
-Permette di inserire le informazioni relative al luogo.
+Permette di inserire le informazioni relative al luogo.  
 
 * _tag_: può ospitare un'etichetta, variabile a seconda dell'item.
 * _place_: permette di indicare il luogo.  
@@ -22,6 +22,8 @@ Solo nel caso in cui sia possibile fornire un'indicazione topografica più preci
 > place= "Lazio"  
 > place= "Italia meridionale"  
 > place= "Firenze, carcere delle Stinche"  
+
+⚠️ I nomi di città o località vanno espressi di regola in italiano (es. Avignone). Qualora non esista o non sia in uso una forma italiana della città o della località da inserire, si ricorre alla lingua della medesima città o località (es. Clermont-Ferrand).   
 
 ## Date
 Permette di inserire le informazioni relative alla data. Per inserire una datazione occorre spuntare la casella **has date**.
