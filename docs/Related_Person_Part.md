@@ -13,7 +13,7 @@ Per ogni persona collegata si crea un elemento _person_ mediante [editor](Editor
 
 ⚠️ In presenza di più citazioni riferite ad un sola persona, si crea un unico elemento _person_, compilando il campo _name_ con la forma più esplicita, possibilmente il nome, normalizzata al **nominativo** se presente a testo in altri casi.  
 
-⚠️ Il destinatario del testo che sia citato, nella rubrica o a testo, anche attraverso pseudonimo va inserito **sia** come _destinatario_ (_type_=_destinatario_) **sia** come pseudonimo (_type_=_pseudonimo_). In questi casi esisteranno dunque un elemento _person_ che indica la persona come destinatario e un elemento _person_ che lo indica come _pseudonimo_. Nel caso in cui il destinatario risulti ulteriormente citato a testo **non** si procede aalla creazione di un ulteriore elemento _person_ con _type_=_citato_, come già indicato.
+⚠️ Il destinatario del testo che sia citato, nella rubrica o a testo, anche attraverso pseudonimo va inserito **sia** come _destinatario_ (_type_=_destinatario_) **sia** come pseudonimo (_type_=_pseudonimo_). In questi casi esisteranno dunque un elemento _person_ che indica la persona come destinatario e un elemento _person_ che lo indica come _pseudonimo_. Nel caso in cui il destinatario risulti ulteriormente citato a testo **non** si procede alla creazione di un ulteriore elemento _person_ con _type_=_citato_, come già indicato.
 
 ⚠️ Se una persona è citata sia attraverso uno pseudonimo sia con il nome proprio, registrare un'unica _person_ sotto _pseudonimo_. Sono da includere nei citati anche eventuali latori menzionati a testo, sia che si tratti di latori del testo schedato sia che si tratti di latori di altri testi.   
 
