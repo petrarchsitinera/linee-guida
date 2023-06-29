@@ -11,7 +11,7 @@ Il [Chronotope](Asserted_Chronotope_Brick.md) dell'evento coincide con il luogo 
     
 #### Famiglia
 Permette di inserire i membri della famiglia della persona schedata nell'_item_ (oltre al padre e alla madre, inseriti nell'evento _nascita_).   
-🚧 Il [Chronotope](Asserted_Chronotope_Brick.md) dell'evento coincide ...  
+Il [Chronotope](Asserted_Chronotope_Brick.md) dell'evento **non** va compilato.
 
 È obbligatorio indicare almeno un'entità _related_, scegliendo tra:
 * _figlio_: il figlio della persona schedata;
