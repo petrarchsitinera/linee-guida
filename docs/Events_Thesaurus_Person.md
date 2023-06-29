@@ -216,7 +216,7 @@ Nel caso di più destinatari o di più oggetti inviati afferenti ad un medesimo 
 
 È possibile indicare inoltre come entità _related_ l'eventuale _latore_, ove noto, ovvero la persona cui è affidata la trasmissione dell'oggetto. 
 
-⚠️ 🚧 _tag_ per invio+ricezione+consegna  
+⚠️ Nel caso in cui si conosca l'a di invio e ricezione ntera trafilsi debba inserire un viaggio di cui si conoscano le tappe, e qualora sia utile inserire ciascuna di esse, corredata dei relativi dati cronotopici, occorrerà inserire tanti eventi _viaggio_ quante sono le tappe. Ciascun evento sarà descritto singolarmente e identificato da un EID univoco, ma risulterà collegato agli altri attraverso l'inserimennto di un medesimo _tag_. Vedi [qui](Events_Part.md#-tag) per la compilazione del _tag_. 
 
 #### Ricezione   
 Permette di inserire la ricezione di un oggetto (testo, manoscritto, altro) da parte della persona schedata.
