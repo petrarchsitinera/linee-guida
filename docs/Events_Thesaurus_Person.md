@@ -188,7 +188,7 @@ Il [Chronotope](Asserted_Chronotope_Brick.md) dell'evento coincide con la meta e
 
 È possibile indicare come entità _related_ i _partecipanti_, quando al viaggio prendano parte altre persone. Per ogni _partecipante_, si procede alla creazione di un singolo elemento _related_.
 
-⚠️ Nel caso in cui si debba inserire un viaggio di cui si conoscano le tappe, e qualora sia utile inserire ciascuna di esse, corredata dei relativi dati cronotopici, occorrerà inserire tanti eventi _viaggio_ quante sono le tappe. Ciascun evento sarà descritto singolarmente e identificato da un EID univoco, ma risulterà collegato agli altri attraverso l'inserimennto di un medesimo _tag_. Vedi [qui](Events_Part.md#-tag) per la compilazione del _tag_. 
+⚠️ Nel caso in cui si debba inserire un viaggio di cui si conoscano le tappe, e qualora sia utile inserire ciascuna di esse, corredata dei relativi dati cronotopici, occorrerà inserire tanti eventi _viaggio_ quante sono le tappe. Ciascun evento sarà descritto singolarmente e identificato da un EID univoco, ma risulterà collegato agli altri attraverso l'inserimento di un medesimo _tag_. Vedi [qui](Events_Part.md#-tag) per la compilazione del _tag_. 
 
 #### Partecipazione  
 Permette di inserire la partecipazione della persona schedata ad eventi non altrimenti descritti dal thesaurus, come ad esempio un'ambasceria.
@@ -216,7 +216,7 @@ Nel caso di più destinatari o di più oggetti inviati afferenti ad un medesimo 
 
 È possibile indicare inoltre come entità _related_ l'eventuale _latore_, ove noto, ovvero la persona cui è affidata la trasmissione dell'oggetto. 
 
-⚠️ Nel caso in cui si conosca l'a di invio e ricezione ntera trafilsi debba inserire un viaggio di cui si conoscano le tappe, e qualora sia utile inserire ciascuna di esse, corredata dei relativi dati cronotopici, occorrerà inserire tanti eventi _viaggio_ quante sono le tappe. Ciascun evento sarà descritto singolarmente e identificato da un EID univoco, ma risulterà collegato agli altri attraverso l'inserimennto di un medesimo _tag_. Vedi [qui](Events_Part.md#-tag) per la compilazione del _tag_. 
+⚠️ Nel caso in cui l'invio inserito sia seguito da una ricezione accertata, occcorre inserire e descrivere ciascun evento singolarmente, assegnando ad ognuno di essi da un EID univoco. L'invio e la ricezione risulteranno collegati attraverso l'inserimento di un medesimo _tag_. Vedi [qui](Events_Part.md#-tag) per la compilazione del _tag_. 
 
 #### Ricezione   
 Permette di inserire la ricezione di un oggetto (testo, manoscritto, altro) da parte della persona schedata.
@@ -228,6 +228,8 @@ Nel caso di più mittenti o di più oggetti ricevuti afferenti ad un medesima ri
 
 È possibile indicare inoltre come entità _related_ l'eventuale _latore_, ove noto, ovvero la persona cui è affidata la trasmissione dell'oggetto.
 
+⚠️ Nel caso in cui la ricezione inserita proceda da un invio circostanzibile, occcorre inserire e descrivere ciascun evento singolarmente, assegnando ad ognuno di essi da un EID univoco. L'invio e la ricezione risulteranno collegati attraverso l'inserimento di un medesimo _tag_. Vedi [qui](Events_Part.md#-tag) per la compilazione del _tag_. 
+
 #### Scambio diretto  
 Permette di inserire lo scambio diretto di uno o più oggetti (testi, manoscritti, altro) tra la persona schedata e altri.
 
@@ -237,7 +239,7 @@ Il [Chronotope](Asserted_Chronotope_Brick.md) dell'evento coincide con il luogo 
 Nel caso più oggetti scambiati o di più destinatari si procede alla creazione di un singolo elemento _related_ per ognuno di essi.
 
 Nel caso di scambi reciproci, ogni scambio va registrato in un evento _scambio diretto_ singolo all'interno della _Events Part_ della persona da cui muove lo scambio.
-🚧 (esempio Barbato > Petrarca / Petrarca > Barbato)
+
 
 #### Trascrizione
 Permette di inserire la puntuale attività di trascrizione di un testo da parte di una persona.
