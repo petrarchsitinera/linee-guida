@@ -188,7 +188,7 @@ Il [Chronotope](Asserted_Chronotope_Brick.md) dell'evento coincide con la meta e
 
 È possibile indicare come entità _related_ i _partecipanti_, quando al viaggio prendano parte altre persone. Per ogni _partecipante_, si procede alla creazione di un singolo elemento _related_.
 
-⚠️ Nel caso in cui si debba inserire un viaggio di cui si conoscano le tappe, e qualora sia utile inserire ciascuna di esse, corredata dei relativi dati cronotopici, occorrerà inserire tanti eventi _viaggio_ quante sono le tappe. Ciascun evento sarà descritto singolarmente e identificato da un EID univoco, ma risulterà collegato agli altri attraverso l'inserimennto di un medesimo _tag_. Vedi [qui] (Events_Part.md#-tag) per la compilazione del _tag_. 
+⚠️ Nel caso in cui si debba inserire un viaggio di cui si conoscano le tappe, e qualora sia utile inserire ciascuna di esse, corredata dei relativi dati cronotopici, occorrerà inserire tanti eventi _viaggio_ quante sono le tappe. Ciascun evento sarà descritto singolarmente e identificato da un EID univoco, ma risulterà collegato agli altri attraverso l'inserimennto di un medesimo _tag_. Vedi [qui](Events_Part.md#-tag) per la compilazione del _tag_. 
 
 #### Partecipazione  
 Permette di inserire la partecipazione della persona schedata ad eventi non altrimenti descritti dal thesaurus, come ad esempio un'ambasceria.
