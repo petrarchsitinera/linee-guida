@@ -47,6 +47,11 @@ La compilazione del campo è **obbligatoria**.
 
 ### 🚧 Tag  
 Permette di inserire un'etichetta necessaria al raggruppamento di più eventi afferenti ad un medesimo macro-evento.
+regoe di compoizione = eid
+ma non deve coincidere > buon senso
+
+esempi viaggio e invio e ricezione
+ Di nssolito non va compilato, ma va compilato per i seguenti eventi, quando ecessario: viaggio, nvio-riczione
 
 > es. di utilizzo
 
@@ -64,7 +69,7 @@ Permette di inserire, in forma di testo libero, eventuali informazioni aggiuntiv
 ### Chronotope 
 Permette di indicare la data e il luogo dell'evento secondo il modello [Asserted Chronotope](Asserted_Chronotope_Brick.md).  
 
-🚧 L'elemento è replicabile, in presenza di più ipotesi concorrenti.  
+L'elemento è replicabile, in presenza di più ipotesi concorrenti.  
 ⚠️ Per indicare un intervallo di tempo utilizzare un unico elemento Chronotope.
 
 La compilazione del campo è obbligatoria.  
