@@ -47,32 +47,15 @@ La compilazione del campo è **obbligatoria**.
 
 ### Tag  
 
-Permette di assegnare un'etichetta all'evento **quando l'evento inserito sia da mettere in relazione logica con altri eventi collegati*** (p. es. più tappe di un unico viaggio, inserite singolarmente, un invio cui segue una ricezione, ecc.).  
+Permette di assegnare un'etichetta all'evento **quando l'evento inserito sia da mettere in relazione logica con altri eventi collegati** (p. es. più tappe di un unico viaggio, inserite singolarmente, un invio cui segue una ricezione, ecc.).  
 
-Stante l'ampia casistica coperta dagli eventi, è impossibile stabilire regole univoche per l'attribuzione di _tag_ che siano validi per tutti gli eventi. Occorre perciò fare appello al buon senso, componendo i _tag_ nel modo più chiaro ed esplicito possibile. Un _tag_ "parlante" facilita infatti i compilatori successivi eventualmente intressati a rintracciarlo. I _tag_ che raggruppino eventi logicamente connessi devono comunque dare conto dell'evento nel suo complesso. A seguire sono riportate le formule d adottare nei csi più
-Per un invio collegato ad una ricezione, ad esempio, si può ricorrere alla formula fissa "_scambio_ + [anno]"
-si ricorre ad una formula alle norme redazionali indicate per gli [qui](identifiers.md#regole-di-composizione-di-nuovi-eid), è buona norma comporre l'_eid_ con i seguenti elementi, separati da _underscore_:
-- sigla fissa della tipologia di evento (p. es. "viag" per "viaggio"; "inv" per "invio"; "nasc" per "nascita");
-- forma abbreviata del nome dell'entità o delle entità coinvolte;
-- anno dell'evento.
+Stante l'ampia casistica coperta dagli eventi, è impossibile stabilire regole univoche per l'attribuzione di _tag_ che siano validi per tutti gli eventi. Occorre perciò fare appello al buon senso, componendo i _tag_ nel modo più chiaro ed esplicito possibile. Un _tag_ "parlante" facilita infatti i compilatori successivi eventualmente intressati a rintracciarlo. I _tag_ che raggruppino eventi logicamente connessi devono comunque **dare conto del macroevento nel suo complesso**. A seguire sono riportate le etichette da adottare nei casi in cui l'uso dei _tag_ è più frequente.
 
-
-> Esempio.
-> Per l'incontro napoletano del 1343 tra Francesco Petrarca, Barbato da Sulmona e Giovanni Barrili, l'_eid_ da adottare sarà: "inc_barb_pet_gio_1343".
+- invio collegato a ricezione: "scambio + [anno]"
+- viaggio di cui sino state inserite più tappe: "viaggio a [destinazione finale + anno]"
 
 ⚠️⚠️⚠️ La compilazione del campo è **obbligatoria quando l'evento inserito sia da mettere in relazione logica con altri eventi collegati** .
 
-
-Permette di inserire un'etichetta necessaria al raggruppamento di più eventi afferenti ad un medesimo macro-evento.
-regoe di compoizione = eid
-ma non deve coincidere > buon senso
-
-esempi viaggio e invio e ricezione
- Di nssolito non va compilato, ma va compilato per i seguenti eventi, quando ecessario: viaggio, nvio-riczione
-
-> es. di utilizzo
-
-> criteri composizione tag
 
 ### Description
 Permette di inserire, in forma di testo libero, una descrizione breve e concisa dell'evento.  
