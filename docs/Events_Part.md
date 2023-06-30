@@ -58,7 +58,7 @@ Stante l'ampia casistica coperta dagli eventi, è impossibile stabilire regole u
 
 
 ### Description
-Permette di inserire, in forma di testo libero, una descrizione breve e concisa dell'evento.  
+Permette di inserire, in forma di testo libero, una descrizione dell'evento. La descrizione deve essere completa e dettagliata, riportando tutti gli elementi utili alla contestualizzazione dell'evento, compresi luoghi, date, eventuali altre persone coinvolte.
 ⚠️ Ogni frase deve essere chiusa da punto fermo.  
 
 La compilazione del campo è obbligatoria.
