@@ -14,7 +14,9 @@ Il [Chronotope](Asserted_Chronotope_Brick.md) dell'evento coincide con il luogo 
 * _allegato_.
 
 Nel caso di più mittenti, destinatari, latori o allegati afferenti ad un medesimo invio (con un medesimo con _Chronotope_), si procede alla creazione di un singolo elemento _related_ per ognuno di essi.  
-⚠️ 🚧 _tag_ per invio+ricezione+consegna  
+
+
+⚠️ Nel caso in cui l'invio inserito sia seguito da una ricezione accertata, occcorre inserire e descrivere ciascun evento singolarmente, assegnando ad ognuno di essi da un EID univoco. L'invio e la ricezione risulteranno collegati attraverso l'inserimento di un medesimo _tag_. Vedi [qui](Events_Part.md#-tag) per la compilazione del _tag_. 
 
 #### Ricezione  
 Permette di registrare la ricezione del testo da parte di una persona.  
@@ -28,7 +30,8 @@ Il [Chronotope](Asserted_Chronotope_Brick.md) dell'evento coincide con il luogo 
 * _allegato_.
 
 Nel caso di più mittenti, destinatari, latori o allegati afferenti ad un medesima ricezione (con un medesimo con _Chronotope_), si procede alla creazione di un singolo elemento _related_ per ognuno di essi.  
-⚠️ 🚧 _tag_ per invio+ricezione+consegna  
+
+⚠️ Nel caso in cui l'invio inserito sia seguito da una ricezione accertata, occcorre inserire e descrivere ciascun evento singolarmente, assegnando ad ognuno di essi da un EID univoco. L'invio e la ricezione risulteranno collegati attraverso l'inserimento di un medesimo _tag_. Vedi [qui](Events_Part.md#-tag) per la compilazione del _tag_. 
 
 #### Trascrizione
 Permette di registrare una trascrizione del testo.
@@ -38,6 +41,8 @@ Il [Chronotope](Asserted_Chronotope_Brick.md) dell'evento coincide con il luogo 
 È possibile indicare come entità _related_:  
 * la _copia_: il manoscritto che conserva la trascrizione, ove noto;
 * il _trascrittore_: l'esecutore della copia, ove noto;
+
+⚠️ Nel caso in cui la trascrizione proceda da una ricezione accertata, occcorre inserire e descrivere ciascun evento singolarmente, assegnando ad ognuno di essi da un EID univoco. La trascrizione e la ricezione (insieme eventulmente all'invio collegato a quest'ultima) risulteranno collegati attraverso l'inserimento di un medesimo _tag_. Vedi [qui](Events_Part.md#-tag) per la compilazione del _tag_. 
 
 #### Raccolta
 Permette di indicare quando il testo è parte di una raccolta d'autore.
