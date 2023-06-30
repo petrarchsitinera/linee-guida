@@ -1,4 +1,4 @@
-# Thesaurus eventi 🚧
+# Thesaurus eventi
 
 
 Il **thesaurus eventi**, unico per tutte le tipologie di _item_, è strutturato come un _thesaurus_ gerarchico.   
