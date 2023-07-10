@@ -20,10 +20,25 @@ Per gli Item Person relativi a soggetti storicamente esistiti ed individuabili s
 - **VIAF**
 - **ISNI** 
 
-Per recuperare **l'identificativo VIAF** è possibile ricorrere al [tool di ricerca](Asserted_Ids_Brick.md#tool-viaf) presente in Cadmus.  
+Per recuperare **l'identificativo VIAF** è possibile ricorrere al tool di ricerca (vedi sotto) presente in Cadmus.  
 
 Per **l'identificativo ISNI**, consultare il database disponibile a questo [link](https://isni.org/page/search-database/).  
 Individuato il record ISNI relativo alla persona, copiarne l'identificativo nel campo _value_.
+
+### Tool Viaf
+Per recuperare **l'identificativo VIAF** è possibile ricorrere ad un _tool_ di ricerca integrato.  
+Per usare il _tool_, è necessario attivare il _toogle tools_ dal menu orizzontale che si trova nella parte alta della schermata sulla destra. Il _tool_ è attivo quando il pulsante appare colorato come nell'immagine:  
+
+![](https://github.com/petrarchsitinera/linee-guida/blob/e4de2f4f2dca13dcba7beae653a386470c141348/docs/assets/images/tools_on.png?raw=true)   
+
+Una volta attivato il _tool_, sul lato sinistro della schermata appare l'editor che permette la ricerca di identificativi in _VIAF_.     
+
+![](https://github.com/petrarchsitinera/linee-guida/blob/32a21f598ab1973e807dff0be492e94d155e5c4c/docs/assets/images/tool_viaf.png?raw=true)   
+
+Per cercare un identificativo in VIAF, il compilatore digita nella barra di ricerca il nome della persona di interesse. Un menu a tendina mostra contestualmente i nomi presenti in VIAF. Selezionando il nome della persona desiderata, il sistema ne copia in automatico l'identificativo, che può così essere direttamente incollato nel campo _value_.     
+
+![](https://github.com/petrarchsitinera/linee-guida/blob/7de26f57ea824e0286a03b47055b362667dfcc73/docs/assets/images/tool_viaf2.png?raw=true)
+
 
 
 ## External IDs facoltativi
