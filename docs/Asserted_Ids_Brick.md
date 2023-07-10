@@ -62,32 +62,16 @@ A selezione avvenuta ne compariranno gli estremi (_label_ e _GID_) nella parte a
 La ricerca dell'_eid_ di un _element_ si effettua con le stesse modalità descritte sopra. Diversamente dalla ricerca dell'_eid_ di un _item_ converrà selezionare dal menu a tendina le parti opportune.  
 
 ### Altri identificativi Itinera
-### Identificativi esterni
+Selezionando il _flag_ "external" è possibile richiamare entità, dotate o meno di un identificativo all'interno di Itinera, per le quali non è prevista la compilazione di un _item_.  
+⚠️ Per verificare se a tali entità sia già stato attribuito un _eid_, consultare i [repository](repository.md).  
+⚠️ Se l'entità non dispone di un _eid_, crearlo secondo le norme di composizione degli [eid](identifiers.md) e segnalare l'aggiunta in [Clickup](https://app.clickup.com/) per permettere l'aggiornamento del [repository](repository.md).   
 
+Nella finestra _target_ compilare i campi:
+* _label_: inserire il nome dell'entità in forma _human-friendly_, secondo le norme indicate per i metadati degli item;
+* _GUID_: inserire l'_eid_ dell'entità.
 
-Per stabilire un collegamento con un'entità presente in una database esterno a Itinera, compilare i campi come segue:  
-
-* _id_:
-  * _tag_: lasciare vuoto;
-  * _scope_: indicare il nome della banca dati utilizzata;
-  * _value_: compilare con l'URI dell'entità nella banca dati utilizzata (per VIAF ricercabile attraverso un _tool_ specifico; cfr. infra);  
-* _assertion_: compilare secondo le modalità previste in [Assertion](Assertion_Brick.md);  
-
-#### Tool Viaf
-Per recuperare **l'identificativo VIAF** è possibile ricorrere ad un _tool_ di ricerca integrato.  
-Per usare il _tool_, è necessario attivare il _toogle tools_ dal menu orizzontale che si trova nella parte alta della schermata sulla destra. Il _tool_ è attivo quando il pulsante appare colorato come nell'immagine:  
-
-![](https://github.com/petrarchsitinera/linee-guida/blob/e4de2f4f2dca13dcba7beae653a386470c141348/docs/assets/images/tools_on.png?raw=true)   
-
-Una volta attivato il _tool_, sul lato sinistro della schermata appare l'editor che permette la ricerca di identificativi in _VIAF_.     
-
-![](https://github.com/petrarchsitinera/linee-guida/blob/32a21f598ab1973e807dff0be492e94d155e5c4c/docs/assets/images/tool_viaf.png?raw=true)   
-
-Per cercare un identificativo in VIAF, il compilatore digita nella barra di ricerca il nome della persona di interesse. Un menu a tendina mostra contestualmente i nomi presenti in VIAF. Selezionando il nome della persona desiderata, il sistema ne copia in automatico l'identificativo, che può così essere direttamente incollato nel campo _value_.     
-
-![](https://github.com/petrarchsitinera/linee-guida/blob/7de26f57ea824e0286a03b47055b362667dfcc73/docs/assets/images/tool_viaf2.png?raw=true)
-
-
+Cliccare quindi il tasto target per salvare la selezione.  
+A selezione avvenuta ne compariranno gli estremi (_label_ e _GID_) nella parte alta della finestra _target_.  
 
 
 ## Assertion
