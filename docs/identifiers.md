@@ -1,48 +1,11 @@
 # EID (_Entity Identifier_)
 
-Ad ogni _item_ e ad alcuni _elements_ è **assegnato da parte del compilatore** un **EID** (_Entity Identifier_), cioè un identificativo interno a Itinera e _human readable_, che ha la funzione di:  
+Ad ogni _item_ e ad alcuni _elements_ **deve essere assegnato** un **EID** (_Entity Identifier_), cioè un identificativo che ha la funzione di:  
 * identificare univocamente l'_item_ o _element_ all'interno del database;
-* richiamare l'_item_ o _element_ in un'altra parte del database;
+* eventualmente richiamare l'_item_ o _element_ in un'altra parte del database;
 * proiettare l'entità costituita dall'_item_ o _element_ sul [grafo semantico](semantic_graph.md).
 
 La documentazione tecnica relativa all'_eid_ è disponibile [qui](https://myrmex.github.io/overview/cadmus/dev/concepts/lookup).    
-
-## Modalità di inserimento
-
-### Item
-Ogni _item_ schedato in Itinera deve essere **obbligatoriamente** associato ad un _eid_.  
-Questo è registrato dal compilatore in [Metadata Part](Metadata_Part.md) sotto la voce _identifiers_.  
-⚠️ Il compilatore non deve confondere _eid_ e _title_ dell'_item_, che sono due proprietà diverse e con diverse funzioni.  
-
-![Compilazione dell'_eid_ di un _item_](https://github.com/petrarchsitinera/linee-guida/assets/123007762/114ab780-539a-4d8b-a806-b4ea7c304e42)  
-> Nell'immagine la compilazione dell'_eid_ di un _item_, redatto secondo le norme precisate oltre e inserito secondo le regole stabilite in [Metadata Part](Metadata_Part.md).
-
-Gli identificativi degli _item_ che fanno parte dei _corpora_ di Itinera sono già assegnati e consultabili nei [repository](repository.md).  
-
-Gli _eid_ delle persone sono consultabili nel [repository dei nomi persona](https://shortest.link/m1EA).  
-Gli _eid_ dei testi sono consultabili nel [repository dei testi](https://shortest.link/m1EQ).  
-Gli _eid_ dei manoscritti sono consultabili nel repository 🚧. 
-
-### Elements
-Ad alcuni _elements_ presenti in singole _parts_ può essere associato un _eid_, quando pertinente.  
-L'_eid_ è inserito come testo libero nel campo omonimo.  
-
-![image](https://github.com/petrarchsitinera/linee-guida/assets/123007762/f59bf8db-985a-42cc-a205-81fc8d9e1287)
-> Nell'immagine la compilazione dell'_eid_ di un _element_ _work_ della _Works Part_ di un _Item Person_: dal momento che in Itinera sono, di norma, provvisti di un _item_ i soli testi di corrispondenza con Petrarca, le altre opere di un autore schedato come _item Person_ sono elencate in questa _part_ e non dotate di un _item_ autonomo. L'assegnazione di un _eid_ garantisce la possibilità di richiamarle quando necessario.
-
-Fatte salve le regole di composizione degli _eid_, esposte di seguito, le modalità di assegnazione di un _eid_ ad un _element_ sono precisate nelle line guida delle relative _parts_.  
-Di seguito l'elenco degli _elements_ che prevedono l'assegnazione, facoltativa o obbligatoria, di un _eid_:
-🚧🚧🚧
-*PersonWorksPart, elemento [_works_]();
-*
-CodContentsPart.contents.eid
-CodDecorationsPart.decorations.eid
-CodDecorationsPart.decorations.artists.eid
-CodEditsPart.edits.eid
-CodHandsPart.hands.eid
-CodHandsPart.hands.description.signs.eid
-CodMaterialDscPart.units.eid
-🚧🚧🚧
 
 ## Regole di composizione
 Nel caso di nuove immissioni, gli _eid_ si attribuiscono secondo regole specifiche.  
@@ -57,7 +20,9 @@ Quando si renda necessario **creare** un nuovo _eid_, occorre attenersi alle seg
 
 ### Eid di persone
 Per l'_eid_ degli _item person_, si ricorre al nome della persona ponendo tutte le lettere in minuscolo e sostituendo eventuali spazi e segni di interpunzione con underscore (\_):  
-> es.  Giovanni dell’Incisa > giovanni_dell_incisa   
+> es.  Giovanni dell’Incisa > giovanni_dell_incisa  
+
+⚠️ Il nome della persona deve coincidere con quella riportata nel [repository](repository.md).  
 
 Per gli anonimi non esistono regole specifiche per l'attribuzione dell'_eid_. In linea generale, il compilatore assegna un _eid_ arbitrario componendolo nel modo più esplicito e parlante possibile. Il compilatore presterà la massima attenzione a verificare che l'anonimo inserito non corrisponda ad altro anonimo già presente nel database.  
 
@@ -81,4 +46,40 @@ Per l'_eid_ degli _item manuscript_, si indica sinteticamente la sigla della bib
 > es. bodl_can_it_66 🚧
 
 ### Eid di singoli _elements_
-Per gli _eid_ di singole parti (ad es. Events, Hands, Edits, etc.), consultare le linee guida delle relative _parts_.  
+Per gli _eid_ di singoli _elements_ (ad es. Events, Hands, Edits, etc.), consultare le linee guida delle relative _parts_.  
+
+## Modalità di inserimento
+
+### Item
+Ogni _item_ schedato in Itinera deve essere **obbligatoriamente** associato ad un _eid_.  
+Questo è registrato dal compilatore in [Metadata Part](Metadata_Part.md) sotto la voce _identifiers_.  
+⚠️ Il compilatore non deve confondere _eid_ e _title_ dell'_item_, che sono due proprietà diverse e con diverse funzioni.  
+
+![Compilazione dell'_eid_ di un _item_](https://github.com/petrarchsitinera/linee-guida/assets/123007762/114ab780-539a-4d8b-a806-b4ea7c304e42)  
+> Nell'immagine la compilazione dell'_eid_ di un _item_, redatto secondo le norme sopra indicata e inserito secondo le regole stabilite in [Metadata Part](Metadata_Part.md).
+
+Gli identificativi degli _item_ che fanno parte dei _corpora_ di Itinera sono già assegnati e consultabili nei [repository](repository.md).  
+
+Gli _eid_ delle persone sono consultabili nel [repository dei nomi persona](https://shortest.link/m1EA).  
+Gli _eid_ dei testi sono consultabili nel [repository dei testi](https://shortest.link/m1EQ).  
+Gli _eid_ dei manoscritti sono consultabili nel repository 🚧. 
+
+### Elements
+Ad alcuni _elements_ presenti in singole _parts_ può essere associato un _eid_, quando pertinente.  
+L'_eid_ è inserito come testo libero nel campo omonimo.  
+
+![image](https://github.com/petrarchsitinera/linee-guida/assets/123007762/f59bf8db-985a-42cc-a205-81fc8d9e1287)
+> Nell'immagine la compilazione dell'_eid_ di un _element_ _work_ della _Works Part_ di un _Item Person_: dal momento che in Itinera sono, di norma, provvisti di un _item_ i soli testi di corrispondenza con Petrarca, le altre opere di un autore schedato come _item Person_ sono elencate in questa _part_ e non dotate di un _item_ autonomo. L'assegnazione di un _eid_ garantisce la possibilità di richiamarle quando necessario.
+
+Fatte salve le regole di composizione degli _eid_, esposte sopra, le modalità di assegnazione di un _eid_ ad un _element_ sono precisate nelle line guida delle relative _parts_.  
+
+Di seguito l'elenco degli _elements_ che prevedono l'assegnazione, facoltativa o obbligatoria, di un _eid_:  
+* Person Works Part, elemento [_work_](Person_Works_Part.md#eid);
+* Material Description Part, elemento [_unit_](Material_Description_Part.md#eid).
+* Contents Part, elemento [_content_](Contents_Part.md#eid);
+* Hands Part, elemento [_hands_](Hands_Part.md#eid);
+* Hands Part, elemento [_sign_](Hands_Part.md#signs);
+* Edits Part, elemento [_edit_](Edits_Part.md#eid);
+* Decorations Part, elemento [_decoration_](Decorations_Part.md#id);
+* Decorations Part, elemento [_artist_](Decorations_Part.md#eid).
+
