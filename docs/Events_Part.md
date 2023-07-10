@@ -5,7 +5,10 @@
 * gli eventi relativi alla storia dei manoscritti;
 * gli invii, le ricezioni e le consegne dei testi di corrispondenza schedati.
 
+
 ⚠️ La descrizione analitica e il ricorso a tassonomie predefinite, che permettono l'indicizzazione automatica dei dati e la loro esportazione in più formati, richiedono la **massima attenzione** durante la compilazione, al fine di evitare errori a cascata.  
+
+⚠️⚠️⚠️ Il compilatore deve verificare sempre che un evento da inserire che coinvolga due o più entità non sia già stato inserito, o che, inserito, riporti dati corretti. È dunque **obbligatoria** la consultazione del [grafo semantico](semantic_graph.md) prima dell'inserimento di un qualsiasi evento.  
 
 La descrizione del modello è disponibile su [Github](https://github.com/vedph/cadmus-general#historicaleventspart).   
 
@@ -20,7 +23,7 @@ La schermata _related_, cui si accede attraverso il menu orizzontale in alto, pe
 
 <img width="930" alt="Schermata 2023-02-05 alle 18 27 46" src="https://user-images.githubusercontent.com/102725489/216835381-26a94505-55f8-4fcf-8b82-51ca0871c47d.png">
 
-⚠️⚠️⚠️ In Itinera, gli eventi che interessano più _item_, come ad esempio un incontro tra due persone schedate, vanno inseriti **una sola volta**. In questi casi, il compilatore deve perciò verificare sempre che l'evento non sia già stato inserito, ricorrrendo allo strumeento di [lookup](lookup.md) oppure consultando la _Events Part_ degli _item_ interessati dall'evento o il [grafo](semantic_graph.md).  
+⚠️⚠️⚠️ In Itinera, gli eventi che interessano più _item_, come ad esempio un incontro tra due persone schedate, vanno inseriti **una sola volta**. In questi casi, il compilatore deve perciò verificare sempre che l'evento non sia già stato inserito, consultando il [grafo](semantic_graph.md).  
 
 ### Eid
 Permette di assegnare un identificativo univoco all'evento. Ulteriori informazioni sull'_eid_ disponibili [qui](identifiers.md).
