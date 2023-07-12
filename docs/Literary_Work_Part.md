@@ -15,7 +15,7 @@ Per aggiungere la parte, selezionare **_info_** dal menu a tendina, quindi clicc
 ## Generale [General]
 
 ### Authors
-Permette di indicare l'autore del testo, secondo il modello [Asserted Id](Asserted_Ids_Brick.md).  
+Permette di indicare l'autore del testo, secondo il modello [Asserted Composite Id](Asserted_Ids_Brick.md).  
 Per individuare [l'_eid_](identifiers.md) di un autore schedato in Itinera, controllare sempre il [repository delle persone](repository.md).  
 Se l'autore è schedato come Item Person all'interno della banca dati, esso è conseguentemente provvisto di un [_eid_](identifiers.md). È possibile dunque cercare e richiamare l'_eid_ attraverso lo strumento di ricerca integrato in [Asserted Id](Asserted_Ids_Brick.md#target).  
 Nel caso in cui alla persona da inserire non sia già attribuito un _eid_, il compilatore dovrà selezionare il [flag _external_](Asserted_Ids_Brick.md#altri-identificativi-itinera), procedere all'assegnazione di un nuovo _eid_ seguendo le istruzioni indicate [qui](identifiers.md) e segnalarla su [Clickup](https://clickup.com/) per permettere l'aggiornamento del [repository](repository.md).  
