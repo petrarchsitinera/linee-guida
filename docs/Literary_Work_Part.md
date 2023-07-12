@@ -16,18 +16,17 @@ Per aggiungere la parte, selezionare **_info_** dal menu a tendina, quindi clicc
 
 ### Authors
 Permette di indicare l'autore del testo, secondo il modello [Asserted Id](Asserted_Ids_Brick.md).  
-Per individuare [l'_eid_](identifiers.md) di un autore schedato in Itinera, consultare il [repository delle persone](repository.md) o ricorrere alla funzione di [lookup](lookup.md).   
-Nel caso in cui alla persona da inserire non sia attribuito un _eid_, il compilatore procede ad assegnarne uno seguendo le istruzioni indicate [qui](identifiers.md). 
-
-⚠️ L'_eid_ deve essere copiate nel campo _value_.   
+Per individuare [l'_eid_](identifiers.md) di un autore schedato in Itinera, controllare sempre il [repository delle persone](repository.md).  
+Se l'autore è schedato come Item Person all'interno della banca dati, esso è conseguentemente provvisto di un [l'_eid_](identifiers.md). È possibile dunque cercare e richiamare l'_eid_ attraverso lo strumento di ricerca integrato in [Asserted Id](Asserted_Ids_Brick.md#target).  
+Nel caso in cui alla persona da inserire non sia già attribuito un _eid_, il compilatore dovrà selezionare il [flag _external_](Asserted_Ids_Brick.md#altri-identificativi-itinera) e procedere all'assegnazione di un nuovo _eid_ seguendo le istruzioni indicate [qui](identifiers.md). 
 
 > Tutti gli autori dispongono, di norma, di un Item Person dedicato. In caso contrario, e dopo aver verificato sui [repository](repository.md) è opportuno creare un Item Person dedicato e richiamarne l'_eid_ nel campo _author_.   
-> Se l'autore non è di interesse specifico di Itinera, è possibile evitare la creazione di un Item Person dedicato e inserire un identificativo convenzionale secondo le regole definite per gli [_eid_](identifiers.md).  
+> Se l'autore non è di interesse specifico di Itinera, è possibile evitare la creazione di un Item Person dedicato e inserire un [identificativo esterno](Asserted_Ids_Brick.md#altri-identificativi-itinera) secondo le regole definite per gli [_eid_](identifiers.md).   
 > Anche autori non identificati storicamente dispongono, di norma, di un Item Person dedicato. Se sussistono ipotesi di identificazione, queste sono registrate nella [_External Ids Part_ di tali _items_](External_Ids_Part_Person.md#soggetti-non-identificati-storicamente). Di conseguenza, occorre compilare il campo _author_ con l'identificativo dell'Item Person dedicato all'autore non storicamente identificato cui è attribuito il testo e NON con l'identificativo dell'Item Person con cui l'ignoto è identificato.  
 
 La sezione _assertion_ permette di precisare il grado di attendibilità dell'attribuzione, e di indicarne eventualmente le fonti.  
 
-Il campo _author_ è replicabile: permette infatti di dare conto di casi di autorialità multipla o contesa.  
+⚠️ Il campo _author_ è replicabile: permette infatti di dare conto di casi di autorialità multipla o contesa.  
 In questi casi creare più elementi _Asserted Id_, con i relativi _rank_ e fonti.
 
 La compilazione del campo è obbligatoria.
