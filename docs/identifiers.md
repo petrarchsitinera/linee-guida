@@ -2,7 +2,7 @@
 
 Ad ogni _item_ e ad alcuni _elements_ **deve essere assegnato** un **EID** (_Entity Identifier_), cioè un identificativo che ha la funzione di:  
 * identificare univocamente l'_item_ o _element_ all'interno del database;
-* eventualmente richiamare l'_item_ o _element_ in un'altra parte del database, attraverso la compilazione di un [_Asserted Composite Id_](Asserted_Ids_Brick.md#asserted-composed-id);
+* eventualmente richiamare l'_item_ o _element_ in un'altra parte del database, attraverso la compilazione di un [Asserted Composite Id](Asserted_Ids_Brick.md#asserted-composed-id);
 * proiettare l'entità costituita dall'_item_ o _element_ sul [grafo semantico](semantic_graph.md).
 
 La documentazione tecnica relativa all'_eid_ è disponibile [qui](https://myrmex.github.io/overview/cadmus/dev/concepts/lookup).    
