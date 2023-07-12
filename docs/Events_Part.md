@@ -90,15 +90,15 @@ Ogni elemento_related_ deve essere salvato cliccando il tasto di spunta blu a fi
 ⚠️ Un evento (_a_) inserito in un _item_ (_item_ 1) che abbia tra i _related_ un altro _item_ (_item_ 2) non **non deve essere inserito una seconda volta** nella _events Part_ di quest'ultimo, indipendentemente dalla tipologia di _item_ 1 e 2. Una volta salvato in _item_ 1, infatti, l'evento _a_ è subito e contestulmente proiettato sul [grafo](semantic_graph.md) a collegare _item_ 1 e _item_ 2. Va tuttavia specificato che l'evento _a_ non risulta visibile nella _events Part_ di _item_ 2. 
 
 
-
-
 #### Relation 
 Permette di indicare la tipologia della relazione tra l'entità e l'evento .  
 Per ulteriori chiarimenti sulle tipologie di eventi e sulle entità collegate cliccare [qui](Events_Thesaurus.md)
 
 #### Id
-Permette di indicare attraverso un identificativo l'entità collegata all'evento.  
-Se l'entità corrisponde a un Item Person, Work o Manuscript o a una _part_, copiarne [l'_eid_](identifiers.md), servendosi eventualmente dei [repository](repository.md) e della funzione di [lookup](lookup.md).   
+Permette di indicare l'entità collegata all'evento, secondo il modello [Asserted Id](Asserted_Ids_Brick.md).  
+Per individuare [l'_eid_](identifiers.md) di un'entità schedata in Itinera, controllare sempre i [repository](repository.md).  
+Se l'entità è schedata come Item all'interno della banca dati, essa è conseguentemente provvisto di un [_eid_](identifiers.md). È possibile dunque cercare e richiamare l'_eid_ attraverso lo strumento di ricerca integrato in [Asserted Id](Asserted_Ids_Brick.md#target).  
+Nel caso in cui all'entità da inserire non sia già attribuito un _eid_, il compilatore dovrà selezionare il [flag _external_](Asserted_Ids_Brick.md#altri-identificativi-itinera), procedere all'assegnazione di un nuovo _eid_ seguendo le istruzioni indicate [qui](identifiers.md) ed eventualmente segnalarla su [Clickup](https://clickup.com/) per permettere l'aggiornamento del [repository](repository.md).  
 
 
 ## Save ⚠️ 
