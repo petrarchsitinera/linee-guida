@@ -23,9 +23,10 @@ Permette di specificare il tipo di relazione che il testo schedato intrattiene c
 La compilazione del campo è **obbligatoria**.
 
 ### Target ID
-Compilare con l'identificativo del testo da inserire (testo di proposta o testo citato).    
-Per individuare l'identificativo ([_eid_](identifiers.md)) dei testi che fanno parte dei _corpora_ di Itinera,  consultare i [repository](repository.md) o ricorrere alla funzione di [lookup](lookup.md).   
-Se, diversamente, il testo non fa parte dei _corpora_ di Itinera, attribuire un _eid_ secondo le regole [per la composizione di nuovi _eid_](identifiers.md#regole-di-composizione-di-nuovi-eid) e segnalare l'aggiunta su clickup per permettere l'aggiornamento dei [repository](repository.md).  
+Permette di indicare l'identificativo del testo da inserire (testo di proposta o testo citato), secondo il modello [Asserted Id](Asserted_Ids_Brick.md).  
+Per individuare [l'_eid_](identifiers.md) di un testo schedato in Itinera, controllare sempre il [repository dei testi](repository.md).  
+Se il testo è schedato come Item Text all'interno della banca dati, esso è conseguentemente provvisto di un [_eid_](identifiers.md). È possibile dunque cercare e richiamare l'_eid_ attraverso lo strumento di ricerca integrato in [Asserted Id](Asserted_Ids_Brick.md#target).  
+Nel caso in cui al testo da inserire non sia già attribuito un _eid_, il compilatore dovrà selezionare il [flag _external_](Asserted_Ids_Brick.md#altri-identificativi-itinera), procedere all'assegnazione di un nuovo _eid_ seguendo le istruzioni indicate [qui](identifiers.md) e segnalarla su [Clickup](https://clickup.com/) per permettere l'aggiornamento del [repository](repository.md).  
 
 La compilazione del campo è **obbligatoria**.
 
