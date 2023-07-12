@@ -24,7 +24,7 @@ Creando un elemento _decoration_ si accede a una schermata da cui è possibile c
 
 
 ### ID
-Permette di attribuire un identificativo convenzionale all'apparato decorativo (_decoration_), che può essere richiamato in altre sezioni (_parts_) dell'_item_.
+Permette di attribuire un identificativo convenzionale all'apparato decorativo (_decoration_), che può essere richiamato in altre sezioni (_parts_) dell'_item_ mediante [Asserted Composite Id](Asserted_Ids_Brick.md).
 Per ogni apparato decorativo utilizzare l'etichetta convenzionale "dec" seguita senza spazi da un numero progressivo (es. "dec1", "dec2", etc.).  
 
 La compilazione del campo è obbligatoria.
@@ -74,7 +74,7 @@ La compilazione del campo è obbligatoria.
 
 #### EID
 Permette di attribuire un identificativo univoco all'artista, che può essere utilizzato per il collegamento con l'eventuale Item Person ad esso dedicato.  
-Se l'artista coincide con una persona già schedata nel database di Itinera, si utilizza l'_eid_ dell'Item Person già esistente. Cercare l'item e copiarne [l'_eid_](identifiers.md), servendosi eventualmente dei [repository](repository.md) e della funzione di [lookup](lookup.md).   
+Se l'artista coincide con una persona già schedata nel database di Itinera, si utilizza l'_eid_ dell'Item Person già esistente. Cercare l'item e copiarne [l'_eid_](identifiers.md), servendosi eventualmente dei [repository](repository.md) e del [tool di lookup](lookup_tool.md).   
 
 Dal momento che i decoratori non sono oggetto di studio specifico da parte di Itinera, solo in numerati casi sarà loro dedicato un Item Person apposito; negli altri casi, se una risorsa esterna a Itinera contiene informazioni specifiche sul realizzatore della decorazione, si rimanda ad esse tramite il campo Ids (vedi sotto).
 
@@ -89,7 +89,7 @@ Se l'artista non è noto, indicarlo mediante l'etichetta convenzionale "art" seg
 La compilazione del campo è obbligatoria.
 
 #### Ids
-Permette di collegare la scheda con eventuali risorse esterne dedicate all'artista (ad es. VIAF, DBI), secondo il modello [IDs brick](Asserted_Ids_Brick.md).
+Permette di collegare la scheda con eventuali risorse esterne dedicate all'artista (ad es. VIAF, DBI), secondo il modello [IDs brick](Asserted_Ids_Brick.md), selezionando il _flag_ _external_ nel campo _target_ come illustrato [qui](Asserted_Ids_Brick.md#altri-identificativi-itinera).  
 
 La compilazione del campo è facoltativa.
 
