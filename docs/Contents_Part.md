@@ -13,8 +13,8 @@ Per ogni testo è creato un elemento _content_ mediante un [editor](Editor_Brick
 ⚠️  Il contenuto di ampie miscellanee, in cui una chiara individuazione interna delle opere risulti troppo onerosa, è indicato da un titolo generale (nel campo _title_), ad es. "antologia poetica", "miscellanea religiosa". Ove sia possibile specificare determinate partizioni (es. sezioni d'autore in miscellanee poetiche), è possibile indicarle nella sezione _Annotations_.
 
 ### Eid
-Permette di attribuire o richiamare l'identificativo del testo.  
-Se il testo è schedato all'interno di Itinera, cercare l'item relativo e copiarne [l'_eid_](identifiers.md), servendosi eventualmente dei [repository](repository.md) e della funzione di [lookup](lookup.md). 
+Permette di attribuire un identificativo al testo.  
+Se il testo è schedato all'interno di Itinera, cercare l'item relativo e copiarne [l'_eid_](identifiers.md), servendosi eventualmente dei [repository](repository.md) e del [tool di lookup](lookup_tool.md). 
 Se il testo non è schedato all'interno di Itinera, lasciare vuoto.  
 
 ### Range
