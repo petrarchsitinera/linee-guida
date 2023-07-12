@@ -54,8 +54,10 @@ Permette di assegnare un'etichetta all'evento **quando l'evento inserito sia da 
 
 Stante l'ampia casistica coperta dagli eventi, è impossibile stabilire regole univoche per l'attribuzione di _tag_ che siano validi per tutti gli eventi. Occorre perciò fare appello al buon senso, componendo i _tag_ nel modo più chiaro ed esplicito possibile. Un _tag_ "parlante" facilita infatti i compilatori successivi eventualmente intressati a rintracciarlo. I _tag_ che raggruppino eventi logicamente connessi devono comunque **dare conto del macroevento nel suo complesso**. A seguire sono riportate le etichette da adottare nei casi in cui l'uso dei _tag_ è più frequente.
 
-- invio collegato a ricezione: "scambio + [anno]"
-- viaggio di cui sino state inserite più tappe: "viaggio a [destinazione finale + anno]"
+⚠️ Il _tag_ deve rispettare le medesime norme di compilazione degli [_eid_](identifiers.md).  
+
+- invio collegato a ricezione: "scambio_[anno]"
+- viaggio di cui sino state inserite più tappe: "viaggio_a_[destinazione finale]_[anno]"
 
 ⚠️⚠️⚠️ La compilazione del campo è **obbligatoria quando l'evento inserito sia da mettere in relazione logica con altri eventi collegati** .
 
