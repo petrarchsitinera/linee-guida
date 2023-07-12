@@ -54,13 +54,14 @@ Nel caso in cui il testo schedato sia diretto o citi istituzioni o gruppi istitu
 La compilazione del campo è **obbligatoria**.
 
 ### Ids 
-Permette di collegare il nome inserito ad una o più persone storicamente individuate. L'_eid_ deve essere copiato nel campo _value_; per la compilazione, vedi [Asserted Id](Asserted_Ids_Brick.md).   
-Ogni _id_ inserito in un singolo elemento _person_ costituisce una proposta di identificazione del _name_ relativo.   
+Permette di collegare il nome inserito ad una o più persone storicamente individuate, secondo il modello [Asserted Id](Asserted_Ids_Brick.md).  
+Per individuare [l'_eid_](identifiers.md) di una persona schedata in Itinera, controllare sempre il [repository delle persone](repository.md).  
+Se la persona è schedata come Item Person all'interno della banca dati, essa è conseguentemente provvista di un [_eid_](identifiers.md). È possibile dunque cercare e richiamare l'_eid_ attraverso lo strumento di ricerca integrato in [Asserted Id](Asserted_Ids_Brick.md#target).  
+Nel caso in cui alla persona da inserire non sia già attribuito un _eid_, il compilatore dovrà selezionare il [flag _external_](Asserted_Ids_Brick.md#altri-identificativi-itinera), procedere all'assegnazione di un nuovo _eid_ seguendo le istruzioni indicate [qui](identifiers.md) e segnalarla su [Clickup](https://clickup.com/) per permettere l'aggiornamento del [repository](repository.md).  
+   
+⚠️ Ogni _id_ inserito in un singolo elemento _person_ costituisce una proposta di identificazione del _name_ relativo.   
 
-⚠️ Più _id_ all'interno di un singolo elemento _person_ sono proposte di identificazione alternative del _name_ inserito, ciascuna eventualmente corredata di indice di affidabilità e fonti, secondo il modello [Asserted Id](Asserted_Ids_Brick.md).  
-
-Per individuare l'identificativo ([_eid_](identifiers.md)) delle persone che fanno parte dei _corpora_ di Itinera, consultare i [repository](repository.md) o ricorrere alla funzione di [lookup](lookup.md).   
-Se, diversamente, la persona non fa parte dei _corpora_ di Itinera, attribuire un _eid_ secondo le regole [per la composizione di nuovi _eid_](identifiers.md#regole-di-composizione-di-nuovi-eid) e segnalare l'aggiunta su clickup per permettere l'aggiornamento dei [repository](repository.md).  
+⚠️ Più _id_ all'interno di un singolo elemento _person_ sono proposte di identificazione alternative del _name_ inserito, ciascuna eventualmente corredata di indice di affidabilità e fonti, secondo il modello [Asserted Id](Asserted_Ids_Brick.md).    
 
 La compilazione del campo è **obbligatoria** in presenza dei dati relativi.  
 
