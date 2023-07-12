@@ -29,13 +29,29 @@ A sinistra della sezione dedicata ai nodi è disponibile un'interfaccia di ricer
 
 Nella colonna dedicata all'_item_ di interesse cliccare il primo comando a sinistra "walk node".  
 
-🚧 IMMAGINE 🚧
+![image](https://github.com/petrarchsitinera/linee-guida/assets/123007762/e4cadea8-5f79-4911-abf6-723425889843)
 
 Cliccando _walk node_ si accede alla sezione del walker, che mostra il nodo in questione e le relazioni che lo coinvolgono.  
+I riquadri colorati rappresentano le entità (che includono anche gli eventi), le linee rappresentano le relazioni che collegano le entità.  
 Il grafo è navigabile cliccando sui riquadri colorati, che riportano al loro interno il numero di entità ulteriormente collegate.  
-Per individuare la relazione di interesse tra quelle registrate sul grafo, il compilatore deve cliccare i riquadri colorati.   
 
-**Se l'evento risulta già inserito**, questo comparirà tra i nodi collegati alla entità. Selezionando il riquadro relativo e cliccando (🚧 + _shift_) sul tasto di spunta blu nella sezione a sinistra dello schermo ("pick selected node") è possibile accedere alla _Events Part_ dell'_item_ in cui l'evento è stato inserito. In questo caso il compilatore **deve** verificare la correttezza dei dati inseriti.  
+![image](https://github.com/petrarchsitinera/linee-guida/assets/123007762/7705ec30-829b-4bd4-af07-6cd98e08a8f0)
+
+Per individuare la relazione di interesse tra quelle registrate sul grafo, il compilatore deve cliccare i riquadri colorati.  
+⚠️ Le relazioni tra entità rappresentate sul grafo sono la traduzione in un'ontologia conforme a CIDOC-CRM dei dati inseriti nelle parti. La tabella di corrispondenza tra classi e predicati CIDOC-CRM e le entità e i thesauri di Itinera è disponibile [qui](tabella.md).  
+**Se l'evento risulta già inserito**, questo comparirà tra i nodi collegati alla entità.   
+> Nel caso in oggetto, la relazione tra la Fam. XXII 4 e l'evento "invio" è espressa dal predicato _p16\_used\_specific\_object_; cliccando il riquadro ad esso collegato viene mostrato l'evento "invio"; cliccando ulteriormente sono visualizzate le relazioni esistenti tra tale evento ed altre entità (mittente, destinatario, data, luogo, etc.), espresse [secondo le categorie dell'ontologia CIDOC-CRM](tabella.md).  
+
+![image](https://github.com/petrarchsitinera/linee-guida/assets/123007762/87c10d53-fc33-45e5-aeb4-951cd340294d)
+
+Selezionando il riquadro relativo all'evento "invio" e cliccando, tenendo premuto _shift_, sul tasto di spunta blu nella sezione a sinistra dello schermo ("pick selected node") è possibile accedere alla [Events Part](Events_Part.md) dell'_item_ in cui l'evento è stato inserito. 
+
+![image](https://github.com/petrarchsitinera/linee-guida/assets/123007762/5bd16340-77b5-4221-8ea3-a4801b87562f)
+
+Nella [Events Part](Events_Part.md) dell'_item_ il compilatore **deve** verificare la correttezza dei dati inseriti.  
+
+![image](https://github.com/petrarchsitinera/linee-guida/assets/123007762/e5a5feee-2883-4b85-9473-f8c386c04009)
+
 ⚠️ La revisione di dati già inseriti da un altro compilatore, va segnalata al responsabile della scheda e ai revisori, che provvederanno ad aggiornarla e correggerla ove necessaria.  
 
-**Se l'evento non risulta già inserito**, il compilatore può procedere alla creazione dell'evento relativo.
+**Se l'evento non risulta già inserito** (cioè non appare nel grafo semantico tra le entità collegate a Fam. XXII 4) il compilatore può procedere alla creazione dell'evento relativo.
