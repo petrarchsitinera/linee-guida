@@ -2,37 +2,6 @@
 
 Di seguito sono elencate le tipologie di evento (_type_) relativi ai manoscritti e le tipologie di entità collegate (_related entities_).  
 
-
-#### Invio 
-Permette di registrare l'invio del manoscritto.
-
-Il [Chronotope](Asserted_Chronotope_Brick.md) dell'evento coincide con il luogo e la data dell'invio.   
-
-È possibile indicare come entità _related_:  
-* _mittente_;  
-* _destinatario_;  
-* _latore_.  
-
-#### Ricezione  
-Permette di registrare la ricezione del manoscritto da parte di una persona.  
-
-Il [Chronotope](Asserted_Chronotope_Brick.md) dell'evento coincide con il luogo e la data della ricezione.   
-
-È possibile indicare come entità _related_:  
-* _mittente_;  
-* _destinatario_;  
-* _latore_.  
-
-#### Consegna  
-Permette di registrare la consegna del manoscritto da parte di una persona ad un'altra.  
-
-Il [Chronotope](Asserted_Chronotope_Brick.md) dell'evento coincide con il luogo e la data della consegna.   
-
-È possibile indicare come entità _related_:  
-* _mittente_;  
-* _destinatario_;  
-* _latore_.  
-
 #### Scrittura
 Permette di stabilire una corrispondenza tra una delle mani che copia il codice, inserite in [Hands Part](Hands_Part.md), e un copista noto.  
 
@@ -106,7 +75,47 @@ Il [Chronotope](Asserted_Chronotope_Brick.md) dell'evento coincide con il luogo 
 
 Indicare come entità _related_: 
 * _acquirente_: la persona o ente che acquista il manoscritto;  
-* _venditore_: la persona o ente che vende il manoscritto.  
+* _venditore_: la persona o ente che vende il manoscritto.
+
+#### Invio 
+Permette di registrare l'invio del manoscritto.
+
+Il [Chronotope](Asserted_Chronotope_Brick.md) dell'evento coincide con il luogo e la data dell'invio.   
+
+È possibile indicare come entità _related_:  
+* _mittente_;  
+* _destinatario_;  
+* _latore_;
+* _allegato_.
+
+Nel caso di più mittenti, destinatari, latori o allegati afferenti ad un medesimo invio (con un medesimo con _Chronotope_), si procede alla creazione di un singolo elemento _related_ per ognuno di essi.  
+
+⚠️ Nel caso in cui l'invio inserito sia seguito da una ricezione accertata, occcorre inserire e descrivere ciascun evento singolarmente, assegnando ad ognuno di essi da un EID univoco. L'invio e la ricezione risulteranno collegati attraverso l'inserimento di un medesimo _tag_. Vedi [qui](Events_Part.md#-tag) per la compilazione del _tag_. 
+
+#### Ricezione  
+Permette di registrare la ricezione del manoscritto da parte di una persona.  
+
+Il [Chronotope](Asserted_Chronotope_Brick.md) dell'evento coincide con il luogo e la data della ricezione.   
+
+È possibile indicare come entità _related_:  
+* _mittente_;  
+* _destinatario_;  
+* _latore_.  
+
+#### Scambio diretto  
+Permette di inserire lo scambio diretto di un manoscritto tra due persone.
+
+Il [Chronotope](Asserted_Chronotope_Brick.md) dell'evento coincide con il luogo e la data dello scambio.   
+
+È possibile indicare come entità _related_:  
+* _consegna_: la persona che cede l'oggetto scambiato;  
+* _destinatario_: la persona che riceve l'oggetto scambiato. 
+* _allegato_: eventuali altri oggetti scambiati.
+
+⚠️ Nel caso di scambi reciproci, cioè quando in un'unica occasione sono scambiati più oggetti da parte dei partecipanti allo scambio, occorre creare più eventi _scambio diretto_ all'interno della _Events Part_ della persona da cui muove lo scambio o all'interno della _Events Part_ degli oggetti scambiati (specificando i ruoli dei partecipanti). In questi casi occorrerà compilare il campo _tag_ di ogni evento con un identificativo unico, così da permettere di ricondurre tutti gli scambi alla medesima occasione.
+
+> es. 
+
 
 #### Restauro
 Permette di registrare gli interventi di restauro del manoscritto.
