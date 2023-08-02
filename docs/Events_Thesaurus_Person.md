@@ -45,14 +45,15 @@ Per ogni evento 'professione', il compilatore deve selezionare una voce tra quel
 * _cardinale_: se la persona è nominata cardinale; 
 * _vescovo_: se la persona è nominata vescovo;
 * _frate_: se la persona è membro di un ordine religioso;
-* _monaco_: se la peroa è un monaco;
+* _monaco_: se la persona è un monaco;
 * _priore_: se la persona è nominata priore;
 * _canonico_: se la persona è nominata canonico;
+* _imperatore_: se la persona è un imperatore, a seguito di nomina, elezione o altro;
 * _sovrano_: se la persona è un sovrano, a seguito di nomina, elezione o altro;
-* _imperatore_: se la persona è un imperatore, a seguito di nomina, elezione o altro.
 * _duca_: se la persona è un duca, a seguito di nomina, elezione o altro;
 * _conte_: se la persona è un conte, a seguito di nomina, elezione o altro;
 * _principe_: se la persona è un principe;
+* _cavaliere_: se la persona è un cavaliere;
 * _uomo politico_: se la persona esercita regolarmente attività politica all'interno di gerarchie laiche, quando non sia possibile precisare ulteriormente tale attività selezionando altre voci del _thesaurus_ (es. cancelliere, segretario, ecc.);
 * _maestro_: se la persona esercita la professione di maestro di scuola o una generica attività didattica, anche privatamente.  
   ⚠️ Nel caso in cui la persona abbia esercitato la funzione di maestro nei confronti di un'altra persona, occorre procedere alla creazione di un secondo evento _maestro di_.   
