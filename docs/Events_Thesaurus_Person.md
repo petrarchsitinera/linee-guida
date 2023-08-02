@@ -213,7 +213,8 @@ Permette di inserire l'invio di un oggetto (testo, manoscritto, altro) da parte 
 Il [Chronotope](Asserted_Chronotope_Brick.md) dell'evento coincide con il luogo e la data dell'invio.   
 
 È obbligatorio indicare come _related_ almeno un'entità tra _destinatario_ e _oggetto inviato_.  
-Nel caso di più destinatari o di più oggetti inviati afferenti ad un medesimo invio (con un medesimo con _Chronotope_), si procede alla creazione di un singolo elemento _related_ per ognuno di essi.
+Nel caso di più destinatari afferenti ad un medesimo invio (con un medesimo con _Chronotope_), si procede alla creazione di un singolo elemento _related_ per ognuno di essi.
+Nel caso di più oggetti inviati afferenti ad un medesimo invio (con un medesimo con _Chronotope_), si procede alla creazione di un singolo elemento _related_ per ognuno di essi (indicandolo come _oggetto inviato_ o _allegato_.   
 
 È possibile indicare inoltre come entità _related_ l'eventuale _latore_, ove noto, ovvero la persona cui è affidata la trasmissione dell'oggetto. 
 
@@ -225,11 +226,24 @@ Permette di inserire la ricezione di un oggetto (testo, manoscritto, altro) da p
 Il [Chronotope](Asserted_Chronotope_Brick.md) dell'evento coincide con il luogo e la data della ricezione.   
 
 È obbligatorio indicare come _related_ almeno un'entità tra _mittente_ e _oggetto ricevuto_ .   
-Nel caso di più mittenti o di più oggetti ricevuti afferenti ad un medesima ricezione (con un medesimo con _Chronotope_), si procede alla creazione di un singolo elemento _related_ per ognuno di essi.
+Nel caso di più mittenti afferenti ad un medesima ricezione (con un medesimo con _Chronotope_), si procede alla creazione di un singolo elemento _related_ per ognuno di essi.
+Nel caso di più oggetti ricevuti afferenti ad un medesima ricezione (con un medesimo con _Chronotope_), si procede alla creazione di un singolo elemento _related_ per ognuno di essi (indicandolo come _oggetto ricevuto_ o _allegato_).
 
 È possibile indicare inoltre come entità _related_ l'eventuale _latore_, ove noto, ovvero la persona cui è affidata la trasmissione dell'oggetto.
 
 ⚠️ Nel caso in cui la ricezione inserita proceda da un invio circostanzibile, occcorre inserire e descrivere ciascun evento singolarmente, assegnando ad ognuno di essi da un EID univoco. L'invio e la ricezione risulteranno collegati attraverso l'inserimento di un medesimo _tag_. Vedi [qui](Events_Part.md#-tag) per la compilazione del _tag_. 
+
+
+#### Consegna  
+Permette di registrare uno scambio epistolare a partire dal latore.  
+
+Il [Chronotope](Asserted_Chronotope_Brick.md) dell'evento coincide con il luogo e la data della consegna.   
+
+È possibile indicare come entità _related_: _mittente_; _destinatario_; _oggetto consegnato_; _allegato_.  
+
+Nel caso di più mittenti, destinatari, latori o allegati afferenti ad un medesima consegna (con un medesimo con _Chronotope_), si procede alla creazione di un singolo elemento _related_ per ognuno di essi.  
+
+⚠️ Se si conoscono i dati relativi all'invio o alla ricezione agli estremi dello scambio in oggetto, è preferibile compilare eventi _invio_ o _ricezione_, che dovranno essere inseriti nella _Events Part_ del mittente o del destinatario, indicando tra i _related_ il latore.  
 
 #### Scambio diretto  
 Permette di inserire lo scambio diretto di uno o più oggetti (testi, manoscritti, altro) tra la persona schedata e altri.
