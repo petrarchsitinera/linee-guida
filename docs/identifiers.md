@@ -80,6 +80,7 @@ Di seguito l'elenco degli _elements_ che prevedono l'assegnazione, facoltativa o
 * Hands Part, elemento [_hands_](Hands_Part.md#eid);
 * Hands Part, elemento [_sign_](Hands_Part.md#signs);
 * Edits Part, elemento [_edit_](Edits_Part.md#eid);
+* Events Part, elemento [_event_](Events_Part.md#eid);
 * Decorations Part, elemento [_decoration_](Decorations_Part.md#id);
 * Decorations Part, elemento [_artist_](Decorations_Part.md#eid).
 
