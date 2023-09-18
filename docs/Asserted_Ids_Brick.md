@@ -39,7 +39,7 @@ L'_eid_ di un _item_ può essere cercato in più modi. La modalità principale, 
 Selezionare l'_item_ di interesse.  
 Nel campo _part_ selezionare la parte a cui si intende restringere la ricerca - nel caso dell'_eid_ dell'_item_ selezionare _Metadata Part_.  
 Nel campo _pin_ iniziare a digitare l'_eid_, e, una volta individuato quello di interesse, selezionarlo cliccandolo.  
-Cliccare quindi il tasto _target_ per salvare la selezione.  
+Cliccare quindi sulla spunta blu del tasto _target_ per salvare la selezione.  
 A selezione avvenuta ne compariranno gli estremi (_label_ e _GID_) nella parte alta della finestra _target_.  
 
 ![image](https://github.com/petrarchsitinera/linee-guida/assets/123007762/c0c83618-b29a-4393-955a-0183e7d1573e)
