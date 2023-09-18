@@ -20,16 +20,16 @@ Ogni elemento _id_ è composto dai seguenti campi:
 Lasciare vuoto.
 
 ### Scope
-Permette di indicare di indicare il nome della banca dati utilizzata (es. VIAF o ISNI), **quando l'identificativo è esterno a Itinera**.    
-
+Permette di indicare di indicare il nome della banca dati utilizzata (es. VIAF o ISNI), quando l'identificativo è **esterno a Itinera**.    
 
 ⚠️⚠️⚠️ Il campo **NON** va compilato quando si inseriscono identificativi Itinera. ⚠️⚠️⚠️
+
 
 ### Target
 Il campo _target_ permette di selezionare o di inserire manualmente l'identificativo di interesse. La compilazione varia a seconda che l'identificativo sia esterno o interno ad Itinera. L'editor è impostato di default su _external_.  
 
 #### Identificativi di _item_ già presenti in Itinera
-Per inserire un identificativo interno a Itinera, il _flag_ "external" deve essere deselezionato.
+Per inserire un identificativo interno a Itinera, il _flag_  _external_ **deve** essere deselezionato.
 Con questa modalità è possibile ricercare l'identificativo di un'entità già presente all'interno del database.
 
 ##### Ricerca dell'_eid_ di un _item_
