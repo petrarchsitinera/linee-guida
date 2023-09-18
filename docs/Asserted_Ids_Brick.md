@@ -21,7 +21,9 @@ Lasciare vuoto.
 
 ### Scope
 Permette di indicare di indicare il nome della banca dati utilizzata (es. VIAF o ISNI), **quando l'identificativo è esterno a Itinera**.    
-⚠️ Non compilare quando si inseriscono identificativi Itinera.
+
+
+⚠️⚠️⚠️ Il campo **NON** va compilato quando si inseriscono identificativi Itinera. ⚠️⚠️⚠️
 
 ### Target
 Nella finestra _target_ è possibile selezionare o inserire l'identificativo di interesse.  
