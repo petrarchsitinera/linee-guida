@@ -33,8 +33,7 @@ Per inserire un identificativo interno a Itinera, il _flag_  _external_ **deve**
 Con questa modalità è possibile ricercare l'identificativo di un'entità già presente all'interno del database.
 
 ##### Ricerca dell'_eid_ di un _item_
-Per cercare e richiamare l'_eid_ di un _item_ il compilatore può seguire più strade.  
-La modalità principale, presentata di seguito, è quella da preferirsi per evitare errori di identificazione e/o di selezione.
+L'_eid_ di un _item_ può essere cercato in più modi. La modalità principale, presentata di seguito, è quella da preferirsi per evitare errori di identificazione e/o di selezione.
 
 **1)** Nel campo _item_ iniziare a digitare il titolo dell'_item_ di interesse.  
 Selezionare l'_item_ di interesse.  
