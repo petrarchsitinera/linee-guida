@@ -1,6 +1,6 @@
 # Asserted Composite Id
 
-**Asserted Composite Ids** permette di richiamare uno o più identificativi, interni ([_eid_](identifiers.md)) o esterni a Itinera qualificando il richiamo con evenutali indici di affidabilità e fonti a sostegno attraverso l'[Assertion](Assertion_Brick.md);  
+**Asserted Composite Ids** permette di richiamare uno o più identificativi, siano interni ([_eid_](identifiers.md)) o esterni a Itinera, qualificando il richiamo con evenutali indici di affidabilità e fonti a sostegno attraverso la compilazione dell'[Assertion](Assertion_Brick.md);  
 
 È possibile creare tanti _Asserted Composite Ids_ quante sono le identificazioni da inserire.  
 
