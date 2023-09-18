@@ -62,14 +62,15 @@ A selezione avvenuta ne compariranno gli estremi (_label_ e _GID_) nella parte a
 ##### Ricerca dell'_eid_ di un _element_
 La ricerca dell'_eid_ di un _element_ si effettua con le stesse modalità descritte sopra. Diversamente dalla ricerca dell'_eid_ di un _item_ converrà selezionare dal menu a tendina le parti opportune.  
 
-#### Altri identificativi Itinera
-Selezionando il _flag_ "external" è possibile richiamare entità, dotate o meno di un identificativo all'interno di Itinera, per le quali non è prevista la compilazione di un _item_.  
+
+#### Altri identificativi
+Selezionando il _flag_ "external" è possibile richiamare entità per le quali non è prevista la compilazione di un _item_.  
 ⚠️ Per verificare se a tali entità sia già stato attribuito un _eid_, consultare i [repository](repository.md).  
 ⚠️ Se l'entità non dispone di un _eid_, crearlo secondo le norme di composizione degli [eid](identifiers.md) e segnalare l'aggiunta in [Clickup](https://app.clickup.com/) per permettere l'aggiornamento del [repository](repository.md).   
 
 Nella finestra _target_ compilare i campi:
 * _label_: inserire il nome dell'entità in forma _human-friendly_, secondo le norme indicate per i metadati degli item;
-* _GUID_: inserire l'_eid_ dell'entità.
+* _GUID_: inserire l'_eid_ dell'entità attribuito secondo le norme di composizione degli [eid](identifiers.md).
 
 Cliccare quindi il tasto target per salvare la selezione.  
 A selezione avvenuta ne compariranno gli estremi (_label_ e _GID_) nella parte alta della finestra _target_.  
