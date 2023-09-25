@@ -1,5 +1,5 @@
 # Creare, modificare, eliminare _items_
-Dopo aver effettuato l'accesso con le proprie credenziali dalla _home_ della [banca dati] (https://itinera.unisi.it:8443/#/home), cliccare _items_ dal menu nella parte alta della schermata per aprire la pagina di riepilogo degli _item_.  
+Dopo aver effettuato l'accesso con le proprie credenziali dalla _home_ della [banca dati](https://itinera.unisi.it:8443/#/home), cliccare _items_ dal menu nella parte alta della schermata per aprire la pagina di riepilogo degli _item_.  
 
 Per creare un nuovo _item_, cliccare sul comando _+ add item_ in basso a sinistra nella schermata.  
 
