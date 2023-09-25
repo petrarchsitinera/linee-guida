@@ -70,7 +70,7 @@ Il [Chronotope](Asserted_Chronotope_Brick.md) dell'evento va compilato **solo** 
 Permette di indicare quando il testo è la redazione precedente di un altro testo (ad es. _Sen_. XIII 11 gamma è redazione precedente di _Sen_. XIII 11).  
 
 La compilazione della _description_ è riservata a casi di particolare interesse o complessità, come per esempio lettere notevolmente rimaneggiate e/o smembrate a formare nuovi testi.  In tutti gli altri casi, la _description_ non va compilata.   
-Il [Chronotope](Asserted_Chronotope_Brick.md) dell'evento coincide con il luogo e la data della stesura del testo.
+Il [Chronotope](Asserted_Chronotope_Brick.md) dell'evento coincide con il luogo e la data della stesura del testo, quando nota.
 
 È obbligatorio indicare tra le entità _related_:  
 * _precedente di_: la redazione successiva del testo schedato.
