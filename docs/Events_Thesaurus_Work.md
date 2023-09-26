@@ -59,9 +59,9 @@ Il [Chronotope](Asserted_Chronotope_Brick.md) dell'evento coincide con il luogo 
 
 #### Raccolta
 Permette di fornire informazioni sull'ingresso di un testo in una raccolta.   
-La compilazione è limitata a casi in cui sia nota, più o meno certamente, la data dell'ingresso del testo in una raccolta e/o dell'uscita, o a casi di particolare interesse o complessità (come, per esempio, di lettere transitate da una raccolta all'altra, o di testi inizialmente inclusi e poi rifiutati nelle stesse).  
+La compilazione della **description** e dei **Chronotopes** è limitata a casi in cui sia nota, più o meno certamente, la data dell'ingresso e/o dell'uscita del testo in/da una raccolta, o a casi di particolare interesse o complessità (come, per esempio, di lettere transitate da una raccolta all'altra, o di testi inizialmente inclusi e poi rifiutati nelle stesse).  
 
-Il [Chronotope](Asserted_Chronotope_Brick.md) dell'evento va compilato **solo** nel caso in cui sia nota, più o meno certamente, la data dell'ingresso del testo in una raccolta e/o dell'uscita.  
+Il [Chronotope](Asserted_Chronotope_Brick.md) dell'evento va compilato **solo** nel caso in cui sia nota, più o meno certamente, la data dell'ingresso e/o dell'uscita del testo in/da una raccolta.  
 
 È obbligatorio indicare come entità _related_:  
 * _raccolta_: la raccolta d'autore in cui è inserito il testo.  
