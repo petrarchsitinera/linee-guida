@@ -58,7 +58,8 @@ Il [Chronotope](Asserted_Chronotope_Brick.md) dell'evento coincide con il luogo 
 ⚠️ Nel caso in cui la trascrizione proceda da una ricezione accertata, occcorre inserire e descrivere ciascun evento singolarmente, assegnando ad ognuno di essi da un EID univoco. La trascrizione e la ricezione (insieme eventulmente all'invio collegato a quest'ultima) risulteranno collegati attraverso l'inserimento di un medesimo _tag_. Vedi [qui](Events_Part.md#-tag) per la compilazione del _tag_. 
 
 #### Raccolta
-Permette di fornire informazioni sull'ingresso di un testo in una raccolta.   
+Permette di fornire informazioni sull'ingresso di un testo in una raccolta.    
+
 La compilazione della **description** e dei **Chronotopes** è limitata a casi in cui sia nota, più o meno certamente, la data dell'ingresso e/o dell'uscita del testo in/da una raccolta, o a casi di particolare interesse o complessità (come, per esempio, di lettere transitate da una raccolta all'altra, o di testi inizialmente inclusi e poi rifiutati nelle stesse). In tutti gli altri casi, la _description_ e i _Chronotopes_ non vanno compilati.    
 
 Il [Chronotope](Asserted_Chronotope_Brick.md) dell'evento va compilato **solo** nel caso in cui sia nota, più o meno certamente, la data dell'ingresso e/o dell'uscita del testo in/da una raccolta.  
