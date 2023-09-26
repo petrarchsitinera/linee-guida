@@ -200,9 +200,11 @@ Il [Chronotope](Asserted_Chronotope_Brick.md) dell'evento coincide con il luogo 
 
 #### Attestazione
 Permette di inserire l'elenco delle attestazioni documentarie della persona schedata.
+  
+Per l'evento _Attestazione_ **non** si compila il campo [Chronotope](Asserted_Chronotope_Brick.md) 
 
-Il [Chronotope](Asserted_Chronotope_Brick.md) dell'evento coincide con il luogo e la data del documento che dà luogo all'attestazione.   
-Per ogni Chronotope sono inserite nell'_assertion_ relativa al campo _date_ le segnature archivistiche dei documenti che danno luogo all'attestazione.  
+L'elenco delle segnature archivistiche dei documenti che interessano la persona schedata sono inserite nell'_assertion_ relativa all'evento. 
+
 > es. AsBo, Notarile, San Giovanni in Monte, VI 5
 
 Non è possibile aggiungere entità _related_.   
