@@ -64,7 +64,7 @@ La compilazione della **description** e dei **Chronotopes** è limitata a casi i
 Il [Chronotope](Asserted_Chronotope_Brick.md) dell'evento va compilato **solo** nel caso in cui sia nota, più o meno certamente, la data dell'ingresso e/o dell'uscita del testo in/da una raccolta.  
 
 È obbligatorio indicare come entità _related_:  
-* _raccolta_: la raccolta d'autore in cui è inserito il testo.  
+* _raccolta_: la raccolta d'autore in cui è inserito il testo.    
 
 #### Redazione
 Permette di indicare quando il testo è la redazione precedente di un altro testo (ad es. _Sen_. XIII 11 gamma è redazione precedente di _Sen_. XIII 11).  
