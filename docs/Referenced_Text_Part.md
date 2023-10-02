@@ -31,16 +31,25 @@ Nel caso in cui al testo da inserire non sia già attribuito un _eid_, il compil
 La compilazione del campo è **obbligatoria**.
 
 ### Target citation
-Il campo è riservato **esclusivamente** ai testi citati (_type_ = "citazione di").    
-Compilare con il luogo del testo citato da cui è tratta la citazione, espresso indicando il libro e/o il paragrafo e/o il verso, non separati da virgole. Se si tratta di un intervallo, separare i numeri di paragrafo o di versi con un trattino. 
+Il campo è riservato **esclusivamente** ai casi in cui si stia inserendo un testo citato (_type_ = "citazione di"), e occorra indicare la partizione esatta del testo citato. 
+
+Compilare con il luogo del testo citato da cui è tratta la citazione, espresso indicando:
+
+- il paragrafo e/o il verso, non separati da virgole, per i testi petrarcheschi citati di cui il precedente **Id** fornisca già numero di libro e numero d'ordine.
+
+> ⚠️ Se nel _target Id_ è stata inserita una _Familiare_, di cui l'**id** fornisce **già** numero di libro e numero d'ordine, nella _target citation_ si inserisce soltanto il numero di paragrafo eventualmente citato.
+  
+- il libro e/o il paragrafo e/o il verso, non separati da virgole in tutti gli altri casi. Se si tratta di un intervallo, separare i numeri di paragrafo o di versi con un trattino.
+  
  > Es.:  
- > XII 4 3  
- > I 1 65-68  
+ > [Id = Amor et dolor] 3  
+ > [Africa] 65-68  
 
 La compilazione del campo è obbligatoria per i testi citati (_type_ = "citazione di").
 
 ### Source
-Il campo è riservato **esclusivamente** ai testi citati (_type_ = "citazione di").  
+Il campo è riservato **esclusivamente** ai casi in cui si stia inserendo un testo citato (_type_ = "citazione di").  
+
 Compilare con il luogo del testo schedato in cui si trova la citazione, espresso indicando il paragrafo e/o il verso, non separati da virgole. Se si tratta di un intervallo, separare i numeri di paragrafo o di versi con un trattino.   
 
 La compilazione del campo è obbligatoria per i testi citati (_type_ = "citazione di").
