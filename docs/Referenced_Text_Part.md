@@ -42,8 +42,8 @@ Compilare con il luogo del testo citato da cui è tratta la citazione, espresso 
 - il libro e/o il paragrafo e/o il verso, non separati da virgole in tutti gli altri casi. Se si tratta di un intervallo, separare i numeri di paragrafo o di versi con un trattino.
   
  > Es.:  
- > [Id = Amor et dolor] 3  
- > [Africa] 65-68  
+ > [Target Id = Amor et dolor] 3  
+ > [Target Id = Africa] I 65-68  
 
 La compilazione del campo è obbligatoria per i testi citati (_type_ = "citazione di").
 
