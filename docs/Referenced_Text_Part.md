@@ -38,8 +38,8 @@ Compilare con il luogo del testo citato da cui è tratta la citazione, espresso 
 - il paragrafo e/o il verso, non separati da virgole, per i testi petrarcheschi citati di cui il precedente **Id** fornisca già numero di libro e numero d'ordine.
 
 > ⚠️ Se nel _target Id_ è stata inserita una _Familiare_, di cui l'**id** fornisce **già** numero di libro e numero d'ordine, nella _target citation_ si inserisce soltanto il numero di paragrafo eventualmente citato.
- > Es.:  
- > [Target Id = Fam. XI 1] 12
+> Es.:   
+> [Target Id = Fam. XI 1] 12  
 
   
 - il libro e/o il paragrafo e/o il verso, non separati da virgole in tutti gli altri casi. Se si tratta di un intervallo, separare i numeri di paragrafo o di versi con un trattino.
