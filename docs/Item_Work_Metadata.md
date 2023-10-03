@@ -42,22 +42,22 @@ Per i **testi poetici dei corrispondenti** e **dei corrispondenti di corrisponde
 
 Per le **lettere perdute**, il titolo coincide con: 
 * **l'incipit**, quando conosciuto;
-* **lettera perduta (r. a. [_testo_])**: dove _r. a_ sta per _risposta a_. Da usare quando la lettera perduta è conosciuta come risposta ad un testo conservato - ove con [_testo_] si intende il testo conservato al quale si fa riferimento;
-* **lettera perduta (p. di  [_testo_])**: dove _p. di_ sta per _proposta di_. Da usare quando la lettera perduta è conosciuta come proposta di un testo conservato - ove con [_testo_] si intende il testo conservato al quale si fa riferimento;
-* **lettera perduta (c. in  [_testo_])** dove _c. in_ sta per _citata in_. Da usare quando la lettera perduta è conosciuta perché citata in un testo conservato  - ove con [_testo_] si intende il testo conservato al quale si fa riferimento.
+* **Lettera perduta (r. a. [_testo_])**: dove _r. a_ sta per _risposta a_. Da usare quando la lettera perduta è conosciuta come risposta ad un testo conservato - ove con [_testo_] si intende il testo conservato al quale si fa riferimento;
+* **Lettera perduta (p. di  [_testo_])**: dove _p. di_ sta per _proposta di_. Da usare quando la lettera perduta è conosciuta come proposta di un testo conservato - ove con [_testo_] si intende il testo conservato al quale si fa riferimento;
+* **Lettera perduta (c. in  [_testo_])** dove _c. in_ sta per _citata in_. Da usare quando la lettera perduta è conosciuta perché citata in un testo conservato  - ove con [_testo_] si intende il testo conservato al quale si fa riferimento.
 
 
 Per i **testi poetici perduti**, si ricorre alle stesse diciture, sostituendo **rima** a **lettera**, e accordando l'aggettivo di conseguenza:
 
 * **il primo verso**, quando conosciuto;
-* **rima perduta (r. a [_testo_])**;
-* **rima perduta (p. a [_testo_])**;
-* **rima perduta (c. in [_testo_])**;
+* **Rima perduta (r. a [_testo_])**;
+* **Rima perduta (p. a [_testo_])**;
+* **Rima perduta (c. in [_testo_])**;
 
 
 Per tutti gli altri testi perduti, che non siano né lettere né testi poetici, e quindi che non siano testi di corrispondenza, si ricorre alla seguente dicitura:
 
-* **testo perduto (c. in [_testo_])**;
+* **Testo perduto (c. in [_testo_])**;
 
 
 ⚠️ Verificare che i titoli delle lettere e dei testi perduti schedati nel database coincidano con quelli riportati nel [repository](repository.md).   
