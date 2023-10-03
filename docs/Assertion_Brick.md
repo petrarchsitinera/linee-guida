@@ -19,9 +19,9 @@ Il rank è un indice numerico di affidabilità associato al dato inserito. Va da
 * il rank è pari a **3** quando il dato inserito non è certo né sicuro, ma poco probabile, inverosimile o quasi certamente erroneo (prop. numerica = 75% falso)
 * il rank è pari a **4** quando il dato inserito è certamente erroneo o il meno sicuro, probabile o verosimile tra quelli a disposizione (prop. numerica = 100% falso)
 
-In caso di più ipotesi equivalenti, è possibile inserire più _Assertions_ con rank=2 o rank=3.
+In caso di più ipotesi equivalenti, è possibile inserire più _Assertions_ con rank > 0.
 
-**Se non compilato**, il rank è sempre uguale a 0 (ed equiparato al valore di 1: dato certo).
+**Se non compilato**, il rank è sempre uguale a 0 ed è dunque dato come certo.
 
 ##  Note  
 Il campo _note_ permette di inserire una breve stringa di testo esplicativo. Compilare il campo solo se strettamente necessario.  
