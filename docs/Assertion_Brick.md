@@ -13,9 +13,11 @@ Lasciare il campo vuoto, se non altrimenti indicato nelle linee guida della _par
 
 ## Rank 
 Il rank è un indice numerico di affidabilità associato al dato inserito. Va da un massimo (1) ad un minimo (3) di certezza:
-* il rank è pari a **0** quando il dato inserito è certo.  
-* il rank è pari a **1** quando il dato inserito non è certo, ma è il più sicuro, probabile o verosimile tra quelli a disposizione.  
-* il rank è pari a **2** quando il dato inserito non è certo ed è il meno sicuro, probabile o verosimile tra quelli a disposizione, oppure quando il dato è sicuramente erroneo.
+* il rank è pari a **0** quando il dato inserito è certo (prop. numerica = 100% vero)
+* il rank è pari a **1** quando il dato inserito non è certo, ma è sicuro, probabile o verosimile, o il più sicuro, probabile o verosimile tra quelli a disposizione (prop. numerica = 75% vero)
+* il rank è pari a **2** quando il dato inserito non è certo né sicuro (prop. numerica = 50% vero )
+* il rank è pari a **3** quando il dato inserito non è certo né sicuro, poco probabile, inverosimile o quasi certamente erroneo (prop. numerica = 75% falso)
+* il rank è pari a **4** quando il dato inserito è sicuramente erroneo o il meno sicuro, probabile o verosimile tra quelli a disposizione (prop. numerica = 100% falso)
 
 In caso di più ipotesi equivalenti, è possibile inserire più _Assertions_ con rank=2 o rank=3.
 
