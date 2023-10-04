@@ -8,6 +8,8 @@
 
 ⚠️ La parte raccoglie soltanto le citazioni di testi, opere o lettere scritti da: **Petrarca, suoi corrispondenti, corrispondenti di corrispondenti, altri autori contemporanei**. Non vanno dunque registrate eventuali citazioni di testi, opere, lettere di altri autori, come per esempio i classici.  
 
+⚠️ Nel caso in cui il testo schedato citi, una o più volte, il testo di proposta relativo, **già** inserito in quanto tale con _type=risposta a_, tali citazioni **non vanno registrate**.
+
 La descrizione del modello è disponibile su [Github](https://github.com/vedph/cadmus-itinera#referencedtextspart).
 
 Per aggiungere la parte, selezionare **_ref-texts_** dal menu a tendina, quindi cliccare su **_add part_**.  
