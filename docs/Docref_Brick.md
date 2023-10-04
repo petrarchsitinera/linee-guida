@@ -17,8 +17,12 @@ Indica la tipologia di fonte addotta. Selezionare un valore tra:
 Lasciare vuoto il campo.
 
 ### Citation
-Permette di indicare il titolo o il riferimento sintetico alla fonte.  
-⚠️ Se la fonte è registrata nel [database bibliografico di Itinera](External_Bibliography_Part.md) è possibile riferirsi ad essa attraverso l'utilizzo della _key_ ad esso attribuita nel database.  
+Il campo va compilato con la _key_ bibliografica, nel caso di fonte bibliografica, oppure con il titolo del testo, del manoscritto o del documento da citare come fonte.
+
+⚠️ Se la fonte è una voce registrata nel [database bibliografico di Itinera](External_Bibliography_Part.md) ci si riferisce ad essa attraverso la **_key_** che le è attribuita nel database. Nel caso in cui la fonte bibligrafica da citare non sia registrata nel database bibliografico, si procede ad inserirla per poi citarla attraverso la _key_.   
+
+⚠️ Se la fonte è un testo o un manoscritto cui corrisponde un _item_, ci si riferisce ad essi inserendo nel campo _citation_ il **titolo** dell'_item_. Se il testo o il manoscritto da citare come fonte **non** risultano descritti da _item_, ci si riferisce ad essi attribuendo loro un **titolo** secondo le stesse norme che ne regolano l'attribuzione per gli _item_ [testo](Item_Work_Metadata.md#title) e [manoscritto](Item_Manuscript_Metadata.md#title).
+
 ⚠️ Se si intende indicare il numero di pagina (o di volume, capitolo, paragrafo, etc.), inserirlo dopo il riferimento o la key, preceduto da virgola e spazio.  
 > es. Santagata 1996, 312-313
 
