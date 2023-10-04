@@ -19,7 +19,7 @@ Per ogni persona collegata si crea un elemento _person_ mediante [editor](Editor
 
 ⚠️ Nel caso in cui a testo sia presente un nome collettivo, aggiungere tanti elementi _person_ quante sono le persone a cui ci si riferisce.  
 
-> Esempio. La lettera _Multa expectaram_ di Francesco Nelli a Francesco Petrarca fa riferimento ad un "coetus tuus", ovvero al cosiddetto cenacolo fiorentino di amici e ammiratori di Petrarca, composto, oltre che da Nelli stesso, da Giovanni Boccaccio, Lapo da Castiglionchio e Francesco Bruni. In questo caso, andrebbero aggiunti tre elementi _person_ (ognuno con _name_ "coetus tuus"), ma poiché Francesco Bruni e Giovanni Boccaccio sono citati a testo in forma esplicita, per questi ultimi si preferisce il nominativo.  
+> Esempio. La lettera _Multa expectaram_ di Francesco Nelli a Francesco Petrarca fa riferimento ad un "coetus tuus", ovvero al cosiddetto cenacolo fiorentino di amici e ammiratori di Petrarca, composto, oltre che da Nelli stesso, da Giovanni Boccaccio, Francesco Bruni e, forse, Lapo da Castiglionchio. In questo caso, andrebbero aggiunti tre elementi _person_ (ognuno con _name_ "coetus tuus"), ma poiché Francesco Bruni e Giovanni Boccaccio sono citati a testo in forma esplicita, per questi ultimi si preferisce il nominativo. Si inserisce dunque sotto "coetuus tuus" soltanto Lapo da Castiglionchio, compilando la relativa _Assertion_ con indice numerico di affidabilità. 
 
 <img width="743" alt="Screenshot 2023-10-03 alle 17 31 43" src="https://github.com/petrarchsitinera/linee-guida/assets/102725489/ba2fccd1-cfac-43ff-b19f-a4066df3e448">   
 
