@@ -21,11 +21,13 @@ Per ogni persona collegata si crea un elemento _person_ mediante [editor](Editor
 
 > Esempio. La lettera _Multa expectaram_ di Francesco Nelli a Francesco Petrarca fa riferimento ad un "coetus tuus", ovvero al cosiddetto cenacolo fiorentino di amici e ammiratori di Petrarca, composto, oltre che da Nelli stesso, da Giovanni Boccaccio, Lapo da Castiglionchio e Francesco Bruni. In questo caso, andrebbero aggiunti tre elementi _person_ (ognuno con _name_ "coetus tuus"), ma poiché Francesco Bruni e Giovanni Boccaccio sono citati a testo in forma esplicita, per questi ultimi si preferisce il nominativo.  
 
-<img width="743" alt="Screenshot 2023-10-03 alle 17 31 43" src="https://github.com/petrarchsitinera/linee-guida/assets/102725489/ba2fccd1-cfac-43ff-b19f-a4066df3e448">
+<img width="743" alt="Screenshot 2023-10-03 alle 17 31 43" src="https://github.com/petrarchsitinera/linee-guida/assets/102725489/ba2fccd1-cfac-43ff-b19f-a4066df3e448">   
 
 
 
-⚠️ Nel caso in cui il testo schedato dia notizia di un invio o di una ricezione, occorre creare un evento apposito nella [EventsPart](Events_Part.md) del **testo inviato o ricevuto**, dove è possibile esplicitare i ruoli di mittente, destinatario e latore, a seconda dei casi.  
+⚠️⚠️⚠️ Nel caso in cui il testo schedato **dia notizia di un invio o di una ricezione**, occorre creare un evento apposito nella [EventsPart](Events_Part.md) del **testo inviato o ricevuto**, dove è possibile esplicitare i ruoli di mittente, destinatario e latore, a seconda dei casi. 
+
+⚠️⚠️⚠️ Nel caso in cui il testo schedato **dia notizia di un qualsiasi altro evento**, occorre creare un evento apposito nella [EventsPart](Events_Part.md) della **persona** o del **testo** implicato, indicando il testo come fonte d'infomazione.
 
 
 ### Type
