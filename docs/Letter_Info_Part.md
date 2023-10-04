@@ -15,7 +15,7 @@ Per aggiungere la parte, selezionare **_letter_** dal menu a tendina, quindi cli
 
 ## Subject
 Permette di inserire un breve regesto del contenuto del testo, chiaro e conciso.   
-Sono da evitare le frasi nominali e le abbreviazioni (ad es. "P." per "Petrarca"), come pure la ripetizione di dati già inseriti altrove nel modello: non è necessario, per esempio, riportare il nome delle persone citate, indicate in una parte apposita.  
+Sono da evitare le frasi nominali e le abbreviazioni (ad es. "P." per "Petrarca"), come pure la ripetizione di dati già inseriti altrove nel modello, a meno che non sia utile a rilevare dati importanti dal testo.
 
 > Es. La lettera risponde ad un'altra perduta di Petrarca, che informava Francesco Nelli della morte di Giacomo da Carrara.
 
@@ -34,12 +34,18 @@ La compilazione del campo è **obbligatoria** in presenza del dato.
 
 ⚠️ Per ragioni legate alla visualizzazione finale dei dati, l'intestazione della lettera non è **mai** seguita dal punto, nemmeno laddove il punto si trovi nell'edizione critica di riferimento.  
 
+
 ## Text date
 Permette di inserire la data della lettera, in latino, nella forma accertata dall’edizione critica o attestata nel manoscritto.
 
-> Es. Florentie penultima die Ianuarii
+> Es. _Florentie penultima die Ianuarii_
 
 La compilazione del campo è **obbligatoria** in presenza di data dichiarata. 
+
+Nel caso in cui la _datatio_ della lettera nella forma attestata si definisca per analogia attraverso quella di altri testi (p. es. testi firmati contestualmente a quello schedato, o contigui nell'ordinamento nel caso di testi inseriti in libi), si riporti tra parentesi quadre la lettera cui si fa riferimento.
+
+> Es. La lettera Puerum tuum di Francesco Nelli presenta, nella datatio, "Florentie eodem die", facendo riferimento alla data della Multa expectaram, spedita da Nelli insieme a questa. Il compilatore riporterà in questo caso:
+_Florentie eodem die [Multa expectaram]_
 
 ## Save ⚠️ 
 Cliccare sul tasto **_save_** per salvare la parte.  
