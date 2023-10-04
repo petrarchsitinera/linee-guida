@@ -10,7 +10,7 @@
 
 ⚠️ Nel caso in cui il testo schedato citi, una o più volte, il testo di proposta relativo, **già** inserito in quanto tale con _type=risposta a_, tali citazioni **non vanno registrate**.
 
-⚠️⚠️⚠️ Nel caso in cui il testo schedato accerti la ricezione di altro testo (p. es. del testo di proposta) è **sempre obbligatorio** l'inserimento dell'evento di ricezione relativo e, dunque, di invio di quel testo, secondo le modalità indicate per la compilazione di eventi ricezione di [persone](Events_Thesaurus_Person.md#ricezione) e [testi](Events_Thesaurus_Work.md#ricezione)
+⚠️⚠️⚠️ Nel caso in cui il testo schedato accerti la ricezione di altro testo (p. es. del testo di proposta) è **sempre obbligatorio** l'inserimento dell'evento di ricezione relativo e, di conseguenza, di invio di quel medesimo testo, secondo le modalità indicate per la compilazione di eventi _ricezione_ di [persone](Events_Thesaurus_Person.md#ricezione) e [testi](Events_Thesaurus_Work.md#ricezione)
 
 
 La descrizione del modello è disponibile su [Github](https://github.com/vedph/cadmus-itinera#referencedtextspart).
