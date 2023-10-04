@@ -27,7 +27,7 @@ Per ogni persona collegata si crea un elemento _person_ mediante [editor](Editor
 
 ⚠️⚠️⚠️ Nel caso in cui il testo schedato **dia notizia di un invio o di una ricezione**, occorre creare un evento apposito nella [EventsPart](Events_Part.md) del **testo inviato o ricevuto**, dove è possibile esplicitare i ruoli di mittente, destinatario e latore, a seconda dei casi. 
 
-⚠️⚠️⚠️ Nel caso in cui il testo schedato **dia notizia di un qualsiasi altro evento**, occorre creare un evento apposito nella [EventsPart](Events_Part.md) della **persona** o del **testo** implicato, indicando il testo come fonte d'infomazione.
+⚠️⚠️⚠️ Nel caso in cui il testo schedato **dia notizia di un qualsiasi altro evento**, occorre creare un evento apposito nella [EventsPart](Events_Part.md) della **persona** o del **testo** implicato, indicando il testo come fonte d'informazione.
 
 
 ### Type
