@@ -39,9 +39,9 @@ Permette di inserire la data della lettera, in latino, nella forma accertata dal
 
 La compilazione del campo è **obbligatoria** in presenza di data dichiarata. 
 
-Nel caso in cui la _datatio_ della lettera nella forma attestata si definisca per analogia attraverso quella di altri testi (p. es. testi firmati contestualmente a quello schedato, o contigui nell'ordinamento nel caso di testi inseriti in libi), si riporti tra parentesi quadre la lettera cui si fa riferimento.
+Nel caso in cui la _datatio_ della lettera nella forma attestata si definisca per analogia attraverso quella di altri testi (p. es. testi firmati contestualmente a quello schedato, o contigui nell'ordinamento nel caso di testi inseriti in libi), si riporti tra parentesi quadre la lettera cui si fa riferimento.  
 
-> Es. La lettera Puerum tuum di Francesco Nelli presenta, nella datatio, "Florentie eodem die", facendo riferimento alla data della Multa expectaram, spedita da Nelli insieme a questa. Il compilatore riporterà in questo caso:
+> Es. La lettera Puerum tuum di Francesco Nelli presenta, nella datatio, "Florentie eodem die", e fa riferimento alla data della Multa expectaram, spedita da Nelli insieme a questa. Il compilatore riporterà in questo caso:  
 _Florentie eodem die [Multa expectaram]_
 
 ## Save ⚠️ 
