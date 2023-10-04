@@ -10,6 +10,8 @@
 
 ⚠️⚠️⚠️ Il compilatore deve verificare sempre che un evento da inserire che coinvolga due o più entità non sia già stato inserito, o che, inserito, riporti dati corretti. È dunque **obbligatoria** la consultazione del [grafo semantico](semantic_graph.md) prima dell'inserimento di un qualsiasi evento.  
 
+⚠️⚠️⚠️ Nel caso in cui riscontri errori nei dati inseriti da altri, il compilatore provvederà a **contattare** il responsabile dell'inserimento dei dati per comunicare le incongruenze riscontrate e le eventuali correzioni.
+
 La descrizione del modello è disponibile su [Github](https://github.com/vedph/cadmus-general#historicaleventspart).   
 
 Per aggiungere la parte, selezionare **events** dal menu a tendina, quindi cliccare sul tasto **add part**.
