@@ -3,7 +3,7 @@ Di seguito sono elencate le tipologie di evento (_type_) relativi ai testi e le 
 
 
 #### Invio 
-Permette di registrare l'invio del testo.
+Permette di registrare l'invio del testo schedato da parte di una persona, anche diversa dall'autore.
 
 Il [Chronotope](Asserted_Chronotope_Brick.md) dell'evento coincide con il luogo e la data dell'invio.   
 
@@ -22,7 +22,7 @@ Nel caso di più mittenti, destinatari, latori o allegati afferenti ad un medesi
 ⚠️ Nel caso in cui l'invio inserito sia seguito da una ricezione accertata, occcorre inserire e descrivere ciascun evento singolarmente, assegnando ad ognuno di essi da un EID univoco. L'invio e la ricezione risulteranno collegati attraverso l'inserimento di un medesimo _tag_. Vedi [qui](Events_Part.md#-tag) per la compilazione del _tag_. 
 
 #### Ricezione  
-Permette di registrare la ricezione del testo da parte di una persona.  
+Permette di registrare la ricezione del testo schedato da parte di una persona, anche diversa dal destinatario.  
 
 Il [Chronotope](Asserted_Chronotope_Brick.md) dell'evento coincide con il luogo e la data della ricezione.   
 
