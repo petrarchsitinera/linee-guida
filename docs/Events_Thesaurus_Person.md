@@ -233,7 +233,7 @@ Nel caso di più oggetti ricevuti afferenti ad un medesima ricezione (con un med
 
 È possibile indicare inoltre come entità _related_ l'eventuale _latore_, ove noto, ovvero la persona cui è affidata la trasmissione dell'oggetto.
 
-⚠️ Nel caso in cui la ricezione inserita proceda da un invio circostanzibile, occcorre inserire e descrivere ciascun evento singolarmente, assegnando ad ognuno di essi da un EID univoco. L'invio e la ricezione risulteranno collegati attraverso l'inserimento di un medesimo _tag_. Vedi [qui](Events_Part.md#-tag) per la compilazione del _tag_. 
+⚠️⚠️⚠️ La ricezione seguita sempre da un invio. Ad ogni ricezione corrisponderà dunque **sempre** un invio - mentre non si darà sempre necessariamente il contrario. Se l'invio non è precisamente circostanziabile rispetto a luogo e date, si aggiungerà **almeno** come _termine ante quem_ la data in cui la lettera è stata ricevuta. I due eventi di _invio_ e _ricezione_ vanno inseriti e descritti singolarmente, e ad ognuno sarà attribuito un EID univoco: risulteranno però collegati attraverso l'inserimento, **obbligatorio** di un medesimo _tag_. Vedi [qui](Events_Part.md#-tag) per la compilazione del _tag_. 
 
 
 #### Consegna  
