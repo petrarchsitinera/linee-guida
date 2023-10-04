@@ -13,7 +13,11 @@ Il [Chronotope](Asserted_Chronotope_Brick.md) dell'evento coincide con il luogo 
 * _latore_;
 * _allegato_.
 
-Nel caso di più mittenti, destinatari, latori o allegati afferenti ad un medesimo invio (con un medesimo con _Chronotope_), si procede alla creazione di un singolo elemento _related_ per ognuno di essi.  
+Nel caso di più mittenti, destinatari, latori o allegati afferenti ad un medesimo invio (con un medesimo con _Chronotope_), si procede alla creazione di un singolo elemento _related_ per ognuno di essi.
+
+⚠️⚠️⚠️ Si inseriscono _allegati_ **soltanto** quando occorre registrare oggetti diversi da testi, per esempio manoscritti, monete, manufatti di qualsiasi tipo. Nel caso in cui siano inviati soltanto testi, questi ultimi vanno tutti inseriti come **_oggetto inviato_**. 
+
+⚠️⚠️⚠️ **Quando i testi inviati siano più d'uno**, l'evento va **sempre inserito** a partire da un _item person_, dove è possibile aggiungere più _oggetti inviati_ - nella _Events Part_ di un _item work_ è possibile inserire soltanto l'invio del testo descritto dall'_item_, aggiungendovi eventuali allegati, ma non è possibile aggiungere più testi inviati contestualmente a quello.
 
 ⚠️ Nel caso in cui l'invio inserito sia seguito da una ricezione accertata, occcorre inserire e descrivere ciascun evento singolarmente, assegnando ad ognuno di essi da un EID univoco. L'invio e la ricezione risulteranno collegati attraverso l'inserimento di un medesimo _tag_. Vedi [qui](Events_Part.md#-tag) per la compilazione del _tag_. 
 
@@ -30,7 +34,11 @@ Il [Chronotope](Asserted_Chronotope_Brick.md) dell'evento coincide con il luogo 
 
 Nel caso di più mittenti, destinatari, latori o allegati afferenti ad un medesima ricezione (con un medesimo con _Chronotope_), si procede alla creazione di un singolo elemento _related_ per ognuno di essi.  
 
-⚠️⚠️⚠️ La ricezione seguita sempre da un invio. Ad ogni ricezione corrisponderà dunque **sempre** un invio - mentre non si darà sempre necessariamente il contrario. Se l'invio non è precisamente circostanziabile rispetto a luogo e data, si aggiungerà **almeno** come _termine ante quem_ la data in cui la lettera è stata ricevuta. I due eventi di _invio_ e _ricezione_ vanno inseriti e descritti singolarmente, e ad ognuno sarà attribuito un EID univoco: risulteranno però collegati attraverso l'inserimento, **obbligatorio**, di un medesimo _tag_. Vedi [qui](Events_Part.md#-tag) per la compilazione del _tag_. 
+⚠️⚠️⚠️ Si inseriscono _allegati_ **soltanto** quando occorre registrare oggetti diversi da testi, per esempio manoscritti, monete, manufatti di qualsiasi tipo. Nel caso in cui siano ricevuti soltanto testi, questi ultimi vanno tutti inseriti come **_oggetto ricevuto_**. 
+
+⚠️⚠️⚠️ **Quando i testi ricevuti siano più d'uno**, l'evento va **sempre inserito** a partire da un _item person_, dove è possibile aggiungere più _oggetti ricevuti_ - nella _Events Part_ di un _item work_ è possibile inserire soltanto la ricezione del testo descritto dall'_item_, aggiungendovi eventuali allegati, ma non è possibile aggiungere più testi ricevuti da una persona insieme a quello descritto dall'_item_.
+
+⚠️⚠️⚠️ La ricezione séguita sempre da un invio. Ad ogni ricezione corrisponderà dunque **sempre** un invio - mentre non si darà sempre necessariamente il contrario. Se l'invio non è precisamente circostanziabile rispetto a luogo e data, si aggiungerà **almeno** come _termine ante quem_ la data in cui la lettera è stata ricevuta. I due eventi di _invio_ e _ricezione_ vanno inseriti e descritti singolarmente, e ad ognuno sarà attribuito un EID univoco: risulteranno però collegati attraverso l'inserimento, **obbligatorio**, di un medesimo _tag_. Vedi [qui](Events_Part.md#-tag) per la compilazione del _tag_. 
  
 
 #### Scambio diretto  
@@ -42,6 +50,7 @@ Il [Chronotope](Asserted_Chronotope_Brick.md) dell'evento coincide con il luogo 
 * _consegna_: la persona che cede l'oggetto scambiato;  
 * _destinatario_: la persona che riceve l'oggetto scambiato. 
 * _allegato_: eventuali altri oggetti scambiati.
+
 
 ⚠️ Nel caso di scambi reciproci, cioè quando in un'unica occasione sono scambiati più oggetti da parte dei partecipanti allo scambio, occorre creare più eventi _scambio diretto_ all'interno della _Events Part_ della persona da cui muove lo scambio o all'interno della _Events Part_ degli oggetti scambiati (specificando i ruoli dei partecipanti). In questi casi occorrerà compilare il campo _tag_ di ogni evento con un identificativo unico, così da permettere di ricondurre tutti gli scambi alla medesima occasione.
 
