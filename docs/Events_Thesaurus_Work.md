@@ -44,7 +44,18 @@ Il [Chronotope](Asserted_Chronotope_Brick.md) dell'evento coincide con il luogo 
 
 ⚠️ Nel caso di scambi reciproci, cioè quando in un'unica occasione sono scambiati più oggetti da parte dei partecipanti allo scambio, occorre creare più eventi _scambio diretto_ all'interno della _Events Part_ della persona da cui muove lo scambio o all'interno della _Events Part_ degli oggetti scambiati (specificando i ruoli dei partecipanti). In questi casi occorrerà compilare il campo _tag_ di ogni evento con un identificativo unico, così da permettere di ricondurre tutti gli scambi alla medesima occasione.
 
-> es. 
+#### Lettura
+Permette di inserire la lettura **del testo schedato**, petrarchesco o non, da parte di una o più persone.
+
+Il [Chronotope](Asserted_Chronotope_Brick.md) dell'evento coincide con il luogo e la data della lettura, ove nota.   
+
+È obbligatorio indicare tra le entità _related_ la persona che ha letto il testo (_letto da_) e, ove noto, il mediatore della lettura (_mediata da_), vale a dire colui che ha materialmente fornito il testo alla persona che lo ha letto.
+
+Nel caso in cui il testo sia letto da più persone **in uno stesso momento e/o occasione** (dunque con medesimo [Chronotope](Asserted_Chronotope_Brick.md)) si procede alla creazione di più elementi _related_ _letto da_.
+
+Nel caso in cui la lettura del testo sia mediata da più persone **in uno stesso momento e/o occasione** (dunque con medesimo [Chronotope](Asserted_Chronotope_Brick.md)) si procede alla creazione di più elementi _related_ _mediato da_.
+
+Nel caso in cui il testo sia letto da più persone **in momenti e/o occasioni diverse** (dunque con [Chronotope](Asserted_Chronotope_Brick.md) diverso) si procede alla creazione di più events _lettura_.
 
 #### Trascrizione
 Permette di registrare una trascrizione del testo.
