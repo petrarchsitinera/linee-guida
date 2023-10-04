@@ -16,9 +16,6 @@ Per aggiungere la parte, selezionare **_letter_** dal menu a tendina, quindi cli
 ## Subject
 Permette di inserire un breve regesto del contenuto del testo, chiaro e conciso.   
 Sono da evitare le frasi nominali e le abbreviazioni (ad es. "P." per "Petrarca"), come pure la ripetizione di dati già inseriti altrove nel modello, a meno che non sia utile a rilevare dati importanti dal testo.
-
-> Es. La lettera risponde ad un'altra perduta di Petrarca, che informava Francesco Nelli della morte di Giacomo da Carrara.
-
 Per lettere perdute di cui si può ricostruire il contenuto a partire dalle risposte, il _subject_ è preceduto dall'indicazione della fonte tra parentesi quadre. 
 
 ⚠️ Ogni frase deve essere chiusa da punto fermo.  
