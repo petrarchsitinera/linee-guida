@@ -12,7 +12,7 @@ Si compila un'_Assertion_ per indicare l'affidabilità di un dato e/o inserire v
 Lasciare il campo vuoto, se non altrimenti indicato nelle linee guida della _part_ relativa.
 
 ## Rank 
-Il rank è un indice numerico di affidabilità associato al dato inserito. Va da un massimo (1) ad un minimo (3) di certezza:
+Il rank è un indice numerico di affidabilità associato al dato inserito. Va da un massimo (1) ad un minimo (4) di certezza:
 * il rank è pari a **0** quando il dato inserito è certo (prop. numerica = 100% vero)
 * il rank è pari a **1** quando il dato inserito non è certo, ma è sicuro, probabile o verosimile, o il più sicuro, probabile o verosimile tra quelli a disposizione (prop. numerica = 75% vero)
 * il rank è pari a **2** quando il dato inserito non è certo né sicuro, ma possibile (prop. numerica = 50% vero )
