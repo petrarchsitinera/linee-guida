@@ -20,7 +20,7 @@ Per le **lettere petrarchesche**, compilare il campo _tag_ con **uno** dei segue
 * **stesura dichiarata**: per il luogo e/o la data dichiarati in calce alla lettera, riportati al calendario gregoriano. In caso di date dichiarate comprensive soltanto di giorno e mese, compilare il campo _value_ con l'indicazione del secolo;  
 * **stesura implicita**: per il luogo e/o la data di cui gli elementi siano desunti, tutti o in parte, da elementi interni al testo o dalla posizione del testo all'interno della raccolta;  
 * **stesura ricostruita**: per il luogo e/o la data ricostruiti dalla critica, anche se eventualmente divergenti da quelli dichiarati e/o impliciti. In presenza di una stesura ricostruita è **sempre** obbligatoria l'indicazione della fonte del dato: se la fonte si riferisce sia al luogo sia alla data, essa va riportata in entambe le _assertion_.
-* **altro**: per elementi cronologici e termini _ante_ e _post quem_ desumibili dalla lettera, riferiti ad eventi o fatti storici puntuali utili alla datazione del testo stesso, anche in presenza di ipotesi di stesura più o meno certe. In questo caso, i termini cronologici da inserire **coincidono** con la data degli eventi o dei fatti puntuali riportati a testo.   
+* **altro**: per elementi cronologici e termini _ante_ e _post quem_ desumibili dalla lettera, o da altri testi nel caso di lettere perdute, riferiti ad eventi o fatti storici puntuali utili alla datazione del testo stesso, anche in presenza di ipotesi di stesura più o meno certe. In questo caso, i termini cronologici da inserire **coincidono** con la data degli eventi o dei fatti puntuali riportati a testo. Per le lettere perdute è **sempre obbligatorio** inserire come termine _ante quem_ la data di stesura della lettera che costituisce la fonte di informazione sul testo perduto.   
 
 Per le **lettere non petrarchesche**, compilare il campo _tag_ con **uno** dei seguenti valori:
 
@@ -31,7 +31,7 @@ Per le **lettere non petrarchesche**, compilare il campo _tag_ con **uno** dei s
 Per le **lettere perdute**, compilare il campo _tag_ con **uno** dei seguenti valori:   
 
 * **stesura ricostruita**: per il luogo e/o la data di stesura ricostruita dalla critica. In presenza di una stesura ricostruita è **sempre** obbligatoria l'indicazione della fonte del dato: se la fonte si riferisce sia al luogo sia alla data, essa va riportata in entambe le _assertion_.  
-* **altro**: per termini _ante_ e _post quem_. Per le lettere perdutee è **sempre obbligatorio** inserire come termine _ante quem_ la data di stesura della lettera che costituisce la fonte di informazione sul testo perduto.
+* **altro**: per termini _ante_ e _post quem_. Per le lettere perdute è **sempre obbligatorio** inserire come termine _ante quem_ la data di stesura della lettera che costituisce la fonte di informazione sul testo perduto.
 
 
 ⚠️⚠️⚠️ I _tag_ di _place_ e _date_ devono essere coerenti all'interno dell'elemento _chronotope_. Ciascun _chronotope_ deve cioè raccogliere:   
