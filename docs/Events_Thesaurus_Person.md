@@ -259,14 +259,22 @@ Nel caso di più mittenti, destinatari, latori o allegati afferenti ad un medesi
 
 
 #### Scambio diretto  
-Permette di inserire lo scambio diretto di uno o più oggetti (testi, manoscritti, altro) tra la persona schedata e altri.
+Permette di inserire lo scambio diretto di uno o più oggetti (testi, manoscritti, altro), quando lo scambio **muove dalla persona schedata**.
 
 Il [Chronotope](Asserted_Chronotope_Brick.md) dell'evento coincide con il luogo e la data dello scambio.   
 
-È obbligatorio indicare tra le entità _related_ almeno un _oggetto scambiato_ e almeno un _destinatario_.
-Nel caso più oggetti scambiati o di più destinatari si procede alla creazione di un singolo elemento _related_ per ognuno di essi.
+È obbligatorio indicare tra le entità _related_ almeno un _oggetto scambiato_ e almeno un _destinatario_.  
 
-Nel caso di scambi reciproci, ogni scambio va registrato in un evento _scambio diretto_ singolo all'interno della _Events Part_ della persona da cui muove lo scambio.
+Nel caso in cui la persona schedata ceda, in occasione dello scambio, più oggetti, si procede alla creazione di un singolo elemento _related_ per ognuno di essi.  
+
+Nel caso in cui lo scambio coinvolga più destinatari si procede alla creazione di un singolo elemento _related_ per ognuno di essi.  
+
+⚠️⚠️⚠️ NON USARE MAI IL RELATED _ALLEGATO_: LA PRESENZA DI QUESTA VOCE È UN ERRORE CHE SARÀ RISOLTO AL PIÙ PRESTO. ⚠️⚠️⚠️ 
+
+⚠️⚠️⚠️ **Quando i testi scambiati siano più d'uno**, l'evento va **sempre inserito** a partire da un _item person_, dove è possibile aggiungere più _oggetti scambiati_ - nella _Events Part_ di un _item work_ è possibile inserire soltanto lo scambio di persona del testo descritto dall'_item_, aggiungendovi eventuali allegati, ma non è possibile aggiungere a questo altri testi scambiati.
+
+⚠️⚠️⚠️ Nel caso di scambi reciproci (p. es.: A dà un manoscritto a B e B dà un manoscritto ad A), ogni scambio va registrato in un evento _scambio diretto_ singolo all'interno della _Events Part_ della persona da cui muove lo scambio. Quando cioè in un'unica occasione sono scambiati più oggetti dai partecipanti nell'una e nell'altra direzione, **occorre creare più eventi _scambio diretto_**, all'interno della _Events Part_ delle persona da cui, rispettivamente, muove lo scambio (p. es. un evento _scambio diretto_ nell'item A e un evento _scambio diretto_ nell'item B). Alternativamente, **è possibile creare più eventi _scambio diretto_** all'interno della _Events Part_ dei diversi oggetti scambiati, specificando i ruoli dei partecipanti. In questi casi occorrerà compilare il campo _tag_ di ogni evento con un medesimo _tag_, così da permettere di ricondurre tutti gli scambi alla medesima occasione.
+
 
 #### Lettura
 Permette di inserire la lettura di uno o più testi, petrarcheschi o non, **da parte della persona schedata**. 
