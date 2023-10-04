@@ -42,18 +42,17 @@ Nel caso di più mittenti, destinatari, latori o allegati afferenti ad un medesi
  
 
 #### Scambio diretto  
-Permette di inserire lo scambio diretto di un testo tra due persone.
+Permette di inserire lo scambio diretto del testo schedato tra due persone.
 
 Il [Chronotope](Asserted_Chronotope_Brick.md) dell'evento coincide con il luogo e la data dello scambio.   
 
 È possibile indicare come entità _related_:  
 * _consegna_: la persona che cede l'oggetto scambiato;  
 * _destinatario_: la persona che riceve l'oggetto scambiato. 
-* _allegato_: eventuali altri oggetti scambiati.
 
-⚠️⚠️⚠️ Si inseriscono _allegati_ **soltanto** quando occorre registrare oggetti diversi da testi, per esempio manoscritti, monete, manufatti di qualsiasi tipo. 
+⚠️⚠️⚠️ NON USARE MAI IL RELATED _ALLEGATO_: LA PRESENZA DI QUESTA VOCE È UN ERRORE CHE SARÀ RISOLTO AL PIÙ PRESTO. ⚠️⚠️⚠️ 
 
-⚠️⚠️⚠️ **Quando i testi scambiati siano più d'uno**, l'evento va **sempre inserito** a partire da un _item person_, dove è possibile aggiungere più _oggetti scambiati_ - nella _Events Part_ di un _item work_ è possibile inserire soltanto lo scambio di persona del testo descritto dall'_item_, aggiungendovi eventuali allegati, ma non è possibile aggiungere a questo altri testi scambiati.
+⚠️⚠️⚠️ **Quando gli oggetti scambiati siano più d'uno**, l'evento va **sempre inserito** a partire da un _item person_, dove è possibile aggiungere più _oggetti scambiati_ - nella _Events Part_ di un _item work_ è possibile inserire soltanto lo scambio di persona del testo descritto dall'_item_, aggiungendovi eventuali allegati, ma non è possibile aggiungere a questo altri testi scambiati.
 
 ⚠⚠️⚠️⚠️ Nel caso di scambi reciproci, cioè quando in un'unica occasione sono scambiati più oggetti da parte dei partecipanti allo scambio (p. es.: A dà un manoscritto a B e B dà un manoscritto ad A), **occorre creare più eventi _scambio diretto_** all'interno della _Events Part_ della persona da cui muove lo scambio. Alternativamente, **è possibile creare più eventi _scambio diretto_** all'interno della _Events Part_ dei diversi oggetti scambiati, specificando i ruoli dei partecipanti. In questi casi occorrerà compilare il campo _tag_ di ogni evento con un medesimo _tag_, così da permettere di ricondurre tutti gli scambi alla medesima occasione.
 
