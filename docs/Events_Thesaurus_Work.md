@@ -55,7 +55,7 @@ Nel caso in cui il testo sia letto da più persone **in uno stesso momento e/o o
 
 Nel caso in cui la lettura del testo sia mediata da più persone **in uno stesso momento e/o occasione** (dunque con medesimo [Chronotope](Asserted_Chronotope_Brick.md)) si procede alla creazione di più elementi _related_ _mediato da_.
 
-Nel caso in cui il testo sia letto da più persone **in momenti e/o occasioni diverse** (dunque con [Chronotope](Asserted_Chronotope_Brick.md) diverso) si procede alla creazione di più events _lettura_.
+Nel caso in cui il testo sia letto da più persone **in momenti e/o occasioni diversi** (dunque con [Chronotope](Asserted_Chronotope_Brick.md) diverso) si procede alla creazione di più events _lettura_.
 
 #### Trascrizione
 Permette di registrare una trascrizione del testo.
