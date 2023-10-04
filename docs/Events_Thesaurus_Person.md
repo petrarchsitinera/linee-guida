@@ -245,15 +245,15 @@ Nel caso di più oggetti ricevuti afferenti ad un medesima ricezione (con un med
 
 
 #### Consegna  
-Permette di registrare uno scambio epistolare **a partire dal latore**.  
+Permette di registrare la consegna di un testo o di un oggetto **quando la persona schedata è il latore dello scambio**.  
 
-⚠️⚠️⚠️ Se si conoscono i dati relativi all'invio e/o alla ricezione agli estremi dello scambio in oggetto, è da evitare la compilazione di un evento _consegna_: il compilatore inserirà piuttosto gli eventi _invio_ e _ricezione_ nella _Events Part_ del mittente o del destinatario, indicando tra i _related_ il latore.  
+⚠️⚠️⚠️ **Se si conoscono i dati relativi all'invio e/o alla ricezione agli estremi dello scambio in oggetto, è da evitare la compilazione di un evento _consegna_**: il compilatore inserirà piuttosto gli eventi _invio_ e _ricezione_ nella _Events Part_ del mittente o del destinatario, indicando tra i _related_ il latore.  
 
 Il [Chronotope](Asserted_Chronotope_Brick.md) dell'evento coincide con il luogo e la data della consegna.   
 
 È possibile indicare come entità _related_: _mittente_; _destinatario_; _oggetto consegnato_; _allegato_.  
 
-Nel caso di più mittenti, destinatari, latori o allegati afferenti ad un medesima consegna (con un medesimo con _Chronotope_), si procede alla creazione di un singolo elemento _related_ per ognuno di essi.  
+Nel caso di più mittenti, destinatari, oggetti o allegati afferenti ad un medesima consegna (con un medesimo con _Chronotope_), si procede alla creazione di un singolo elemento _related_ per ognuno di essi.  
 
 ⚠️⚠️⚠️ Si inseriscono _allegati_ soltanto quando occorre registrare oggetti diversi da testi, per esempio manoscritti, monete, manufatti di qualsiasi tipo. Nel caso in cui siano presi in consegna soltanto testi, questi ultimi vanno tutti inseriti come **_oggetto preso in consegna_**. 
 
