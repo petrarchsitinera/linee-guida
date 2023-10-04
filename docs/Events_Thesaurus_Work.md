@@ -94,7 +94,7 @@ Il [Chronotope](Asserted_Chronotope_Brick.md) dell'evento va compilato **solo** 
 * _raccolta_: la raccolta d'autore in cui è inserito il testo.    
 
 #### Redazione
-Permette di indicare quando il testo è la redazione precedente di un altro testo (ad es. _Sen_. XIII 11 gamma è redazione precedente di _Sen_. XIII 11).  
+Permette di indicare quando il testo è la redazione precedente di un altro testo (ad es. _Sen_. XIII 11 gamma è redazione precedente di _Sen_. XIII 11 beta).  
 
 La compilazione della **description** e dei **Chronotopes** è riservata a casi di particolare interesse o complessità, come per esempio lettere notevolmente rimaneggiate e/o smembrate a formare nuovi testi. In tutti gli altri casi, la _description_ e i _Chronotopes_ non vanno compilati.    
 
