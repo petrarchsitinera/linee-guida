@@ -218,7 +218,11 @@ Il [Chronotope](Asserted_Chronotope_Brick.md) dell'evento coincide con il luogo 
 Nel caso di più destinatari afferenti ad un medesimo invio (con un medesimo con _Chronotope_), si procede alla creazione di un singolo elemento _related_ per ognuno di essi.
 Nel caso di più oggetti inviati afferenti ad un medesimo invio (con un medesimo con _Chronotope_), si procede alla creazione di un singolo elemento _related_ per ognuno di essi (indicandolo come _oggetto inviato_ o _allegato_.   
 
-È possibile indicare inoltre come entità _related_ l'eventuale _latore_, ove noto, ovvero la persona cui è affidata la trasmissione dell'oggetto. 
+È possibile indicare come entità _related_ l'eventuale _latore_, ove noto, ovvero la persona cui è affidata la trasmissione dell'oggetto, ed eventuali _allegati_. 
+
+⚠️⚠️⚠️ Si inseriscono _allegati_ **soltanto** quando occorre registrare oggetti diversi da testi, per esempio manoscritti, monete, manufatti di qualsiasi tipo. Nel caso in cui siano inviati soltanto testi, questi ultimi vanno tutti inseriti come **_oggetto inviato_**. 
+
+⚠️⚠️⚠️ **Quando i testi inviati siano più d'uno**, l'evento va **sempre inserito** a partire da un _item person_, dove è possibile aggiungere più _oggetti inviati_ - nella _Events Part_ di un _item work_ è possibile inserire soltanto l'invio del testo descritto dall'_item_, aggiungendovi eventuali allegati, ma non è possibile aggiungere più testi inviati contestualmente a quello.
 
 ⚠️ Nel caso in cui l'invio inserito sia seguito da una ricezione accertata, occcorre inserire e descrivere ciascun evento singolarmente, assegnando ad ognuno di essi da un EID univoco. L'invio e la ricezione risulteranno collegati attraverso l'inserimento di un medesimo _tag_. Vedi [qui](Events_Part.md#-tag) per la compilazione del _tag_. 
 
@@ -231,13 +235,19 @@ Il [Chronotope](Asserted_Chronotope_Brick.md) dell'evento coincide con il luogo 
 Nel caso di più mittenti afferenti ad un medesima ricezione (con un medesimo con _Chronotope_), si procede alla creazione di un singolo elemento _related_ per ognuno di essi.
 Nel caso di più oggetti ricevuti afferenti ad un medesima ricezione (con un medesimo con _Chronotope_), si procede alla creazione di un singolo elemento _related_ per ognuno di essi (indicandolo come _oggetto ricevuto_ o _allegato_).
 
-È possibile indicare inoltre come entità _related_ l'eventuale _latore_, ove noto, ovvero la persona cui è affidata la trasmissione dell'oggetto.
+È possibile indicare inoltre come entità _related_ l'eventuale _latore_, ove noto, ovvero la persona cui è affidata la trasmissione dell'oggetto, ed eventuali _allegati_. 
 
-⚠️⚠️⚠️ La ricezione seguita sempre da un invio. Ad ogni ricezione corrisponderà dunque **sempre** un invio - mentre non si darà sempre necessariamente il contrario. Se l'invio non è precisamente circostanziabile rispetto a luogo e data, si aggiungerà **almeno** come _termine ante quem_ la data in cui la lettera è stata ricevuta. I due eventi di _invio_ e _ricezione_ vanno inseriti e descritti singolarmente, e ad ognuno sarà attribuito un EID univoco: risulteranno però collegati attraverso l'inserimento, **obbligatorio**, di un medesimo _tag_. Vedi [qui](Events_Part.md#-tag) per la compilazione del _tag_. 
+⚠️⚠️⚠️ Si inseriscono _allegati_ **soltanto** quando occorre registrare oggetti diversi da testi, per esempio manoscritti, monete, manufatti di qualsiasi tipo. Nel caso in cui siano ricevuti soltanto testi, questi ultimi vanno tutti inseriti come **_oggetto ricevuto_**. 
+
+⚠️⚠️⚠️ **Quando i testi ricevuti siano più d'uno**, l'evento va **sempre inserito** a partire da un _item person_, dove è possibile aggiungere più _oggetti ricevuti_ - nella _Events Part_ di un _item work_ è possibile inserire soltanto la ricezione del testo descritto dall'_item_, aggiungendovi eventuali allegati, ma non è possibile aggiungere più testi ricevuti da una persona insieme a quello descritto dall'_item_.
+
+⚠️⚠️⚠️ La ricezione séguita sempre da un invio. Ad ogni ricezione corrisponderà dunque **sempre** un invio - mentre non si darà sempre necessariamente il contrario. Se l'invio non è precisamente circostanziabile rispetto a luogo e data, si aggiungerà **almeno** come _termine ante quem_ la data in cui la lettera è stata ricevuta. I due eventi di _invio_ e _ricezione_ vanno inseriti e descritti singolarmente, e ad ognuno sarà attribuito un EID univoco: risulteranno però collegati attraverso l'inserimento, **obbligatorio**, di un medesimo _tag_. Vedi [qui](Events_Part.md#-tag) per la compilazione del _tag_. 
 
 
 #### Consegna  
-Permette di registrare uno scambio epistolare a partire dal latore.  
+Permette di registrare uno scambio epistolare **a partire dal latore**.  
+
+⚠️⚠️⚠️ Se si conoscono i dati relativi all'invio e/o alla ricezione agli estremi dello scambio in oggetto, è da evitare la compilazione di un evento _consegna_: il compilatore inserirà piuttosto gli eventi _invio_ e _ricezione_ nella _Events Part_ del mittente o del destinatario, indicando tra i _related_ il latore.  
 
 Il [Chronotope](Asserted_Chronotope_Brick.md) dell'evento coincide con il luogo e la data della consegna.   
 
@@ -245,7 +255,8 @@ Il [Chronotope](Asserted_Chronotope_Brick.md) dell'evento coincide con il luogo 
 
 Nel caso di più mittenti, destinatari, latori o allegati afferenti ad un medesima consegna (con un medesimo con _Chronotope_), si procede alla creazione di un singolo elemento _related_ per ognuno di essi.  
 
-⚠️ Se si conoscono i dati relativi all'invio o alla ricezione agli estremi dello scambio in oggetto, è preferibile compilare eventi _invio_ o _ricezione_, che dovranno essere inseriti nella _Events Part_ del mittente o del destinatario, indicando tra i _related_ il latore.  
+⚠️⚠️⚠️ Si inseriscono _allegati_ soltanto quando occorre registrare oggetti diversi da testi, per esempio manoscritti, monete, manufatti di qualsiasi tipo. Nel caso in cui siano presi in consegna soltanto testi, questi ultimi vanno tutti inseriti come **_oggetto preso in consegna_**. 
+
 
 #### Scambio diretto  
 Permette di inserire lo scambio diretto di uno o più oggetti (testi, manoscritti, altro) tra la persona schedata e altri.
