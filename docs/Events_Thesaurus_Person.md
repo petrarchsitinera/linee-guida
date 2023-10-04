@@ -257,6 +257,19 @@ Nel caso più oggetti scambiati o di più destinatari si procede alla creazione 
 
 Nel caso di scambi reciproci, ogni scambio va registrato in un evento _scambio diretto_ singolo all'interno della _Events Part_ della persona da cui muove lo scambio.
 
+#### Lettura
+Permette di inserire la lettura di uno o più testi, petrarcheschi o non, **da parte della persona schedata**.
+
+Il [Chronotope](Asserted_Chronotope_Brick.md) dell'evento coincide con il luogo e la data della lettura, ove nota.   
+
+È obbligatorio indicare tra le entità _related_ il _testo letto_ e, ove noto, il _mediatore_ della lettura, vale a dire colui che ha materialmente fornito il testo alla persona schedata.
+
+Nel caso di più testi letti forniti da una medesima persona si procede alla creazione di un singolo elemento _related_ _testo letto_ per ognuno di essi.
+
+Nel caso di un testo letto fornito da più persone si procede, all'interno del medesimo evento, alla creazione di più elementi _related_ _mediatore_.
+
+Nel caso di più testi letti forniti da persone diverse, ogni evento _lettura_ va registrato in un evento separato all'interno della _Events Part_ della persona che legge il testo.
+
 
 #### Trascrizione
 Permette di inserire la puntuale attività di trascrizione di un testo da parte di una persona.
