@@ -47,6 +47,9 @@ Il [Chronotope](Asserted_Chronotope_Brick.md) dell'evento coincide con il luogo 
 #### Lettura
 Permette di inserire la lettura **del testo schedato**, petrarchesco o non, da parte di una o più persone.
 
+⚠️⚠️⚠️ Si registrano eventi _lettura_ **soltanto** per i testi letti da persone **diverse dal destinatario**, ovvero per i testi letti da altri che ne siano entrati in possesso. Gli eventi _lettura_ **devono** seguitare da fatti accertati o accertabili, ad esempio dall'apposizione di postille o commenti su codici, oppure per esplicita dichiarazione della persona che ha letto il testo. **Non vanno registrati** come eventi _lettura_ quelli inferibili da rimandi intertestuali.
+
+
 Il [Chronotope](Asserted_Chronotope_Brick.md) dell'evento coincide con il luogo e la data della lettura, ove nota.   
 
 È obbligatorio indicare tra le entità _related_ la persona che ha letto il testo (_letto da_) e, ove noto, il mediatore della lettura (_mediata da_), vale a dire colui che ha materialmente fornito il testo alla persona che lo ha letto.
