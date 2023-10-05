@@ -277,9 +277,13 @@ Nel caso in cui lo scambio coinvolga più destinatari si procede alla creazione 
 
 
 #### Lettura
-Permette di inserire la lettura di uno o più testi, petrarcheschi o non, **da parte della persona schedata**. 
+Permette di inserire la lettura di uno o più testi **da parte della persona schedata**. 
 
-⚠️⚠️⚠️ Si registrano eventi _lettura_ **soltanto** per i testi di cui la persona schedata **non sia anche destinatario**, ovvero per i testi destinati ad altri di cui la persona schedata sia entrata in possesso. Gli eventi _lettura_ **devono** seguitare da fatti accertati o accertabili, ad esempio dall'apposizione di postille o commenti su codici, oppure per esplicita dichiarazione della persona schedata nei suoi testi. **Non vanno registrati** come eventi _lettura_ quelli inferibili da rimandi intertestuali.
+⚠️⚠️⚠️ Si registrano eventi _lettura_ soltano per i testi, petrarcheschi o non, che rientrano nell'arco cronologico di interesse di Itinera, e dunque: testi di Petrarca, testi di corrispondenti, testi di corrispondenti di corrispondenti, etc. Non si inseriscono eventi di lettura per gli altri testi, per esempio i classici.
+
+⚠️⚠️⚠️ Si registrano eventi _lettura_ **soltanto** per i testi di cui la persona schedata **non sia anche destinatario**, ovvero per i testi destinati ad altri di cui la persona schedata sia entrata in possesso. Gli eventi _lettura_ **devono** seguitare da fatti accertati o accertabili, ad esempio dall'apposizione di postille o commenti su codici, oppure per esplicita dichiarazione della persona schedata nei suoi testi. **Non vanno registrati** come eventi _lettura_ quelli inferibili da rimandi intertestuali non circostanziabili, ma **si inseriscono eventi lettura** che facciano seguito a **citazioni esplicite di testi**, anche quando non siano note le modalità con cui la persona sia entrata in possesso del testo.
+
+> Es. Nella lettera Amor et dolor Francesco Nelli cita un verso dell'Epyst. II 14 di Petrarca. Si può dunque procedere all'inserimento di un evento lettura, che abbia Nelli per lettore e l'Epyst. II 14 come testo letto, avendo cura di inserire Amor et dolor come fonte, e indicando un rank adeguato (in questo caso 1, essendo probabile ma non certo).
 
 Il [Chronotope](Asserted_Chronotope_Brick.md) dell'evento coincide con il luogo e la data della lettura, ove nota.   
 
