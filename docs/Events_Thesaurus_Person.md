@@ -251,7 +251,7 @@ Permette di registrare la consegna di un testo o di un oggetto **quando la perso
 
 Il [Chronotope](Asserted_Chronotope_Brick.md) dell'evento coincide con il luogo e la data della consegna.   
 
-È possibile indicare come entità _related_: _mittente_; _destinatario_; _oggetto consegnato_; _allegato_.  
+È possibile indicare come entità _related_: _mittente_; _destinatario_; _oggetto preso in consegna_; _allegato_.  
 
 Nel caso di più mittenti, destinatari, oggetti o allegati afferenti ad un medesima consegna (con un medesimo con _Chronotope_), si procede alla creazione di un singolo elemento _related_ per ognuno di essi.  
 
