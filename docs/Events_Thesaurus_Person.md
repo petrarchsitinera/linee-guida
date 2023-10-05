@@ -285,6 +285,8 @@ Permette di inserire la lettura di uno o più testi **da parte della persona sch
 
 > Es. Nella lettera Amor et dolor Francesco Nelli cita un verso dell'Epyst. II 14 di Petrarca. Si può dunque procedere all'inserimento di un evento lettura, che abbia Nelli per lettore e l'Epyst. II 14 come testo letto, avendo cura di inserire Amor et dolor come fonte, e indicando un rank adeguato (in questo caso 1, essendo probabile ma non certo).
 
+⚠️⚠️⚠️ **Quando i testi letti siano più d'uno**, l'evento va **sempre inserito** a partire da un _item person_, dove è possibile aggiungere più _testi letti_ - nella _Events Part_ di un _item work_ è possibile inserire soltanto la lettura del testo descritto dall'_item_ da parte di una persona, ma non è possibile aggiungere a questo altri testi letti.
+
 Il [Chronotope](Asserted_Chronotope_Brick.md) dell'evento coincide con il luogo e la data della lettura, ove nota.   
 
 È obbligatorio indicare tra le entità _related_ il _testo letto_ e, ove noto, il _mediatore_ della lettura, vale a dire colui che ha materialmente fornito il testo alla persona schedata.
