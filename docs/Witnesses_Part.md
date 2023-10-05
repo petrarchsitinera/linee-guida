@@ -12,11 +12,11 @@ Attualmente, la compilazione della parte è riservata ai testi poetici.
 Per ogni testimone è creato un elemento _witness_ mediante un [editor](Editor_Brick.md).
 
 ### ID
-Compilare con l'identificativo del manoscritto in cui è localizzato il testimone.  
+Compilare con la **segnatura completa** del testimone.  
 
-Se il manoscritto è schedato all'interno di Itinera, cercare l'item relativo e copiarne [l'_eid_](identifiers.md), servendosi eventualmente dei [repository](repository.md) e della funzione di [lookup](lookup.md).  
-Se il manoscritto non è schedato all'interno di Itinera, attribuire un _eid_ secondo le regole indicate [per i titoli degli item Manuscript](Item_Manuscript_Metadata.md).  
+Se il manoscritto è schedato all'interno di Itinera, la segnatura **deve coincidere** con quella usata come [_title_](Item_Manuscript_Metadata.md#title) dell'_item_ relativo. Per controllare la correttezza del dato, il compilatore può servirsi del [repository](repository.md) e della funzione di [lookup](lookup.md).    
 
+Se il manoscritto non è schedato all'interno di Itinera, si ripota la segnatura completa secondo le medesime [regole](Item_Manuscript_Metadata.md#title).
 
 ### Location
 Inserire la carta o l'intervallo di carte del manoscritto che trasmettono il testo indicato, specificando se si tratta di carte recto o verso, e la colonna se pertinente, secondo il modello [CodLocationRange](Cod_Location_Brick).  
