@@ -57,10 +57,15 @@ Il [Chronotope](Asserted_Chronotope_Brick.md) dell'evento coincide con il luogo 
 ⚠⚠️⚠️⚠️ Nel caso di scambi reciproci, cioè quando in un'unica occasione sono scambiati più oggetti da parte dei partecipanti allo scambio (p. es.: A dà un manoscritto a B e B dà un manoscritto ad A), **occorre creare più eventi _scambio diretto_** all'interno della _Events Part_ della persona da cui muove lo scambio. Alternativamente, **è possibile creare più eventi _scambio diretto_** all'interno della _Events Part_ dei diversi oggetti scambiati, specificando i ruoli dei partecipanti. In questi casi occorrerà compilare il campo _tag_ di ogni evento con un medesimo _tag_, così da permettere di ricondurre tutti gli scambi alla medesima occasione.
 
 #### Lettura
-Permette di inserire la lettura **del testo schedato**, petrarchesco o non, da parte di una o più persone.
+Permette di inserire la lettura del testo schedato da una o più persone. 
 
-⚠️⚠️⚠️ Si registrano eventi _lettura_ **soltanto** per i testi letti da persone **diverse dal destinatario**, ovvero per i testi letti da altri che ne siano entrati in possesso. Gli eventi _lettura_ **devono** seguitare da fatti accertati o accertabili, ad esempio dall'apposizione di postille o commenti su codici, oppure per esplicita dichiarazione della persona che ha letto il testo. **Non vanno registrati** come eventi _lettura_ quelli inferibili da rimandi intertestuali.
+⚠️⚠️⚠️ Si registrano eventi _lettura_ soltano per i testi, petrarcheschi o non, che rientrano nell'arco cronologico di interesse di Itinera, e dunque: testi di Petrarca, testi di corrispondenti, testi di corrispondenti di corrispondenti, etc. Non si inseriscono eventi di lettura per gli altri testi, per esempio i classici.
 
+⚠️⚠️⚠️ Si registrano eventi _lettura_ **soltanto** per i testi di cui il lettore **non sia anche destinatario**, ovvero per i testi destinati ad altri di cui la persona sia entrata in possesso. Gli eventi _lettura_ **devono** seguitare da fatti accertati o accertabili, ad esempio dall'apposizione di postille o commenti su codici, oppure per esplicita dichiarazione della persona schedata nei suoi testi. **Non vanno registrati** come eventi _lettura_ quelli inferibili da rimandi intertestuali non circostanziabili, ma **si inseriscono eventi lettura** che facciano seguito a **citazioni esplicite di testi**, anche quando non siano note le modalità con cui la persona sia entrata in possesso del testo.
+
+> Es. Nella lettera _Amor et dolor_ Francesco Nelli cita un verso dell'_Epyst. II 14_ di Petrarca. Si può dunque procedere all'inserimento di un evento lettura, che abbia Nelli per lettore e l'_Epyst. II 14_ come testo letto, avendo cura di inserire _Amor et dolor_ come fonte, e di indicare un rank adeguato (in questo caso 1, essendo la lettura probabile ma non certo).
+
+⚠️⚠️⚠️ **Quando i testi letti siano più d'uno**, l'evento va **sempre inserito** a partire da un _item person_, dove è possibile aggiungere più _testi letti_ - nella _Events Part_ di un _item work_ è possibile inserire soltanto la lettura del testo descritto dall'_item_ da parte di una persona, ma non è possibile aggiungere a questo altri testi letti.
 
 Il [Chronotope](Asserted_Chronotope_Brick.md) dell'evento coincide con il luogo e la data della lettura, ove nota.   
 
