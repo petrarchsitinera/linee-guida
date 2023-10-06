@@ -70,7 +70,7 @@ Se la persona **non è inserita** come Item Person all'interno della banca dati,
 
 Se la persona è registrata nel repository, il compilatore ricorre **obbligatoriamente** alla forma del nome e all'_eid_ indicati nel repository.  
 
-Se la persona non è registrata nel repository, il compilatore procede ad attribuire alla persona un _label_, ovvero il nome principale, **nella forma che sarà visualizzata in pubblicazione**, e un _eid, secondo le [istruzioni per l'attribuzione degli _eid_](identifiers.md), e provvederà a segnalare entrambi i dati su [Clickup](https://clickup.com/) per permettere l'aggiornamento del repository.   
+Se la persona non è registrata nel repository, il compilatore procede ad attribuire alla persona un _label_, ovvero il nome principale, **nella forma che sarà visualizzata in pubblicazione**, e un _eid_, secondo [queste istruzioni](identifiers.md), e provvede a segnalare entrambi i dati su [Clickup](https://clickup.com/) per permettere l'aggiornamento del repository.   
 
 In entrambi i casi, quando la persona da inserire non è descritta da un Item person, dopo aver selezionato il [flag _external_](Asserted_Ids_Brick.md#altri-identificativi-itinera), il compilatore:
 
