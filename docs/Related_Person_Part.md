@@ -61,10 +61,15 @@ Nel caso in cui il testo schedato sia diretto o citi istituzioni o gruppi istitu
 La compilazione del campo è **obbligatoria**.
 
 ### Ids 
-Permette di collegare il nome inserito ad una o più persone storicamente individuate, secondo il modello [Asserted Id](Asserted_Ids_Brick.md).  
-Per individuare [l'_eid_](identifiers.md) di una persona schedata in Itinera, controllare sempre il [repository delle persone](repository.md).  
-Se la persona è schedata come Item Person all'interno della banca dati, essa è conseguentemente provvista di un [_eid_](identifiers.md). È possibile dunque cercare e richiamare l'_eid_ attraverso lo strumento di ricerca integrato in [Asserted Id](Asserted_Ids_Brick.md#target).  
-Nel caso in cui alla persona da inserire non sia già attribuito un _eid_, il compilatore dovrà selezionare il [flag _external_](Asserted_Ids_Brick.md#altri-identificativi-itinera), procedere all'assegnazione di un nuovo _eid_ seguendo le istruzioni indicate [qui](identifiers.md) e segnalarla su [Clickup](https://clickup.com/) per permettere l'aggiornamento del [repository](repository.md).  
+Permette di collegare il nome inserito ad una o più persone storicamente individuate, secondo il modello [Asserted Id](Asserted_Ids_Brick.md), siano esse interne o esterne al database.    
+
+Se la persona è schedata come Item Person all'interno della banca dati, essa è provvista di un [_eid_](identifiers.md). È possibile dunque cercare e richiamare l'_eid_ attraverso lo strumento di ricerca integrato in [Asserted Id](Asserted_Ids_Brick.md#target).  
+
+Se la persona **non è inserita** come Item Person all'interno della banca dati, il compilatore dovrà innanzitutto **controllare il [repository dei nomi](repository.md)** per verificare che ad essa non siano già stati assegnati identificativi. 
+Se la persona non è registrata nel repository, il compilatore procederà ad attribuire alla persona un _label_, ovvero il nome principale, **nella forma che sarà visualizzata in pubblicazione**, e un _eid, secondo le [istruzioni per l'attribuzione degli _eid_](identifiers.md), e provvederà a segnalare entrambi i dati su [Clickup](https://clickup.com/) per permettere l'aggiornamento del [repository](repository.md).  
+Dopo aver selezionato il [flag _external_](Asserted_Ids_Brick.md#altri-identificativi-itinera), il compilatore:
+1. compila il campo _label_ con **la forma del nome** attribuita e registrata nel repository; o attribuita e segnalata in Clickup;
+2. compila il campo _GID_ con l'_eid_ attribuito e registrato nel repository; o attribuito e segnalato in Clickup;
    
 ⚠️ Ogni _id_ inserito in un singolo elemento _person_ costituisce una proposta di identificazione del _name_ relativo.   
 
