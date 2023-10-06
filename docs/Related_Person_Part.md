@@ -46,7 +46,9 @@ Il nome della persona nella forma presente a testo.
 
 In presenza di più citazioni riferite ad una medesima persona, si privilegia la forma più esplicita, possibilmente il nome, normalizzata al **nominativo** se presente a testo in altri casi.    
 
-Nel caso di lettere di cui si debba indicare il destinatarioin in cui manchi l'intestazione, si inserisce il nome della persona nella forma indicata nel [repository dei nomi di persona](repository.md) **tra parentesi quadre**.
+Nel caso di lettere di cui si debba indicare il destinatario in cui manchi l'intestazione, si inserisce il nome della persona nella forma indicata nel [repository dei nomi di persona](repository.md) **tra parentesi quadre**.
+
+> Es. [Francesco Petrarca]
 
 Nel caso di lettere perdute di cui si debba indicare il destinatario, essendo impossibile ricorrere alla forma del nome citato a testo, si inserisce il nome della persona nella forma indicata nel [repository dei nomi di persona](repository.md) **tra parentesi quadre**.
 
