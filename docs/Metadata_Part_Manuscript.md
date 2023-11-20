@@ -32,7 +32,7 @@ Permette di indicare l'autore della scheda, cioè il compilatore.
 
 * _type_: selezionare il valore _autore_;
 * _name:_ compilare sempre con un trattino semplice (**-**).
-* _value_: compilare con il nome e cognome del compilatore (vedi esempio sopra).  
+* _value_: compilare con il nome e cognome del compilatore.  
 
 La compilazione del campo è **obbligatoria**.
 
