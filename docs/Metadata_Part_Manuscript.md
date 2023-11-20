@@ -1,6 +1,6 @@
 # Metadata Part di Item Manuscript
 
-I [metadati](Metadata_Part.md) da aggiungere **obbligatoriamente** in un Item Person sono:  
+I [metadati](Metadata_Part.md) da aggiungere **obbligatoriamente** in un Item Manuscript sono:  
 * identificativo;
 * autore;
 * modalità di esame ms;
@@ -35,16 +35,6 @@ Permette di indicare l'autore della scheda, cioè il compilatore.
 * _value_: compilare con il nome e cognome del compilatore (vedi esempio sopra).  
 
 La compilazione del campo è **obbligatoria**.
-
-
-### Tipologia di testo
-Permette di segnalare, relativamente ad un _Work Item_, il caso in cui il testo costituisca un frammento o una raccolta.  
-
-* _type_: selezionare il valore _tipologia di testo_;
-* _name:_ compilare sempre con un trattino semplice (**-**).
-* _value_: compilare con _frammento_ se si tratta di un frammento di testo; con _raccolta_ se si tratta di una raccolta di testi (ad es. per l'item Rerum vulgarium fragmenta).  
-
-Compilare se pertinente.
 
 ### Modalità di esame del manoscritto
 Permette di indicare, relativamente ad un _Manuscript Item_, la modalità di esame e di schedatura del manoscritto.  
