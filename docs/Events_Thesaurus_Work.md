@@ -19,7 +19,7 @@ Nel caso di più mittenti, destinatari, latori o allegati afferenti ad un medesi
 
 ⚠️⚠️⚠️ **Quando i testi inviati siano più d'uno**, l'evento va **sempre inserito** a partire da un _item person_, dove è possibile aggiungere più _oggetti inviati_ - nella _Events Part_ di un _item work_ è possibile inserire soltanto l'invio del testo descritto dall'_item_, aggiungendovi eventuali allegati, ma non è possibile aggiungere più testi inviati contestualmente a quello.
 
-⚠️ Nel caso in cui l'invio inserito sia seguito da una ricezione accertata, occcorre inserire e descrivere ciascun evento singolarmente, assegnando ad ognuno di essi da un EID univoco. L'invio e la ricezione risulteranno collegati attraverso l'inserimento di un medesimo _tag_. Vedi [qui](Events_Part.md#-tag) per la compilazione del _tag_. 
+⚠️⚠️⚠️ Nel caso in cui l'invio inserito sia seguito da una ricezione accertata, occcorre inserire e descrivere ciascun evento singolarmente, assegnando ad ognuno di essi da un EID univoco. L'invio e la ricezione risulteranno collegati attraverso l'inserimento di un medesimo _tag_. Vedi [qui](Events_Part.md#-tag) per la compilazione del _tag_. 
 
 #### Ricezione  
 Permette di registrare la ricezione del testo schedato da parte di una persona, anche diversa dal destinatario.  
