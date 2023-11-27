@@ -12,6 +12,8 @@
 
 ⚠️⚠️⚠️ Nel caso in cui riscontri errori nei dati inseriti da altri, il compilatore provvederà a **contattare** il responsabile dell'inserimento dei dati per comunicare le incongruenze riscontrate e le eventuali correzioni.
 
+⚠️⚠️⚠️ Se un testo dà notizia di uno o più eventi riguardanti persone, testi o manoscritti, e se tali eventi sono compresi nel [_thesaurus_ degli eventi di Itinera](Events_Thesaurus.md), è **obbligatorio** creare uno o più eventi dedicati nella [_Events Part_](Events_Part.md) di una delle entità coinvolte. Il testo da cui si ricava l'informazione andrà **obbligatoriamente** inserito come fonte nell'[Assertion](Assertion_Brick.md) dell'evento creato.
+
 La descrizione del modello è disponibile su [Github](https://github.com/vedph/cadmus-general#historicaleventspart).   
 
 Per aggiungere la parte, selezionare **events** dal menu a tendina, quindi cliccare sul tasto **add part**.
