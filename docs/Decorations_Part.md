@@ -150,7 +150,7 @@ Ad es.:
 
 ### Elements - Pagina incipitaria
 Permette di descrivere la pagina incipitaria o eventuali pagine, anche prive di funzione incipitaria, in cui sia presente una decorazione a piena pagina costituita da diversi elementi decorativi.
-Ad es. una miniatura che occupi un'intera pagina ma non sia accompagnata da ulteriori elementi decorativi (cornici, stemmi, iniziali decorate, etc.) andrà descritta come "illustrazione" (e nel campo _positions_ sarà selezionata la voce "a piena pagina").
+Di contro, ad es., una miniatura che occupi un'intera pagina ma non sia accompagnata da ulteriori elementi decorativi (cornici, stemmi, iniziali decorate, etc.) andrà descritta come "illustrazione" (e nel campo _positions_ sarà selezionata la voce "a piena pagina").
 
 #### General
 
