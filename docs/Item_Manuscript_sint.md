@@ -36,7 +36,7 @@ Sezione [subscriptions](Hands_Part.md#subscriptions): compilazione obbligatoria,
 Sezione [references](Hands_Part.md#references): compilazione facoltativa.  
 
 #### [Edits Part](Edits_Part.md)
-Compilazione obbligatoria.  
+Compilare soltanto per note di possesso, interventi attribuibili a personaggi noti o altri interventi rilevanti per la ricostruzione della storia del codice.  
 
 #### [Decorations Part](Decorations_Part.md)  
 Compilare il campo _name_.  
