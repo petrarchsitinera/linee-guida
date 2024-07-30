@@ -11,7 +11,8 @@ Per stabilire un collegamento con un'entità presente in una database esterno a 
   * _value_: compilare con l'URI dell'entità nella banca dati utilizzata (per VIAF ricercabile attraverso un _tool_ specifico; cfr. infra);  
 * _assertion_: compilare secondo le modalità previste in [Assertion](Assertion_Brick.md);  
 
-⚠️ Per gli Item Mauscript è possibile creare un collegamento con Mirabile, MOL, E-codices, indicate in questa forma nello _scope_. È possibile inoltre inserire il link ad eventuali riproduzioni digitali disponibili online.  
+⚠️ Per gli Item Mauscript è possibile creare un collegamento con RDP, Mirabile, PERI, MOL, E-codices, DigiVatlib, indicate in questa forma nello _scope_.   
+È possibile inoltre inserire il link ad eventuali riproduzioni digitali disponibili online: in questo caso compilare il campo _tag_ con la voce "riproduzione".  
 
 
 ## Save ⚠️ 
