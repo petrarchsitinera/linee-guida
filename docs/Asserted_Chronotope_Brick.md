@@ -57,6 +57,9 @@ Per i manoscritti:
 * coeva: il secolo di datazione dell'oggetto;  
 * antica: entro il sec. XV;  
 * moderna: entro il sec. XIX;   
-* recente: secc. XX-XXI.  
-
+* recente: secc. XX-XXI;
+* Altri casi: esempi:
+  * sec. XV primo quarto: ca. 1401 - ca. 1425 (spuntare il flag _about_);  
+  * sec. XV metà: ca. 1450 (spuntare il flag _about_);  
+  * sec. XV ex. - sec. XVI in.: ca. 1490 - ca. 1510 (spuntare il flag _about_).
 
