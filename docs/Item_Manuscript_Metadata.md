@@ -43,6 +43,7 @@ Selezionare _**Manuscript**_ dal menu a tendina.
 È un’etichetta che permette di raggruppare gli item, in questo caso i manoscritti, secondo logiche utili alla ricerca. È possibile inserire più di un'etichetta, separate da punto e virgola.
 
 Per i manoscritti inserire le seguenti etichette:
-* **Rvf**: per i manoscritti che contengono **esclusivamente Rvf**;
+* **Rvf**: per i manoscritti che contengono **esclusivamente Rvf**, ed eventuali altri testi di ambito petrarchesco (es. Nota de Laura, disperse, commenti, etc.);
+* **Rvf+Trionfi**: per i manoscritti che contengono **Rvf e Trionfi**, ed eventuali altri testi di ambito petrarchesco (es. Nota de Laura, disperse, commenti, etc.);
 * **Rvf raccolta**: per i manoscritti che contengono i **Rvf in quanto raccolta**, anche quando incompleta;
 * **Rvf singoli**: per i manoscritti che contengono **singoli testi di Rvf**;
