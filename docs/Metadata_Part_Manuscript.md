@@ -28,13 +28,16 @@ Nel caso di nuove immissioni, gli _eid_ si attribuiscono secondo le medesime [re
 La compilazione del campo è **obbligatoria**.
 
 ### Autore
-Permette di indicare l'autore della scheda, cioè il compilatore.  
+Permette di indicare l'autore della scheda.  
 
 * _type_: selezionare il valore _autore_;
 * _name:_ compilare sempre con un trattino semplice (**-**).
 * _value_: compilare con il nome e cognome del compilatore.  
 
 La compilazione del campo è **obbligatoria**.
+
+⚠️ L'autore della scheda non coincide necessariamente con il responsabile dell'inserimento dati, che è registrato automaticamente dal sistema al login.
+⚠️ Se la scheda è tratta da banca dati o da catalogo l'elemento "autore" non deve essere creato.
 
 ### Modalità di esame del manoscritto
 Permette di indicare, relativamente ad un _Manuscript Item_, la modalità di esame e di schedatura del manoscritto.  
