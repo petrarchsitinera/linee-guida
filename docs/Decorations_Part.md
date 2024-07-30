@@ -44,8 +44,8 @@ Ulteriori precisazioni possono essere espresse nel campo _note_.
 ### Chronotopes
 Permette di indicare data e luogo di produzione dell'apparato decorativo, secondo il modello [Asserted Chronotope](Asserted_Chronotope_Brick.md).
 
-La compilazione del campo è obbligatoria.
-Per la data, in mancanza di indicazione cronologica più specifica, utilizzare datazioni al secolo. 
+La compilazione del campo è obbligatoria.  
+Per la data, in mancanza di indicazione cronologica più specifica relativa alla decorazione, utilizzare datazioni al secolo. 
 
 ⚠️ Per ogni elemento _chronotope_ inserito è necessario salvare cliccando sul comando di spunta blu.
 
@@ -58,7 +58,8 @@ La compilazione del campo è facoltativa.
 
 
 ### Artist
-Permette di inserire informazioni sul responsabile (decoratore o bottega) dell'apparato decorativo (d'ora in avanti, per convenzione, "artista").
+Permette di inserire informazioni sul responsabile (decoratore o bottega) dell'apparato decorativo (d'ora in avanti, per convenzione, "artista").  
+Il campo deve essere compilato obbligatoriamente nel caso in cui la decorazione sia attribuibile ad artisti noti o ove si renda necessario attribuire all'artista uno specifico elemento decorativo.  
 
 L'elemento è replicabile. 
 
