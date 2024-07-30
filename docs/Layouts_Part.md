@@ -31,7 +31,7 @@ Permette di indicare la tecnica di rigatura utilizzata per tracciare lo schema d
 * a mina di piombo
 * a inchiostro
 * per piegatura
-* altro
+* altro (rigature miste; cfr. _Note_)
 
 La compilazione del campo è facoltativa.
 
@@ -126,7 +126,8 @@ Per layout fortemente irregolari è possibile inserire, oltre ai valori riscontr
 La compilazione del campo è facoltativa, ma fortemente raccomandata.
 
 ### Note
-Permette di inserire, in forma di testo libero, eventuali precisazioni relative ad irregolarità nello schema di impaginato.
+Permette di inserire, in forma di testo libero, eventuali precisazioni relative ad irregolarità nello schema di impaginato.  
+In questa sezione è possibile precisare le diverse tipologie di rigatura utilizzate, se il sistema è misto.  
 
 La compilazione del campo è facoltativa.
 
