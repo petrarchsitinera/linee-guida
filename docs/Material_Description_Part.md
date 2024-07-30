@@ -49,6 +49,7 @@ La compilazione del campo è riservata ai manoscritti cartacei.
 
 ### State
 Permette di indicare lo stato di conservazione del manoscritto o dell'unità codicologica. Selezionare un valore tra:
+* --- (dati non disponibili -per schede non autoptiche)
 * ottimo
 * buono
 * discreto
