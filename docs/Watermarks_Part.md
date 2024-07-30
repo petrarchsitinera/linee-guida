@@ -33,8 +33,8 @@ Permette di identificare la filigrana con una o più esemplari presenti nei repe
 Per ogni riscontro è possibile creare un elemento _ID_ mediante un [editor](Editor_Brick.md).
 
 * _tag_: non compilare;  
-* _scope_: indicare il nome del repertorio "Briquet" o "Piccard", in questa forma;  
-* _value_: indicare il numero d’ordine della filigrana all'interno del repertorio indicato in _scope_ .
+* _scope_: indicare il nome del repertorio "Briquet" o "Piccard", in questa forma, seguito dal numero d’ordine della filigrana all'interno del repertorio indicato;  
+* _target_: non compilare.
 * _Assertion_: permette di esprimere il grado di somiglianza della filigrana rilevata sul manoscritto con l'esemplare del repertorio.
   * _type_: selezionare il valore "---";  
   * _tag_: non compilare;  
