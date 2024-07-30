@@ -121,6 +121,7 @@ Per creare un nuovo elemento cliccare _+add count_. Ogni _count_ è provvisto di
 Si registrano di norma i valori riscontrati sulla carta _sample_.  
 Se tali valori non sono rappresentativi della prassi osservata dal copista nel _range_ di carte del _layout_ in oggetto (perché ad esempio le righe finali della carta _sample_ sono lasciate vuote dopo la fine di un testo), è necessario creare ulteriori elementi _count_ con _ID_ "righe" o "linee" per esprimere il numero di righe o di linee generalmente utilizzate per quel _layout_, aggiungendo a questi valori il _tag_ "prevalente".  
 Per layout fortemente irregolari è possibile inserire, oltre ai valori riscontrati sulla carta _sample_, i valori corrispondenti al numero di linee e righe minimo e massimo, aggiungendovi i tag "max" o "min"; è altresì possibile, per semplicità, segnalare l'irregolarità nel campo _note_ dei singoli valori.  
+⚠️ Per le schede sintetiche è possibile limitarsi ad indicare il numero di righe riscontrato sulla carta _sample_ e, in caso di variabilità, aggiungere il _tag_ "var".
 
 La compilazione del campo è facoltativa, ma fortemente raccomandata.
 
