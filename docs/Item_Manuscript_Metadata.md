@@ -44,6 +44,6 @@ Selezionare _**Manuscript**_ dal menu a tendina.
 
 Per i manoscritti inserire le seguenti etichette:
 * **Rvf**: per i manoscritti che contengono **esclusivamente Rvf**, ed eventuali altri testi di ambito petrarchesco (es. Nota de Laura, disperse, commenti, etc.);
-* **Rvf+Trionfi**: per i manoscritti che contengono **Rvf e Trionfi**, ed eventuali altri testi di ambito petrarchesco (es. Nota de Laura, disperse, commenti, etc.);
+* **Rvf+Trionfi**: per i manoscritti che contengono **Rvf e Trionfi** (esclusi i casi in cui siano trascritti singoli estratti delle due opere);  
 * **Rvf raccolta**: per i manoscritti che contengono i **Rvf in quanto raccolta**, anche quando incompleta;
 * **Rvf singoli**: per i manoscritti che contengono **singoli testi di Rvf**;
