@@ -85,7 +85,7 @@ Solo nel caso in cui sia possibile fornire un'indicazione topografica più preci
 Per la data, se non è possibile offrire un'indicazione cronologica più specifica, utilizzare datazioni al secolo.  
 
 ### Note
-Si raccolgono qui dati e informazioni che non è possibile inserire ricorrendo ai modelli. In questo campo è possibile segnalare l’eventuale presenza di carte danneggiate (con indicazione della posizione e della tipologia del danneggiamento) e di eventuali carte sciolte.
+Si raccolgono qui dati e informazioni che non è possibile inserire ricorrendo ai modelli. In questo campo è possibile segnalare l’eventuale presenza di carte danneggiate (con indicazione della posizione e della tipologia del danneggiamento), di eventuali carte sciolte, di irregolarità nella fascicolazione.  
 
 La compilazione del campo è facoltativa.
 
