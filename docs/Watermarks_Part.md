@@ -54,6 +54,7 @@ La compilazione del campo è facoltativa.
 ### Chronotope 
 Qualora la filigrana rilevata sul manoscritto trovi riscontro in un repertorio (vedi External Id), indicare relativi data e luogo secondo il modello [Asserted Chronotope](Asserted_Chronotope_Brick.md).  
 Nel caso in cui i repertori forniscano due o più indicazioni di data e luogo, è possibile creare più elementi Asserted Chronotope.  
+Nel caso in cui nel campo _Identifiers_ siano stati indicati più esemplari da repertorio, occorre specificare a quale di questi si riferisca ogni Chronotope. È necessario compilare il campo _tag_ di _place_ e _date_ con il valore inserito nel campo _scope_ del corrispondente _identifiers_ (es. Briquet 3190).  
 
 La compilazione del campo è obbligatoria solo nel caso in cui sia stata compilata la sezione External Id.
 
