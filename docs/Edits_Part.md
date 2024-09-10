@@ -40,12 +40,13 @@ Permette di indicare la tipologia dell'intervento scrittorio. Selezionare uno o 
 La compilazione del campo è obbligatoria.
 
 ### Tag
-Può essere utilizzato per attribuire un _edit_ a una specifica mano, diversa da quelle principali, che devono invece essere registrate in HandsPart.  
-Per ogni mano utilizzare l'etichetta convenzionale "mano" seguita da lettera alfabetica minuscola (es. "mano a", "mano b", etc.).  
-Questo campo permette, in particolare, di collegare _edits_ differenti (es. un testo avventizio e una serie di correzioni) al medesimo _tag_, e quindi alla medesima mano.  
-Non è necessario ricorrere al _tag_ nel caso in cui l'autore degli _edits_ sia noto; in questo caso l'attribuzione della paternità degli interventi è registrata in EventsPart (vedi sopra).  
+Può essere utilizzato per attribuire un _edit_ a una specifica mano. 
+Per ogni mano diversa da quelle principali (registrate in _Hands Part_) utilizzare l'etichetta convenzionale "mano" seguita da lettera alfabetica minuscola (es. "mano a", "mano b", etc.). Questo campo permette, in particolare, di collegare _edits_ differenti (es. un testo avventizio e una serie di correzioni) al medesimo _tag_, e quindi alla medesima mano.  
+Qualora siano presenti interventi scrittori successivi o estranei alla copia del codice attribuibili a una delle mani principali (registrate in _Hands Part_), compilare il campo _tag_ con il _name_ con cui si è identificato il copista in _HandsPart_ (es. "mano A").  
 
-La compilazione del campo è facoltativa.
+Non è necessario ricorrere al _tag_ nel caso in cui l'autore degli _edits_ sia un personaggio noto; in questo caso l'attribuzione della paternità degli interventi è registrata in EventsPart (vedi sopra).  
+
+La compilazione del campo è facoltativa.  
 
 ### Location
 Permette di indicare la localizzazione sul codice dell' _edit_, secondo il modello [Cod Location](Cod_Location_Brick.md).  
