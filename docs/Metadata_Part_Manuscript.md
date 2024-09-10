@@ -36,7 +36,7 @@ Permette di indicare l'autore della scheda.
 
 La compilazione del campo è **obbligatoria**.
 
-⚠️ L'autore della scheda non coincide necessariamente con il responsabile dell'inserimento dati, che è registrato automaticamente dal sistema al login.
+⚠️ L'autore della scheda non coincide necessariamente con il responsabile dell'inserimento dati, che è registrato automaticamente dal sistema al login.  
 ⚠️ Se la scheda è tratta da banca dati o da catalogo l'elemento "autore" non deve essere creato.
 
 ### Modalità di esame del manoscritto
