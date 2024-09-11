@@ -197,16 +197,7 @@ Permette di indicare i soggetti iconografici eventualmente presenti sulla pagina
 La compilazione del campo è facoltativa.
 
 ##### Colors
-Permette di indicare i colori principali utilizzati nella realizzazione della pagina incipitaria. Selezionare uno o più valori tra:
-
-* blu
-* rosso
-* verde
-* giallo
-* bianco
-* viola
-* turchese
-* altro
+Permette di indicare i colori principali utilizzati nella realizzazione della pagina incipitaria. Selezionare uno o più valori tra quelli disponibili.  
 
 La compilazione del campo è facoltativa.
 
@@ -309,16 +300,7 @@ Permette di descrivere i soggetti iconografici dell'illustrazione.
 La compilazione del campo è facoltativa.
 
 ##### Colors
-Permette di indicare i colori utilizzati nella realizzazione dell'illustrazione. Selezionare uno o più valori tra:
-
-* blu
-* rosso
-* verde
-* giallo
-* bianco
-* viola
-* turchese
-* altro
+Permette di indicare i colori utilizzati nella realizzazione dell'illustrazione. Selezionare uno o più valori tra quelli disponibili.  
 
 La compilazione del campo è facoltativa.
 
@@ -426,16 +408,7 @@ Permette di indicare la tipologia dell'ornamentazione. Selezionare uno o più va
 La compilazione del campo è facoltativa.
 
 ##### Colors
-Permette di indicare i colori utilizzati nella realizzazione dell'ornamentazione. Selezionare uno o più valori tra:
-
-* blu
-* rosso
-* verde
-* giallo
-* bianco
-* viola
-* turchese
-* altro
+Permette di indicare i colori utilizzati nella realizzazione dell'ornamentazione. Selezionare uno o più valori tra quelli disponibili.  
 
 La compilazione del campo è facoltativa.
 
@@ -530,16 +503,7 @@ Permette di indicare l’altezza delle iniziali in numero di righe.
 La compilazione del campo è obbligatoria (se possibile rilevarla).
 
 ##### Colors
-Permette di indicare i colori utilizzati nella realizzazione delle iniziali. Selezionare uno o più valori tra:
-
-* blu
-* rosso
-* verde
-* giallo
-* bianco
-* viola
-* turchese
-* altro
+Permette di indicare i colori utilizzati nella realizzazione delle iniziali. Selezionare uno o più valori tra quelli disponibili.  
 
 La compilazione del campo è facoltativa.
 
@@ -636,16 +600,7 @@ Permette di indicare l’altezza delle iniziali in numero di righe.
 La compilazione del campo è obbligatoria (se possibile rilevarla).
 
 ##### Colors
-Permette di indicare i colori utilizzati nella realizzazione delle iniziali. Selezionare uno o più valori tra:
-
-* blu
-* rosso
-* verde
-* giallo
-* bianco
-* viola
-* turchese
-* altro
+Permette di indicare i colori utilizzati nella realizzazione delle iniziali. Selezionare uno o più valori tra quelli disponibili.  
 
 La compilazione del campo è facoltativa.
 
@@ -760,16 +715,7 @@ Permette di indicare il soggetto iconografico eventualmente rappresentato nell'i
 La compilazione del campo è facoltativa.
 
 ##### Colors
-Permette di indicare i colori utilizzati nella realizzazione delle iniziali. Selezionare uno o più valori tra:
-
-* blu
-* rosso
-* verde
-* giallo
-* bianco
-* viola
-* turchese
-* altro
+Permette di indicare i colori utilizzati nella realizzazione delle iniziali. Selezionare uno o più valori tra quelli disponibili.  
 
 La compilazione del campo è facoltativa.
 
@@ -875,16 +821,7 @@ Permette di indicare il soggetto iconografico eventualmente rappresentato nell'i
 La compilazione del campo è facoltativa.
 
 ##### Colors
-Permette di indicare i colori utilizzati nella realizzazione delle iniziali. Selezionare uno o più valori tra:
-
-* blu
-* rosso
-* verde
-* giallo
-* bianco
-* viola
-* turchese
-* altro
+Permette di indicare i colori utilizzati nella realizzazione delle iniziali. Selezionare uno o più valori tra quelli disponibili.  
 
 La compilazione del campo è facoltativa.
 
@@ -986,16 +923,7 @@ Permette di indicare la tipologia degli elementi paragrafematici. Selezionare un
 La compilazione del campo è facoltativa.
 
 ##### Colors
-Permette di indicare i colori utilizzati nella realizzazione degli elementi paragrafematici. Selezionare uno o più valori tra:
-
-* blu
-* rosso
-* verde
-* giallo
-* bianco
-* viola
-* turchese
-* altro
+Permette di indicare i colori utilizzati nella realizzazione degli elementi paragrafematici. Selezionare uno o più valori tra quelli disponibili.  
 
 La compilazione del campo è facoltativa.
 
