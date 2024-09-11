@@ -178,7 +178,7 @@ Ad esempio, se il primo fascicolo è un quaderno con perdita di una carta (cc. 1
 
 
 ##### Numbering
-Permette di creare e compilare una o più colonne relative alla numerazione del manoscrit.  
+Permette di creare e compilare una o più colonne relative alla numerazione del manoscritto.  
 È possibile infatti creare un elemento del tipo _numbering_ per ogni differente numerazione presente sul codice.   
 Nel campo [_ranges_](Cod_Location_Brick.md) delle varie _parts_ è possibile riferirsi a queste differenti numerazioni, oppure alle carte fisiche.  
 
@@ -202,7 +202,7 @@ Il comando _edit the selected column definition_ apre un **editor** che permette
 * _position_: selezionare un valore tra: marg. sup. est.; marg. sup. cen.; marg. sup. int.; marg. inf. est.; marg. inf. cen.; marg. inf. int.; intercol. sup.; intercol. inf.; altro;
 * _colors_: selezionare un valore tra: bruno scuro, bruno chiaro, rosso, altro;
 * _date_: permette di esprimere la datazione, secondo il modello [Asserted Date](Asserted_Chronotope_Brick.md);
-* _note_: si raccolgono qui dati e informazioni che non è possibile inserire altrove, segnalando in particolare eventuali salti o errori nella numerazione.
+* _note_: si segnala qui in forma discorsiva ogni irregolarità presente nella numerazione, debitamente registrata anche nella rispettiva colonna.
 
 ⚠️ Dopo aver compilato la sottoparte, salvarla cliccando sul tasto di spunta blu.  
 
