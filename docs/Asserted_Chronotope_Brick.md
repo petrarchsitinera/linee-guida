@@ -43,9 +43,9 @@ Permette di inserire date complete di anno-mese-giorno, date con solo anno e mes
 * _about_: il flag permette di indicare se si stratta di una datazione approssimativa.
 * _dubious_: il flag permette di indicare se si stratta di una datazione dubbia.
 * _hint_: permette di aggiungere una breve nota a giustificazione del valore inserito.
-* _A-B_: permette di inserire un intervallo. Cliccandolo si apre un secondo elemento di datazione in cui sono ripetuti tutti i campi.
-  Per inserire un termine ante quem compilare la data B e non compilare il value di A.
-  Per inserire un termine post quem compilare la data A e non compilare value di B. 
+* _A-B_: permette di inserire un intervallo. Cliccandolo si apre un secondo elemento di datazione in cui sono ripetuti tutti i campi.  
+  Per inserire un termine ante quem compilare la data B e non compilare il value di A.   
+  Per inserire un termine post quem compilare la data A e non compilare value di B.    
 se si stratta di una datazione approssimativa (flag about), dubbia (flag dubious), o di una datazione al secolo (flag century). 
 
 I flag non solo esclusivi: è possibile sceglierne più di uno. L’inserimento di *value* è obbligatorio: se non è conosciuto, inserire il secolo di riferimento (per esempio XIV sec per la datazione di una lettera di Petrarca) o un intervallo di secoli.
