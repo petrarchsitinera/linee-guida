@@ -39,16 +39,13 @@ Permette di inserire date complete di anno-mese-giorno, date con solo anno e mes
 * _month_: permette di inserire in forma numerica il mese.
 * _day_: permette di inserire in forma numerica il giorno.
 * _century_: il flag trasforma il _value_ inserito in una datazione al secolo.
-* _span_: il flag permette di indicare se la datazione corrisponde a un intervallo approssimativo che include l'anno espresso in _value_ e il successivo.
-* _about_: il flag permette di indicare se si stratta di una datazione approssimativa.
-* _dubious_: il flag permette di indicare se si stratta di una datazione dubbia.
+* _span_: il flag permette di indicare se la datazione corrisponde a un intervallo approssimativo che include l'anno espresso in _value_ e il successivo. I flag non solo esclusivi: è possibile sceglierne più di uno.
+* _about_: il flag permette di indicare se si stratta di una datazione approssimativa. I flag non solo esclusivi: è possibile sceglierne più di uno.
+* _dubious_: il flag permette di indicare se si stratta di una datazione dubbia. I flag non solo esclusivi: è possibile sceglierne più di uno.
 * _hint_: permette di aggiungere una breve nota a giustificazione del valore inserito.
 * _A-B_: permette di inserire un intervallo. Cliccandolo si apre un secondo elemento di datazione in cui sono ripetuti tutti i campi.  
   Per inserire un termine ante quem compilare la data B e non compilare il value di A.   
-  Per inserire un termine post quem compilare la data A e non compilare value di B.    
-se si stratta di una datazione approssimativa (flag about), dubbia (flag dubious), o di una datazione al secolo (flag century). 
-
-I flag non solo esclusivi: è possibile sceglierne più di uno. L’inserimento di *value* è obbligatorio: se non è conosciuto, inserire il secolo di riferimento (per esempio XIV sec per la datazione di una lettera di Petrarca) o un intervallo di secoli.
+  Per inserire un termine post quem compilare la data A e non compilare il value di B.    
 
 Dopo aver inserito una datazione attraverso il visual editor **è necessario salvare** cliccando sul **bottone di spunta blu** nel box dell'editor.
 
