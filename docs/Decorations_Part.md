@@ -17,6 +17,7 @@ Creando un elemento _decoration_ si accede a una schermata da cui è possibile c
 * ID
 * Name
 * Features
+* Note
 * Chronotopes
 * References
 * Artists
@@ -40,6 +41,10 @@ Se la decorazione è incompleta spuntare la casella _incompleta_.
 
 Ulteriori precisazioni possono essere espresse nel campo _note_.
 
+### Note
+Permette di dare informazioni non esprimibili negli altri campi.   
+
+La compilazione del campo è facoltativa.  
 
 ### Chronotopes
 Permette di indicare data e luogo di produzione dell'apparato decorativo, secondo il modello [Asserted Chronotope](Asserted_Chronotope_Brick.md).
