@@ -401,7 +401,8 @@ Per ogni elemento _endleaf_ è possibile compilare i seguenti campi:
 * _location_: permette di indicare la carta di guardia da descrivere, selezionandola tra quelle precedentemente create (da menu a tendina);  
 * _material_: selezionare un valore tra: membr.; cart.
 * _tag_: permette di inserire un'etichetta utile ai fine della ricerca;
-* _chronotope_: indicare data e luogo della carta di guardia secondo il modello [Asserted Date](Asserted_Chronotope_Brick.md).
+* _chronotope_: indicare data e luogo della carta di guardia secondo il modello [Asserted Date](Asserted_Chronotope_Brick.md);
+* _note_: si raccolgono qui dati e informazioni che non è possibile inserire altrove.
 
 ⚠️ Dopo aver compilato la sottoparte, salvarla cliccando sul tasto di spunta blu.
 
